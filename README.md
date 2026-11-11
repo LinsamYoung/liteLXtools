@@ -138,3 +138,8 @@ CLI 的真实风扇启停需要同时传入 `--execute --confirm-hardware`，运
 | `build.ps1` | 构建与测试入口 |
 
 菜单实现细节、开机画面接口验证和历史分析保留在对应文档中。[右键菜单说明](docs/context-menu.md) · [开机画面模块验证](docs/logo-module-validation.md) · [分析报告](analysis/report.md)
+
+## 共创者
+
+- **LinsamYoung**，项目发起与维护。[GitHub](https://github.com/LinsamYoung)
+- **Codex（OpenAI）**，AI 共创助手，协助源码分析、文档整理、界面截图与项目发布。[GitHub](https://github.com/codex)
