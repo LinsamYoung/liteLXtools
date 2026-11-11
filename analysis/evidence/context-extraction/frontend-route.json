@@ -1,0 +1,27 @@
+{
+  "path": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.210.10222\\skin\\dist\\js\\main.js",
+  "sha256": "7a60f4496f0918ee4d2b130d4b6c6794fb5c62047b6532b4df15028f194e9682",
+  "scope": "UTF-8 source, character offsets, bounded excerpts",
+  "matches": [
+    {
+      "needle": "key:\"getRightClickMenuList\"",
+      "char_offset": 1054599,
+      "excerpt": "e:!0,configurable:!0}}),Object.defineProperty(e,\"prototype\",{writable:!1}),t&&Ma(e,t)}(t,e),i=t,n=[{key:\"getRightClickMenuList\",value:(c=aa(ta().m(function e(t,i){var n,a;return ta().w(function(e){for(;;)switch(e.p=e.n){case 0:return e.p=0,e.n=1,window.pcmjssdk.asyncSendIPCMessage(\"NEWPLUGIN_WSRMMGRPLUGIN\".concat(this.arch,\"_GETMENUINFO\"),JSON.stringify(t),\"\",\"\",this.wsplugin);case 1:(n=e.v)&&i&&i(!0,JSON.parse(n)),e.n=3;break;case 2:e.p=2,a=e.v,console.log(a,\"error\"),i&&i(!1,\"\");case 3:return e.a(2)}},e,this,[[0,2]])})),function(e,t){return c.apply(this,arguments)})},{key:\"setRightClickMenuItem\",value:(g=aa(ta().m(function e(t,i){var n,a;return ta().w(function(e){for(;;)switch(e.p=e.n){case 0:return e.p=0,e.n=1,window.pcmjssdk.asyncSendIPCMessage(\"NEWPLUGIN_WSRMMGRPLUGIN\".concat(this.arch,\"_SETMENUINFO\"),JSON.stringify(t),\"\",\"\",this.wsplugin);case 1:(n=e.v)&&JSON.parse(n).result&&i&&i(!0,JSON.parse(n)),e.n=3;break;case 2:e.p=2,a=e.v,console.log(a,\"error\"),i&&i(!1,\"\");case 3:return e.a(2)}},e,this,[[0,2]])})),function(e,t){return g.ap"
+    },
+    {
+      "needle": "key:\"setRightClickMenuItem\"",
+      "char_offset": 1055075,
+      "excerpt": "i(!1,\"\");case 3:return e.a(2)}},e,this,[[0,2]])})),function(e,t){return c.apply(this,arguments)})},{key:\"setRightClickMenuItem\",value:(g=aa(ta().m(function e(t,i){var n,a;return ta().w(function(e){for(;;)switch(e.p=e.n){case 0:return e.p=0,e.n=1,window.pcmjssdk.asyncSendIPCMessage(\"NEWPLUGIN_WSRMMGRPLUGIN\".concat(this.arch,\"_SETMENUINFO\"),JSON.stringify(t),\"\",\"\",this.wsplugin);case 1:(n=e.v)&&JSON.parse(n).result&&i&&i(!0,JSON.parse(n)),e.n=3;break;case 2:e.p=2,a=e.v,console.log(a,\"error\"),i&&i(!1,\"\");case 3:return e.a(2)}},e,this,[[0,2]])})),function(e,t){return g.apply(this,arguments)})},{key:\"resetRightClickMenu\",value:(o=aa(ta().m(function e(t){var i,n;return ta().w(function(e){for(;;)switch(e.p=e.n){case 0:return e.p=0,e.n=1,window.pcmjssdk.asyncSendIPCMessage(\"NEWPLUGIN_WSRMMGRPLUGIN\".concat(this.arch,\"_RESTOREFACTORY\"),\"\",\"\",\"\",this.wsplugin);case 1:i=e.v,console.log(\"resetRightClickMenu:::\",i),t&&t(!0,\"\"),e.n=3;break;case 2:e.p=2,n=e.v,console.log(n,\"error\"),t&&t(!1,\"\");case 3:return e.a(2)}},e,this,[[0,2]])})),function(e){ret"
+    },
+    {
+      "needle": "key:\"resetRightClickMenu\"",
+      "char_offset": 1055573,
+      "excerpt": "i(!1,\"\");case 3:return e.a(2)}},e,this,[[0,2]])})),function(e,t){return g.apply(this,arguments)})},{key:\"resetRightClickMenu\",value:(o=aa(ta().m(function e(t){var i,n;return ta().w(function(e){for(;;)switch(e.p=e.n){case 0:return e.p=0,e.n=1,window.pcmjssdk.asyncSendIPCMessage(\"NEWPLUGIN_WSRMMGRPLUGIN\".concat(this.arch,\"_RESTOREFACTORY\"),\"\",\"\",\"\",this.wsplugin);case 1:i=e.v,console.log(\"resetRightClickMenu:::\",i),t&&t(!0,\"\"),e.n=3;break;case 2:e.p=2,n=e.v,console.log(n,\"error\"),t&&t(!1,\"\");case 3:return e.a(2)}},e,this,[[0,2]])})),function(e){return o.apply(this,arguments)})},{key:\"sortRightClickMenuByName\",value:function(e){var t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:\"\";return e.sort(function(e,i){return\"top\"===t?e.keyname.localeCompare(i.keyname):\"down\"===t?i.keyname.localeCompare(e.keyname):void 0})}},{key:\"sortRightClickMenuByStatus\",value:function(e){var t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:\"\";return e.sort(function(e,i){return\"top\"===t?i.isEnable-e.isEnable:\"down\"===t?e.isEnable-i.isEnable:vo"
+    },
+    {
+      "needle": "e.wsplugin=\"WSPluginHost.exe\"",
+      "char_offset": 1054148,
+      "excerpt": "etSystemBasicInfo().then(function(t){var i=JSON.parse(t);e.systemArch=i.systemArch,\"64\"==i.appaAch?(e.wsplugin=\"WSPluginHost.exe\",e.arch=\"\"):\"64\"==e.systemArch?(e.arch=\"64\",e.wsplugin=\"WSPluginHost64.exe\"):(e.arch=\"\",e.wsplugin=\"WSPluginHost.exe\")}),e}return function(e,t){if(\"function\"!=typeof t&&null!==t)throw new TypeError(\"Super expression must either be null or a function\");e.prototype=Object.create(t&&t.prototype,{constructor:{value:e,writable:!0,configurable:!0}}),Object.defineProperty(e,\"prototype\",{writable:!1}),t&&Ma(e,t)}(t,e),i=t,n=[{key:\"getRightClickMenuList\",value:(c=aa(ta().m(function e(t,i){var n,a;return ta().w(function(e){for(;;)switch(e.p=e.n){case 0:return e.p=0,e.n=1,window.pcmjssdk.asyncSendIPCMessage(\"NEWPLUGIN_WSRMMGRPLUGIN\".concat(this.arch,\"_GETMENUINFO\"),JSON.stringify(t),\"\",\"\",this.wsplugin);case 1:(n=e.v)&&i&&i(!0,JSON.parse(n)),e.n=3;break;case 2:e.p=2,a=e.v,console.log(a,\"error\"),i&&i(!1,\"\");case 3:return e.a(2)}},e,this,[[0,2]])})),function(e,t){return c.apply(this,arguments)})},{key:\"setRightClickMenuI"
+    }
+  ]
+}

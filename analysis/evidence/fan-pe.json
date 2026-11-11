@@ -1,0 +1,4698 @@
+[
+  {
+    "path": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.210.10222\\plugins\\IdeaFanPlugin.dll",
+    "sha256": "79ad4ad6b6f81794af72505424ec52d336c71f62ffb01b11ee155e785e22c734",
+    "image_base": "0x10000000",
+    "machine": "0x14c",
+    "exports": [
+      {
+        "name": "??0IPlugin@@QAE@$$QAV0@@Z",
+        "rva": "0x12e0",
+        "ordinal": 1
+      },
+      {
+        "name": "??0IPlugin@@QAE@ABV0@@Z",
+        "rva": "0x12e0",
+        "ordinal": 2
+      },
+      {
+        "name": "??0IPlugin@@QAE@XZ",
+        "rva": "0x1300",
+        "ordinal": 3
+      },
+      {
+        "name": "??4IPlugin@@QAEAAV0@$$QAV0@@Z",
+        "rva": "0x1310",
+        "ordinal": 4
+      },
+      {
+        "name": "??4IPlugin@@QAEAAV0@ABV0@@Z",
+        "rva": "0x1310",
+        "ordinal": 5
+      },
+      {
+        "name": "??_7IPlugin@@6B@",
+        "rva": "0x1e318",
+        "ordinal": 6
+      },
+      {
+        "name": "?Cancel@IPlugin@@UAEXXZ",
+        "rva": "0x1350",
+        "ordinal": 7
+      },
+      {
+        "name": "?__autoclassinit2@IPlugin@@QAEXI@Z",
+        "rva": "0x1490",
+        "ordinal": 9
+      },
+      {
+        "name": "GetPluginInstance",
+        "rva": "0x7a60",
+        "ordinal": 10
+      },
+      {
+        "name": "HandleAppRequest",
+        "rva": "0x6b20",
+        "ordinal": 8
+      }
+    ],
+    "imports": [
+      {
+        "dll": "api-ms-win-core-util-l1-1-0.dll",
+        "names": [
+          "EncodePointer",
+          "DecodePointer"
+        ]
+      },
+      {
+        "dll": "api-ms-win-core-errorhandling-l1-1-0.dll",
+        "names": [
+          "SetLastError",
+          "GetLastError",
+          "SetUnhandledExceptionFilter",
+          "RaiseException",
+          "UnhandledExceptionFilter"
+        ]
+      },
+      {
+        "dll": "api-ms-win-core-heap-l1-1-0.dll",
+        "names": [
+          "HeapSize",
+          "HeapFree",
+          "HeapDestroy",
+          "GetProcessHeap",
+          "HeapAlloc",
+          "HeapReAlloc"
+        ]
+      },
+      {
+        "dll": "api-ms-win-core-synch-l1-1-0.dll",
+        "names": [
+          "CreateMutexW",
+          "WaitForSingleObject",
+          "ReleaseSRWLockExclusive",
+          "ReleaseMutex",
+          "InitializeCriticalSectionEx",
+          "DeleteCriticalSection",
+          "AcquireSRWLockExclusive",
+          "InitializeCriticalSection",
+          "EnterCriticalSection",
+          "LeaveCriticalSection",
+          "TryAcquireSRWLockExclusive",
+          "InitializeCriticalSectionAndSpinCount"
+        ]
+      },
+      {
+        "dll": "api-ms-win-core-processenvironment-l1-1-0.dll",
+        "names": [
+          "GetStdHandle",
+          "SetStdHandle",
+          "GetCommandLineW",
+          "GetEnvironmentStringsW",
+          "GetCommandLineA",
+          "FreeEnvironmentStringsW"
+        ]
+      },
+      {
+        "dll": "api-ms-win-core-file-l1-1-0.dll",
+        "names": [
+          "FindNextFileW",
+          "SetFilePointer",
+          "WriteFile",
+          "SetFilePointerEx",
+          "GetFileSizeEx",
+          "GetFileAttributesW",
+          "CreateFileW",
+          "FlushFileBuffers",
+          "FindClose",
+          "DeleteFileW",
+          "GetFileType",
+          "FindFirstFileExW"
+        ]
+      },
+      {
+        "dll": "api-ms-win-core-file-l1-2-0.dll",
+        "names": [
+          "GetTempPathW"
+        ]
+      },
+      {
+        "dll": "api-ms-win-core-debug-l1-1-0.dll",
+        "names": [
+          "OutputDebugStringW",
+          "IsDebuggerPresent"
+        ]
+      },
+      {
+        "dll": "api-ms-win-core-handle-l1-1-0.dll",
+        "names": [
+          "CloseHandle"
+        ]
+      },
+      {
+        "dll": "api-ms-win-core-io-l1-1-0.dll",
+        "names": [
+          "DeviceIoControl"
+        ]
+      },
+      {
+        "dll": "api-ms-win-core-processthreads-l1-1-0.dll",
+        "names": [
+          "ExitProcess",
+          "ExitThread",
+          "TerminateProcess",
+          "TlsAlloc",
+          "TlsGetValue",
+          "GetCurrentProcessId",
+          "GetCurrentThreadId",
+          "TlsSetValue",
+          "ResumeThread",
+          "GetCurrentProcess",
+          "GetStartupInfoW",
+          "CreateThread",
+          "TlsFree"
+        ]
+      },
+      {
+        "dll": "api-ms-win-core-sysinfo-l1-1-0.dll",
+        "names": [
+          "GetSystemTimeAsFileTime",
+          "GetLocalTime"
+        ]
+      },
+      {
+        "dll": "api-ms-win-core-memory-l1-1-0.dll",
+        "names": [
+          "VirtualQuery",
+          "VirtualProtect"
+        ]
+      },
+      {
+        "dll": "api-ms-win-core-libraryloader-l1-2-0.dll",
+        "names": [
+          "FreeLibrary",
+          "GetModuleHandleExW",
+          "FreeLibraryAndExitThread",
+          "FindResourceExW",
+          "GetModuleFileNameW",
+          "LoadResource",
+          "LoadLibraryExW",
+          "GetProcAddress",
+          "GetModuleHandleW",
+          "LockResource",
+          "SizeofResource"
+        ]
+      },
+      {
+        "dll": "api-ms-win-core-libraryloader-l1-2-1.dll",
+        "names": [
+          "FindResourceW"
+        ]
+      },
+      {
+        "dll": "api-ms-win-security-base-l1-1-0.dll",
+        "names": [
+          "InitializeSecurityDescriptor",
+          "SetFileSecurityW",
+          "SetSecurityDescriptorDacl"
+        ]
+      },
+      {
+        "dll": "api-ms-win-core-string-l1-1-0.dll",
+        "names": [
+          "MultiByteToWideChar",
+          "GetStringTypeW",
+          "WideCharToMultiByte"
+        ]
+      },
+      {
+        "dll": "api-ms-win-core-console-l1-1-0.dll",
+        "names": [
+          "GetConsoleMode",
+          "WriteConsoleW",
+          "GetConsoleOutputCP"
+        ]
+      },
+      {
+        "dll": "api-ms-win-core-console-l2-1-0.dll",
+        "names": [
+          "SetConsoleTextAttribute"
+        ]
+      },
+      {
+        "dll": "api-ms-win-core-privateprofile-l1-1-0.dll",
+        "names": [
+          "GetPrivateProfileStringW"
+        ]
+      },
+      {
+        "dll": "api-ms-win-core-registry-l1-1-0.dll",
+        "names": [
+          "RegGetValueW",
+          "RegCloseKey",
+          "RegOpenKeyExW"
+        ]
+      },
+      {
+        "dll": "CRYPT32.dll",
+        "names": [
+          "CertCloseStore",
+          "CertFindCertificateInStore",
+          "CertFreeCertificateContext",
+          "CryptMsgGetParam",
+          "CryptMsgClose",
+          "CertGetNameStringW",
+          "CryptQueryObject"
+        ]
+      },
+      {
+        "dll": "WINTRUST.dll",
+        "names": [
+          "WTHelperProvDataFromStateData",
+          "WTHelperGetProvCertFromChain",
+          "WTHelperGetProvSignerFromChain",
+          "WinVerifyTrust"
+        ]
+      },
+      {
+        "dll": "KERNEL32.dll",
+        "names": [
+          "GetPrivateProfileIntW"
+        ]
+      },
+      {
+        "dll": "SHELL32.dll",
+        "names": [
+          "SHCreateDirectoryExW",
+          "SHGetSpecialFolderPathW"
+        ]
+      },
+      {
+        "dll": "SHLWAPI.dll",
+        "names": [
+          "PathIsDirectoryW",
+          "PathFileExistsW",
+          "PathFindFileNameW"
+        ]
+      },
+      {
+        "dll": "api-ms-win-core-profile-l1-1-0.dll",
+        "names": [
+          "QueryPerformanceCounter"
+        ]
+      },
+      {
+        "dll": "api-ms-win-core-localization-l1-2-0.dll",
+        "names": [
+          "LCMapStringW",
+          "IsValidCodePage",
+          "GetACP",
+          "GetOEMCP",
+          "GetCPInfo"
+        ]
+      },
+      {
+        "dll": "api-ms-win-core-synch-l1-2-0.dll",
+        "names": [
+          "SleepConditionVariableSRW",
+          "WakeAllConditionVariable"
+        ]
+      },
+      {
+        "dll": "api-ms-win-core-processthreads-l1-1-1.dll",
+        "names": [
+          "IsProcessorFeaturePresent"
+        ]
+      },
+      {
+        "dll": "api-ms-win-core-interlocked-l1-1-0.dll",
+        "names": [
+          "InterlockedFlushSList",
+          "InitializeSListHead"
+        ]
+      },
+      {
+        "dll": "api-ms-win-core-rtlsupport-l1-1-0.dll",
+        "names": [
+          "RtlUnwind"
+        ]
+      },
+      {
+        "dll": "api-ms-win-core-fibers-l1-1-0.dll",
+        "names": [
+          "FlsSetValue",
+          "FlsGetValue",
+          "FlsAlloc",
+          "FlsFree"
+        ]
+      }
+    ],
+    "strings": [
+      {
+        "offset": "0x1e61c",
+        "encoding": "ascii",
+        "value": "IdeaFanPlugin"
+      },
+      {
+        "offset": "0x1e948",
+        "encoding": "ascii",
+        "value": "device or resource busy"
+      },
+      {
+        "offset": "0x21558",
+        "encoding": "ascii",
+        "value": "cross device link"
+      },
+      {
+        "offset": "0x21758",
+        "encoding": "ascii",
+        "value": "no space on device"
+      },
+      {
+        "offset": "0x21780",
+        "encoding": "ascii",
+        "value": "no such device or address"
+      },
+      {
+        "offset": "0x2179c",
+        "encoding": "ascii",
+        "value": "no such device"
+      },
+      {
+        "offset": "0x2813c",
+        "encoding": "ascii",
+        "value": "E:\\Jenkins\\jobs\\pcmanager_build_OTA\\workspace\\bin\\x86\\Release\\plugins\\IdeaFanPlugin.pdb"
+      },
+      {
+        "offset": "0x2960c",
+        "encoding": "ascii",
+        "value": "IdeaFanPlugin.dll"
+      },
+      {
+        "offset": "0x29d76",
+        "encoding": "ascii",
+        "value": "DeviceIoControl"
+      },
+      {
+        "offset": "0x2a0b2",
+        "encoding": "ascii",
+        "value": "api-ms-win-core-util-l1-1-0.dll"
+      },
+      {
+        "offset": "0x2a0d2",
+        "encoding": "ascii",
+        "value": "api-ms-win-core-errorhandling-l1-1-0.dll"
+      },
+      {
+        "offset": "0x2a0fc",
+        "encoding": "ascii",
+        "value": "api-ms-win-core-heap-l1-1-0.dll"
+      },
+      {
+        "offset": "0x2a11c",
+        "encoding": "ascii",
+        "value": "api-ms-win-core-synch-l1-1-0.dll"
+      },
+      {
+        "offset": "0x2a13e",
+        "encoding": "ascii",
+        "value": "api-ms-win-core-processenvironment-l1-1-0.dll"
+      },
+      {
+        "offset": "0x2a16c",
+        "encoding": "ascii",
+        "value": "api-ms-win-core-file-l1-1-0.dll"
+      },
+      {
+        "offset": "0x2a18c",
+        "encoding": "ascii",
+        "value": "api-ms-win-core-file-l1-2-0.dll"
+      },
+      {
+        "offset": "0x2a1ac",
+        "encoding": "ascii",
+        "value": "api-ms-win-core-debug-l1-1-0.dll"
+      },
+      {
+        "offset": "0x2a1ce",
+        "encoding": "ascii",
+        "value": "api-ms-win-core-handle-l1-1-0.dll"
+      },
+      {
+        "offset": "0x2a1f0",
+        "encoding": "ascii",
+        "value": "api-ms-win-core-io-l1-1-0.dll"
+      },
+      {
+        "offset": "0x2a20e",
+        "encoding": "ascii",
+        "value": "api-ms-win-core-processthreads-l1-1-0.dll"
+      },
+      {
+        "offset": "0x2a238",
+        "encoding": "ascii",
+        "value": "api-ms-win-core-sysinfo-l1-1-0.dll"
+      },
+      {
+        "offset": "0x2a25c",
+        "encoding": "ascii",
+        "value": "api-ms-win-core-memory-l1-1-0.dll"
+      },
+      {
+        "offset": "0x2a27e",
+        "encoding": "ascii",
+        "value": "api-ms-win-core-libraryloader-l1-2-0.dll"
+      },
+      {
+        "offset": "0x2a2a8",
+        "encoding": "ascii",
+        "value": "api-ms-win-core-libraryloader-l1-2-1.dll"
+      },
+      {
+        "offset": "0x2a2d2",
+        "encoding": "ascii",
+        "value": "api-ms-win-security-base-l1-1-0.dll"
+      },
+      {
+        "offset": "0x2a2f6",
+        "encoding": "ascii",
+        "value": "api-ms-win-core-string-l1-1-0.dll"
+      },
+      {
+        "offset": "0x2a318",
+        "encoding": "ascii",
+        "value": "api-ms-win-core-console-l1-1-0.dll"
+      },
+      {
+        "offset": "0x2a33c",
+        "encoding": "ascii",
+        "value": "api-ms-win-core-console-l2-1-0.dll"
+      },
+      {
+        "offset": "0x2a360",
+        "encoding": "ascii",
+        "value": "api-ms-win-core-privateprofile-l1-1-0.dll"
+      },
+      {
+        "offset": "0x2a38a",
+        "encoding": "ascii",
+        "value": "api-ms-win-core-registry-l1-1-0.dll"
+      },
+      {
+        "offset": "0x2a3ae",
+        "encoding": "ascii",
+        "value": "CRYPT32.dll"
+      },
+      {
+        "offset": "0x2a3ba",
+        "encoding": "ascii",
+        "value": "WINTRUST.dll"
+      },
+      {
+        "offset": "0x2a3e0",
+        "encoding": "ascii",
+        "value": "KERNEL32.dll"
+      },
+      {
+        "offset": "0x2a420",
+        "encoding": "ascii",
+        "value": "SHELL32.dll"
+      },
+      {
+        "offset": "0x2a466",
+        "encoding": "ascii",
+        "value": "SHLWAPI.dll"
+      },
+      {
+        "offset": "0x2a8ea",
+        "encoding": "ascii",
+        "value": "api-ms-win-core-profile-l1-1-0.dll"
+      },
+      {
+        "offset": "0x2a90e",
+        "encoding": "ascii",
+        "value": "api-ms-win-core-localization-l1-2-0.dll"
+      },
+      {
+        "offset": "0x2a936",
+        "encoding": "ascii",
+        "value": "api-ms-win-core-synch-l1-2-0.dll"
+      },
+      {
+        "offset": "0x2a958",
+        "encoding": "ascii",
+        "value": "api-ms-win-core-processthreads-l1-1-1.dll"
+      },
+      {
+        "offset": "0x2a982",
+        "encoding": "ascii",
+        "value": "api-ms-win-core-interlocked-l1-1-0.dll"
+      },
+      {
+        "offset": "0x2a9aa",
+        "encoding": "ascii",
+        "value": "api-ms-win-core-rtlsupport-l1-1-0.dll"
+      },
+      {
+        "offset": "0x2a9d0",
+        "encoding": "ascii",
+        "value": "api-ms-win-core-fibers-l1-1-0.dll"
+      },
+      {
+        "offset": "0x2b898",
+        "encoding": "ascii",
+        "value": ".?AVIdeaFanAgent@Idea@FanPlugin@Plugins@Modern@Lenovo@@"
+      },
+      {
+        "offset": "0x2b9bc",
+        "encoding": "ascii",
+        "value": ".?AVCIdeaFanPlugin@@"
+      },
+      {
+        "offset": "0x2e30f",
+        "encoding": "ascii",
+        "value": "DigiCert Trusted Root G40"
+      },
+      {
+        "offset": "0x2e69c",
+        "encoding": "ascii",
+        "value": "5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C"
+      },
+      {
+        "offset": "0x2e6e4",
+        "encoding": "ascii",
+        "value": "2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0"
+      },
+      {
+        "offset": "0x2ea2e",
+        "encoding": "ascii",
+        "value": "Lenovo (Beijing) Limited1!0"
+      },
+      {
+        "offset": "0x2ea51",
+        "encoding": "ascii",
+        "value": "Lenovo (Beijing) Limited0"
+      },
+      {
+        "offset": "0x2fbff",
+        "encoding": "ascii",
+        "value": "DigiCert Trusted Root G40"
+      },
+      {
+        "offset": "0x2ff8c",
+        "encoding": "ascii",
+        "value": "5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C"
+      },
+      {
+        "offset": "0x2ffd4",
+        "encoding": "ascii",
+        "value": "2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 "
+      },
+      {
+        "offset": "0x302b7",
+        "encoding": "ascii",
+        "value": "DigiCert Assured ID Root CA0"
+      },
+      {
+        "offset": "0x3033e",
+        "encoding": "ascii",
+        "value": "DigiCert Trusted Root G40"
+      },
+      {
+        "offset": "0x30628",
+        "encoding": "ascii",
+        "value": "7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E"
+      },
+      {
+        "offset": "0x30672",
+        "encoding": "ascii",
+        "value": "4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0"
+      },
+      {
+        "offset": "0x1d78e",
+        "encoding": "utf16",
+        "value": "gdevicecenter"
+      },
+      {
+        "offset": "0x1d7c8",
+        "encoding": "utf16",
+        "value": "g_lenovo_global_log_level"
+      },
+      {
+        "offset": "0x1d80c",
+        "encoding": "utf16",
+        "value": "g_lenovo_global_max_size"
+      },
+      {
+        "offset": "0x1d840",
+        "encoding": "utf16",
+        "value": "g_lenovo_log_encryped"
+      },
+      {
+        "offset": "0x1d86c",
+        "encoding": "utf16",
+        "value": "g_lenovo_log_printf"
+      },
+      {
+        "offset": "0x1d894",
+        "encoding": "utf16",
+        "value": "g_lenovo_log_outputdebug"
+      },
+      {
+        "offset": "0x1d968",
+        "encoding": "utf16",
+        "value": "\\Lenovo\\"
+      },
+      {
+        "offset": "0x1da18",
+        "encoding": "utf16",
+        "value": "\\\\.\\EnergyDrv"
+      },
+      {
+        "offset": "0x1da38",
+        "encoding": "utf16",
+        "value": "E:\\Jenkins\\jobs\\pcmanager_build_OTA\\workspace\\plugin\\IdeaFanPlugin\\IdeaFanAgent.cpp"
+      },
+      {
+        "offset": "0x1db30",
+        "encoding": "utf16",
+        "value": "DoDeviceIoControl(dwIoControlCode=%d, bALSStatus=%d) retrieved  uRet = 0x%x"
+      },
+      {
+        "offset": "0x1dbcc",
+        "encoding": "utf16",
+        "value": "fan dust suport"
+      },
+      {
+        "offset": "0x1dbec",
+        "encoding": "utf16",
+        "value": "fan dust not suport"
+      },
+      {
+        "offset": "0x1dc28",
+        "encoding": "utf16",
+        "value": "enter DoDustRemoval"
+      },
+      {
+        "offset": "0x1dc50",
+        "encoding": "utf16",
+        "value": "DoDeviceIoControl(dwIoControlCode=%d, data.ControlType=%d, data.Data[0]=%d) success"
+      },
+      {
+        "offset": "0x1dcfc",
+        "encoding": "utf16",
+        "value": "leave DoDustRemoval"
+      },
+      {
+        "offset": "0x1dd24",
+        "encoding": "utf16",
+        "value": "enter CancelDustRemoval"
+      },
+      {
+        "offset": "0x1dd54",
+        "encoding": "utf16",
+        "value": "leave CancelDustRemoval"
+      },
+      {
+        "offset": "0x1dd84",
+        "encoding": "utf16",
+        "value": "enter DoDeviceIoControl"
+      },
+      {
+        "offset": "0x1ddb8",
+        "encoding": "utf16",
+        "value": "DeviceIoControl(dwIoControlCode=%d) failed with error %d"
+      },
+      {
+        "offset": "0x1de30",
+        "encoding": "utf16",
+        "value": "m_hAcpiDriver = INVALID_HANDLE_VALUE error"
+      },
+      {
+        "offset": "0x1de88",
+        "encoding": "utf16",
+        "value": "leave DoDeviceIoControl"
+      },
+      {
+        "offset": "0x1e324",
+        "encoding": "utf16",
+        "value": "lenovo"
+      },
+      {
+        "offset": "0x1e504",
+        "encoding": "utf16",
+        "value": "WrapPlugin.dll"
+      },
+      {
+        "offset": "0x1e6a4",
+        "encoding": "utf16",
+        "value": "get-dustremovalpermission"
+      },
+      {
+        "offset": "0x1e6d8",
+        "encoding": "utf16",
+        "value": "DustRemovalPermissionResponse"
+      },
+      {
+        "offset": "0x1e714",
+        "encoding": "utf16",
+        "value": "do-dustremoval"
+      },
+      {
+        "offset": "0x1e734",
+        "encoding": "utf16",
+        "value": "DustRemovalStatusResponse"
+      },
+      {
+        "offset": "0x1e768",
+        "encoding": "utf16",
+        "value": "cancel-dustremoval"
+      },
+      {
+        "offset": "0x1e790",
+        "encoding": "utf16",
+        "value": "IdeaFanPlugin"
+      },
+      {
+        "offset": "0x219c4",
+        "encoding": "utf16",
+        "value": "kernel32.dll"
+      },
+      {
+        "offset": "0x22a3c",
+        "encoding": "utf16",
+        "value": "mscoree.dll"
+      },
+      {
+        "offset": "0x23d14",
+        "encoding": "utf16",
+        "value": "ntdll"
+      },
+      {
+        "offset": "0x2c158",
+        "encoding": "utf16",
+        "value": "Lenovo Corporation"
+      },
+      {
+        "offset": "0x2c214",
+        "encoding": "utf16",
+        "value": "IdeaFanPlugin.dll"
+      },
+      {
+        "offset": "0x2c25c",
+        "encoding": "utf16",
+        "value": "Lenovo All rights reserved"
+      },
+      {
+        "offset": "0x2c2bc",
+        "encoding": "utf16",
+        "value": "IdeaFanPlugin.dll"
+      }
+    ]
+  },
+  {
+    "path": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.210.10222\\GameSettingsPlugin.dll",
+    "sha256": "7e1a22635a0b0d8fed5196b2ae4ca36f204e77eff7e42a0ef35f8d2676a55316",
+    "image_base": "0x10000000",
+    "machine": "0x14c",
+    "exports": [
+      {
+        "name": "??0IPlugin@@QAE@$$QAV0@@Z",
+        "rva": "0x1e7a0",
+        "ordinal": 1
+      },
+      {
+        "name": "??0IPlugin@@QAE@ABV0@@Z",
+        "rva": "0x1e7a0",
+        "ordinal": 2
+      },
+      {
+        "name": "??0IPlugin@@QAE@XZ",
+        "rva": "0x1e7c0",
+        "ordinal": 3
+      },
+      {
+        "name": "??4IPlugin@@QAEAAV0@$$QAV0@@Z",
+        "rva": "0x1f730",
+        "ordinal": 4
+      },
+      {
+        "name": "??4IPlugin@@QAEAAV0@ABV0@@Z",
+        "rva": "0x1f730",
+        "ordinal": 5
+      },
+      {
+        "name": "??_7IPlugin@@6B@",
+        "rva": "0xb79d4",
+        "ordinal": 6
+      },
+      {
+        "name": "?Cancel@IPlugin@@UAEXXZ",
+        "rva": "0xe5a0",
+        "ordinal": 7
+      },
+      {
+        "name": "?__autoclassinit2@IPlugin@@QAEXI@Z",
+        "rva": "0x2c990",
+        "ordinal": 8
+      },
+      {
+        "name": "AddAccelerateApp",
+        "rva": "0x2d360",
+        "ordinal": 9
+      },
+      {
+        "name": "AddGameInfo",
+        "rva": "0x38440",
+        "ordinal": 10
+      },
+      {
+        "name": "AddWhiteListGame",
+        "rva": "0x384d0",
+        "ordinal": 11
+      },
+      {
+        "name": "AutoOCByGameProcess",
+        "rva": "0x385a0",
+        "ordinal": 12
+      },
+      {
+        "name": "CLedBlink",
+        "rva": "0x2d580",
+        "ordinal": 13
+      },
+      {
+        "name": "CLedBreathe",
+        "rva": "0x2d600",
+        "ordinal": 14
+      },
+      {
+        "name": "CLedClose",
+        "rva": "0x2d6a0",
+        "ordinal": 15
+      },
+      {
+        "name": "CLedColor",
+        "rva": "0x2d700",
+        "ordinal": 16
+      },
+      {
+        "name": "CLedFrequency",
+        "rva": "0x2d7b0",
+        "ordinal": 17
+      },
+      {
+        "name": "CLedGetLight",
+        "rva": "0x2d850",
+        "ordinal": 18
+      },
+      {
+        "name": "CLedLight",
+        "rva": "0x2d870",
+        "ordinal": 19
+      },
+      {
+        "name": "CLedMix",
+        "rva": "0x2d940",
+        "ordinal": 20
+      },
+      {
+        "name": "CLedMusic",
+        "rva": "0x2d9d0",
+        "ordinal": 21
+      },
+      {
+        "name": "CLedTemperature",
+        "rva": "0x2da70",
+        "ordinal": 22
+      },
+      {
+        "name": "CLedWave",
+        "rva": "0x2db10",
+        "ordinal": 23
+      },
+      {
+        "name": "ConverIntToFloat",
+        "rva": "0x38d00",
+        "ordinal": 24
+      },
+      {
+        "name": "ConvertRGBToInt",
+        "rva": "0x38d10",
+        "ordinal": 25
+      },
+      {
+        "name": "DeleteAccelerateApp",
+        "rva": "0x2dba0",
+        "ordinal": 26
+      },
+      {
+        "name": "DisableWinKey",
+        "rva": "0x2ddc0",
+        "ordinal": 27
+      },
+      {
+        "name": "ExecuteAutoOC",
+        "rva": "0x390c0",
+        "ordinal": 28
+      },
+      {
+        "name": "FanDriverInit",
+        "rva": "0x2de40",
+        "ordinal": 29
+      },
+      {
+        "name": "Fn4BlanceModeCallback",
+        "rva": "0x392f0",
+        "ordinal": 30
+      },
+      {
+        "name": "Fn4Monitor",
+        "rva": "0x393a0",
+        "ordinal": 31
+      },
+      {
+        "name": "Fn4MsgCallback",
+        "rva": "0x39770",
+        "ordinal": 32
+      },
+      {
+        "name": "Fn4RefreshOCModeCallBack",
+        "rva": "0x39820",
+        "ordinal": 33
+      },
+      {
+        "name": "ForbiddenTouchPad",
+        "rva": "0x2dfa0",
+        "ordinal": 34
+      },
+      {
+        "name": "GetAccelerateApp",
+        "rva": "0x2e030",
+        "ordinal": 35
+      },
+      {
+        "name": "GetActiveValue",
+        "rva": "0x2e280",
+        "ordinal": 36
+      },
+      {
+        "name": "GetAppsCanAccelerate",
+        "rva": "0x2e310",
+        "ordinal": 37
+      },
+      {
+        "name": "GetBIOSOCMode",
+        "rva": "0x2e5c0",
+        "ordinal": 38
+      },
+      {
+        "name": "GetCPUOCPropertyList_NB",
+        "rva": "0x398d0",
+        "ordinal": 39
+      },
+      {
+        "name": "GetCPUVersion",
+        "rva": "0x2e700",
+        "ordinal": 40
+      },
+      {
+        "name": "GetCueAppDownloadLink",
+        "rva": "0x2e7b0",
+        "ordinal": 41
+      },
+      {
+        "name": "GetCurrentCPUFreq",
+        "rva": "0x2e8c0",
+        "ordinal": 42
+      },
+      {
+        "name": "GetCurrentMemoryFreq",
+        "rva": "0x2e8f0",
+        "ordinal": 43
+      },
+      {
+        "name": "GetDefaultGpuOCData",
+        "rva": "0x39df0",
+        "ordinal": 44
+      },
+      {
+        "name": "GetDefaultInRGBLed",
+        "rva": "0x2e980",
+        "ordinal": 45
+      },
+      {
+        "name": "GetFanCoolingStatus",
+        "rva": "0x2ea50",
+        "ordinal": 46
+      },
+      {
+        "name": "GetFn4_BalanceModeAutoOptimization",
+        "rva": "0x3a3a0",
+        "ordinal": 47
+      },
+      {
+        "name": "GetFnq4OcStatus",
+        "rva": "0x3a3c0",
+        "ordinal": 48
+      },
+      {
+        "name": "GetGSyncStatus",
+        "rva": "0x2eaa0",
+        "ordinal": 49
+      },
+      {
+        "name": "GetGameNoDisStatus",
+        "rva": "0x2ebf0",
+        "ordinal": 50
+      },
+      {
+        "name": "GetGameProcessList",
+        "rva": "0x3a3f0",
+        "ordinal": 51
+      },
+      {
+        "name": "GetGamingProductInfo",
+        "rva": "0x3a470",
+        "ordinal": 52
+      },
+      {
+        "name": "GetGpuCurrentFrequence",
+        "rva": "0x3a600",
+        "ordinal": 53
+      },
+      {
+        "name": "GetGpuMaxFrequence",
+        "rva": "0x3a610",
+        "ordinal": 54
+      },
+      {
+        "name": "GetGpuMinFrequence",
+        "rva": "0x3a620",
+        "ordinal": 55
+      },
+      {
+        "name": "GetHDDShareStatus",
+        "rva": "0x2ec00",
+        "ordinal": 56
+      },
+      {
+        "name": "GetInitMemoryInfo",
+        "rva": "0x2ed40",
+        "ordinal": 57
+      },
+      {
+        "name": "GetIntelligentGameList_NB",
+        "rva": "0x3a630",
+        "ordinal": 58
+      },
+      {
+        "name": "GetIntelligentSubMode",
+        "rva": "0x2efb0",
+        "ordinal": 59
+      },
+      {
+        "name": "GetLedGuiType",
+        "rva": "0x2f0f0",
+        "ordinal": 60
+      },
+      {
+        "name": "GetLightFeature_NB",
+        "rva": "0x3a960",
+        "ordinal": 61
+      },
+      {
+        "name": "GetLightingStatus_DT",
+        "rva": "0x3af80",
+        "ordinal": 62
+      },
+      {
+        "name": "GetMaxCPUFreq",
+        "rva": "0x2f620",
+        "ordinal": 63
+      },
+      {
+        "name": "GetMaxMemoryFreq",
+        "rva": "0x2f630",
+        "ordinal": 64
+      },
+      {
+        "name": "GetMemVersion",
+        "rva": "0xe5a0",
+        "ordinal": 65
+      },
+      {
+        "name": "GetMemoryLEDType",
+        "rva": "0x2f7a0",
+        "ordinal": 66
+      },
+      {
+        "name": "GetMemoryOCStatus",
+        "rva": "0x2f8e0",
+        "ordinal": 67
+      },
+      {
+        "name": "GetMemoryVersion",
+        "rva": "0x4d30",
+        "ordinal": 68
+      },
+      {
+        "name": "GetMinCPUFreq",
+        "rva": "0x2f990",
+        "ordinal": 69
+      },
+      {
+        "name": "GetMinMemoryFreq",
+        "rva": "0x2f9a0",
+        "ordinal": 70
+      },
+      {
+        "name": "GetNonGameGpuOcStatu",
+        "rva": "0x3b1b0",
+        "ordinal": 71
+      },
+      {
+        "name": "GetNonGamingProductInfo",
+        "rva": "0x2f9b0",
+        "ordinal": 72
+      },
+      {
+        "name": "GetODStatus",
+        "rva": "0x3b1d0",
+        "ordinal": 73
+      },
+      {
+        "name": "GetPowerChargeMode",
+        "rva": "0x2fbd0",
+        "ordinal": 74
+      },
+      {
+        "name": "GetProductName",
+        "rva": "0x2fd10",
+        "ordinal": 75
+      },
+      {
+        "name": "GetSmartFanCount",
+        "rva": "0x2fd30",
+        "ordinal": 76
+      },
+      {
+        "name": "GetSmartFanInfo",
+        "rva": "0x2fd80",
+        "ordinal": 77
+      },
+      {
+        "name": "GetSmartFanMode",
+        "rva": "0x2fe20",
+        "ordinal": 78
+      },
+      {
+        "name": "GetSmartFanMode_DT",
+        "rva": "0x3b320",
+        "ordinal": 79
+      },
+      {
+        "name": "GetSmartFanMode_FNQ3",
+        "rva": "0x3b470",
+        "ordinal": 80
+      },
+      {
+        "name": "GetSmartFanSetting",
+        "rva": "0x2ff60",
+        "ordinal": 81
+      },
+      {
+        "name": "GetSmartFanStatus",
+        "rva": "0x300a0",
+        "ordinal": 82
+      },
+      {
+        "name": "GetSupportThermalMode_DT",
+        "rva": "0x3b670",
+        "ordinal": 83
+      },
+      {
+        "name": "GetTouchPadStatus",
+        "rva": "0x30160",
+        "ordinal": 84
+      },
+      {
+        "name": "GetWinKeyStatus",
+        "rva": "0x302b0",
+        "ordinal": 85
+      },
+      {
+        "name": "InitARGBLed",
+        "rva": "0x30340",
+        "ordinal": 86
+      },
+      {
+        "name": "InitGameZone",
+        "rva": "0x30470",
+        "ordinal": 87
+      },
+      {
+        "name": "InitLED",
+        "rva": "0x305c0",
+        "ordinal": 88
+      },
+      {
+        "name": "InitLedByTray",
+        "rva": "0x30660",
+        "ordinal": 89
+      },
+      {
+        "name": "InitNetFilter",
+        "rva": "0x30a00",
+        "ordinal": 90
+      },
+      {
+        "name": "InitNonGameGpuOcData",
+        "rva": "0x3b7b0",
+        "ordinal": 91
+      },
+      {
+        "name": "InitNonGameGpuOcData_Tray",
+        "rva": "0x3b7e0",
+        "ordinal": 92
+      },
+      {
+        "name": "InitNonGamingLog",
+        "rva": "0x30b60",
+        "ordinal": 93
+      },
+      {
+        "name": "InitOther",
+        "rva": "0x30b70",
+        "ordinal": 94
+      },
+      {
+        "name": "IsCueAppInstalled",
+        "rva": "0x4d30",
+        "ordinal": 95
+      },
+      {
+        "name": "IsDolbyInstalled",
+        "rva": "0x30b90",
+        "ordinal": 96
+      },
+      {
+        "name": "IsForbiddenLED",
+        "rva": "0x30c70",
+        "ordinal": 97
+      },
+      {
+        "name": "IsGameSeting",
+        "rva": "0x30e40",
+        "ordinal": 98
+      },
+      {
+        "name": "IsNahimicInstalled",
+        "rva": "0x311e0",
+        "ordinal": 99
+      },
+      {
+        "name": "IsNeedReboot",
+        "rva": "0x31310",
+        "ordinal": 100
+      },
+      {
+        "name": "IsNewGraphicCardInZ370",
+        "rva": "0x31350",
+        "ordinal": 101
+      },
+      {
+        "name": "IsNonGamingProductInfo",
+        "rva": "0x31440",
+        "ordinal": 102
+      },
+      {
+        "name": "IsNotebook",
+        "rva": "0x31470",
+        "ordinal": 103
+      },
+      {
+        "name": "IsRestoreOCValue",
+        "rva": "0x3b800",
+        "ordinal": 104
+      },
+      {
+        "name": "IsSpeakerInstalled",
+        "rva": "0x31490",
+        "ordinal": 105
+      },
+      {
+        "name": "IsSupportBIOSLED",
+        "rva": "0x3ba50",
+        "ordinal": 106
+      },
+      {
+        "name": "IsSupportCPUOC",
+        "rva": "0x31560",
+        "ordinal": 107
+      },
+      {
+        "name": "IsSupportCpuOCBySMBIOS",
+        "rva": "0x31670",
+        "ordinal": 108
+      },
+      {
+        "name": "IsSupportCueLed",
+        "rva": "0x4d30",
+        "ordinal": 109
+      },
+      {
+        "name": "IsSupportDisableWinKey",
+        "rva": "0x316b0",
+        "ordinal": 110
+      },
+      {
+        "name": "IsSupportFan",
+        "rva": "0x31710",
+        "ordinal": 111
+      },
+      {
+        "name": "IsSupportForbiddenTouchPad",
+        "rva": "0x317a0",
+        "ordinal": 112
+      },
+      {
+        "name": "IsSupportFullSpeedMode_DT",
+        "rva": "0x3bba0",
+        "ordinal": 113
+      },
+      {
+        "name": "IsSupportGSync",
+        "rva": "0x31800",
+        "ordinal": 114
+      },
+      {
+        "name": "IsSupportGpuOC",
+        "rva": "0x3be00",
+        "ordinal": 115
+      },
+      {
+        "name": "IsSupportLightFeature_NB",
+        "rva": "0x3bf50",
+        "ordinal": 116
+      },
+      {
+        "name": "IsSupportLighting_DT",
+        "rva": "0x3c0d0",
+        "ordinal": 117
+      },
+      {
+        "name": "IsSupportMagicYKey",
+        "rva": "0x31940",
+        "ordinal": 118
+      },
+      {
+        "name": "IsSupportMemoryLED",
+        "rva": "0x31cd0",
+        "ordinal": 119
+      },
+      {
+        "name": "IsSupportMemoryOC",
+        "rva": "0x31e10",
+        "ordinal": 120
+      },
+      {
+        "name": "IsSupportOCByBIOS",
+        "rva": "0x31ee0",
+        "ordinal": 121
+      },
+      {
+        "name": "IsSupportOD",
+        "rva": "0x3c220",
+        "ordinal": 122
+      },
+      {
+        "name": "IsSupportSMFanMode_DT",
+        "rva": "0x3c370",
+        "ordinal": 123
+      },
+      {
+        "name": "IsSupportSmartFan",
+        "rva": "0x32030",
+        "ordinal": 124
+      },
+      {
+        "name": "IsSupportSmartfanMode",
+        "rva": "0x32080",
+        "ordinal": 125
+      },
+      {
+        "name": "IsSupportWaterCooling",
+        "rva": "0x3c4f0",
+        "ordinal": 126
+      },
+      {
+        "name": "IsXRiteInstalled",
+        "rva": "0x321b0",
+        "ordinal": 127
+      },
+      {
+        "name": "LEDDiverInit",
+        "rva": "0x322e0",
+        "ordinal": 128
+      },
+      {
+        "name": "LauchMagicYKey",
+        "rva": "0x32460",
+        "ordinal": 129
+      },
+      {
+        "name": "LaunchDolbySettings",
+        "rva": "0x324d0",
+        "ordinal": 130
+      },
+      {
+        "name": "LaunchGameCenter",
+        "rva": "0x32940",
+        "ordinal": 131
+      },
+      {
+        "name": "LaunchNahimicByProtocol",
+        "rva": "0x32b50",
+        "ordinal": 132
+      },
+      {
+        "name": "LaunchSmartHome",
+        "rva": "0x32c90",
+        "ordinal": 133
+      },
+      {
+        "name": "LaunchXRiteByProtocol",
+        "rva": "0x32ec0",
+        "ordinal": 134
+      },
+      {
+        "name": "MonitorGameProcess",
+        "rva": "0x3c630",
+        "ordinal": 135
+      },
+      {
+        "name": "NonGamePowerStatusChange",
+        "rva": "0x3c7d0",
+        "ordinal": 136
+      },
+      {
+        "name": "OCBindWithThermal",
+        "rva": "0x3c7e0",
+        "ordinal": 137
+      },
+      {
+        "name": "OCDriverInit",
+        "rva": "0x33000",
+        "ordinal": 138
+      },
+      {
+        "name": "RecognizeGameProcess",
+        "rva": "0x3c830",
+        "ordinal": 139
+      },
+      {
+        "name": "RecordGameScreen",
+        "rva": "0x33020",
+        "ordinal": 140
+      },
+      {
+        "name": "RecordScreen",
+        "rva": "0x33340",
+        "ordinal": 141
+      },
+      {
+        "name": "RecordScreenSetting",
+        "rva": "0x33350",
+        "ordinal": 142
+      },
+      {
+        "name": "SLEDMode",
+        "rva": "0x33360",
+        "ordinal": 143
+      },
+      {
+        "name": "SetCpuOCStatus_NB",
+        "rva": "0x334b0",
+        "ordinal": 144
+      },
+      {
+        "name": "SetFanModeByPowerPlan_FnQ4",
+        "rva": "0x3c9f0",
+        "ordinal": 145
+      },
+      {
+        "name": "SetFn4_BalanceModeAutoOptimization",
+        "rva": "0x3ca90",
+        "ordinal": 146
+      },
+      {
+        "name": "SetFn4_ModeData",
+        "rva": "0x3cab0",
+        "ordinal": 147
+      },
+      {
+        "name": "SetGSyncStatus",
+        "rva": "0x33670",
+        "ordinal": 148
+      },
+      {
+        "name": "SetGameNoDisStatus",
+        "rva": "0x337e0",
+        "ordinal": 149
+      },
+      {
+        "name": "SetGpuOCAdvanceMemoryClock",
+        "rva": "0x3cad0",
+        "ordinal": 150
+      },
+      {
+        "name": "SetGpuOCStatusEx",
+        "rva": "0x3caf0",
+        "ordinal": 151
+      },
+      {
+        "name": "SetGpuTDPWithSMFAN_DT",
+        "rva": "0x3cc00",
+        "ordinal": 152
+      },
+      {
+        "name": "SetGpuTemperatureWithSMFAN_DT",
+        "rva": "0x3cc80",
+        "ordinal": 153
+      },
+      {
+        "name": "SetIntelligentSubMode",
+        "rva": "0x33af0",
+        "ordinal": 154
+      },
+      {
+        "name": "SetLightApply_DT",
+        "rva": "0x3cd00",
+        "ordinal": 155
+      },
+      {
+        "name": "SetLightFeatureNotApply_DT",
+        "rva": "0x3ce60",
+        "ordinal": 156
+      },
+      {
+        "name": "SetLightFeature_DT",
+        "rva": "0x3d0b0",
+        "ordinal": 157
+      },
+      {
+        "name": "SetLightFeature_NB",
+        "rva": "0x3d360",
+        "ordinal": 158
+      },
+      {
+        "name": "SetLightingStatus_DT",
+        "rva": "0x3d720",
+        "ordinal": 159
+      },
+      {
+        "name": "SetMemoryLED",
+        "rva": "0x33cb0",
+        "ordinal": 160
+      },
+      {
+        "name": "SetMemoryOCStatus",
+        "rva": "0x33f90",
+        "ordinal": 161
+      },
+      {
+        "name": "SetMultiLightFeature_DT",
+        "rva": "0x3d8e0",
+        "ordinal": 162
+      },
+      {
+        "name": "SetNonGameGpuCallBack",
+        "rva": "0x3dc40",
+        "ordinal": 163
+      },
+      {
+        "name": "SetNonGameGpuOCStatus",
+        "rva": "0x3dce0",
+        "ordinal": 164
+      },
+      {
+        "name": "SetNonGameItsFanMode",
+        "rva": "0x3dd00",
+        "ordinal": 165
+      },
+      {
+        "name": "SetOCStatus",
+        "rva": "0x34040",
+        "ordinal": 166
+      },
+      {
+        "name": "SetODStatus",
+        "rva": "0x3dd20",
+        "ordinal": 167
+      },
+      {
+        "name": "SetSmartFanMode",
+        "rva": "0x340f0",
+        "ordinal": 168
+      },
+      {
+        "name": "SetSmartFanMode_DT",
+        "rva": "0x3dea0",
+        "ordinal": 169
+      },
+      {
+        "name": "SetSmartFanStatus",
+        "rva": "0x34270",
+        "ordinal": 170
+      },
+      {
+        "name": "ShowPCMGame",
+        "rva": "0x342b0",
+        "ordinal": 171
+      },
+      {
+        "name": "StartCueApp",
+        "rva": "0x4d30",
+        "ordinal": 172
+      },
+      {
+        "name": "StartFan",
+        "rva": "0x34420",
+        "ordinal": 173
+      },
+      {
+        "name": "StopFan",
+        "rva": "0x34440",
+        "ordinal": 174
+      },
+      {
+        "name": "UnInitGame",
+        "rva": "0x34460",
+        "ordinal": 175
+      },
+      {
+        "name": "UnInitGameZone",
+        "rva": "0x34540",
+        "ordinal": 176
+      },
+      {
+        "name": "wmiIsSupportCPUOC_NB",
+        "rva": "0x34800",
+        "ordinal": 177
+      }
+    ],
+    "imports": [
+      {
+        "dll": "api-ms-win-core-util-l1-1-0.dll",
+        "names": [
+          "EncodePointer",
+          "DecodePointer"
+        ]
+      },
+      {
+        "dll": "api-ms-win-core-errorhandling-l1-1-0.dll",
+        "names": [
+          "UnhandledExceptionFilter",
+          "GetLastError",
+          "SetLastError",
+          "RaiseException",
+          "SetUnhandledExceptionFilter"
+        ]
+      },
+      {
+        "dll": "api-ms-win-core-heap-l1-1-0.dll",
+        "names": [
+          "HeapDestroy",
+          "HeapQueryInformation",
+          "HeapFree",
+          "HeapReAlloc",
+          "HeapSize",
+          "GetProcessHeap",
+          "HeapAlloc"
+        ]
+      },
+      {
+        "dll": "api-ms-win-core-synch-l1-1-0.dll",
+        "names": [
+          "AcquireSRWLockExclusive",
+          "ReleaseSRWLockExclusive",
+          "InitializeCriticalSectionEx",
+          "DeleteCriticalSection",
+          "InitializeCriticalSection",
+          "EnterCriticalSection",
+          "LeaveCriticalSection",
+          "ReleaseMutex",
+          "TryAcquireSRWLockExclusive",
+          "InitializeCriticalSectionAndSpinCount",
+          "CreateEventW",
+          "WaitForSingleObject",
+          "CreateMutexW"
+        ]
+      },
+      {
+        "dll": "OLEAUT32.dll",
+        "names": [
+          "SysFreeString",
+          "LPSAFEARRAY_UserFree",
+          "LPSAFEARRAY_UserUnmarshal",
+          "LPSAFEARRAY_UserMarshal",
+          "LPSAFEARRAY_UserSize",
+          "BSTR_UserFree",
+          "BSTR_UserUnmarshal",
+          "BSTR_UserMarshal",
+          "SysAllocString",
+          "SafeArrayCreate",
+          "SafeArrayDestroy",
+          "SafeArrayAccessData",
+          "SafeArrayUnaccessData",
+          "VariantInit",
+          "VariantClear",
+          "BSTR_UserSize"
+        ]
+      },
+      {
+        "dll": "api-ms-win-core-processenvironment-l1-1-0.dll",
+        "names": [
+          "SetEnvironmentVariableW",
+          "SetStdHandle",
+          "GetCommandLineA",
+          "GetStdHandle",
+          "GetCommandLineW",
+          "GetEnvironmentStringsW",
+          "FreeEnvironmentStringsW",
+          "ExpandEnvironmentStringsW"
+        ]
+      },
+      {
+        "dll": "api-ms-win-core-file-l1-1-0.dll",
+        "names": [
+          "GetFullPathNameW",
+          "GetFileType",
+          "FlushFileBuffers",
+          "SetFilePointerEx",
+          "FindFirstFileExW",
+          "ReadFile",
+          "FindNextFileW",
+          "WriteFile",
+          "SetFilePointer",
+          "GetFileSizeEx",
+          "GetFileAttributesW",
+          "FindFirstFileW",
+          "FindClose",
+          "DeleteFileW",
+          "CreateFileW",
+          "GetFileSize"
+        ]
+      },
+      {
+        "dll": "api-ms-win-core-file-l1-2-0.dll",
+        "names": [
+          "GetTempPathW"
+        ]
+      },
+      {
+        "dll": "api-ms-win-core-debug-l1-1-0.dll",
+        "names": [
+          "OutputDebugStringW",
+          "IsDebuggerPresent"
+        ]
+      },
+      {
+        "dll": "api-ms-win-core-handle-l1-1-0.dll",
+        "names": [
+          "CloseHandle"
+        ]
+      },
+      {
+        "dll": "api-ms-win-core-synch-l1-2-0.dll",
+        "names": [
+          "SleepConditionVariableSRW",
+          "WakeAllConditionVariable",
+          "Sleep"
+        ]
+      },
+      {
+        "dll": "api-ms-win-core-processthreads-l1-1-0.dll",
+        "names": [
+          "CreateProcessW",
+          "GetExitCodeProcess",
+          "GetStartupInfoW",
+          "GetCurrentThreadId",
+          "CreateThread",
+          "OpenProcessToken",
+          "GetCurrentProcessId",
+          "ExitProcess",
+          "ProcessIdToSessionId",
+          "GetCurrentProcess",
+          "TlsAlloc",
+          "TerminateProcess",
+          "TlsGetValue",
+          "TlsSetValue",
+          "TlsFree",
+          "SetThreadPriority",
+          "GetProcessTimes",
+          "ExitThread",
+          "ResumeThread"
+        ]
+      },
+      {
+        "dll": "api-ms-win-core-sysinfo-l1-1-0.dll",
+        "names": [
+          "GetLocalTime",
+          "GetSystemDirectoryW",
+          "GetSystemInfo",
+          "GetSystemTimeAsFileTime"
+        ]
+      },
+      {
+        "dll": "api-ms-win-core-sysinfo-l1-2-0.dll",
+        "names": [
+          "GetSystemFirmwareTable",
+          "VerSetConditionMask"
+        ]
+      },
+      {
+        "dll": "api-ms-win-core-memory-l1-1-0.dll",
+        "names": [
+          "VirtualAlloc",
+          "VirtualFree",
+          "VirtualProtect",
+          "VirtualQuery"
+        ]
+      },
+      {
+        "dll": "api-ms-win-core-libraryloader-l1-2-0.dll",
+        "names": [
+          "SizeofResource",
+          "LoadLibraryExW",
+          "FreeLibraryAndExitThread",
+          "LoadResource",
+          "LockResource",
+          "FindResourceExW",
+          "GetModuleHandleExW",
+          "GetModuleHandleA",
+          "GetModuleFileNameW",
+          "FreeLibrary",
+          "LoadLibraryExA",
+          "GetProcAddress",
+          "GetModuleHandleW"
+        ]
+      },
+      {
+        "dll": "api-ms-win-core-libraryloader-l1-2-1.dll",
+        "names": [
+          "FindResourceW",
+          "LoadLibraryW"
+        ]
+      },
+      {
+        "dll": "api-ms-win-security-base-l1-1-0.dll",
+        "names": [
+          "DuplicateTokenEx",
+          "SetSecurityDescriptorDacl",
+          "SetFileSecurityW",
+          "RevertToSelf",
+          "InitializeSecurityDescriptor",
+          "ImpersonateLoggedOnUser",
+          "AdjustTokenPrivileges"
+        ]
+      },
+      {
+        "dll": "api-ms-win-core-heap-l2-1-0.dll",
+        "names": [
+          "LocalFree",
+          "LocalAlloc"
+        ]
+      },
+      {
+        "dll": "api-ms-win-core-privateprofile-l1-1-0.dll",
+        "names": [
+          "GetPrivateProfileStringW"
+        ]
+      },
+      {
+        "dll": "api-ms-win-security-lsalookup-l2-1-0.dll",
+        "names": [
+          "LookupPrivilegeValueW"
+        ]
+      },
+      {
+        "dll": "api-ms-win-core-string-l1-1-0.dll",
+        "names": [
+          "MultiByteToWideChar",
+          "WideCharToMultiByte",
+          "CompareStringW",
+          "GetStringTypeW"
+        ]
+      },
+      {
+        "dll": "api-ms-win-core-console-l1-1-0.dll",
+        "names": [
+          "WriteConsoleW",
+          "GetConsoleOutputCP",
+          "ReadConsoleW",
+          "GetConsoleMode"
+        ]
+      },
+      {
+        "dll": "api-ms-win-core-console-l2-1-0.dll",
+        "names": [
+          "SetConsoleTextAttribute"
+        ]
+      },
+      {
+        "dll": "api-ms-win-core-registry-l1-1-0.dll",
+        "names": [
+          "RegSetValueExW",
+          "RegFlushKey",
+          "RegNotifyChangeKeyValue",
+          "RegCreateKeyExW",
+          "RegQueryValueExW",
+          "RegGetValueW",
+          "RegCloseKey",
+          "RegOpenCurrentUser",
+          "RegOpenKeyExW"
+        ]
+      },
+      {
+        "dll": "api-ms-win-service-management-l1-1-0.dll",
+        "names": [
+          "OpenSCManagerW"
+        ]
+      },
+      {
+        "dll": "api-ms-win-core-com-l1-1-0.dll",
+        "names": [
+          "CoInitializeEx",
+          "CoCreateInstance",
+          "CoSetProxyBlanket",
+          "CoInitializeSecurity",
+          "CoUninitialize"
+        ]
+      },
+      {
+        "dll": "CRYPT32.dll",
+        "names": [
+          "CryptQueryObject",
+          "CertFreeCertificateContext",
+          "CertFindCertificateInStore",
+          "CertGetCertificateContextProperty",
+          "CryptMsgClose",
+          "CertCloseStore",
+          "CryptMsgGetParam",
+          "CertGetNameStringW"
+        ]
+      },
+      {
+        "dll": "WINTRUST.dll",
+        "names": [
+          "WTHelperGetProvSignerFromChain",
+          "WinVerifyTrust",
+          "WTHelperProvDataFromStateData",
+          "CryptCATAdminAcquireContext",
+          "CryptCATAdminCalcHashFromFileHandle",
+          "CryptCATAdminEnumCatalogFromHash",
+          "CryptCATAdminReleaseCatalogContext",
+          "CryptCATAdminReleaseContext",
+          "CryptCATCatalogInfoFromContext",
+          "WTHelperGetProvCertFromChain"
+        ]
+      },
+      {
+        "dll": "RPCRT4.dll",
+        "names": [
+          "NdrClientCall2",
+          "NdrServerCall2",
+          "RpcStringFreeW",
+          "RpcStringBindingComposeW",
+          "RpcBindingFree",
+          "RpcBindingFromStringBindingW"
+        ]
+      },
+      {
+        "dll": "api-ms-win-core-processthreads-l1-1-1.dll",
+        "names": [
+          "IsProcessorFeaturePresent",
+          "OpenProcess"
+        ]
+      },
+      {
+        "dll": "api-ms-win-core-timezone-l1-1-0.dll",
+        "names": [
+          "SystemTimeToTzSpecificLocalTime",
+          "GetTimeZoneInformation",
+          "FileTimeToSystemTime"
+        ]
+      },
+      {
+        "dll": "api-ms-win-core-toolhelp-l1-1-0.dll",
+        "names": [
+          "CreateToolhelp32Snapshot",
+          "Process32FirstW",
+          "Process32NextW"
+        ]
+      },
+      {
+        "dll": "api-ms-win-core-io-l1-1-0.dll",
+        "names": [
+          "DeviceIoControl"
+        ]
+      },
+      {
+        "dll": "IPHLPAPI.DLL",
+        "names": [
+          "GetExtendedTcpTable",
+          "GetExtendedUdpTable"
+        ]
+      },
+      {
+        "dll": "api-ms-win-core-psapi-l1-1-0.dll",
+        "names": [
+          "K32GetModuleFileNameExW"
+        ]
+      },
+      {
+        "dll": "api-ms-win-core-kernel32-legacy-l1-1-0.dll",
+        "names": [
+          "GetSystemPowerStatus"
+        ]
+      },
+      {
+        "dll": "KERNEL32.dll",
+        "names": [
+          "WinExec",
+          "GetPrivateProfileIntW",
+          "WTSGetActiveConsoleSessionId",
+          "K32EnumProcessModules"
+        ]
+      },
+      {
+        "dll": "USER32.dll",
+        "names": [
+          "SendInput",
+          "IsWindow",
+          "CallNextHookEx",
+          "RegisterClassW",
+          "CreateWindowExW",
+          "KillTimer",
+          "PostMessageW",
+          "FindWindowW",
+          "GetKeyState",
+          "SetWindowsHookExW",
+          "keybd_event"
+        ]
+      },
+      {
+        "dll": "ADVAPI32.dll",
+        "names": [
+          "QueryServiceConfigW",
+          "DeleteService",
+          "CloseServiceHandle",
+          "OpenServiceW",
+          "QueryServiceStatus",
+          "StartServiceW",
+          "ChangeServiceConfigW",
+          "ControlService",
+          "CreateServiceW"
+        ]
+      },
+      {
+        "dll": "SHELL32.dll",
+        "names": [
+          "ShellExecuteExW",
+          "ShellExecuteW",
+          "SHGetSpecialFolderPathW",
+          "SHCreateDirectoryExW"
+        ]
+      },
+      {
+        "dll": "ole32.dll",
+        "names": [
+          "CoInitialize"
+        ]
+      },
+      {
+        "dll": "WrapPlugin.dll",
+        "names": [
+          "SetCoolQuiteSetting",
+          "GetCoolQuiteSetting"
+        ]
+      },
+      {
+        "dll": "SHLWAPI.dll",
+        "names": [
+          "PathFindFileNameW",
+          "PathIsDirectoryW",
+          "PathFileExistsW",
+          "PathRemoveFileSpecW"
+        ]
+      },
+      {
+        "dll": "WTSAPI32.dll",
+        "names": [
+          "WTSQueryUserToken"
+        ]
+      },
+      {
+        "dll": "SETUPAPI.dll",
+        "names": [
+          "SetupDiEnumDeviceInterfaces",
+          "SetupDiGetDeviceRegistryPropertyW",
+          "SetupDiGetDeviceInterfaceDetailW",
+          "SetupDiGetClassDevsW",
+          "SetupDiDestroyDeviceInfoList",
+          "SetupDiEnumDeviceInfo"
+        ]
+      },
+      {
+        "dll": "HID.DLL",
+        "names": [
+          "HidD_SetFeature",
+          "HidD_GetPreparsedData",
+          "HidD_GetHidGuid",
+          "HidD_GetAttributes",
+          "HidP_GetCaps",
+          "HidD_GetFeature"
+        ]
+      },
+      {
+        "dll": "api-ms-win-core-namedpipe-l1-1-0.dll",
+        "names": [
+          "CreatePipe"
+        ]
+      },
+      {
+        "dll": "api-ms-win-core-localization-l1-2-0.dll",
+        "names": [
+          "LCMapStringEx",
+          "GetOEMCP",
+          "GetCPInfo",
+          "LCMapStringW",
+          "IsValidLocale",
+          "GetUserDefaultLCID",
+          "GetACP",
+          "EnumSystemLocalesW",
+          "IsValidCodePage",
+          "GetLocaleInfoW"
+        ]
+      },
+      {
+        "dll": "api-ms-win-core-string-obsolete-l1-1-0.dll",
+        "names": [
+          "lstrcmpW"
+        ]
+      },
+      {
+        "dll": "api-ms-win-core-kernel32-legacy-l1-1-1.dll",
+        "names": [
+          "VerifyVersionInfoW"
+        ]
+      },
+      {
+        "dll": "api-ms-win-core-profile-l1-1-0.dll",
+        "names": [
+          "QueryPerformanceFrequency",
+          "QueryPerformanceCounter"
+        ]
+      },
+      {
+        "dll": "api-ms-win-core-interlocked-l1-1-0.dll",
+        "names": [
+          "InitializeSListHead",
+          "InterlockedFlushSList"
+        ]
+      },
+      {
+        "dll": "api-ms-win-core-rtlsupport-l1-1-0.dll",
+        "names": [
+          "RtlUnwind"
+        ]
+      },
+      {
+        "dll": "api-ms-win-core-fibers-l1-1-0.dll",
+        "names": [
+          "FlsAlloc",
+          "FlsGetValue",
+          "FlsFree",
+          "FlsSetValue"
+        ]
+      }
+    ],
+    "strings": [
+      {
+        "offset": "0xb6ecc",
+        "encoding": "ascii",
+        "value": "[wwxxyy]Unable to open LEDDEVICE device - error %d"
+      },
+      {
+        "offset": "0xb742c",
+        "encoding": "ascii",
+        "value": "baseFrequency: %d, baseEnergy: %d"
+      },
+      {
+        "offset": "0xc25e0",
+        "encoding": "ascii",
+        "value": " Before m_AcWmi.ExecMethodWMI"
+      },
+      {
+        "offset": "0xc3014",
+        "encoding": "ascii",
+        "value": "Error %d in call to DeviceIoControl"
+      },
+      {
+        "offset": "0xc303c",
+        "encoding": "ascii",
+        "value": "Error %ld in call to DeviceIoControl"
+      },
+      {
+        "offset": "0xc4cbc",
+        "encoding": "ascii",
+        "value": "SIO8786GetFan"
+      },
+      {
+        "offset": "0xc4ccc",
+        "encoding": "ascii",
+        "value": "SIO_DriverRelease"
+      },
+      {
+        "offset": "0xc65e8",
+        "encoding": "ascii",
+        "value": "IsLenovoSignature"
+      },
+      {
+        "offset": "0xc7c18",
+        "encoding": "ascii",
+        "value": "device or resource busy"
+      },
+      {
+        "offset": "0xc8320",
+        "encoding": "ascii",
+        "value": "cross device link"
+      },
+      {
+        "offset": "0xc8520",
+        "encoding": "ascii",
+        "value": "no space on device"
+      },
+      {
+        "offset": "0xc8548",
+        "encoding": "ascii",
+        "value": "no such device or address"
+      },
+      {
+        "offset": "0xc8564",
+        "encoding": "ascii",
+        "value": "no such device"
+      },
+      {
+        "offset": "0xcafd0",
+        "encoding": "ascii",
+        "value": "VERSION.dll"
+      },
+      {
+        "offset": "0xcb504",
+        "encoding": "ascii",
+        "value": "SetupDiGetDeviceRegistryPropertyW"
+      },
+      {
+        "offset": "0xcb528",
+        "encoding": "ascii",
+        "value": "SetupDiDestroyDeviceInfoList"
+      },
+      {
+        "offset": "0xcb548",
+        "encoding": "ascii",
+        "value": "SetupDiGetDevicePropertyW"
+      },
+      {
+        "offset": "0xcb564",
+        "encoding": "ascii",
+        "value": "SetupGetInfDriverStoreLocationW"
+      },
+      {
+        "offset": "0xcb668",
+        "encoding": "ascii",
+        "value": "SetupDiEnumDeviceInterfaces"
+      },
+      {
+        "offset": "0xcb684",
+        "encoding": "ascii",
+        "value": "SetupDiGetDeviceInterfaceDetailW"
+      },
+      {
+        "offset": "0xdbef4",
+        "encoding": "ascii",
+        "value": "isLenovo:"
+      },
+      {
+        "offset": "0xdbf10",
+        "encoding": "ascii",
+        "value": "LENOVO"
+      },
+      {
+        "offset": "0xdbf18",
+        "encoding": "ascii",
+        "value": "isLenovo:"
+      },
+      {
+        "offset": "0xdbf34",
+        "encoding": "ascii",
+        "value": "isLenovo:"
+      },
+      {
+        "offset": "0xdbf64",
+        "encoding": "ascii",
+        "value": "isLenovo"
+      },
+      {
+        "offset": "0xdbffc",
+        "encoding": "ascii",
+        "value": "isLenovo"
+      },
+      {
+        "offset": "0xdc09a",
+        "encoding": "ascii",
+        "value": "isLenovo"
+      },
+      {
+        "offset": "0xdc0b2",
+        "encoding": "ascii",
+        "value": "isLenovoSNFormat"
+      },
+      {
+        "offset": "0xdc0d2",
+        "encoding": "ascii",
+        "value": "isLenovoSNFormat"
+      },
+      {
+        "offset": "0xdc3cc",
+        "encoding": "ascii",
+        "value": "GetBiosInfo: "
+      },
+      {
+        "offset": "0xdc3f4",
+        "encoding": "ascii",
+        "value": "GetBiosInfo: "
+      },
+      {
+        "offset": "0xdc418",
+        "encoding": "ascii",
+        "value": "GetBiosInfo: "
+      },
+      {
+        "offset": "0xdc43c",
+        "encoding": "ascii",
+        "value": "GetBiosInfo: "
+      },
+      {
+        "offset": "0xdc464",
+        "encoding": "ascii",
+        "value": "SELECT * FROM Win32_BIOS"
+      },
+      {
+        "offset": "0xdc480",
+        "encoding": "ascii",
+        "value": "GetBiosInfo: "
+      },
+      {
+        "offset": "0xdc4a0",
+        "encoding": "ascii",
+        "value": "GetBiosInfo: 0"
+      },
+      {
+        "offset": "0xdc754",
+        "encoding": "ascii",
+        "value": "GetBiosInfo: "
+      },
+      {
+        "offset": "0xdd5b0",
+        "encoding": "ascii",
+        "value": "Error when TiXmlDocument added to document, because TiXmlDocument can only be at the root."
+      },
+      {
+        "offset": "0xedf42",
+        "encoding": "ascii",
+        "value": "GameSettingsPlugin.dll"
+      },
+      {
+        "offset": "0xee131",
+        "encoding": "ascii",
+        "value": "FanDriverInit"
+      },
+      {
+        "offset": "0xee1cf",
+        "encoding": "ascii",
+        "value": "GetBIOSOCMode"
+      },
+      {
+        "offset": "0xee267",
+        "encoding": "ascii",
+        "value": "GetFanCoolingStatus"
+      },
+      {
+        "offset": "0xee49a",
+        "encoding": "ascii",
+        "value": "GetSmartFanCount"
+      },
+      {
+        "offset": "0xee4ab",
+        "encoding": "ascii",
+        "value": "GetSmartFanInfo"
+      },
+      {
+        "offset": "0xee4bb",
+        "encoding": "ascii",
+        "value": "GetSmartFanMode"
+      },
+      {
+        "offset": "0xee4cb",
+        "encoding": "ascii",
+        "value": "GetSmartFanMode_DT"
+      },
+      {
+        "offset": "0xee4de",
+        "encoding": "ascii",
+        "value": "GetSmartFanMode_FNQ3"
+      },
+      {
+        "offset": "0xee4f3",
+        "encoding": "ascii",
+        "value": "GetSmartFanSetting"
+      },
+      {
+        "offset": "0xee506",
+        "encoding": "ascii",
+        "value": "GetSmartFanStatus"
+      },
+      {
+        "offset": "0xee696",
+        "encoding": "ascii",
+        "value": "IsSupportBIOSLED"
+      },
+      {
+        "offset": "0xee6b6",
+        "encoding": "ascii",
+        "value": "IsSupportCpuOCBySMBIOS"
+      },
+      {
+        "offset": "0xee6f4",
+        "encoding": "ascii",
+        "value": "IsSupportFan"
+      },
+      {
+        "offset": "0xee7ba",
+        "encoding": "ascii",
+        "value": "IsSupportOCByBIOS"
+      },
+      {
+        "offset": "0xee7d8",
+        "encoding": "ascii",
+        "value": "IsSupportSMFanMode_DT"
+      },
+      {
+        "offset": "0xee7ee",
+        "encoding": "ascii",
+        "value": "IsSupportSmartFan"
+      },
+      {
+        "offset": "0xee800",
+        "encoding": "ascii",
+        "value": "IsSupportSmartfanMode"
+      },
+      {
+        "offset": "0xee816",
+        "encoding": "ascii",
+        "value": "IsSupportWaterCooling"
+      },
+      {
+        "offset": "0xee8fa",
+        "encoding": "ascii",
+        "value": "OCDriverInit"
+      },
+      {
+        "offset": "0xee969",
+        "encoding": "ascii",
+        "value": "SetFanModeByPowerPlan_FnQ4"
+      },
+      {
+        "offset": "0xeea05",
+        "encoding": "ascii",
+        "value": "SetGpuTDPWithSMFAN_DT"
+      },
+      {
+        "offset": "0xeea1b",
+        "encoding": "ascii",
+        "value": "SetGpuTemperatureWithSMFAN_DT"
+      },
+      {
+        "offset": "0xeeb19",
+        "encoding": "ascii",
+        "value": "SetNonGameItsFanMode"
+      },
+      {
+        "offset": "0xeeb46",
+        "encoding": "ascii",
+        "value": "SetSmartFanMode"
+      },
+      {
+        "offset": "0xeeb56",
+        "encoding": "ascii",
+        "value": "SetSmartFanMode_DT"
+      },
+      {
+        "offset": "0xeeb69",
+        "encoding": "ascii",
+        "value": "SetSmartFanStatus"
+      },
+      {
+        "offset": "0xeeb93",
+        "encoding": "ascii",
+        "value": "StartFan"
+      },
+      {
+        "offset": "0xeeb9c",
+        "encoding": "ascii",
+        "value": "StopFan"
+      },
+      {
+        "offset": "0xeebbe",
+        "encoding": "ascii",
+        "value": "wmiIsSupportCPUOC_NB"
+      },
+      {
+        "offset": "0xefca0",
+        "encoding": "ascii",
+        "value": "DeviceIoControl"
+      },
+      {
+        "offset": "0xefd7c",
+        "encoding": "ascii",
+        "value": "api-ms-win-core-util-l1-1-0.dll"
+      },
+      {
+        "offset": "0xefd9c",
+        "encoding": "ascii",
+        "value": "api-ms-win-core-errorhandling-l1-1-0.dll"
+      },
+      {
+        "offset": "0xefdc6",
+        "encoding": "ascii",
+        "value": "api-ms-win-core-heap-l1-1-0.dll"
+      },
+      {
+        "offset": "0xefde6",
+        "encoding": "ascii",
+        "value": "api-ms-win-core-synch-l1-1-0.dll"
+      },
+      {
+        "offset": "0xefe08",
+        "encoding": "ascii",
+        "value": "OLEAUT32.dll"
+      },
+      {
+        "offset": "0xefe16",
+        "encoding": "ascii",
+        "value": "api-ms-win-core-processenvironment-l1-1-0.dll"
+      },
+      {
+        "offset": "0xefe44",
+        "encoding": "ascii",
+        "value": "api-ms-win-core-file-l1-1-0.dll"
+      },
+      {
+        "offset": "0xefe64",
+        "encoding": "ascii",
+        "value": "api-ms-win-core-file-l1-2-0.dll"
+      },
+      {
+        "offset": "0xefe84",
+        "encoding": "ascii",
+        "value": "api-ms-win-core-debug-l1-1-0.dll"
+      },
+      {
+        "offset": "0xefea6",
+        "encoding": "ascii",
+        "value": "api-ms-win-core-handle-l1-1-0.dll"
+      },
+      {
+        "offset": "0xefec8",
+        "encoding": "ascii",
+        "value": "api-ms-win-core-synch-l1-2-0.dll"
+      },
+      {
+        "offset": "0xefeea",
+        "encoding": "ascii",
+        "value": "api-ms-win-core-processthreads-l1-1-0.dll"
+      },
+      {
+        "offset": "0xeff14",
+        "encoding": "ascii",
+        "value": "api-ms-win-core-sysinfo-l1-1-0.dll"
+      },
+      {
+        "offset": "0xeff38",
+        "encoding": "ascii",
+        "value": "api-ms-win-core-sysinfo-l1-2-0.dll"
+      },
+      {
+        "offset": "0xeff5c",
+        "encoding": "ascii",
+        "value": "api-ms-win-core-memory-l1-1-0.dll"
+      },
+      {
+        "offset": "0xeff7e",
+        "encoding": "ascii",
+        "value": "api-ms-win-core-libraryloader-l1-2-0.dll"
+      },
+      {
+        "offset": "0xeffa8",
+        "encoding": "ascii",
+        "value": "api-ms-win-core-libraryloader-l1-2-1.dll"
+      },
+      {
+        "offset": "0xeffd2",
+        "encoding": "ascii",
+        "value": "api-ms-win-security-base-l1-1-0.dll"
+      },
+      {
+        "offset": "0xefff6",
+        "encoding": "ascii",
+        "value": "api-ms-win-core-heap-l2-1-0.dll"
+      },
+      {
+        "offset": "0xf0016",
+        "encoding": "ascii",
+        "value": "api-ms-win-core-privateprofile-l1-1-0.dll"
+      },
+      {
+        "offset": "0xf0040",
+        "encoding": "ascii",
+        "value": "api-ms-win-security-lsalookup-l2-1-0.dll"
+      },
+      {
+        "offset": "0xf006a",
+        "encoding": "ascii",
+        "value": "api-ms-win-core-string-l1-1-0.dll"
+      },
+      {
+        "offset": "0xf008c",
+        "encoding": "ascii",
+        "value": "api-ms-win-core-console-l1-1-0.dll"
+      },
+      {
+        "offset": "0xf00b0",
+        "encoding": "ascii",
+        "value": "api-ms-win-core-console-l2-1-0.dll"
+      },
+      {
+        "offset": "0xf00d4",
+        "encoding": "ascii",
+        "value": "api-ms-win-core-registry-l1-1-0.dll"
+      },
+      {
+        "offset": "0xf00f8",
+        "encoding": "ascii",
+        "value": "api-ms-win-service-management-l1-1-0.dll"
+      },
+      {
+        "offset": "0xf0122",
+        "encoding": "ascii",
+        "value": "api-ms-win-core-com-l1-1-0.dll"
+      },
+      {
+        "offset": "0xf0142",
+        "encoding": "ascii",
+        "value": "CRYPT32.dll"
+      },
+      {
+        "offset": "0xf014e",
+        "encoding": "ascii",
+        "value": "WINTRUST.dll"
+      },
+      {
+        "offset": "0xf015c",
+        "encoding": "ascii",
+        "value": "RPCRT4.dll"
+      },
+      {
+        "offset": "0xf0168",
+        "encoding": "ascii",
+        "value": "api-ms-win-core-processthreads-l1-1-1.dll"
+      },
+      {
+        "offset": "0xf0192",
+        "encoding": "ascii",
+        "value": "api-ms-win-core-timezone-l1-1-0.dll"
+      },
+      {
+        "offset": "0xf01b6",
+        "encoding": "ascii",
+        "value": "api-ms-win-core-toolhelp-l1-1-0.dll"
+      },
+      {
+        "offset": "0xf01da",
+        "encoding": "ascii",
+        "value": "api-ms-win-core-io-l1-1-0.dll"
+      },
+      {
+        "offset": "0xf01f8",
+        "encoding": "ascii",
+        "value": "IPHLPAPI.DLL"
+      },
+      {
+        "offset": "0xf0206",
+        "encoding": "ascii",
+        "value": "api-ms-win-core-psapi-l1-1-0.dll"
+      },
+      {
+        "offset": "0xf0228",
+        "encoding": "ascii",
+        "value": "api-ms-win-core-kernel32-legacy-l1-1-0.dll"
+      },
+      {
+        "offset": "0xf02ae",
+        "encoding": "ascii",
+        "value": "KERNEL32.dll"
+      },
+      {
+        "offset": "0xf0328",
+        "encoding": "ascii",
+        "value": "USER32.dll"
+      },
+      {
+        "offset": "0xf03e2",
+        "encoding": "ascii",
+        "value": "ADVAPI32.dll"
+      },
+      {
+        "offset": "0xf0432",
+        "encoding": "ascii",
+        "value": "SHELL32.dll"
+      },
+      {
+        "offset": "0xf044e",
+        "encoding": "ascii",
+        "value": "ole32.dll"
+      },
+      {
+        "offset": "0xf045a",
+        "encoding": "ascii",
+        "value": "SetCoolQuiteSetting"
+      },
+      {
+        "offset": "0xf0470",
+        "encoding": "ascii",
+        "value": "GetCoolQuiteSetting"
+      },
+      {
+        "offset": "0xf0484",
+        "encoding": "ascii",
+        "value": "WrapPlugin.dll"
+      },
+      {
+        "offset": "0xf04e4",
+        "encoding": "ascii",
+        "value": "SHLWAPI.dll"
+      },
+      {
+        "offset": "0xf0504",
+        "encoding": "ascii",
+        "value": "WTSAPI32.dll"
+      },
+      {
+        "offset": "0xf0668",
+        "encoding": "ascii",
+        "value": "SetupDiEnumDeviceInfo"
+      },
+      {
+        "offset": "0xf0680",
+        "encoding": "ascii",
+        "value": "SetupDiDestroyDeviceInfoList"
+      },
+      {
+        "offset": "0xf06b8",
+        "encoding": "ascii",
+        "value": "SetupDiGetDeviceRegistryPropertyW"
+      },
+      {
+        "offset": "0xf06dc",
+        "encoding": "ascii",
+        "value": "SetupDiEnumDeviceInterfaces"
+      },
+      {
+        "offset": "0xf06fa",
+        "encoding": "ascii",
+        "value": "SetupDiGetDeviceInterfaceDetailW"
+      },
+      {
+        "offset": "0xf071c",
+        "encoding": "ascii",
+        "value": "SETUPAPI.dll"
+      },
+      {
+        "offset": "0xf079e",
+        "encoding": "ascii",
+        "value": "HID.DLL"
+      },
+      {
+        "offset": "0xf0d66",
+        "encoding": "ascii",
+        "value": "api-ms-win-core-namedpipe-l1-1-0.dll"
+      },
+      {
+        "offset": "0xf0d8c",
+        "encoding": "ascii",
+        "value": "api-ms-win-core-localization-l1-2-0.dll"
+      },
+      {
+        "offset": "0xf0db4",
+        "encoding": "ascii",
+        "value": "api-ms-win-core-string-obsolete-l1-1-0.dll"
+      },
+      {
+        "offset": "0xf0de0",
+        "encoding": "ascii",
+        "value": "api-ms-win-core-kernel32-legacy-l1-1-1.dll"
+      },
+      {
+        "offset": "0xf0e0c",
+        "encoding": "ascii",
+        "value": "api-ms-win-core-profile-l1-1-0.dll"
+      },
+      {
+        "offset": "0xf0e30",
+        "encoding": "ascii",
+        "value": "api-ms-win-core-interlocked-l1-1-0.dll"
+      },
+      {
+        "offset": "0xf0e58",
+        "encoding": "ascii",
+        "value": "api-ms-win-core-rtlsupport-l1-1-0.dll"
+      },
+      {
+        "offset": "0xf0e7e",
+        "encoding": "ascii",
+        "value": "api-ms-win-core-fibers-l1-1-0.dll"
+      },
+      {
+        "offset": "0xf3390",
+        "encoding": "ascii",
+        "value": ".?AV?$_Binder@U_Unforced@std@@P8CFan4plusBaseData@@AEXXZAAPAV3@@std@@"
+      },
+      {
+        "offset": "0xf33e0",
+        "encoding": "ascii",
+        "value": ".?AV?$_Binder@U_Unforced@std@@P8CFan4plusBaseData@@AEXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@0K@ZAAPAV3@ABU?$_Ph@$00@2@ABU?$_Ph@$01@2@ABU?$_Ph@$02@2@@std@@"
+      },
+      {
+        "offset": "0xf34c8",
+        "encoding": "ascii",
+        "value": ".?AV<lambda_1>@?1??WMIGetBYTEResult@WMIHelper@@YAHPAUIWbemClassObject@@PB_WAAE@Z@"
+      },
+      {
+        "offset": "0xf3528",
+        "encoding": "ascii",
+        "value": ".?AV<lambda_1>@?1??WMIGetIntResult@WMIHelper@@YAHPAUIWbemClassObject@@PB_WAAH@Z@"
+      },
+      {
+        "offset": "0xf3668",
+        "encoding": "ascii",
+        "value": ".?AV<lambda_1>@?1??GetCurrentDllFolder@FileUtils@@YA?AV?$CStringT@_WV?$StrTraitATL@_WV?$ChTraitsCRT@_W@ATL@@@ATL@@@ATL@@XZ@"
+      },
+      {
+        "offset": "0xf36f0",
+        "encoding": "ascii",
+        "value": ".?AV<lambda_1>@?1??GetCurrentDllModule@FileUtils@@YAPAUHINSTANCE__@@XZ@"
+      },
+      {
+        "offset": "0xf3fe8",
+        "encoding": "ascii",
+        "value": ".?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CFan4plusBaseData@@AEXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@0K@ZAAPAV3@ABU?$_Ph@$00@2@ABU?$_Ph@$01@2@ABU?$_Ph@$02@2@@std@@XV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@V32@K@std@@"
+      },
+      {
+        "offset": "0xf4100",
+        "encoding": "ascii",
+        "value": ".?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CFan4plusBaseData@@AEXXZAAPAV3@@std@@X$$V@std@@"
+      },
+      {
+        "offset": "0xf4400",
+        "encoding": "ascii",
+        "value": ".?AVCWMI@WMIHelper@@"
+      },
+      {
+        "offset": "0xf4420",
+        "encoding": "ascii",
+        "value": ".?AV?$_Ref_count_obj2@VCWMI@WMIHelper@@@std@@"
+      },
+      {
+        "offset": "0xf4458",
+        "encoding": "ascii",
+        "value": ".?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??WMIGetIntResult@WMIHelper@@YAHPAUIWbemClassObject@@PB_WAAH@Z@HAAUtagVARIANT@@@std@@"
+      },
+      {
+        "offset": "0xf44e0",
+        "encoding": "ascii",
+        "value": ".?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??WMIGetBYTEResult@WMIHelper@@YAHPAUIWbemClassObject@@PB_WAAE@Z@EAAUtagVARIANT@@@std@@"
+      },
+      {
+        "offset": "0xf4aa8",
+        "encoding": "ascii",
+        "value": ".?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??GetCurrentDllModule@FileUtils@@YAPAUHINSTANCE__@@XZ@XAAPAU4@@std@@"
+      },
+      {
+        "offset": "0xf4b20",
+        "encoding": "ascii",
+        "value": ".?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??GetCurrentDllFolder@FileUtils@@YA?AV?$CStringT@_WV?$StrTraitATL@_WV?$ChTraitsCRT@_W@ATL@@@ATL@@@ATL@@XZ@XAAV45@@std@@"
+      },
+      {
+        "offset": "0xff90f",
+        "encoding": "ascii",
+        "value": "DigiCert Trusted Root G40"
+      },
+      {
+        "offset": "0xffc9c",
+        "encoding": "ascii",
+        "value": "5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C"
+      },
+      {
+        "offset": "0xffce4",
+        "encoding": "ascii",
+        "value": "2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0"
+      },
+      {
+        "offset": "0x10002e",
+        "encoding": "ascii",
+        "value": "Lenovo (Beijing) Limited1!0"
+      },
+      {
+        "offset": "0x100051",
+        "encoding": "ascii",
+        "value": "Lenovo (Beijing) Limited0"
+      },
+      {
+        "offset": "0x101200",
+        "encoding": "ascii",
+        "value": "DigiCert Trusted Root G40"
+      },
+      {
+        "offset": "0x10158d",
+        "encoding": "ascii",
+        "value": "5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C"
+      },
+      {
+        "offset": "0x1015d5",
+        "encoding": "ascii",
+        "value": "2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 "
+      },
+      {
+        "offset": "0x1018b8",
+        "encoding": "ascii",
+        "value": "DigiCert Assured ID Root CA0"
+      },
+      {
+        "offset": "0x10193f",
+        "encoding": "ascii",
+        "value": "DigiCert Trusted Root G40"
+      },
+      {
+        "offset": "0x101c29",
+        "encoding": "ascii",
+        "value": "7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E"
+      },
+      {
+        "offset": "0x101c73",
+        "encoding": "ascii",
+        "value": "4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0"
+      },
+      {
+        "offset": "0xb4f18",
+        "encoding": "utf16",
+        "value": "https://cloud-cdn.lenovomm.com/cloud-resourceexchange/rest/v1/cdnswitch/100010/upgrade"
+      },
+      {
+        "offset": "0xb4fc8",
+        "encoding": "utf16",
+        "value": "https://cdn-exchange.lenovomm.com/cloud-resourceexchange-report/rest/v1/report/cdnswitch/100010/upgrade"
+      },
+      {
+        "offset": "0xb50a8",
+        "encoding": "utf16",
+        "value": "https://cloud-cdn.lenovomm.com/cloud-resourceexchange/rest/v1/cdnswitch/100010/virus"
+      },
+      {
+        "offset": "0xb5158",
+        "encoding": "utf16",
+        "value": "https://cdn-exchange.lenovomm.com/cloud-resourceexchange/rest/v1/report/cdnswitch/100010/virus"
+      },
+      {
+        "offset": "0xb521e",
+        "encoding": "utf16",
+        "value": "Bhttps://cloud-cdn.lenovomm.com/cloud-resourceexchange/rest/v1/cdnswitch/100021/download-v2"
+      },
+      {
+        "offset": "0xb52d8",
+        "encoding": "utf16",
+        "value": "https://cdn-exchange.lenovomm.com/cloud-resourceexchange/rest/v1/report/cdnswitch/100021/download-v2"
+      },
+      {
+        "offset": "0xb53b8",
+        "encoding": "utf16",
+        "value": "https://cloud-cdn.lenovomm.com/cloud-resourceexchange/rest/v1/cdnswitch/100021/download-v3"
+      },
+      {
+        "offset": "0xb5470",
+        "encoding": "utf16",
+        "value": "https://cdn-exchange.lenovomm.com/cloud-resourceexchange/rest/v1/report/cdnswitch/100021/download-v3"
+      },
+      {
+        "offset": "0xb5558",
+        "encoding": "utf16",
+        "value": "https://cloud-cdn.lenovomm.com/cloud-resourceexchange/rest/v1/cdnswitch/100022/upgrade"
+      },
+      {
+        "offset": "0xb5608",
+        "encoding": "utf16",
+        "value": "https://cdn-exchange.lenovomm.com/cloud-resourceexchange-report/rest/v1/report/cdnswitch/100022/upgrade"
+      },
+      {
+        "offset": "0xb5710",
+        "encoding": "utf16",
+        "value": "Software\\Lenovo\\PcManager\\AccelBall"
+      },
+      {
+        "offset": "0xb578c",
+        "encoding": "utf16",
+        "value": "devicecenter"
+      },
+      {
+        "offset": "0xb57c4",
+        "encoding": "utf16",
+        "value": "g_lenovo_global_log_level"
+      },
+      {
+        "offset": "0xb5808",
+        "encoding": "utf16",
+        "value": "g_lenovo_global_max_size"
+      },
+      {
+        "offset": "0xb583c",
+        "encoding": "utf16",
+        "value": "g_lenovo_log_encryped"
+      },
+      {
+        "offset": "0xb5868",
+        "encoding": "utf16",
+        "value": "g_lenovo_log_printf"
+      },
+      {
+        "offset": "0xb5890",
+        "encoding": "utf16",
+        "value": "g_lenovo_log_outputdebug"
+      },
+      {
+        "offset": "0xb5968",
+        "encoding": "utf16",
+        "value": "\\Lenovo\\"
+      },
+      {
+        "offset": "0xb5e7c",
+        "encoding": "utf16",
+        "value": "lenovo"
+      },
+      {
+        "offset": "0xb605c",
+        "encoding": "utf16",
+        "value": "WrapPlugin.dll"
+      },
+      {
+        "offset": "0xb6560",
+        "encoding": "utf16",
+        "value": "root\\CIMV2"
+      },
+      {
+        "offset": "0xb6640",
+        "encoding": "utf16",
+        "value": "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\LenovoAppStore_is1"
+      },
+      {
+        "offset": "0xb66d0",
+        "encoding": "utf16",
+        "value": "LenovoAppStore.exe"
+      },
+      {
+        "offset": "0xb6708",
+        "encoding": "utf16",
+        "value": "LenovoPcManagerMainFrame"
+      },
+      {
+        "offset": "0xb673c",
+        "encoding": "utf16",
+        "value": "Software\\Lenovo\\PcManager"
+      },
+      {
+        "offset": "0xb6888",
+        "encoding": "utf16",
+        "value": "IsSupportFan"
+      },
+      {
+        "offset": "0xb68d0",
+        "encoding": "utf16",
+        "value": "get mt or biosversion failed..."
+      },
+      {
+        "offset": "0xb6910",
+        "encoding": "utf16",
+        "value": "MT=%s, BIOS Version=%s"
+      },
+      {
+        "offset": "0xb6950",
+        "encoding": "utf16",
+        "value": "is z370, but bios is too low, not support fan"
+      },
+      {
+        "offset": "0xb69c0",
+        "encoding": "utf16",
+        "value": "is B360 6C_MB, but bios is too low, not support fan"
+      },
+      {
+        "offset": "0xb6a40",
+        "encoding": "utf16",
+        "value": "is B360 8C_MB, but bios is too low, not support fan"
+      },
+      {
+        "offset": "0xb6ac0",
+        "encoding": "utf16",
+        "value": "is B450 O3MKT, but bios is too low, not support fan"
+      },
+      {
+        "offset": "0xb6b40",
+        "encoding": "utf16",
+        "value": "is B450 O4GKT, but bios is too low, not support fan"
+      },
+      {
+        "offset": "0xb6ba8",
+        "encoding": "utf16",
+        "value": "IsSupportSmartFan() : %d"
+      },
+      {
+        "offset": "0xb6be0",
+        "encoding": "utf16",
+        "value": "SmartFan::GetSmartFanCount() : %d"
+      },
+      {
+        "offset": "0xb6c28",
+        "encoding": "utf16",
+        "value": "SmartFan::GetSmartFanInfo() number is %d ;Speed is : %d"
+      },
+      {
+        "offset": "0xb6c98",
+        "encoding": "utf16",
+        "value": "GetSmartFanStatus start... status=%d"
+      },
+      {
+        "offset": "0xb6ce8",
+        "encoding": "utf16",
+        "value": "SmartFan::GetSmartFanStatus() is : %d"
+      },
+      {
+        "offset": "0xb6d38",
+        "encoding": "utf16",
+        "value": "SmartFan::SetSmartFanStatus() is : %d"
+      },
+      {
+        "offset": "0xb6e30",
+        "encoding": "utf16",
+        "value": "GetFanCoolingStatus start..."
+      },
+      {
+        "offset": "0xb6e6c",
+        "encoding": "utf16",
+        "value": "\\\\.\\LEDDEVICE"
+      },
+      {
+        "offset": "0xb6e88",
+        "encoding": "utf16",
+        "value": "OpenDriver g_hdevice is invalued"
+      },
+      {
+        "offset": "0xb6f90",
+        "encoding": "utf16",
+        "value": "SmartFan::DrvInitFan() : %d"
+      },
+      {
+        "offset": "0xb6fc8",
+        "encoding": "utf16",
+        "value": "SmartFan::InitFanInfo() : %d"
+      },
+      {
+        "offset": "0xb7060",
+        "encoding": "utf16",
+        "value": "SmartFan::DrvUnInitFan() : %d"
+      },
+      {
+        "offset": "0xb72c0",
+        "encoding": "utf16",
+        "value": "g_hdevice is INVALID_HANDLE_VALUE"
+      },
+      {
+        "offset": "0xb786c",
+        "encoding": "utf16",
+        "value": "local deviceSN is %s"
+      },
+      {
+        "offset": "0xb79c0",
+        "encoding": "utf16",
+        "value": "LenovoGame"
+      },
+      {
+        "offset": "0xb79d8",
+        "encoding": "utf16",
+        "value": "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\App Paths\\LenovoGame"
+      },
+      {
+        "offset": "0xb7a58",
+        "encoding": "utf16",
+        "value": " -c pcmgame -l \"https://natapps.lenovo.com.cn/#/app/L80020/detail?channel=pcmgr&module=accelball\""
+      },
+      {
+        "offset": "0xb7b38",
+        "encoding": "utf16",
+        "value": "LenovoInstallPath"
+      },
+      {
+        "offset": "0xb7b5c",
+        "encoding": "utf16",
+        "value": "SOFTWARE\\Lenovo\\pcmanager"
+      },
+      {
+        "offset": "0xb7e60",
+        "encoding": "utf16",
+        "value": "FirewallAPI.dll"
+      },
+      {
+        "offset": "0xb7f60",
+        "encoding": "utf16",
+        "value": "OpenDriver is invalued : strDriverFileName:%s error: %d"
+      },
+      {
+        "offset": "0xb7fd0",
+        "encoding": "utf16",
+        "value": "Driver(DriverId:%s) is not exist. path=%s"
+      },
+      {
+        "offset": "0xb8024",
+        "encoding": "utf16",
+        "value": "Open Driver ok"
+      },
+      {
+        "offset": "0xb8048",
+        "encoding": "utf16",
+        "value": "Open Driver failed and not install again, err=%d"
+      },
+      {
+        "offset": "0xb80b0",
+        "encoding": "utf16",
+        "value": "open Dirver failed, begin to remove Driver"
+      },
+      {
+        "offset": "0xb8108",
+        "encoding": "utf16",
+        "value": "install driver failed."
+      },
+      {
+        "offset": "0xb8138",
+        "encoding": "utf16",
+        "value": "Open Driver again ok"
+      },
+      {
+        "offset": "0xb8164",
+        "encoding": "utf16",
+        "value": "open driver failed."
+      },
+      {
+        "offset": "0xb81c8",
+        "encoding": "utf16",
+        "value": "led Driver is not exist. path=%s"
+      },
+      {
+        "offset": "0xb820c",
+        "encoding": "utf16",
+        "value": "Open Led Driver ok"
+      },
+      {
+        "offset": "0xb8238",
+        "encoding": "utf16",
+        "value": "Open Led Driver failed and not install again, err=%d"
+      },
+      {
+        "offset": "0xb82a8",
+        "encoding": "utf16",
+        "value": "open led Dirver failed, begin to remove Led Driver"
+      },
+      {
+        "offset": "0xb8310",
+        "encoding": "utf16",
+        "value": "LEDDEVICE"
+      },
+      {
+        "offset": "0xb8324",
+        "encoding": "utf16",
+        "value": "install led driver failed."
+      },
+      {
+        "offset": "0xb835c",
+        "encoding": "utf16",
+        "value": "Open Led Driver again ok"
+      },
+      {
+        "offset": "0xb8390",
+        "encoding": "utf16",
+        "value": "open led driver failed."
+      },
+      {
+        "offset": "0xb8408",
+        "encoding": "utf16",
+        "value": "The intel driver %s not found"
+      },
+      {
+        "offset": "0xb84cc",
+        "encoding": "utf16",
+        "value": "IsDriverOK"
+      },
+      {
+        "offset": "0xb84e4",
+        "encoding": "utf16",
+        "value": "SOFTWARE\\Lenovo\\PCManager\\OC\\"
+      },
+      {
+        "offset": "0xb8560",
+        "encoding": "utf16",
+        "value": "uninstall intel driver(6.4) end...ret=%d"
+      },
+      {
+        "offset": "0xb85b4",
+        "encoding": "utf16",
+        "value": "begin to install driver(6.5)"
+      },
+      {
+        "offset": "0xb8618",
+        "encoding": "utf16",
+        "value": "uninstall intel driver begin..."
+      },
+      {
+        "offset": "0xb8658",
+        "encoding": "utf16",
+        "value": "uninstall intel driver end...ret=%d"
+      },
+      {
+        "offset": "0xb86a0",
+        "encoding": "utf16",
+        "value": "install intel driver begin..."
+      },
+      {
+        "offset": "0xb86e0",
+        "encoding": "utf16",
+        "value": "install intel driver end...ret=%d"
+      },
+      {
+        "offset": "0xb8728",
+        "encoding": "utf16",
+        "value": "after install intel driver need reboot! g_IsNeedReboot = %d"
+      },
+      {
+        "offset": "0xb87a0",
+        "encoding": "utf16",
+        "value": "intel driver already installed!"
+      },
+      {
+        "offset": "0xb87e0",
+        "encoding": "utf16",
+        "value": "OC.dll"
+      },
+      {
+        "offset": "0xb8928",
+        "encoding": "utf16",
+        "value": "wmiIsSupportCPUOC_NB..."
+      },
+      {
+        "offset": "0xb8a8c",
+        "encoding": "utf16",
+        "value": "GetSMBiosInfomation is %d"
+      },
+      {
+        "offset": "0xb8cc4",
+        "encoding": "utf16",
+        "value": "LoadOCDll is %d"
+      },
+      {
+        "offset": "0xb8d68",
+        "encoding": "utf16",
+        "value": "load OCDll failed, g_IsOCSupport = %d"
+      },
+      {
+        "offset": "0xb8db8",
+        "encoding": "utf16",
+        "value": "GetSMBiosInfomation(7, 2) return = %d"
+      },
+      {
+        "offset": "0xb929c",
+        "encoding": "utf16",
+        "value": "..\\LenovoTray.exe"
+      },
+      {
+        "offset": "0xb932c",
+        "encoding": "utf16",
+        "value": "Software\\Lenovo\\LegionZone"
+      },
+      {
+        "offset": "0xb9368",
+        "encoding": "utf16",
+        "value": "Software\\Lenovo\\PcManager\\LegionZone"
+      },
+      {
+        "offset": "0xb9bb8",
+        "encoding": "utf16",
+        "value": "IsSupportSmartfanMode..."
+      },
+      {
+        "offset": "0xb9c0c",
+        "encoding": "utf16",
+        "value": "IsSupportSmartFan"
+      },
+      {
+        "offset": "0xb9c30",
+        "encoding": "utf16",
+        "value": "IsSupportSmartfanMode ret = %d"
+      },
+      {
+        "offset": "0xb9c70",
+        "encoding": "utf16",
+        "value": "GetSmartFanMode..."
+      },
+      {
+        "offset": "0xb9c98",
+        "encoding": "utf16",
+        "value": "GetSmartFanMode"
+      },
+      {
+        "offset": "0xb9cb8",
+        "encoding": "utf16",
+        "value": "GetSmartFanMode mode = %d"
+      },
+      {
+        "offset": "0xb9cec",
+        "encoding": "utf16",
+        "value": "SetSmartFanMode..."
+      },
+      {
+        "offset": "0xb9d18",
+        "encoding": "utf16",
+        "value": "SetSmartFanMode"
+      },
+      {
+        "offset": "0xb9d38",
+        "encoding": "utf16",
+        "value": "SetSmartFanMode ret = %d"
+      },
+      {
+        "offset": "0xb9d6c",
+        "encoding": "utf16",
+        "value": "GetSmartFanSetting..."
+      },
+      {
+        "offset": "0xb9d98",
+        "encoding": "utf16",
+        "value": "GetSmartFanSetting"
+      },
+      {
+        "offset": "0xb9dc0",
+        "encoding": "utf16",
+        "value": "GetSmartFanSetting type = %d"
+      },
+      {
+        "offset": "0xb9f58",
+        "encoding": "utf16",
+        "value": "Software\\Lenovo\\PcManager\\PcmGame"
+      },
+      {
+        "offset": "0xba05c",
+        "encoding": "utf16",
+        "value": "FanDriverInit..."
+      },
+      {
+        "offset": "0xba080",
+        "encoding": "utf16",
+        "value": "Is Support SmartFan speed by bios is %d"
+      },
+      {
+        "offset": "0xba0d0",
+        "encoding": "utf16",
+        "value": "FanDriverInit begin..."
+      },
+      {
+        "offset": "0xba794",
+        "encoding": "utf16",
+        "value": "RearFanLedInfo"
+      },
+      {
+        "offset": "0xba7b4",
+        "encoding": "utf16",
+        "value": "CpuFanLedInfo"
+      },
+      {
+        "offset": "0xba7d0",
+        "encoding": "utf16",
+        "value": "FrontFanLedInfo"
+      },
+      {
+        "offset": "0xba7f0",
+        "encoding": "utf16",
+        "value": "TopFanLedInfo"
+      },
+      {
+        "offset": "0xbab10",
+        "encoding": "utf16",
+        "value": "Led Driver is ok"
+      },
+      {
+        "offset": "0xbab34",
+        "encoding": "utf16",
+        "value": "Led Driver is Not ok, ret=%d"
+      },
+      {
+        "offset": "0xbab90",
+        "encoding": "utf16",
+        "value": "IsSupportOCByBIOS..."
+      },
+      {
+        "offset": "0xbabc0",
+        "encoding": "utf16",
+        "value": "IsSupportOCByBIOS, bMemOC=%d, bCpuOC=%d"
+      },
+      {
+        "offset": "0xbac10",
+        "encoding": "utf16",
+        "value": "IsSupportOCByBIOS return true."
+      },
+      {
+        "offset": "0xbace4",
+        "encoding": "utf16",
+        "value": "IsSupportCpuOCBySMBIOS, Ret=%d"
+      },
+      {
+        "offset": "0xbad40",
+        "encoding": "utf16",
+        "value": "InitNetFilter g_NetFilter.StartDriver failed"
+      },
+      {
+        "offset": "0xbb37c",
+        "encoding": "utf16",
+        "value": "root\\wmi"
+      },
+      {
+        "offset": "0xbb390",
+        "encoding": "utf16",
+        "value": "LENOVO_GAMEZONE_DATA"
+      },
+      {
+        "offset": "0xbb3e8",
+        "encoding": "utf16",
+        "value": "GetBIOSOCMode..."
+      },
+      {
+        "offset": "0xbb40c",
+        "encoding": "utf16",
+        "value": "GetBIOSOCMode"
+      },
+      {
+        "offset": "0xbb428",
+        "encoding": "utf16",
+        "value": "GetBIOSOCMode mode = %d"
+      },
+      {
+        "offset": "0xbba30",
+        "encoding": "utf16",
+        "value": "LENOVO_NON_GAMING_DATA"
+      },
+      {
+        "offset": "0xbbb70",
+        "encoding": "utf16",
+        "value": "kernel32.dll"
+      },
+      {
+        "offset": "0xbbca0",
+        "encoding": "utf16",
+        "value": "IsSupportSMFanMode_DT..."
+      },
+      {
+        "offset": "0xbbd30",
+        "encoding": "utf16",
+        "value": "LENOVO_OTHER_METHOD"
+      },
+      {
+        "offset": "0xbbe7c",
+        "encoding": "utf16",
+        "value": "GetSmartFanMode_DT..."
+      },
+      {
+        "offset": "0xbbea8",
+        "encoding": "utf16",
+        "value": "GetSmartFanMode_DT mode = %d"
+      },
+      {
+        "offset": "0xbbee4",
+        "encoding": "utf16",
+        "value": "SetSmartFanMode_DT, dwmode=%d"
+      },
+      {
+        "offset": "0xbbf24",
+        "encoding": "utf16",
+        "value": "SetSmartFanMode_DT ret = %d"
+      },
+      {
+        "offset": "0xbc298",
+        "encoding": "utf16",
+        "value": "GetSmartFanMode_FNQ3, dwType=%d"
+      },
+      {
+        "offset": "0xbc2d8",
+        "encoding": "utf16",
+        "value": "GetSmartFanMode_FNQ3 interface failed"
+      },
+      {
+        "offset": "0xbc324",
+        "encoding": "utf16",
+        "value": "GetSmartFanMode_FNQ3 mode=%d"
+      },
+      {
+        "offset": "0xbc4f0",
+        "encoding": "utf16",
+        "value": "SELECT * FROM LENOVO_GAMEZONE_GPU_OC_DATA"
+      },
+      {
+        "offset": "0xbc768",
+        "encoding": "utf16",
+        "value": "SELECT * FROM LENOVO_GAMEZONE_GPU_THRESHOLD_DATA"
+      },
+      {
+        "offset": "0xbc7d0",
+        "encoding": "utf16",
+        "value": "SetGpuTemperatureWithSMFAN_DT,mode=%d"
+      },
+      {
+        "offset": "0xbc820",
+        "encoding": "utf16",
+        "value": "GetGpuTargetInfoByBIOS bRet=%d, GpuTargetTemp=%d"
+      },
+      {
+        "offset": "0xbc884",
+        "encoding": "utf16",
+        "value": "SetGpuTDPWithSMFAN_DT,mode=%d"
+      },
+      {
+        "offset": "0xbc8c0",
+        "encoding": "utf16",
+        "value": "GetGpuTargetInfoByBIOS bRet=%d, GpuTargetTDP=%d"
+      },
+      {
+        "offset": "0xbca98",
+        "encoding": "utf16",
+        "value": "begin to ConnectHidDevice."
+      },
+      {
+        "offset": "0xbcb18",
+        "encoding": "utf16",
+        "value": "begin to SetupDiEnumDeviceInterfaces. count=%d"
+      },
+      {
+        "offset": "0xbcbe0",
+        "encoding": "utf16",
+        "value": "not fint ite hid device."
+      },
+      {
+        "offset": "0xbcc40",
+        "encoding": "utf16",
+        "value": "ConnectHidDevice failed."
+      },
+      {
+        "offset": "0xbcc74",
+        "encoding": "utf16",
+        "value": "ConnectHidDevice ok."
+      },
+      {
+        "offset": "0xbcca0",
+        "encoding": "utf16",
+        "value": "ite hid device handle is invalid."
+      },
+      {
+        "offset": "0xbd288",
+        "encoding": "utf16",
+        "value": "SELECT * FROM LENOVO_GAMEZONE_CPU_OC_DATA"
+      },
+      {
+        "offset": "0xbd810",
+        "encoding": "utf16",
+        "value": "IsSupportBIOSLED..."
+      },
+      {
+        "offset": "0xbd838",
+        "encoding": "utf16",
+        "value": "IsSupportBIOSLED"
+      },
+      {
+        "offset": "0xbd85c",
+        "encoding": "utf16",
+        "value": "IsSupportBIOSLED mode=%d"
+      },
+      {
+        "offset": "0xbd890",
+        "encoding": "utf16",
+        "value": "IsSupportWaterCooling..."
+      },
+      {
+        "offset": "0xbd8c4",
+        "encoding": "utf16",
+        "value": "IsSupportWaterCooling"
+      },
+      {
+        "offset": "0xbd8f0",
+        "encoding": "utf16",
+        "value": "IsSupportWaterCooling return=%d"
+      },
+      {
+        "offset": "0xbda90",
+        "encoding": "utf16",
+        "value": "WmiEventProc..."
+      },
+      {
+        "offset": "0xbdbc0",
+        "encoding": "utf16",
+        "value": "Connected to ROOT\\WMI namespace"
+      },
+      {
+        "offset": "0xbdd34",
+        "encoding": "utf16",
+        "value": "ROOT\\CIMV2"
+      },
+      {
+        "offset": "0xbdea8",
+        "encoding": "utf16",
+        "value": "SOFTWARE\\Lenovo\\PCManager\\OC"
+      },
+      {
+        "offset": "0xbe0fc",
+        "encoding": "utf16",
+        "value": "LoadOCDll failed."
+      },
+      {
+        "offset": "0xbe3d8",
+        "encoding": "utf16",
+        "value": "SELECT * FROM LENOVO_INTELLIGENT_OP_LIST"
+      },
+      {
+        "offset": "0xbe684",
+        "encoding": "utf16",
+        "value": "ROOT\\WMI"
+      },
+      {
+        "offset": "0xbe698",
+        "encoding": "utf16",
+        "value": "SELECT * FROM LENOVO_GAMEZONE_SMART_FAN_MODE_EVENT"
+      },
+      {
+        "offset": "0xbe700",
+        "encoding": "utf16",
+        "value": "SELECT * FROM LENOVO_GAMEZONE_POWER_CHARGE_MODE_EVENT_EVENT"
+      },
+      {
+        "offset": "0xbe778",
+        "encoding": "utf16",
+        "value": "SetFanModeByPowerPlan_FnQ4 : No need to PCMGame ..."
+      },
+      {
+        "offset": "0xbe7e0",
+        "encoding": "utf16",
+        "value": "SetFanModeByPowerPlan_FnQ4 Begin ..."
+      },
+      {
+        "offset": "0xbe830",
+        "encoding": "utf16",
+        "value": "SetFanModeByPowerPlan_FnQ4 End bRet:%d..."
+      },
+      {
+        "offset": "0xbe8c0",
+        "encoding": "utf16",
+        "value": "E:\\Jenkins\\jobs\\pcmanager_build_OTA\\workspace\\plugin\\GameSettingsPlugin\\Game\\AcWMI.cpp"
+      },
+      {
+        "offset": "0xbea10",
+        "encoding": "utf16",
+        "value": "WMI:Connect Server failed! Error(%x)"
+      },
+      {
+        "offset": "0xbea90",
+        "encoding": "utf16",
+        "value": "EnumInstances, m_pWmiServ is null."
+      },
+      {
+        "offset": "0xbeb28",
+        "encoding": "utf16",
+        "value": "QueryInstances, m_pWmiServ is null."
+      },
+      {
+        "offset": "0xbeb70",
+        "encoding": "utf16",
+        "value": "ExecMethodWMI(%s) enter lock"
+      },
+      {
+        "offset": "0xbec00",
+        "encoding": "utf16",
+        "value": "WMI:Get method successfully."
+      },
+      {
+        "offset": "0xbec40",
+        "encoding": "utf16",
+        "value": "WMI:ExecMethodWMI put var failed! error=0x%x"
+      },
+      {
+        "offset": "0xbeca0",
+        "encoding": "utf16",
+        "value": "WMI:ExecMethodWMI SpawnInstance failed! error=0x%x"
+      },
+      {
+        "offset": "0xbed40",
+        "encoding": "utf16",
+        "value": "wmi::ExecMethod(%s) hres=%x"
+      },
+      {
+        "offset": "0xbed78",
+        "encoding": "utf16",
+        "value": "wmi::ExecMethod(%s),m_pWmiServ==null"
+      },
+      {
+        "offset": "0xbedc8",
+        "encoding": "utf16",
+        "value": "WMI:ExecMethodWMI get method(%s) failed! error=0x%x"
+      },
+      {
+        "offset": "0xbee30",
+        "encoding": "utf16",
+        "value": "WMI:ExecMethodWMI get object failed! error=0x%x"
+      },
+      {
+        "offset": "0xbee90",
+        "encoding": "utf16",
+        "value": "WMI:ExecMethodWMI reconnect com server."
+      },
+      {
+        "offset": "0xbef1c",
+        "encoding": "utf16",
+        "value": "ExecMethodWMI(%s) exit lock"
+      },
+      {
+        "offset": "0xbef54",
+        "encoding": "utf16",
+        "value": "ReleaseWMI ...."
+      },
+      {
+        "offset": "0xbef74",
+        "encoding": "utf16",
+        "value": "ReleaseWMI m_pWmiLoc...."
+      },
+      {
+        "offset": "0xbefa8",
+        "encoding": "utf16",
+        "value": "ReleaseWMI m_pWmiServ...."
+      },
+      {
+        "offset": "0xc06e0",
+        "encoding": "utf16",
+        "value": "E:\\Jenkins\\jobs\\pcmanager_build_OTA\\workspace\\plugin\\GameSettingsPlugin\\Game\\Driver.cpp"
+      },
+      {
+        "offset": "0xc0790",
+        "encoding": "utf16",
+        "value": "ManageDriver,(), OpenSCManager failed,err=%d"
+      },
+      {
+        "offset": "0xc07ec",
+        "encoding": "utf16",
+        "value": "InstallDriver...DriverPath=%s"
+      },
+      {
+        "offset": "0xc08fc",
+        "encoding": "utf16",
+        "value": "StartDriver(), OpenService..."
+      },
+      {
+        "offset": "0xc09cc",
+        "encoding": "utf16",
+        "value": "StopDriver(), error=%d"
+      },
+      {
+        "offset": "0xc0ac8",
+        "encoding": "utf16",
+        "value": "E:\\Jenkins\\jobs\\pcmanager_build_OTA\\workspace\\plugin\\GameSettingsPlugin\\Game\\fan.cpp"
+      },
+      {
+        "offset": "0xc0b78",
+        "encoding": "utf16",
+        "value": "CFan4plusBaseData::GetGameList Begin..."
+      },
+      {
+        "offset": "0xc0bc8",
+        "encoding": "utf16",
+        "value": "CFan4plusBaseData::GetGameList End m_setGameName size "
+      },
+      {
+        "offset": "0xc0c48",
+        "encoding": "utf16",
+        "value": "CFan4plusBaseData::GetBiosOCData Begin..."
+      },
+      {
+        "offset": "0xc0ca0",
+        "encoding": "utf16",
+        "value": "CFan4plusBaseData::GetBiosOCData GetDefaultGpuOCData bRet=%d, size=%d"
+      },
+      {
+        "offset": "0xc0d30",
+        "encoding": "utf16",
+        "value": "CFan4plusBaseData::GetBiosOCData GetCPUOCPropertyList_NB bRet=%d, size=%d"
+      },
+      {
+        "offset": "0xc0dc8",
+        "encoding": "utf16",
+        "value": "CFan4plusBaseData::GetBiosOCData GpuOC:%d, CpuOC:%d, BIOSOCMode:%d, OpenXTUService : %d "
+      },
+      {
+        "offset": "0xc0e80",
+        "encoding": "utf16",
+        "value": "CFan4plusBaseData::GetGameWhiteList Begin..."
+      },
+      {
+        "offset": "0xc0f00",
+        "encoding": "utf16",
+        "value": "CFan4plusBaseData::GetGameWhiteList End,return:%d WhiteList siz: %d"
+      },
+      {
+        "offset": "0xc1098",
+        "encoding": "utf16",
+        "value": "CFan4plusBaseData::SmartFanModeChangeCallBack Begin..."
+      },
+      {
+        "offset": "0xc1108",
+        "encoding": "utf16",
+        "value": "CFan4plusBaseData::SmartFanModeChangeCallBack End..."
+      },
+      {
+        "offset": "0xc1178",
+        "encoding": "utf16",
+        "value": "CFan4plusBaseData::NotebookPowerChange Begin..."
+      },
+      {
+        "offset": "0xc1208",
+        "encoding": "utf16",
+        "value": "CFan4plusBaseData::NotebookPowerChange End..."
+      },
+      {
+        "offset": "0xc12e0",
+        "encoding": "utf16",
+        "value": "CFan4plusBaseData::RefreshGameByTraversalProcess Begin..."
+      },
+      {
+        "offset": "0xc1378",
+        "encoding": "utf16",
+        "value": "CFan4plusBaseData::RefreshGameByTraversalProcess End m_vectOpenGame size:%d ..."
+      },
+      {
+        "offset": "0xc1440",
+        "encoding": "utf16",
+        "value": "CFan4plusBaseData::GetLastOpenGameInfo Begin..."
+      },
+      {
+        "offset": "0xc14a0",
+        "encoding": "utf16",
+        "value": "CFan4plusBaseData::GetLastOpenGameInfo End bExitOpenGame :%d, sProcessname : %s..."
+      },
+      {
+        "offset": "0xc1548",
+        "encoding": "utf16",
+        "value": "IsDoRefreshFanMode() m_bRefreshMode is false."
+      },
+      {
+        "offset": "0xc1608",
+        "encoding": "utf16",
+        "value": "RefreshFanMode GameName:%s ,SubMode:%d"
+      },
+      {
+        "offset": "0xc16c8",
+        "encoding": "utf16",
+        "value": "CFan4plusBaseData::RefreshFanMode Begin..."
+      },
+      {
+        "offset": "0xc1720",
+        "encoding": "utf16",
+        "value": "RefreshFanMode powerMode:%d,RuningGaming:%d,InWhiteList:%d,GameName:%s."
+      },
+      {
+        "offset": "0xc17b0",
+        "encoding": "utf16",
+        "value": "CFan4plusBaseData::RefreshFanMode End..."
+      },
+      {
+        "offset": "0xc1808",
+        "encoding": "utf16",
+        "value": "CFan4plusBaseData::RefreshOCMode Begin..."
+      },
+      {
+        "offset": "0xc1860",
+        "encoding": "utf16",
+        "value": "CFan4plusBaseData::RefreshOCMode SetGpuOCStatusEx:%d, bUseOCOffsetFreq:%d..."
+      },
+      {
+        "offset": "0xc1900",
+        "encoding": "utf16",
+        "value": "CFan4plusBaseData::RefreshOCMode SetCpuOCStatus_NB:%d, bUseOCValue:%d..."
+      },
+      {
+        "offset": "0xc1998",
+        "encoding": "utf16",
+        "value": "CFan4plusBaseData::RefreshOCMode End..."
+      },
+      {
+        "offset": "0xc1a58",
+        "encoding": "utf16",
+        "value": "SOFTWARE\\Lenovo\\PCManager\\Game_Fan\\"
+      },
+      {
+        "offset": "0xc1aa0",
+        "encoding": "utf16",
+        "value": "SetFanMode_BigData pcm main process is running."
+      },
+      {
+        "offset": "0xc1b60",
+        "encoding": "utf16",
+        "value": "CFan4plusBaseData::SetFanMode Begin..."
+      },
+      {
+        "offset": "0xc1bb0",
+        "encoding": "utf16",
+        "value": "SmartFanModeChange ..."
+      },
+      {
+        "offset": "0xc1be0",
+        "encoding": "utf16",
+        "value": "CFan4plusBaseData::SetFanMode End..."
+      },
+      {
+        "offset": "0xc1d50",
+        "encoding": "utf16",
+        "value": "SetPowerPlanByFanMode Begin ..."
+      },
+      {
+        "offset": "0xc1d90",
+        "encoding": "utf16",
+        "value": "SetPowerPlanByFanMode End IsDoRefreshPowerPlan ..."
+      },
+      {
+        "offset": "0xc1e48",
+        "encoding": "utf16",
+        "value": "SetPowerPlanByFanMode End HavePowerPlan : %d, Set : %d ..."
+      },
+      {
+        "offset": "0xc1ec0",
+        "encoding": "utf16",
+        "value": "SetFanModeByPowerPlan Begin ..."
+      },
+      {
+        "offset": "0xc1f00",
+        "encoding": "utf16",
+        "value": "SetFanModeByPowerPlan End IsDoRefreshPowerPlan ..."
+      },
+      {
+        "offset": "0xc1f68",
+        "encoding": "utf16",
+        "value": "SetFanModeByPowerPlan End bFindPowerPlan:%d,bSetSmartFanMode:%d,iRet:%d..."
+      },
+      {
+        "offset": "0xc2000",
+        "encoding": "utf16",
+        "value": "SOFTWARE\\Lenovo\\PcManager"
+      },
+      {
+        "offset": "0xc2310",
+        "encoding": "utf16",
+        "value": "WMI:ConnectServer root\\wmi failed!!Error(%x)"
+      },
+      {
+        "offset": "0xc2370",
+        "encoding": "utf16",
+        "value": "WMI:EnumInstances LENOVO_GAMEZONE_DATA failed!!Error(%x)"
+      },
+      {
+        "offset": "0xc23e8",
+        "encoding": "utf16",
+        "value": "WMI:Create wmi class failed!Error(%x)"
+      },
+      {
+        "offset": "0xc2438",
+        "encoding": "utf16",
+        "value": "CleanCOM ...."
+      },
+      {
+        "offset": "0xc2454",
+        "encoding": "utf16",
+        "value": "CleanCOM m_pEnumClass...."
+      },
+      {
+        "offset": "0xc2488",
+        "encoding": "utf16",
+        "value": "CleanCOM m_pClass...."
+      },
+      {
+        "offset": "0xc24ec",
+        "encoding": "utf16",
+        "value": "WMI:Get failed"
+      },
+      {
+        "offset": "0xc250c",
+        "encoding": "utf16",
+        "value": "WMI:ExecMethodWMI failed.."
+      },
+      {
+        "offset": "0xc2544",
+        "encoding": "utf16",
+        "value": "WMI:Get SUCCESS ,DATA = %d"
+      },
+      {
+        "offset": "0xc2630",
+        "encoding": "utf16",
+        "value": "WMI:Get SUCCESS ,SupportData = %d"
+      },
+      {
+        "offset": "0xc2698",
+        "encoding": "utf16",
+        "value": "WMI:Get SUCCESS CurrentStatus = %d"
+      },
+      {
+        "offset": "0xc2700",
+        "encoding": "utf16",
+        "value": "IsSupportFanCooling"
+      },
+      {
+        "offset": "0xc2728",
+        "encoding": "utf16",
+        "value": "SetFanCooling"
+      },
+      {
+        "offset": "0xc2744",
+        "encoding": "utf16",
+        "value": "GetFanCoolingStatus"
+      },
+      {
+        "offset": "0xc27c8",
+        "encoding": "utf16",
+        "value": "init wmi error"
+      },
+      {
+        "offset": "0xc27e8",
+        "encoding": "utf16",
+        "value": "WMI:Get failed,ret=0x%x"
+      },
+      {
+        "offset": "0xc2818",
+        "encoding": "utf16",
+        "value": "WMI:ExecMethodWMI failed..res=0x%x"
+      },
+      {
+        "offset": "0xc2860",
+        "encoding": "utf16",
+        "value": "begin to get value with wmi"
+      },
+      {
+        "offset": "0xc28e8",
+        "encoding": "utf16",
+        "value": "WMI:Get SUCCESS ,dword = 0x%x, height = 0x%x, low = 0x%x"
+      },
+      {
+        "offset": "0xc295c",
+        "encoding": "utf16",
+        "value": "GetInfoByWMI"
+      },
+      {
+        "offset": "0xc29b0",
+        "encoding": "utf16",
+        "value": "get value with wmi end"
+      },
+      {
+        "offset": "0xc2af8",
+        "encoding": "utf16",
+        "value": "WMI:ConnectServer root\\wmi failed!!Error(%x),GetLastError(%x) "
+      },
+      {
+        "offset": "0xc2b78",
+        "encoding": "utf16",
+        "value": "WMI:EnumInstances LENOVO_GAMEZONE_DATA failed!!Error(%x),GetLastError(%x) "
+      },
+      {
+        "offset": "0xc2c10",
+        "encoding": "utf16",
+        "value": "WMI:Create wmi class failed!Error(%x),GetLastError(%x) "
+      },
+      {
+        "offset": "0xc2c84",
+        "encoding": "utf16",
+        "value": "GetInfoByWMI2..."
+      },
+      {
+        "offset": "0xc2d00",
+        "encoding": "utf16",
+        "value": "SetInfoByWMI"
+      },
+      {
+        "offset": "0xc35e0",
+        "encoding": "utf16",
+        "value": "SOFTWARE\\Lenovo\\PCManager\\NonGame\\"
+      },
+      {
+        "offset": "0xc3704",
+        "encoding": "utf16",
+        "value": "GetFanMode FanMode : %d."
+      },
+      {
+        "offset": "0xc3818",
+        "encoding": "utf16",
+        "value": "EVENT_SMART_FAN_MODE_EVENT FanMode : %d."
+      },
+      {
+        "offset": "0xc3adc",
+        "encoding": "utf16",
+        "value": "_FanModeRegChange"
+      },
+      {
+        "offset": "0xc4bac",
+        "encoding": "utf16",
+        "value": "SIO8786.dll"
+      },
+      {
+        "offset": "0xc4bc8",
+        "encoding": "utf16",
+        "value": "E:\\Jenkins\\jobs\\pcmanager_build_OTA\\workspace\\plugin\\GameSettingsPlugin\\Game\\SmartFan.cpp"
+      },
+      {
+        "offset": "0xc4e18",
+        "encoding": "utf16",
+        "value": "IsSupportSmartFan is %d"
+      },
+      {
+        "offset": "0xc4e80",
+        "encoding": "utf16",
+        "value": "SmartFan::GetSmartFanCount() maxSpeed is : %d"
+      },
+      {
+        "offset": "0xc4ee0",
+        "encoding": "utf16",
+        "value": "SmartFan::GetSmartFanCount() name is : %s"
+      },
+      {
+        "offset": "0xc4f38",
+        "encoding": "utf16",
+        "value": "SmartFan::GetSmartFanCount() name2 is : %s"
+      },
+      {
+        "offset": "0xc5064",
+        "encoding": "utf16",
+        "value": "root\\WMI"
+      },
+      {
+        "offset": "0xc5078",
+        "encoding": "utf16",
+        "value": "MSSmBios_RawSMBiosTables"
+      },
+      {
+        "offset": "0xc50b8",
+        "encoding": "utf16",
+        "value": "SmbiosMajorVersion"
+      },
+      {
+        "offset": "0xc50e0",
+        "encoding": "utf16",
+        "value": "SmbiosMinorVersion"
+      },
+      {
+        "offset": "0xc5148",
+        "encoding": "utf16",
+        "value": "SMBiosData"
+      },
+      {
+        "offset": "0xc5180",
+        "encoding": "utf16",
+        "value": "E:\\Jenkins\\jobs\\pcmanager_build_OTA\\workspace\\plugin\\GameSettingsPlugin\\Game\\SMBiosHelper.cpp"
+      },
+      {
+        "offset": "0xc5ea0",
+        "encoding": "utf16",
+        "value": "SOFTWARE\\Lenovo\\PCManager\\Configs"
+      },
+      {
+        "offset": "0xc5fd0",
+        "encoding": "utf16",
+        "value": "ntdll"
+      },
+      {
+        "offset": "0xc62ac",
+        "encoding": "utf16",
+        "value": "LenovoID"
+      },
+      {
+        "offset": "0xc62e0",
+        "encoding": "utf16",
+        "value": "SOFTWARE\\Lenovo\\PcManager\\Configs"
+      },
+      {
+        "offset": "0xc6368",
+        "encoding": "utf16",
+        "value": "DataPlugin.dll"
+      },
+      {
+        "offset": "0xc7ac0",
+        "encoding": "utf16",
+        "value": "lenovo_lib_wnd_class"
+      },
+      {
+        "offset": "0xcb0b2",
+        "encoding": "utf16",
+        "value": "envapi.dll"
+      },
+      {
+        "offset": "0xcb0c8",
+        "encoding": "utf16",
+        "value": "nvpowerapi.dll"
+      },
+      {
+        "offset": "0xcb10c",
+        "encoding": "utf16",
+        "value": "nvldumdx.dll"
+      },
+      {
+        "offset": "0xcb128",
+        "encoding": "utf16",
+        "value": "nvldumd.dll"
+      },
+      {
+        "offset": "0xcb14c",
+        "encoding": "utf16",
+        "value": "Advapi32.dll"
+      },
+      {
+        "offset": "0xcb168",
+        "encoding": "utf16",
+        "value": "Shell32.dll"
+      },
+      {
+        "offset": "0xcb216",
+        "encoding": "utf16",
+        "value": "y.dll"
+      },
+      {
+        "offset": "0xcb230",
+        "encoding": "utf16",
+        "value": "UserModeDriverNameWow"
+      },
+      {
+        "offset": "0xcb25c",
+        "encoding": "utf16",
+        "value": "OpenGLDriverNameWow"
+      },
+      {
+        "offset": "0xcb284",
+        "encoding": "utf16",
+        "value": "UserModeDListDriverNameWow"
+      },
+      {
+        "offset": "0xcb2bc",
+        "encoding": "utf16",
+        "value": "UserModeDriverName"
+      },
+      {
+        "offset": "0xcb2e4",
+        "encoding": "utf16",
+        "value": "OpenGLDriverName"
+      },
+      {
+        "offset": "0xcb308",
+        "encoding": "utf16",
+        "value": "UserModeDListDriverName"
+      },
+      {
+        "offset": "0xcb338",
+        "encoding": "utf16",
+        "value": "SOFTWARE\\Khronos\\Vulkan\\Drivers"
+      },
+      {
+        "offset": "0xcb3b8",
+        "encoding": "utf16",
+        "value": "DriverSupportModulesWow"
+      },
+      {
+        "offset": "0xcb3e8",
+        "encoding": "utf16",
+        "value": "DriverSupportModules"
+      },
+      {
+        "offset": "0xcb414",
+        "encoding": "utf16",
+        "value": "gdi32.dll"
+      },
+      {
+        "offset": "0xcb468",
+        "encoding": "utf16",
+        "value": "\\SystemRoot\\system32\\"
+      },
+      {
+        "offset": "0xcb4e8",
+        "encoding": "utf16",
+        "value": "Setupapi.dll"
+      },
+      {
+        "offset": "0xd2e4c",
+        "encoding": "utf16",
+        "value": "mscoree.dll"
+      },
+      {
+        "offset": "0xdbd10",
+        "encoding": "utf16",
+        "value": "KERNEL32.DLL"
+      },
+      {
+        "offset": "0xdc1f8",
+        "encoding": "utf16",
+        "value": "wmiApSrv"
+      },
+      {
+        "offset": "0xdc260",
+        "encoding": "utf16",
+        "value": "ROOT\\CIMV"
+      },
+      {
+        "offset": "0xdc4b4",
+        "encoding": "utf16",
+        "value": "BiosCharacteristics"
+      },
+      {
+        "offset": "0xdc4dc",
+        "encoding": "utf16",
+        "value": "BIOSVersion"
+      },
+      {
+        "offset": "0xdc608",
+        "encoding": "utf16",
+        "value": "PrimaryBIOS"
+      },
+      {
+        "offset": "0xdc638",
+        "encoding": "utf16",
+        "value": "SMBIOSBIOSVersion"
+      },
+      {
+        "offset": "0xdc65c",
+        "encoding": "utf16",
+        "value": "SMBIOSMajorVersion"
+      },
+      {
+        "offset": "0xdc684",
+        "encoding": "utf16",
+        "value": "SMBIOSMinorVersion"
+      },
+      {
+        "offset": "0xdc6ac",
+        "encoding": "utf16",
+        "value": "SMBIOSPresent"
+      },
+      {
+        "offset": "0xf5758",
+        "encoding": "utf16",
+        "value": "Lenovo Corporation"
+      },
+      {
+        "offset": "0xf5810",
+        "encoding": "utf16",
+        "value": "GameSettings.dll"
+      },
+      {
+        "offset": "0xf5858",
+        "encoding": "utf16",
+        "value": "Lenovo All rights reserved"
+      },
+      {
+        "offset": "0xf58b8",
+        "encoding": "utf16",
+        "value": "GameSettings.dll"
+      }
+    ]
+  },
+  {
+    "path": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.210.10222\\Modules\\drivers\\LnCoolit\\x64\\LnCoolit.sys",
+    "sha256": "763ed660fb01e1e50916d39115a61ef657a7a4fb9a834dc8355d37762111a46e",
+    "image_base": "0x140000000",
+    "machine": "0x8664",
+    "exports": [],
+    "imports": [
+      {
+        "dll": "ksecdd.sys",
+        "names": [
+          "BCryptDestroyKey",
+          "BCryptVerifySignature",
+          "BCryptImportKeyPair",
+          "BCryptHashData",
+          "BCryptFinishHash",
+          "BCryptDestroyHash",
+          "BCryptCloseAlgorithmProvider",
+          "BCryptGetProperty",
+          "BCryptCreateHash",
+          "BCryptOpenAlgorithmProvider"
+        ]
+      },
+      {
+        "dll": "ntoskrnl.exe",
+        "names": [
+          "IoCreateSymbolicLink",
+          "IoDeleteDevice",
+          "IoDeleteSymbolicLink",
+          "ObReferenceObjectByHandle",
+          "ObfDereferenceObject",
+          "IofCompleteRequest",
+          "ZwOpenSection",
+          "ZwMapViewOfSection",
+          "ZwUnmapViewOfSection",
+          "__C_specific_handler",
+          "RtlAppendUnicodeStringToString",
+          "RtlCompareMemory",
+          "ExAllocatePool",
+          "ExFreePoolWithTag",
+          "IoGetCurrentProcess",
+          "ZwCreateFile",
+          "ZwQueryInformationFile",
+          "ZwReadFile",
+          "IoQueryFileDosDeviceName",
+          "PsReferenceProcessFilePointer",
+          "IoCreateDevice",
+          "DbgPrint",
+          "RtlInitUnicodeString",
+          "ZwClose"
+        ]
+      },
+      {
+        "dll": "HAL.dll",
+        "names": [
+          "HalTranslateBusAddress",
+          "HalGetBusDataByOffset",
+          "HalSetBusDataByOffset"
+        ]
+      }
+    ],
+    "strings": [
+      {
+        "offset": "0x1b00",
+        "encoding": "ascii",
+        "value": "dbg coolit IOCTL_COOLIT_SYS_READ_PCI_CONFIG code!"
+      },
+      {
+        "offset": "0x1b40",
+        "encoding": "ascii",
+        "value": "dbg coolit IOCTL_COOLIT_GET_AMDCPU_TEMPERATURE code!"
+      },
+      {
+        "offset": "0x2198",
+        "encoding": "ascii",
+        "value": "D:\\1_Lpcm\\LpcmDEV\\Modules\\LnCoolit\\COOLit\\x64\\Release\\LnCoolit.pdb"
+      },
+      {
+        "offset": "0x2d1a",
+        "encoding": "ascii",
+        "value": "IoCreateDevice"
+      },
+      {
+        "offset": "0x2d44",
+        "encoding": "ascii",
+        "value": "IoDeleteDevice"
+      },
+      {
+        "offset": "0x2eac",
+        "encoding": "ascii",
+        "value": "IoQueryFileDosDeviceName"
+      },
+      {
+        "offset": "0x2f3e",
+        "encoding": "ascii",
+        "value": "HAL.dll"
+      },
+      {
+        "offset": "0x3dab",
+        "encoding": "ascii",
+        "value": ")Microsoft Root Certificate Authority 20100"
+      },
+      {
+        "offset": "0x5051",
+        "encoding": "ascii",
+        "value": ")Microsoft Root Certificate Authority 20100"
+      },
+      {
+        "offset": "0x1a70",
+        "encoding": "utf16",
+        "value": "\\Device\\LnCoolit"
+      },
+      {
+        "offset": "0x1aa0",
+        "encoding": "utf16",
+        "value": "\\DosDevices\\LnCoolit"
+      },
+      {
+        "offset": "0x1ad0",
+        "encoding": "utf16",
+        "value": "\\Device\\PhysicalMemory"
+      },
+      {
+        "offset": "0x3120",
+        "encoding": "utf16",
+        "value": "COOLit.sys"
+      },
+      {
+        "offset": "0x3188",
+        "encoding": "utf16",
+        "value": "COOLit.sys"
+      },
+      {
+        "offset": "0x3220",
+        "encoding": "utf16",
+        "value": "COOLit.sys"
+      },
+      {
+        "offset": "0x3258",
+        "encoding": "utf16",
+        "value": "COOLit"
+      }
+    ]
+  }
+]

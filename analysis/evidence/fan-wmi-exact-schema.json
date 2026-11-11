@@ -1,0 +1,20 @@
+{
+  "Name": "Get_Support_LegionZone_Version",
+  "ReturnType": "Boolean",
+  "Parameters": [
+    {
+      "Name": "Version",
+      "Type": "UInt32",
+      "Qualifiers": [
+        {
+          "Name": "ID",
+          "Value": 0
+        },
+        {
+          "Name": "out",
+          "Value": true
+        }
+      ]
+    }
+  ]
+}

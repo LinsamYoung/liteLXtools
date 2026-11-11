@@ -1,0 +1,6 @@
+{
+  "Name": "ACPIVPC",
+  "State": "Running",
+  "StartMode": "Manual",
+  "PathName": "C:\\WINDOWS\\system32\\DriverStore\\FileRepository\\acpivpc.inf_amd64_07db38bc9e02b27d\\AcpiVpc.sys"
+}

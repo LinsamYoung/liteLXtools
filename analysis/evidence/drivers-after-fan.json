@@ -1,0 +1,17 @@
+[
+  {
+    "Name": "ACPIVPC",
+    "State": "Running",
+    "StartMode": "Manual"
+  },
+  {
+    "Name": "LnCoolit",
+    "State": "Running",
+    "StartMode": "System"
+  },
+  {
+    "Name": "LnvDrvFdn",
+    "State": "Running",
+    "StartMode": "System"
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "DeviceID": "C:",
+    "VolumeName": "WindowsOS",
+    "DriveType": 3
+  },
+  {
+    "DeviceID": "D:",
+    "VolumeName": "Data",
+    "DriveType": 3
+  },
+  {
+    "DeviceID": "E:",
+    "VolumeName": "New",
+    "DriveType": 3
+  }
+]

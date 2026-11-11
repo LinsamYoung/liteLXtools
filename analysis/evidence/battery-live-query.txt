@@ -1,0 +1,1 @@
+raw=0x10820202，养护=False，快充=False，快充支持位=True，扩展养护位=False

@@ -1,0 +1,17 @@
+[
+  {
+    "Name": "LenovoPcManagerService",
+    "State": "Running",
+    "StartMode": "Auto"
+  },
+  {
+    "Name": "LenovoPCMKeyService",
+    "State": "Running",
+    "StartMode": "Auto"
+  },
+  {
+    "Name": "LnvSvcFdn",
+    "State": "Running",
+    "StartMode": "Manual"
+  }
+]

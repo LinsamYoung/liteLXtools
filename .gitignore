@@ -1,0 +1,10 @@
+# 本地代码索引
+/.codegraph/
+
+# 构建生成的程序
+/build/
+/modules/LenovoLogo/LogoOperationHost.exe
+
+# Python 运行缓存
+__pycache__/
+*.py[cod]

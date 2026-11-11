@@ -1,0 +1,1118 @@
+[
+  {
+    "file": "BatterySetting.exe",
+    "bytes": 2713936,
+    "sha256": "05ea2a5407ee2ce919e71982861454535e736129ac0bbb2d9f7e8f01c99b1acd",
+    "machine": "0x14c",
+    "dependencies": [
+      {
+        "name": "api-ms-win-core-processenvironment-l1-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-file-l1-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-file-l1-2-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-debug-l1-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-util-l1-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-handle-l1-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-errorhandling-l1-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-heap-l1-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-synch-l1-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-processthreads-l1-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-sysinfo-l1-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-memory-l1-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-libraryloader-l1-2-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-libraryloader-l1-2-1.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-security-base-l1-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-kernel32-legacy-l1-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-string-l1-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-console-l1-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-console-l2-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-registry-l1-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "OLEAUT32.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-io-l1-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-synch-l1-2-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-privateprofile-l1-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "CRYPT32.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-com-l1-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-service-management-l1-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "WINTRUST.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-synch-ansi-l1-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-ntuser-sysparams-l1-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "KERNEL32.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "USER32.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "GDI32.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "ADVAPI32.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "SHELL32.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "ole32.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "WS2_32.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "RPCRT4.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "WrapPlugin.dll",
+        "kind": "normal",
+        "local": true
+      },
+      {
+        "name": "COMCTL32.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "gdiplus.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "IMM32.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "SHLWAPI.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "WTSAPI32.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "POWRPROF.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "WININET.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "bcrypt.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "NETAPI32.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "IPHLPAPI.DLL",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "SETUPAPI.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-localization-l1-2-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-sysinfo-l1-2-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-processthreads-l1-1-1.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-largeinteger-l1-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-kernel32-legacy-l1-1-1.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-heap-obsolete-l1-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-string-obsolete-l1-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-string-l2-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-timezone-l1-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-heap-l2-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-file-l2-1-2.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-localization-obsolete-l1-2-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-toolhelp-l1-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-rtlsupport-l1-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-profile-l1-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-interlocked-l1-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-fibers-l1-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-datetime-l1-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "VERSION.dll",
+        "kind": "delay",
+        "local": false
+      }
+    ]
+  },
+  {
+    "file": "WrapPlugin.dll",
+    "bytes": 3211088,
+    "sha256": "806f7d5f76fda7921089bad2469976e7754df99ed6f2b0f0ccc26539f41e68ab",
+    "machine": "0x14c",
+    "dependencies": [
+      {
+        "name": "api-ms-win-core-processenvironment-l1-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-file-l1-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-file-l1-2-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-debug-l1-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-handle-l1-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-errorhandling-l1-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-heap-l1-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-io-l1-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-synch-l1-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-processthreads-l1-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-sysinfo-l1-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-memory-l1-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-libraryloader-l1-2-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-libraryloader-l1-2-1.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-security-base-l1-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-firmware-l1-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-security-lsalookup-l2-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-string-l1-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-console-l1-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-console-l2-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-com-l1-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "OLEAUT32.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-registry-l1-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-power-setting-l1-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-string-obsolete-l1-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-synch-l1-2-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-privateprofile-l1-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "CRYPT32.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "WINTRUST.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-ntuser-sysparams-l1-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-sysinfo-l1-2-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-kernel32-legacy-l1-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-util-l1-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-file-l2-1-2.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-service-management-l1-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-processthreads-l1-1-1.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-toolhelp-l1-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-synch-l1-2-1.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-processthreads-l1-1-2.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-heap-l2-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-kernel32-legacy-l1-1-5.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-localization-l1-2-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-psapi-l1-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-kernel32-legacy-l1-1-1.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-file-l2-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-version-l1-1-1.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-version-l1-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "bcrypt.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-security-sddl-l1-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-security-provider-l1-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "IPHLPAPI.DLL",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-power-base-l1-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "WINHTTP.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-namedpipe-l1-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "KERNEL32.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "USER32.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "GDI32.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "ADVAPI32.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "SHELL32.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "ole32.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "WS2_32.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "SHLWAPI.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "USERENV.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "VERSION.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "WTSAPI32.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "POWRPROF.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "gdiplus.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "ntdll.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "WININET.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "SETUPAPI.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "pdh.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "NETAPI32.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-localization-obsolete-l1-2-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-profile-l1-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-file-l1-2-2.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-timezone-l1-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-interlocked-l1-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-rtlsupport-l1-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-fibers-l1-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-datetime-l1-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-winrt-l1-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-winrt-error-l1-1-1.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "libmcfcamera.dll",
+        "kind": "delay",
+        "local": true
+      },
+      {
+        "name": "libcurl.dll",
+        "kind": "delay",
+        "local": true
+      }
+    ]
+  },
+  {
+    "file": "libmcfcamera.dll",
+    "bytes": 51744,
+    "sha256": "ac004bf8700363731b0e4d960c0578486a25db67b61e5eab0b96a3a4d4d2d3bc",
+    "machine": "0x14c",
+    "dependencies": [
+      {
+        "name": "KERNEL32.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "ADVAPI32.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "ole32.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "OLEAUT32.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "SHLWAPI.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "libmcfcore.dll",
+        "kind": "normal",
+        "local": true
+      },
+      {
+        "name": "SETUPAPI.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "MFPlat.DLL",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "MF.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "MFReadWrite.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "VCRUNTIME140.dll",
+        "kind": "normal",
+        "local": true
+      },
+      {
+        "name": "api-ms-win-crt-heap-l1-1-0.dll",
+        "kind": "normal",
+        "local": true
+      },
+      {
+        "name": "api-ms-win-crt-string-l1-1-0.dll",
+        "kind": "normal",
+        "local": true
+      },
+      {
+        "name": "api-ms-win-crt-stdio-l1-1-0.dll",
+        "kind": "normal",
+        "local": true
+      },
+      {
+        "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+        "kind": "normal",
+        "local": true
+      }
+    ]
+  },
+  {
+    "file": "libcurl.dll",
+    "bytes": 708360,
+    "sha256": "e820c3fc10de2d2999b84a669a8c9c64d99cdb3159118cf701bb7d29cde8ac1f",
+    "machine": "0x14c",
+    "dependencies": [
+      {
+        "name": "WS2_32.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "WLDAP32.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "ADVAPI32.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "CRYPT32.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "bcrypt.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "KERNEL32.dll",
+        "kind": "normal",
+        "local": false
+      }
+    ]
+  },
+  {
+    "file": "libmcfcore.dll",
+    "bytes": 129568,
+    "sha256": "0f2e42f68830701fda325e57b5535537b4fbca9ec8e2ea102e87887d8537e757",
+    "machine": "0x14c",
+    "dependencies": [
+      {
+        "name": "KERNEL32.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "USER32.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "ADVAPI32.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "ole32.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "OLEAUT32.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "SHLWAPI.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "WTSAPI32.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "MSVCP140.dll",
+        "kind": "normal",
+        "local": true
+      },
+      {
+        "name": "USERENV.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "POWRPROF.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "VERSION.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-core-path-l1-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "CRYPT32.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "VCRUNTIME140.dll",
+        "kind": "normal",
+        "local": true
+      },
+      {
+        "name": "api-ms-win-crt-heap-l1-1-0.dll",
+        "kind": "normal",
+        "local": true
+      },
+      {
+        "name": "api-ms-win-crt-stdio-l1-1-0.dll",
+        "kind": "normal",
+        "local": true
+      },
+      {
+        "name": "api-ms-win-crt-string-l1-1-0.dll",
+        "kind": "normal",
+        "local": true
+      },
+      {
+        "name": "api-ms-win-crt-convert-l1-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+        "kind": "normal",
+        "local": true
+      }
+    ]
+  },
+  {
+    "file": "VCRUNTIME140.dll",
+    "bytes": 67584,
+    "sha256": "2f7ac533571f27e358605a047eb9a226f52d9997d075cb83107e47b5ec8d4831",
+    "machine": "0x14c",
+    "dependencies": [
+      {
+        "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+        "kind": "normal",
+        "local": true
+      },
+      {
+        "name": "api-ms-win-crt-string-l1-1-0.dll",
+        "kind": "normal",
+        "local": true
+      },
+      {
+        "name": "api-ms-win-crt-heap-l1-1-0.dll",
+        "kind": "normal",
+        "local": true
+      },
+      {
+        "name": "api-ms-win-crt-stdio-l1-1-0.dll",
+        "kind": "normal",
+        "local": true
+      },
+      {
+        "name": "api-ms-win-crt-convert-l1-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "KERNEL32.dll",
+        "kind": "normal",
+        "local": false
+      }
+    ]
+  },
+  {
+    "file": "MSVCP140.dll",
+    "bytes": 446840,
+    "sha256": "85aa8c8ab4cbf1ff9ae5c7bde1bf6da2e18a570e36e2d870b88536b8658c5ba8",
+    "machine": "0x14c",
+    "dependencies": [
+      {
+        "name": "VCRUNTIME140.dll",
+        "kind": "normal",
+        "local": true
+      },
+      {
+        "name": "api-ms-win-crt-heap-l1-1-0.dll",
+        "kind": "normal",
+        "local": true
+      },
+      {
+        "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+        "kind": "normal",
+        "local": true
+      },
+      {
+        "name": "api-ms-win-crt-string-l1-1-0.dll",
+        "kind": "normal",
+        "local": true
+      },
+      {
+        "name": "api-ms-win-crt-locale-l1-1-0.dll",
+        "kind": "normal",
+        "local": true
+      },
+      {
+        "name": "api-ms-win-crt-stdio-l1-1-0.dll",
+        "kind": "normal",
+        "local": true
+      },
+      {
+        "name": "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-crt-time-l1-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-crt-environment-l1-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-crt-math-l1-1-0.dll",
+        "kind": "normal",
+        "local": true
+      },
+      {
+        "name": "api-ms-win-crt-convert-l1-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "api-ms-win-crt-utility-l1-1-0.dll",
+        "kind": "normal",
+        "local": false
+      },
+      {
+        "name": "KERNEL32.dll",
+        "kind": "normal",
+        "local": false
+      }
+    ]
+  }
+]

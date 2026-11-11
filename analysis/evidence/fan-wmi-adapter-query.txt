@@ -1,0 +1,2 @@
+2026-11-10T19:00:07.8786582+08:00 Fan_Get_FullSpeed Status=False
+fan normalized=0x00000001

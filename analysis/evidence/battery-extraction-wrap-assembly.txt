@@ -1,0 +1,244 @@
+
+RANGE 0x10105180
+0x10105180 cmp dword ptr [0x102f1870], 0 
+0x10105187 jne 0x101052da 
+0x1010518d push 0x10256e94 Modules\ThinkPowerPlugin.dll
+0x10105192 call dword ptr [0x1023b4a0] api-ms-win-core-libraryloader-l1-2-1.dll!LoadLibraryW
+0x10105198 mov dword ptr [0x102f1870], eax 
+0x1010519d test eax, eax 
+0x1010519f je 0x101052da 
+0x101051a5 push esi 
+0x101051a6 mov esi, dword ptr [0x1023b47c] api-ms-win-core-libraryloader-l1-2-0.dll!GetProcAddress
+0x101051ac push 0x10256ed0 QueryBatteryStretch
+0x101051b1 push eax 
+0x101051b2 call esi 
+0x101051b4 push 0x10256ee4 SetBatteryStretch
+0x101051b9 push dword ptr [0x102f1870] 
+0x101051bf mov dword ptr [0x102f1874], eax 
+0x101051c4 call esi 
+0x101051c6 push 0x10256ef8 
+0x101051cb push dword ptr [0x102f1870] 
+0x101051d1 mov dword ptr [0x102f1878], eax 
+0x101051d6 call esi 
+0x101051d8 push 0x10256f10 
+0x101051dd push dword ptr [0x102f1870] 
+0x101051e3 mov dword ptr [0x102f187c], eax 
+0x101051e8 call esi 
+0x101051ea push 0x10256f18 
+0x101051ef push dword ptr [0x102f1870] 
+0x101051f5 mov dword ptr [0x102f1880], eax 
+0x101051fa call esi 
+0x101051fc push 0x10256f24 QueryChargeThreshold
+0x10105201 push dword ptr [0x102f1870] 
+0x10105207 mov dword ptr [0x102f1884], eax 
+0x1010520c call esi 
+0x1010520e push 0x10256f3c SetChargeThreshold
+0x10105213 push dword ptr [0x102f1870] 
+0x10105219 mov dword ptr [0x102f1888], eax 
+0x1010521e call esi 
+0x10105220 push 0x10256f50 
+0x10105225 push dword ptr [0x102f1870] 
+0x1010522b mov dword ptr [0x102f188c], eax 
+0x10105230 call esi 
+0x10105232 push 0x10256f6c 
+0x10105237 push dword ptr [0x102f1870] 
+0x1010523d mov dword ptr [0x102f1890], eax 
+0x10105242 call esi 
+0x10105244 push 0x10256f84 
+0x10105249 push dword ptr [0x102f1870] 
+0x1010524f mov dword ptr [0x102f1894], eax 
+0x10105254 call esi 
+0x10105256 push 0x10256f9c QueryBatteryInfo
+0x1010525b push dword ptr [0x102f1870] 
+0x10105261 mov dword ptr [0x102f1898], eax 
+0x10105266 call esi 
+0x10105268 push 0x10256fb0 
+0x1010526d push dword ptr [0x102f1870] 
+0x10105273 mov dword ptr [0x102f189c], eax 
+0x10105278 call esi 
+0x1010527a push 0x10256fc8 
+0x1010527f push dword ptr [0x102f1870] 
+0x10105285 mov dword ptr [0x102f18a0], eax 
+0x1010528a call esi 
+0x1010528c push 0x10256fdc 
+0x10105291 push dword ptr [0x102f1870] 
+0x10105297 mov dword ptr [0x102f18a4], eax 
+0x1010529c call esi 
+0x1010529e push 0x10256ff0 
+0x101052a3 push dword ptr [0x102f1870] 
+0x101052a9 mov dword ptr [0x102f18a8], eax 
+0x101052ae call esi 
+0x101052b0 push 0x10257010 
+0x101052b5 push dword ptr [0x102f1870] 
+0x101052bb mov dword ptr [0x102f18ac], eax 
+0x101052c0 call esi 
+0x101052c2 push 0x1025702c 
+0x101052c7 push dword ptr [0x102f1870] 
+0x101052cd mov dword ptr [0x102f18b0], eax 
+0x101052d2 call esi 
+0x101052d4 mov dword ptr [0x102f18b4], eax 
+0x101052d9 pop esi 
+0x101052da ret  
+0x101052db int3  
+0x101052dc int3  
+0x101052dd int3  
+0x101052de int3  
+0x101052df int3  
+0x101052e0 push ebp 
+0x101052e1 mov ebp, esp 
+0x101052e3 mov eax, dword ptr [0x102f189c] 
+0x101052e8 xor cl, cl 
+0x101052ea test eax, eax 
+0x101052ec je 0x101052f1 
+0x101052ee pop ebp 
+0x101052ef jmp eax 
+0x101052f1 mov al, cl 
+0x101052f3 pop ebp 
+0x101052f4 ret 0x10 
+0x101052f7 int3  
+0x101052f8 int3  
+0x101052f9 int3  
+0x101052fa int3  
+0x101052fb int3  
+0x101052fc int3  
+0x101052fd int3  
+0x101052fe int3  
+0x101052ff int3  
+0x10105300 mov eax, dword ptr [0x102f1874] 
+0x10105305 xor cl, cl 
+0x10105307 test eax, eax 
+0x10105309 je 0x1010530d 
+0x1010530b jmp eax 
+0x1010530d mov al, cl 
+0x1010530f ret  
+
+RANGE 0x10107cf0
+0x10107cf0 push ebp 
+0x10107cf1 mov ebp, esp 
+0x10107cf3 push -1 
+0x10107cf5 push 0x1021a8a1 
+0x10107cfa mov eax, dword ptr fs:[0] 
+0x10107d00 push eax 
+0x10107d01 mov eax, dword ptr [0x102e35c0] 
+0x10107d06 xor eax, ebp 
+0x10107d08 push eax 
+0x10107d09 lea eax, [ebp - 0xc] 
+0x10107d0c mov dword ptr fs:[0], eax 
+0x10107d12 mov eax, dword ptr fs:[0x2c] 
+0x10107d18 mov ecx, dword ptr [0x102f50bc] 
+0x10107d1e mov ecx, dword ptr [eax + ecx*4] 
+0x10107d21 mov eax, dword ptr [0x102f1944] 
+0x10107d26 cmp eax, dword ptr [ecx + 4] 
+0x10107d2c jg 0x10107d42 
+0x10107d2e mov eax, 0x102f1940 
+0x10107d33 mov ecx, dword ptr [ebp - 0xc] 
+0x10107d36 mov dword ptr fs:[0], ecx 
+0x10107d3d pop ecx 
+0x10107d3e mov esp, ebp 
+0x10107d40 pop ebp 
+0x10107d41 ret  
+0x10107d42 push 0x102f1944 
+0x10107d47 call 0x1018b308 
+0x10107d4c add esp, 4 
+0x10107d4f cmp dword ptr [0x102f1944], -1 
+0x10107d56 jne 0x10107d2e 
+0x10107d58 mov dword ptr [ebp - 4], 0 
+0x10107d5f mov ecx, 0x102f1940 
+0x10107d64 call 0x1000a2b0 
+0x10107d69 push 0x10237930 
+0x10107d6e call 0x1018b274 
+0x10107d73 mov dword ptr [ebp - 4], 0xffffffff 
+0x10107d7a push 0x102f1944 
+0x10107d7f call 0x1018b2b7 
+0x10107d84 add esp, 8 
+0x10107d87 jmp 0x10107d2e 
+0x10107d89 int3  
+0x10107d8a int3  
+0x10107d8b int3  
+0x10107d8c int3  
+0x10107d8d int3  
+0x10107d8e int3  
+0x10107d8f int3  
+0x10107d90 push ebp 
+0x10107d91 mov ebp, esp 
+0x10107d93 push -1 
+0x10107d95 push 0x1021a90a 
+0x10107d9a mov eax, dword ptr fs:[0] 
+0x10107da0 push eax 
+0x10107da1 sub esp, 0x30 
+0x10107da4 mov eax, dword ptr [0x102e35c0] 
+0x10107da9 xor eax, ebp 
+0x10107dab mov dword ptr [ebp - 0x10], eax 
+0x10107dae push ebx 
+0x10107daf push esi 
+0x10107db0 push edi 
+0x10107db1 push eax 
+0x10107db2 lea eax, [ebp - 0xc] 
+0x10107db5 mov dword ptr fs:[0], eax 
+0x10107dbb mov esi, dword ptr [0x1023b680] api-ms-win-core-synch-l1-1-0.dll!CreateEventW
+0x10107dc1 push 0x10257958 
+0x10107dc6 push 0 
+0x10107dc8 push 0 
+0x10107dca push 0 
+0x10107dcc call esi 
+0x10107dce push 0x102579a8 
+0x10107dd3 push 0 
+0x10107dd5 push 0 
+0x10107dd7 push 0 
+0x10107dd9 mov dword ptr [ebp - 0x20], eax 
+0x10107ddc call esi 
+0x10107dde push 0x102579e0 
+0x10107de3 push 0 
+0x10107de5 push 0 
+0x10107de7 push 0 
+0x10107de9 mov dword ptr [ebp - 0x1c], eax 
+0x10107dec call esi 
+0x10107dee push 0x10257a30 
+0x10107df3 push 0 
+0x10107df5 push 0 
+0x10107df7 push 0 
+0x10107df9 mov dword ptr [ebp - 0x18], eax 
+0x10107dfc call esi 
+0x10107dfe mov edi, dword ptr [0x1023b6b8] api-ms-win-core-synch-l1-2-1.dll!WaitForMultipleObjects
+0x10107e04 push -1 
+0x10107e06 mov dword ptr [ebp - 0x14], eax 
+0x10107e09 lea eax, [ebp - 0x20] 
+0x10107e0c push 0 
+0x10107e0e push eax 
+0x10107e0f push 4 
+0x10107e11 call edi 
+0x10107e13 cmp eax, -1 
+0x10107e16 je 0x101080a8 
+0x10107e1c nop dword ptr [eax] 
+0x10107e20 test eax, eax 
+0x10107e22 je 0x10108101 
+0x10107e28 cmp eax, 1 
+
+RANGE 0x10105310
+0x10105310 push ebp 
+0x10105311 mov ebp, esp 
+0x10105313 mov eax, dword ptr [0x102f1888] 
+0x10105318 xor cl, cl 
+0x1010531a test eax, eax 
+0x1010531c je 0x10105321 
+0x1010531e pop ebp 
+0x1010531f jmp eax 
+0x10105321 mov al, cl 
+0x10105323 pop ebp 
+0x10105324 ret 0x14 
+0x10105327 int3  
+0x10105328 int3  
+0x10105329 int3  
+0x1010532a int3  
+0x1010532b int3  
+0x1010532c int3  
+0x1010532d int3  
+0x1010532e int3  
+0x1010532f int3  
+0x10105330 mov eax, dword ptr [0x102f18a0] 
+0x10105335 push ebx 
+0x10105336 xor bl, bl 
+0x10105338 test eax, eax 
+0x1010533a je 0x10105340 
+0x1010533c call eax 
+0x1010533e mov bl, al 

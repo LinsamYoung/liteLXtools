@@ -1,0 +1,1403 @@
+{
+  "path": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.210.10222\\WSPluginHost64.exe",
+  "sha256": "c9c2df67a335414b5cc85338c4a4b890c186ed7600643fae61a5a393bef6c3fe",
+  "machine": "0x8664",
+  "image_base": "0x140000000",
+  "exports": [],
+  "imports": [
+    {
+      "dll": "api-ms-win-core-processenvironment-l1-1-0.dll",
+      "symbols": [
+        {
+          "name": "GetCommandLineA",
+          "iat": "0x140063438"
+        },
+        {
+          "name": "GetEnvironmentStringsW",
+          "iat": "0x140063440"
+        },
+        {
+          "name": "SetEnvironmentVariableW",
+          "iat": "0x140063448"
+        },
+        {
+          "name": "GetEnvironmentVariableW",
+          "iat": "0x140063450"
+        },
+        {
+          "name": "GetCommandLineW",
+          "iat": "0x140063458"
+        },
+        {
+          "name": "FreeEnvironmentStringsW",
+          "iat": "0x140063460"
+        },
+        {
+          "name": "SetStdHandle",
+          "iat": "0x140063468"
+        },
+        {
+          "name": "GetStdHandle",
+          "iat": "0x140063470"
+        }
+      ]
+    },
+    {
+      "dll": "api-ms-win-core-file-l1-1-0.dll",
+      "symbols": [
+        {
+          "name": "CreateFileW",
+          "iat": "0x140063220"
+        },
+        {
+          "name": "ReadFile",
+          "iat": "0x140063228"
+        },
+        {
+          "name": "FlushFileBuffers",
+          "iat": "0x140063230"
+        },
+        {
+          "name": "SetFilePointer",
+          "iat": "0x140063238"
+        },
+        {
+          "name": "GetFileSizeEx",
+          "iat": "0x140063240"
+        },
+        {
+          "name": "WriteFile",
+          "iat": "0x140063248"
+        },
+        {
+          "name": "GetFileType",
+          "iat": "0x140063250"
+        },
+        {
+          "name": "FindFirstFileExW",
+          "iat": "0x140063258"
+        },
+        {
+          "name": "DeleteFileW",
+          "iat": "0x140063260"
+        },
+        {
+          "name": "SetEndOfFile",
+          "iat": "0x140063268"
+        },
+        {
+          "name": "SetFilePointerEx",
+          "iat": "0x140063270"
+        },
+        {
+          "name": "FindClose",
+          "iat": "0x140063278"
+        },
+        {
+          "name": "GetFileAttributesW",
+          "iat": "0x140063280"
+        },
+        {
+          "name": "FindNextFileW",
+          "iat": "0x140063288"
+        }
+      ]
+    },
+    {
+      "dll": "api-ms-win-core-file-l1-2-0.dll",
+      "symbols": [
+        {
+          "name": "GetTempPathW",
+          "iat": "0x140063298"
+        }
+      ]
+    },
+    {
+      "dll": "api-ms-win-core-debug-l1-1-0.dll",
+      "symbols": [
+        {
+          "name": "OutputDebugStringW",
+          "iat": "0x1400631b0"
+        },
+        {
+          "name": "IsDebuggerPresent",
+          "iat": "0x1400631b8"
+        }
+      ]
+    },
+    {
+      "dll": "api-ms-win-core-handle-l1-1-0.dll",
+      "symbols": [
+        {
+          "name": "CloseHandle",
+          "iat": "0x1400632a8"
+        }
+      ]
+    },
+    {
+      "dll": "api-ms-win-core-errorhandling-l1-1-0.dll",
+      "symbols": [
+        {
+          "name": "SetUnhandledExceptionFilter",
+          "iat": "0x1400631c8"
+        },
+        {
+          "name": "SetLastError",
+          "iat": "0x1400631d0"
+        },
+        {
+          "name": "GetLastError",
+          "iat": "0x1400631d8"
+        },
+        {
+          "name": "RaiseException",
+          "iat": "0x1400631e0"
+        },
+        {
+          "name": "UnhandledExceptionFilter",
+          "iat": "0x1400631e8"
+        }
+      ]
+    },
+    {
+      "dll": "api-ms-win-core-heap-l1-1-0.dll",
+      "symbols": [
+        {
+          "name": "HeapDestroy",
+          "iat": "0x1400632b8"
+        },
+        {
+          "name": "HeapReAlloc",
+          "iat": "0x1400632c0"
+        },
+        {
+          "name": "HeapFree",
+          "iat": "0x1400632c8"
+        },
+        {
+          "name": "GetProcessHeap",
+          "iat": "0x1400632d0"
+        },
+        {
+          "name": "HeapSize",
+          "iat": "0x1400632d8"
+        },
+        {
+          "name": "HeapAlloc",
+          "iat": "0x1400632e0"
+        }
+      ]
+    },
+    {
+      "dll": "api-ms-win-core-io-l1-1-0.dll",
+      "symbols": [
+        {
+          "name": "CreateIoCompletionPort",
+          "iat": "0x140063300"
+        },
+        {
+          "name": "PostQueuedCompletionStatus",
+          "iat": "0x140063308"
+        },
+        {
+          "name": "GetQueuedCompletionStatus",
+          "iat": "0x140063310"
+        }
+      ]
+    },
+    {
+      "dll": "api-ms-win-core-synch-l1-1-0.dll",
+      "symbols": [
+        {
+          "name": "EnterCriticalSection",
+          "iat": "0x1400635a8"
+        },
+        {
+          "name": "CreateEventW",
+          "iat": "0x1400635b0"
+        },
+        {
+          "name": "WaitForSingleObject",
+          "iat": "0x1400635b8"
+        },
+        {
+          "name": "OpenEventW",
+          "iat": "0x1400635c0"
+        },
+        {
+          "name": "LeaveCriticalSection",
+          "iat": "0x1400635c8"
+        },
+        {
+          "name": "ReleaseSRWLockExclusive",
+          "iat": "0x1400635d0"
+        },
+        {
+          "name": "WaitForSingleObjectEx",
+          "iat": "0x1400635d8"
+        },
+        {
+          "name": "DeleteCriticalSection",
+          "iat": "0x1400635e0"
+        },
+        {
+          "name": "InitializeCriticalSectionAndSpinCount",
+          "iat": "0x1400635e8"
+        },
+        {
+          "name": "ReleaseMutex",
+          "iat": "0x1400635f0"
+        },
+        {
+          "name": "CreateMutexW",
+          "iat": "0x1400635f8"
+        },
+        {
+          "name": "InitializeCriticalSectionEx",
+          "iat": "0x140063600"
+        },
+        {
+          "name": "AcquireSRWLockExclusive",
+          "iat": "0x140063608"
+        },
+        {
+          "name": "TryAcquireSRWLockExclusive",
+          "iat": "0x140063610"
+        },
+        {
+          "name": "InitializeCriticalSection",
+          "iat": "0x140063618"
+        },
+        {
+          "name": "SetEvent",
+          "iat": "0x140063620"
+        }
+      ]
+    },
+    {
+      "dll": "api-ms-win-core-processthreads-l1-1-0.dll",
+      "symbols": [
+        {
+          "name": "GetCurrentProcess",
+          "iat": "0x140063480"
+        },
+        {
+          "name": "GetCurrentProcessId",
+          "iat": "0x140063488"
+        },
+        {
+          "name": "GetCurrentThreadId",
+          "iat": "0x140063490"
+        },
+        {
+          "name": "OpenProcessToken",
+          "iat": "0x140063498"
+        },
+        {
+          "name": "ProcessIdToSessionId",
+          "iat": "0x1400634a0"
+        },
+        {
+          "name": "ExitProcess",
+          "iat": "0x1400634a8"
+        },
+        {
+          "name": "GetExitCodeThread",
+          "iat": "0x1400634b0"
+        },
+        {
+          "name": "ExitThread",
+          "iat": "0x1400634b8"
+        },
+        {
+          "name": "CreateThread",
+          "iat": "0x1400634c0"
+        },
+        {
+          "name": "TlsFree",
+          "iat": "0x1400634c8"
+        },
+        {
+          "name": "TlsSetValue",
+          "iat": "0x1400634d0"
+        },
+        {
+          "name": "TlsGetValue",
+          "iat": "0x1400634d8"
+        },
+        {
+          "name": "TlsAlloc",
+          "iat": "0x1400634e0"
+        },
+        {
+          "name": "GetStartupInfoW",
+          "iat": "0x1400634e8"
+        },
+        {
+          "name": "TerminateProcess",
+          "iat": "0x1400634f0"
+        }
+      ]
+    },
+    {
+      "dll": "api-ms-win-core-sysinfo-l1-1-0.dll",
+      "symbols": [
+        {
+          "name": "GetSystemTimeAsFileTime",
+          "iat": "0x140063658"
+        },
+        {
+          "name": "GetLocalTime",
+          "iat": "0x140063660"
+        }
+      ]
+    },
+    {
+      "dll": "api-ms-win-core-sysinfo-l1-2-0.dll",
+      "symbols": [
+        {
+          "name": "GetNativeSystemInfo",
+          "iat": "0x140063670"
+        }
+      ]
+    },
+    {
+      "dll": "api-ms-win-core-memory-l1-1-0.dll",
+      "symbols": [
+        {
+          "name": "VirtualQuery",
+          "iat": "0x1400633f0"
+        },
+        {
+          "name": "VirtualProtect",
+          "iat": "0x1400633f8"
+        }
+      ]
+    },
+    {
+      "dll": "api-ms-win-core-libraryloader-l1-2-0.dll",
+      "symbols": [
+        {
+          "name": "FreeLibraryAndExitThread",
+          "iat": "0x140063320"
+        },
+        {
+          "name": "GetModuleHandleW",
+          "iat": "0x140063328"
+        },
+        {
+          "name": "GetModuleFileNameW",
+          "iat": "0x140063330"
+        },
+        {
+          "name": "FindResourceExW",
+          "iat": "0x140063338"
+        },
+        {
+          "name": "LoadLibraryExW",
+          "iat": "0x140063340"
+        },
+        {
+          "name": "LoadResource",
+          "iat": "0x140063348"
+        },
+        {
+          "name": "LockResource",
+          "iat": "0x140063350"
+        },
+        {
+          "name": "GetProcAddress",
+          "iat": "0x140063358"
+        },
+        {
+          "name": "GetModuleHandleExW",
+          "iat": "0x140063360"
+        },
+        {
+          "name": "FreeLibrary",
+          "iat": "0x140063368"
+        },
+        {
+          "name": "SizeofResource",
+          "iat": "0x140063370"
+        }
+      ]
+    },
+    {
+      "dll": "api-ms-win-core-libraryloader-l1-2-1.dll",
+      "symbols": [
+        {
+          "name": "LoadLibraryW",
+          "iat": "0x140063380"
+        },
+        {
+          "name": "FindResourceW",
+          "iat": "0x140063388"
+        }
+      ]
+    },
+    {
+      "dll": "api-ms-win-security-base-l1-1-0.dll",
+      "symbols": [
+        {
+          "name": "InitializeSecurityDescriptor",
+          "iat": "0x1400636b8"
+        },
+        {
+          "name": "SetSecurityDescriptorDacl",
+          "iat": "0x1400636c0"
+        },
+        {
+          "name": "SetFileSecurityW",
+          "iat": "0x1400636c8"
+        },
+        {
+          "name": "DuplicateTokenEx",
+          "iat": "0x1400636d0"
+        },
+        {
+          "name": "GetTokenInformation",
+          "iat": "0x1400636d8"
+        },
+        {
+          "name": "ImpersonateLoggedOnUser",
+          "iat": "0x1400636e0"
+        },
+        {
+          "name": "RevertToSelf",
+          "iat": "0x1400636e8"
+        }
+      ]
+    },
+    {
+      "dll": "api-ms-win-core-privateprofile-l1-1-0.dll",
+      "symbols": [
+        {
+          "name": "GetPrivateProfileStringW",
+          "iat": "0x140063428"
+        }
+      ]
+    },
+    {
+      "dll": "api-ms-win-core-string-l1-1-0.dll",
+      "symbols": [
+        {
+          "name": "WideCharToMultiByte",
+          "iat": "0x140063588"
+        },
+        {
+          "name": "GetStringTypeW",
+          "iat": "0x140063590"
+        },
+        {
+          "name": "MultiByteToWideChar",
+          "iat": "0x140063598"
+        }
+      ]
+    },
+    {
+      "dll": "api-ms-win-core-console-l1-1-0.dll",
+      "symbols": [
+        {
+          "name": "ReadConsoleW",
+          "iat": "0x140063160"
+        },
+        {
+          "name": "AllocConsole",
+          "iat": "0x140063168"
+        },
+        {
+          "name": "GetConsoleMode",
+          "iat": "0x140063170"
+        },
+        {
+          "name": "WriteConsoleW",
+          "iat": "0x140063178"
+        },
+        {
+          "name": "GetConsoleOutputCP",
+          "iat": "0x140063180"
+        }
+      ]
+    },
+    {
+      "dll": "api-ms-win-core-console-l2-1-0.dll",
+      "symbols": [
+        {
+          "name": "SetConsoleTextAttribute",
+          "iat": "0x1400631a0"
+        }
+      ]
+    },
+    {
+      "dll": "api-ms-win-core-registry-l1-1-0.dll",
+      "symbols": [
+        {
+          "name": "RegOpenKeyExW",
+          "iat": "0x140063528"
+        },
+        {
+          "name": "RegOpenCurrentUser",
+          "iat": "0x140063530"
+        },
+        {
+          "name": "RegCloseKey",
+          "iat": "0x140063538"
+        },
+        {
+          "name": "RegGetValueW",
+          "iat": "0x140063540"
+        }
+      ]
+    },
+    {
+      "dll": "api-ms-win-core-namedpipe-l1-1-0.dll",
+      "symbols": [
+        {
+          "name": "DisconnectNamedPipe",
+          "iat": "0x140063408"
+        },
+        {
+          "name": "ConnectNamedPipe",
+          "iat": "0x140063410"
+        },
+        {
+          "name": "CreateNamedPipeW",
+          "iat": "0x140063418"
+        }
+      ]
+    },
+    {
+      "dll": "api-ms-win-core-util-l1-1-0.dll",
+      "symbols": [
+        {
+          "name": "DecodePointer",
+          "iat": "0x1400636a0"
+        },
+        {
+          "name": "EncodePointer",
+          "iat": "0x1400636a8"
+        }
+      ]
+    },
+    {
+      "dll": "api-ms-win-core-synch-l1-2-1.dll",
+      "symbols": [
+        {
+          "name": "WaitForMultipleObjects",
+          "iat": "0x140063648"
+        }
+      ]
+    },
+    {
+      "dll": "api-ms-win-core-processthreads-l1-1-1.dll",
+      "symbols": [
+        {
+          "name": "OpenProcess",
+          "iat": "0x140063500"
+        },
+        {
+          "name": "IsProcessorFeaturePresent",
+          "iat": "0x140063508"
+        }
+      ]
+    },
+    {
+      "dll": "api-ms-win-core-console-l1-2-0.dll",
+      "symbols": [
+        {
+          "name": "FreeConsole",
+          "iat": "0x140063190"
+        }
+      ]
+    },
+    {
+      "dll": "api-ms-win-core-toolhelp-l1-1-0.dll",
+      "symbols": [
+        {
+          "name": "CreateToolhelp32Snapshot",
+          "iat": "0x140063680"
+        },
+        {
+          "name": "Process32NextW",
+          "iat": "0x140063688"
+        },
+        {
+          "name": "Process32FirstW",
+          "iat": "0x140063690"
+        }
+      ]
+    },
+    {
+      "dll": "CRYPT32.dll",
+      "symbols": [
+        {
+          "name": "CryptQueryObject",
+          "iat": "0x140063000"
+        },
+        {
+          "name": "CryptMsgClose",
+          "iat": "0x140063008"
+        },
+        {
+          "name": "CryptMsgGetParam",
+          "iat": "0x140063010"
+        },
+        {
+          "name": "CertCloseStore",
+          "iat": "0x140063018"
+        },
+        {
+          "name": "CertFindCertificateInStore",
+          "iat": "0x140063020"
+        },
+        {
+          "name": "CertFreeCertificateContext",
+          "iat": "0x140063028"
+        },
+        {
+          "name": "CertGetNameStringW",
+          "iat": "0x140063030"
+        }
+      ]
+    },
+    {
+      "dll": "WINTRUST.dll",
+      "symbols": [
+        {
+          "name": "WTHelperGetProvSignerFromChain",
+          "iat": "0x140063128"
+        },
+        {
+          "name": "WinVerifyTrust",
+          "iat": "0x140063130"
+        },
+        {
+          "name": "WTHelperProvDataFromStateData",
+          "iat": "0x140063138"
+        },
+        {
+          "name": "WTHelperGetProvCertFromChain",
+          "iat": "0x140063140"
+        }
+      ]
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "symbols": [
+        {
+          "name": "GetPrivateProfileIntW",
+          "iat": "0x140063040"
+        },
+        {
+          "name": "WTSGetActiveConsoleSessionId",
+          "iat": "0x140063048"
+        },
+        {
+          "name": "SetProcessWorkingSetSize",
+          "iat": "0x140063050"
+        }
+      ]
+    },
+    {
+      "dll": "USER32.dll",
+      "symbols": [
+        {
+          "name": "ChangeWindowMessageFilterEx",
+          "iat": "0x1400630a0"
+        },
+        {
+          "name": "FindWindowExW",
+          "iat": "0x1400630a8"
+        },
+        {
+          "name": "SetWindowLongPtrW",
+          "iat": "0x1400630b0"
+        },
+        {
+          "name": "CreateWindowExW",
+          "iat": "0x1400630b8"
+        },
+        {
+          "name": "GetWindowLongPtrW",
+          "iat": "0x1400630c0"
+        },
+        {
+          "name": "KillTimer",
+          "iat": "0x1400630c8"
+        },
+        {
+          "name": "SetTimer",
+          "iat": "0x1400630d0"
+        },
+        {
+          "name": "IsWindow",
+          "iat": "0x1400630d8"
+        },
+        {
+          "name": "RegisterClassW",
+          "iat": "0x1400630e0"
+        },
+        {
+          "name": "PostQuitMessage",
+          "iat": "0x1400630e8"
+        },
+        {
+          "name": "DefWindowProcW",
+          "iat": "0x1400630f0"
+        },
+        {
+          "name": "PostMessageW",
+          "iat": "0x1400630f8"
+        },
+        {
+          "name": "SendMessageW",
+          "iat": "0x140063100"
+        },
+        {
+          "name": "DispatchMessageW",
+          "iat": "0x140063108"
+        },
+        {
+          "name": "TranslateMessage",
+          "iat": "0x140063110"
+        },
+        {
+          "name": "GetMessageW",
+          "iat": "0x140063118"
+        }
+      ]
+    },
+    {
+      "dll": "SHELL32.dll",
+      "symbols": [
+        {
+          "name": "SHCreateDirectoryExW",
+          "iat": "0x140063060"
+        },
+        {
+          "name": "SHGetSpecialFolderPathW",
+          "iat": "0x140063068"
+        }
+      ]
+    },
+    {
+      "dll": "SHLWAPI.dll",
+      "symbols": [
+        {
+          "name": "PathFileExistsW",
+          "iat": "0x140063078"
+        },
+        {
+          "name": "PathIsDirectoryW",
+          "iat": "0x140063080"
+        },
+        {
+          "name": "PathRemoveFileSpecW",
+          "iat": "0x140063088"
+        },
+        {
+          "name": "PathFindFileNameW",
+          "iat": "0x140063090"
+        }
+      ]
+    },
+    {
+      "dll": "WTSAPI32.dll",
+      "symbols": [
+        {
+          "name": "WTSQueryUserToken",
+          "iat": "0x140063150"
+        }
+      ]
+    },
+    {
+      "dll": "api-ms-win-core-synch-l1-2-0.dll",
+      "symbols": [
+        {
+          "name": "WakeAllConditionVariable",
+          "iat": "0x140063630"
+        },
+        {
+          "name": "SleepConditionVariableSRW",
+          "iat": "0x140063638"
+        }
+      ]
+    },
+    {
+      "dll": "api-ms-win-core-localization-l1-2-0.dll",
+      "symbols": [
+        {
+          "name": "GetUserDefaultLCID",
+          "iat": "0x140063398"
+        },
+        {
+          "name": "GetOEMCP",
+          "iat": "0x1400633a0"
+        },
+        {
+          "name": "IsValidLocale",
+          "iat": "0x1400633a8"
+        },
+        {
+          "name": "GetLocaleInfoW",
+          "iat": "0x1400633b0"
+        },
+        {
+          "name": "EnumSystemLocalesW",
+          "iat": "0x1400633b8"
+        },
+        {
+          "name": "LCMapStringW",
+          "iat": "0x1400633c0"
+        },
+        {
+          "name": "LCMapStringEx",
+          "iat": "0x1400633c8"
+        },
+        {
+          "name": "GetCPInfo",
+          "iat": "0x1400633d0"
+        },
+        {
+          "name": "IsValidCodePage",
+          "iat": "0x1400633d8"
+        },
+        {
+          "name": "GetACP",
+          "iat": "0x1400633e0"
+        }
+      ]
+    },
+    {
+      "dll": "api-ms-win-core-profile-l1-1-0.dll",
+      "symbols": [
+        {
+          "name": "QueryPerformanceCounter",
+          "iat": "0x140063518"
+        }
+      ]
+    },
+    {
+      "dll": "api-ms-win-core-rtlsupport-l1-1-0.dll",
+      "symbols": [
+        {
+          "name": "RtlPcToFileHeader",
+          "iat": "0x140063550"
+        },
+        {
+          "name": "RtlUnwindEx",
+          "iat": "0x140063558"
+        },
+        {
+          "name": "RtlCaptureContext",
+          "iat": "0x140063560"
+        },
+        {
+          "name": "RtlLookupFunctionEntry",
+          "iat": "0x140063568"
+        },
+        {
+          "name": "RtlVirtualUnwind",
+          "iat": "0x140063570"
+        },
+        {
+          "name": "RtlUnwind",
+          "iat": "0x140063578"
+        }
+      ]
+    },
+    {
+      "dll": "api-ms-win-core-interlocked-l1-1-0.dll",
+      "symbols": [
+        {
+          "name": "InitializeSListHead",
+          "iat": "0x1400632f0"
+        }
+      ]
+    },
+    {
+      "dll": "api-ms-win-core-fibers-l1-1-0.dll",
+      "symbols": [
+        {
+          "name": "FlsGetValue",
+          "iat": "0x1400631f8"
+        },
+        {
+          "name": "FlsAlloc",
+          "iat": "0x140063200"
+        },
+        {
+          "name": "FlsSetValue",
+          "iat": "0x140063208"
+        },
+        {
+          "name": "FlsFree",
+          "iat": "0x140063210"
+        }
+      ]
+    }
+  ],
+  "strings": [
+    {
+      "offset": "0x277",
+      "value": "@.data",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x63820",
+      "value": "ipc stoped!",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x7a2b0",
+      "value": "E:\\Jenkins\\jobs\\pcmanager_build_OTA\\workspace\\bin\\x86\\Release\\WSPluginHost64.pdb",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x7a6ac",
+      "value": ".data",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x7a6bc",
+      "value": ".data$r",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x7a6cc",
+      "value": ".data$rs",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x82b3a",
+      "value": "GetCommandLineW",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x82e8a",
+      "value": "GetProcAddress",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x82e9c",
+      "value": "LoadLibraryExW",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x82ef0",
+      "value": "LoadLibraryW",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x8307a",
+      "value": "ConnectNamedPipe",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x8308e",
+      "value": "DisconnectNamedPipe",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x830a4",
+      "value": "CreateNamedPipeW",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x83218",
+      "value": "api-ms-win-core-processenvironment-l1-1-0.dll",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x83246",
+      "value": "api-ms-win-core-file-l1-1-0.dll",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x83266",
+      "value": "api-ms-win-core-file-l1-2-0.dll",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x83286",
+      "value": "api-ms-win-core-debug-l1-1-0.dll",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x832a8",
+      "value": "api-ms-win-core-handle-l1-1-0.dll",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x832ca",
+      "value": "api-ms-win-core-errorhandling-l1-1-0.dll",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x832f4",
+      "value": "api-ms-win-core-heap-l1-1-0.dll",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x83314",
+      "value": "api-ms-win-core-io-l1-1-0.dll",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x83332",
+      "value": "api-ms-win-core-synch-l1-1-0.dll",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x83354",
+      "value": "api-ms-win-core-processthreads-l1-1-0.dll",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x8337e",
+      "value": "api-ms-win-core-sysinfo-l1-1-0.dll",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x833a2",
+      "value": "api-ms-win-core-sysinfo-l1-2-0.dll",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x833c6",
+      "value": "api-ms-win-core-memory-l1-1-0.dll",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x833e8",
+      "value": "api-ms-win-core-libraryloader-l1-2-0.dll",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x83412",
+      "value": "api-ms-win-core-libraryloader-l1-2-1.dll",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x8343c",
+      "value": "api-ms-win-security-base-l1-1-0.dll",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x83460",
+      "value": "api-ms-win-core-privateprofile-l1-1-0.dll",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x8348a",
+      "value": "api-ms-win-core-string-l1-1-0.dll",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x834ac",
+      "value": "api-ms-win-core-console-l1-1-0.dll",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x834d0",
+      "value": "api-ms-win-core-console-l2-1-0.dll",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x834f4",
+      "value": "api-ms-win-core-registry-l1-1-0.dll",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x83518",
+      "value": "api-ms-win-core-namedpipe-l1-1-0.dll",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x8353e",
+      "value": "api-ms-win-core-util-l1-1-0.dll",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x8355e",
+      "value": "api-ms-win-core-synch-l1-2-1.dll",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x83580",
+      "value": "api-ms-win-core-processthreads-l1-1-1.dll",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x835aa",
+      "value": "api-ms-win-core-console-l1-2-0.dll",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x835ce",
+      "value": "api-ms-win-core-toolhelp-l1-1-0.dll",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x835f2",
+      "value": "CRYPT32.dll",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x835fe",
+      "value": "WINTRUST.dll",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x83660",
+      "value": "KERNEL32.dll",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x83786",
+      "value": "USER32.dll",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x837c4",
+      "value": "SHELL32.dll",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x83820",
+      "value": "SHLWAPI.dll",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x83840",
+      "value": "WTSAPI32.dll",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x83d02",
+      "value": "GetCommandLineA",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x83d66",
+      "value": "api-ms-win-core-synch-l1-2-0.dll",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x83d88",
+      "value": "api-ms-win-core-localization-l1-2-0.dll",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x83db0",
+      "value": "api-ms-win-core-profile-l1-1-0.dll",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x83dd4",
+      "value": "api-ms-win-core-rtlsupport-l1-1-0.dll",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x83dfa",
+      "value": "api-ms-win-core-interlocked-l1-1-0.dll",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x83e22",
+      "value": "api-ms-win-core-fibers-l1-1-0.dll",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x84d90",
+      "value": ".?AV<lambda_1>@?1??OnRecevieIPCMessage@CIPCCommunication@PCM@Common@@QEAAJAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAV56@@Z@",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x84e40",
+      "value": ".?AV?$_Binder@U_Unforced@std@@P8CIPCCommunication@PCM@Common@@EAAJAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@AEAV62@@ZPEAV345@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@@std@@",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x85230",
+      "value": ".?AV<lambda_1>@?1??OnReceivePackage@CNewPluginPipeServer@NamedPipeServer@pcm@@EEAAXPEAUCConnectBase@IOCP@@PEAUIPC_DATA_PACKAGE@6@@Z@",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x852d0",
+      "value": ".?AV<lambda_1>@?1??StartPipeServer@CNewPluginPipeServer@NamedPipeServer@pcm@@QEAAHAEBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@K@Z@",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x85ee0",
+      "value": ".?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CIPCCommunication@PCM@Common@@EAAJAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@AEAV62@@ZPEAV345@AEBU?$_Ph@$00@2@AEBU?$_Ph@$01@2@@std@@JAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@AEAV32@@std@@",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x86010",
+      "value": ".?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??OnRecevieIPCMessage@CIPCCommunication@PCM@Common@@QEAAJAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAV67@@Z@X$$V@std@@",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x86150",
+      "value": ".?AVCNamedPipeWrapper@Common@@",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x86210",
+      "value": ".?AVCNamedPipeServer@NampedPipeHelper@PipeHelper@@",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x86260",
+      "value": ".?AV?$CSingleBase@VCNamedPipeServer@NampedPipeHelper@PipeHelper@@@CommonDef@@",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x862f8",
+      "value": ".?AVCNewPluginPipeServer@NamedPipeServer@pcm@@",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x86340",
+      "value": ".?AV?$CSingleBase@VCNewPluginPipeServer@NamedPipeServer@pcm@@@CommonDef@@",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x863a0",
+      "value": ".?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??StartPipeServer@CNewPluginPipeServer@NamedPipeServer@pcm@@QEAAHAEBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@K@Z@HPEBDPEBD@std@@",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x86480",
+      "value": ".?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??OnReceivePackage@CNewPluginPipeServer@NamedPipeServer@pcm@@EEAAXPEAUCConnectBase@IOCP@@PEAUIPC_DATA_PACKAGE@7@@Z@X$$V@std@@",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x62e80",
+      "value": "E:\\Jenkins\\jobs\\pcmanager_build_OTA\\workspace\\libsrc\\Commonnew\\IPCHelper.hpp",
+      "encoding": "utf-16le"
+    },
+    {
+      "offset": "0x62f20",
+      "value": "start CIPCPeer",
+      "encoding": "utf-16le"
+    },
+    {
+      "offset": "0x63018",
+      "value": "start CreateIPCWindow",
+      "encoding": "utf-16le"
+    },
+    {
+      "offset": "0x630d0",
+      "value": "WSPluginHost.exe",
+      "encoding": "utf-16le"
+    },
+    {
+      "offset": "0x630f8",
+      "value": "WSPluginHost64.exe",
+      "encoding": "utf-16le"
+    },
+    {
+      "offset": "0x63120",
+      "value": "Quit IPC Message Loop:%s",
+      "encoding": "utf-16le"
+    },
+    {
+      "offset": "0x63570",
+      "value": "pcmseplugin.dll",
+      "encoding": "utf-16le"
+    },
+    {
+      "offset": "0x635a8",
+      "value": "currentexemodule.dll",
+      "encoding": "utf-16le"
+    },
+    {
+      "offset": "0x635ee",
+      "value": "tE:\\Jenkins\\jobs\\pcmanager_build_OTA\\workspace\\libsrc\\Commonnew\\pcm\\IPCCommunication.hpp",
+      "encoding": "utf-16le"
+    },
+    {
+      "offset": "0x63708",
+      "value": "LeAppTrans.dll",
+      "encoding": "utf-16le"
+    },
+    {
+      "offset": "0x63b40",
+      "value": "E:\\Jenkins\\jobs\\pcmanager_build_OTA\\workspace\\Libsrc\\commonnew\\pcm\\Projects\\WSPluginHost\\PluginHostIPC.cpp",
+      "encoding": "utf-16le"
+    },
+    {
+      "offset": "0x63c70",
+      "value": "start ipc PID:%d className=%s peerClassName=%s admin:%d",
+      "encoding": "utf-16le"
+    },
+    {
+      "offset": "0x63f18",
+      "value": "IPC_MESSAGE_CONNECT... %x",
+      "encoding": "utf-16le"
+    },
+    {
+      "offset": "0x64098",
+      "value": "CreateNamedPipe:%d - %d",
+      "encoding": "utf-16le"
+    },
+    {
+      "offset": "0x64118",
+      "value": "~CNamedPipeServer()",
+      "encoding": "utf-16le"
+    },
+    {
+      "offset": "0x64560",
+      "value": "E:\\Jenkins\\jobs\\pcmanager_build_OTA\\workspace\\Libsrc\\commonnew\\pcm\\Projects\\WSPluginHost\\PluginHostPipe.cpp",
+      "encoding": "utf-16le"
+    },
+    {
+      "offset": "0x646d0",
+      "value": "E:\\Jenkins\\jobs\\pcmanager_build_OTA\\workspace\\Libsrc\\commonnew\\pcm\\Projects\\WSPluginHost\\PluginHostRPC.cpp",
+      "encoding": "utf-16le"
+    },
+    {
+      "offset": "0x65120",
+      "value": "version.dll",
+      "encoding": "utf-16le"
+    },
+    {
+      "offset": "0x656b0",
+      "value": "WrapPlugin.dll",
+      "encoding": "utf-16le"
+    },
+    {
+      "offset": "0x659b0",
+      "value": "E:\\Jenkins\\jobs\\pcmanager_build_OTA\\workspace\\Libsrc\\commonnew\\pcm\\Projects\\WSPluginHost\\WSPluginHost.cpp",
+      "encoding": "utf-16le"
+    },
+    {
+      "offset": "0x65a90",
+      "value": "QUIT IPC:%d",
+      "encoding": "utf-16le"
+    },
+    {
+      "offset": "0x69718",
+      "value": "kernel32.dll",
+      "encoding": "utf-16le"
+    },
+    {
+      "offset": "0x6c2f8",
+      "value": "mscoree.dll",
+      "encoding": "utf-16le"
+    },
+    {
+      "offset": "0x8bf94",
+      "value": "WSPluginHost.exe",
+      "encoding": "utf-16le"
+    },
+    {
+      "offset": "0x8c03c",
+      "value": "WSPluginHost.exe",
+      "encoding": "utf-16le"
+    }
+  ]
+}

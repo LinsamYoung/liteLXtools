@@ -1,0 +1,483 @@
+{
+  "evidence_id": "ev_0b803ca499261604828b8b7413eebef72a89169df112025a38b75f53ee013502",
+  "subject": {
+    "name": "LogoDiy.dll",
+    "digest": {
+      "sha256": "5f6efa18804da953408f98c6eda6058937a80537c17945e851434963eabc6e85"
+    },
+    "local_path": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.210.10222\\Modules\\Setings\\yoga\\plugins\\LogoDiy.dll",
+    "format": "pe",
+    "architecture": "x86"
+  },
+  "provider": {
+    "id": "rea-analysis-view",
+    "name": "REA analysis view projection",
+    "version": "1"
+  },
+  "analysis_profile": null,
+  "predicate_type": "rea.analysis-view",
+  "operation": "inspect_analysis_view",
+  "parameters": {
+    "parent_evidence_id": "ev_e2053eb3135c706b293eb734a414aff9008baabce1ad049bbe26a48633b2bc38",
+    "view": {
+      "kind": "managed-members",
+      "collection": "user_strings",
+      "offset": 0,
+      "limit": 100
+    }
+  },
+  "raw_result": null,
+  "normalized_result": {
+    "kind": "managed-members",
+    "view": {
+      "kind": "managed-members",
+      "collection": "user_strings",
+      "offset": 0,
+      "limit": 100
+    },
+    "page": {
+      "collection": "user_strings",
+      "rows": [
+        {
+          "token": "0x70000001",
+          "offset": 18741,
+          "value": "LogoDiy"
+        },
+        {
+          "token": "0x70000011",
+          "offset": 18757,
+          "value": "==== zhj LogoDiy already  return === "
+        },
+        {
+          "token": "0x7000005d",
+          "offset": 18833,
+          "value": "SS3102"
+        },
+        {
+          "token": "0x7000006b",
+          "offset": 18847,
+          "value": "Close LenovoLogoDIY Window"
+        },
+        {
+          "token": "0x700000a1",
+          "offset": 18901,
+          "value": "SS3100"
+        },
+        {
+          "token": "0x700000af",
+          "offset": 18915,
+          "value": "SS3101"
+        },
+        {
+          "token": "0x700000bd",
+          "offset": 18929,
+          "value": "SS3106"
+        },
+        {
+          "token": "0x700000cb",
+          "offset": 18943,
+          "value": "/LogoDiy;component/logodiyview.xaml"
+        },
+        {
+          "token": "0x70000113",
+          "offset": 19015,
+          "value": "LogoDiy.Properties.Resources"
+        },
+        {
+          "token": "0x7000014d",
+          "offset": 19073,
+          "value": "jepg、bmp"
+        },
+        {
+          "token": "0x7000015f",
+          "offset": 19091,
+          "value": ""
+        },
+        {
+          "token": "0x70000161",
+          "offset": 19093,
+          "value": "Images/pc.png"
+        },
+        {
+          "token": "0x7000017d",
+          "offset": 19121,
+          "value": "*.png,*.bmp"
+        },
+        {
+          "token": "0x70000195",
+          "offset": 19145,
+          "value": "*.png;*.bmp"
+        },
+        {
+          "token": "0x700001ad",
+          "offset": 19169,
+          "value": "ostype = {0}"
+        },
+        {
+          "token": "0x700001c7",
+          "offset": 19195,
+          "value": "IsEditionCircle = {0}"
+        },
+        {
+          "token": "0x700001f3",
+          "offset": 19239,
+          "value": "SS3103"
+        },
+        {
+          "token": "0x70000201",
+          "offset": 19253,
+          "value": "status = "
+        },
+        {
+          "token": "0x70000215",
+          "offset": 19273,
+          "value": "no"
+        },
+        {
+          "token": "0x7000021b",
+          "offset": 19279,
+          "value": "yes"
+        },
+        {
+          "token": "0x70000223",
+          "offset": 19287,
+          "value": "YOGA_S940_BigData"
+        },
+        {
+          "token": "0x70000247",
+          "offset": 19323,
+          "value": "bcdedit /enum all"
+        },
+        {
+          "token": "0x7000026b",
+          "offset": 19359,
+          "value": "cmd.exe"
+        },
+        {
+          "token": "0x7000027b",
+          "offset": 19375,
+          "value": "&exit"
+        },
+        {
+          "token": "0x70000287",
+          "offset": 19387,
+          "value": "bootuxdisabled"
+        },
+        {
+          "token": "0x700002a5",
+          "offset": 19417,
+          "value": "No"
+        },
+        {
+          "token": "0x700002ab",
+          "offset": 19423,
+          "value": "{0}; 加载系统图标 = {1}"
+        },
+        {
+          "token": "0x700002cf",
+          "offset": 19459,
+          "value": ":\\"
+        },
+        {
+          "token": "0x700002d5",
+          "offset": 19465,
+          "value": "{0}"
+        },
+        {
+          "token": "0x700002dd",
+          "offset": 19473,
+          "value": "diskFreeSpace = {0}; freeTotal = {1};  _64M = {2} "
+        },
+        {
+          "token": "0x70000343",
+          "offset": 19575,
+          "value": "img h = {0}; w = {1}"
+        },
+        {
+          "token": "0x7000036d",
+          "offset": 19617,
+          "value": ":"
+        },
+        {
+          "token": "0x70000371",
+          "offset": 19621,
+          "value": "EFI\\Lenovo\\Logo"
+        },
+        {
+          "token": "0x70000391",
+          "offset": 19653,
+          "value": "SetImagePath error {0}"
+        },
+        {
+          "token": "0x700003bf",
+          "offset": 19699,
+          "value": "SS3105"
+        },
+        {
+          "token": "0x700003cd",
+          "offset": 19713,
+          "value": "set logoinfo ret = {0}"
+        },
+        {
+          "token": "0x700003fb",
+          "offset": 19759,
+          "value": "set logoinfo error: ret = {0}"
+        },
+        {
+          "token": "0x70000437",
+          "offset": 19819,
+          "value": "*设置成功，请重启电脑查看效果"
+        },
+        {
+          "token": "0x70000457",
+          "offset": 19851,
+          "value": "ret1 = {0}; Height = {1}; Width = {2}"
+        },
+        {
+          "token": "0x700004a3",
+          "offset": 19927,
+          "value": "get height/width error, set default 1920*1080"
+        },
+        {
+          "token": "0x700004ff",
+          "offset": 20019,
+          "value": "get logoinfo -> enable = {0}; type = {1}; "
+        },
+        {
+          "token": "0x70000555",
+          "offset": 20105,
+          "value": "系统分区的功能异常，建议联系售后"
+        },
+        {
+          "token": "0x70000577",
+          "offset": 20139,
+          "value": "get logo_info error:"
+        },
+        {
+          "token": "0x700005a1",
+          "offset": 20181,
+          "value": "SS3107"
+        },
+        {
+          "token": "0x700005af",
+          "offset": 20195,
+          "value": "SaveLogoClick"
+        },
+        {
+          "token": "0x700005cb",
+          "offset": 20223,
+          "value": "set logoinfo success:  ret = {0}"
+        },
+        {
+          "token": "0x7000060d",
+          "offset": 20289,
+          "value": "mylogo_{0}x{1}"
+        },
+        {
+          "token": "0x7000062b",
+          "offset": 20319,
+          "value": "path = {0}"
+        },
+        {
+          "token": "0x70000641",
+          "offset": 20341,
+          "value": "source path = {0}; dest path = {1}"
+        },
+        {
+          "token": "0x70000687",
+          "offset": 20411,
+          "value": "copy file error:"
+        },
+        {
+          "token": "0x700006a9",
+          "offset": 20445,
+          "value": "Set Check success"
+        },
+        {
+          "token": "0x700006cd",
+          "offset": 20481,
+          "value": "Set Check ERROR"
+        },
+        {
+          "token": "0x700006ed",
+          "offset": 20513,
+          "value": "set loading circle error"
+        },
+        {
+          "token": "0x7000071f",
+          "offset": 20563,
+          "value": "delete directory {0}"
+        },
+        {
+          "token": "0x70000749",
+          "offset": 20605,
+          "value": "Delete directory error, to delete file"
+        },
+        {
+          "token": "0x70000797",
+          "offset": 20683,
+          "value": "delete other file {0}"
+        },
+        {
+          "token": "0x700007c3",
+          "offset": 20727,
+          "value": "Create new directory {0}"
+        },
+        {
+          "token": "0x700007f5",
+          "offset": 20777,
+          "value": "/d"
+        },
+        {
+          "token": "0x700007fb",
+          "offset": 20783,
+          "value": "/s"
+        },
+        {
+          "token": "0x70000801",
+          "offset": 20789,
+          "value": "mountvol {0}: {1}"
+        },
+        {
+          "token": "0x70000825",
+          "offset": 20825,
+          "value": "bcdedit.exe -set bootuxdisabled off"
+        },
+        {
+          "token": "0x7000086d",
+          "offset": 20897,
+          "value": "bcdedit.exe -set bootuxdisabled on"
+        },
+        {
+          "token": "0x700008b3",
+          "offset": 20967,
+          "value": ".tga"
+        },
+        {
+          "token": "0x700008bd",
+          "offset": 20977,
+          "value": ".pcx"
+        },
+        {
+          "token": "0x700008c7",
+          "offset": 20987,
+          "value": "set loading circle {0} direactly!"
+        },
+        {
+          "token": "0x7000090b",
+          "offset": 21055,
+          "value": "SS3104"
+        },
+        {
+          "token": "0x70000919",
+          "offset": 21069,
+          "value": "请选择图片"
+        },
+        {
+          "token": "0x70000925",
+          "offset": 21081,
+          "value": "图片文件({0})|{1}"
+        },
+        {
+          "token": "0x70000941",
+          "offset": 21109,
+          "value": "*当前选择的文件不是图片，请重试！"
+        },
+        {
+          "token": "0x70000965",
+          "offset": 21145,
+          "value": "*图片不得超过{0}MB，请重新上传！"
+        },
+        {
+          "token": "0x7000098d",
+          "offset": 21185,
+          "value": "*图片超出最大分辨率，请重新上传！"
+        },
+        {
+          "token": "0x700009b1",
+          "offset": 21221,
+          "value": "界面图片大小>>height = {0}; width = {1};"
+        },
+        {
+          "token": "0x700009f7",
+          "offset": 21291,
+          "value": "*.bmp,"
+        },
+        {
+          "token": "0x70000a05",
+          "offset": 21305,
+          "value": "*.bmp;"
+        },
+        {
+          "token": "0x70000a13",
+          "offset": 21319,
+          "value": "*.png,"
+        },
+        {
+          "token": "0x70000a21",
+          "offset": 21333,
+          "value": "*.png;"
+        }
+      ]
+    },
+    "parent_evidence_id": "ev_e2053eb3135c706b293eb734a414aff9008baabce1ad049bbe26a48633b2bc38",
+    "parent_operation": "inspect_managed_members",
+    "parent_digest": "e2053eb3135c706b293eb734a414aff9008baabce1ad049bbe26a48633b2bc38",
+    "view_digest": "1cd94bc9fdc519f5de1e1c9cbefbaa8855f3b2d1f379ecb0a02d84b36639dfea",
+    "artifact": {
+      "path": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.210.10222\\Modules\\Setings\\yoga\\plugins\\LogoDiy.dll",
+      "sha256": "5f6efa18804da953408f98c6eda6058937a80537c17945e851434963eabc6e85"
+    },
+    "coverage": {
+      "status": "page",
+      "examined": 76,
+      "total": 76,
+      "next_offset": null,
+      "exhausted": true
+    },
+    "limitations": [
+      "CIL instruction anchors are decoded from file-backed method bodies only; no target assembly is loaded or executed.",
+      "Exported types are reported from ExportedType rows as declared; forwarded types are not resolved in their implementing assemblies.",
+      "Member signatures decode ECMA-335 primitive, class, valuetype, generic instantiation, generic variable, pointer, byref, single-dimension and general array, function pointer, custom modifier, and typed reference forms; class and valuetype operands keep their encoded TypeDefOrRefOrSpec values, and unsupported forms such as vararg sentinels retain raw signature hashes.",
+      "Metadata tokens are build-local coordinates and are only meaningful with the reported artifact SHA-256 and MVID.",
+      "User strings are the #US literals loaded by ldstr in the inspected method bodies, with their own coverage; instruction anchors and normalized CIL digests keep their build-local tokens."
+    ],
+    "unknowns": [
+      "Collection counts and pages cover producer-returned rows; member completeness remains the original coverage, not an absence claim about unreturned rows.",
+      "Metadata tokens are build-local coordinates bound to the recorded artifact SHA-256 and module MVID; this view does not load or execute the assembly."
+    ],
+    "signature_resolution": "type-names-v1",
+    "nesting_read": true,
+    "identity_scope": {
+      "token_identity": "build-local",
+      "requires_artifact_sha256": "5f6efa18804da953408f98c6eda6058937a80537c17945e851434963eabc6e85",
+      "requires_mvid": "1bd9e573-3291-43f2-85c7-bb672a811be6"
+    },
+    "selection": null,
+    "source_metadata_status": "complete",
+    "source_coverage": {
+      "state": "complete",
+      "issues": []
+    }
+  },
+  "confidence": "derived",
+  "authority": "shipped-artifact",
+  "environment": null,
+  "limitations": [
+    "CIL instruction anchors are decoded from file-backed method bodies only; no target assembly is loaded or executed.",
+    "Exported types are reported from ExportedType rows as declared; forwarded types are not resolved in their implementing assemblies.",
+    "Member signatures decode ECMA-335 primitive, class, valuetype, generic instantiation, generic variable, pointer, byref, single-dimension and general array, function pointer, custom modifier, and typed reference forms; class and valuetype operands keep their encoded TypeDefOrRefOrSpec values, and unsupported forms such as vararg sentinels retain raw signature hashes.",
+    "Metadata tokens are build-local coordinates and are only meaningful with the reported artifact SHA-256 and MVID.",
+    "User strings are the #US literals loaded by ldstr in the inspected method bodies, with their own coverage; instruction anchors and normalized CIL digests keep their build-local tokens."
+  ],
+  "relationship_coverage": null,
+  "locations": [
+    {
+      "kind": "artifact-path",
+      "path": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.210.10222\\Modules\\Setings\\yoga\\plugins\\LogoDiy.dll"
+    }
+  ],
+  "evidence_links": [
+    "ev_e2053eb3135c706b293eb734a414aff9008baabce1ad049bbe26a48633b2bc38"
+  ]
+}

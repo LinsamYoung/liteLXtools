@@ -1,0 +1,97 @@
+[
+  {
+    "file_offset": "0xc4c00",
+    "va": "0x100c6200",
+    "value": "m/cloud-resourceexchange-report/rest/v1/report/cdnswitch/100022/upgrade"
+  },
+  {
+    "file_offset": "0xc4c9e",
+    "va": "0x100c629e",
+    "value": "T__PATH"
+  },
+  {
+    "file_offset": "0xc4cb0",
+    "va": "0x100c62b0",
+    "value": "SOFTWARE\\Lenovo\\PcManager"
+  },
+  {
+    "file_offset": "0xc4ce4",
+    "va": "0x100c62e4",
+    "value": "Version"
+  },
+  {
+    "file_offset": "0xc4cf4",
+    "va": "0x100c62f4",
+    "value": "LENOVO_FAN_METHOD"
+  },
+  {
+    "file_offset": "0xc4d18",
+    "va": "0x100c6318",
+    "value": "Active"
+  },
+  {
+    "file_offset": "0xc4d28",
+    "va": "0x100c6328",
+    "value": "Fan_Get_FullSpeed"
+  },
+  {
+    "file_offset": "0xc4d4c",
+    "va": "0x100c634c",
+    "value": "Status"
+  },
+  {
+    "file_offset": "0xc4d5c",
+    "va": "0x100c635c",
+    "value": "LENOVO_OTHER_METHOD"
+  },
+  {
+    "file_offset": "0xc4d84",
+    "va": "0x100c6384",
+    "value": "Get_Support_LegionZone_Version"
+  },
+  {
+    "file_offset": "0xc4dc4",
+    "va": "0x100c63c4",
+    "value": "Fan_Set_FullSpeed"
+  },
+  {
+    "file_offset": "0xc4de8",
+    "va": "0x100c63e8",
+    "value": "IDs"
+  },
+  {
+    "file_offset": "0xc4df0",
+    "va": "0x100c63f0",
+    "value": "GetFeatureValue"
+  },
+  {
+    "file_offset": "0xc4e10",
+    "va": "0x100c6410",
+    "value": "value"
+  },
+  {
+    "file_offset": "0xc4e1c",
+    "va": "0x100c641c",
+    "value": "Data"
+  },
+  {
+    "file_offset": "0xc4e28",
+    "va": "0x100c6428",
+    "value": "SetFanCooling"
+  },
+  {
+    "file_offset": "0xc4e44",
+    "va": "0x100c6444",
+    "value": "LENOVO_GAMEZONE_DATA"
+  },
+  {
+    "file_offset": "0xc4e70",
+    "va": "0x100c6470",
+    "value": "GetFanCoolingStatus"
+  },
+  {
+    "file_offset": "0xc4e98",
+    "va": "0x100c6498",
+    "value": "E:\\Jenkins\\j"
+  }
+]

@@ -1,0 +1,296 @@
+[
+  {
+    "file": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.210.10222\\skin\\dist\\js\\main.js",
+    "offset": 532397,
+    "needle": "Coolclean",
+    "context": "perateImgStatue=t.val},setScaningVideoItem(e,t){e.scaningSVGA=t.val},setScanNoResultsVideoItem(e,t){e.scanNoResultsSVGA=t.val},setCoolcleanStartVideoItem(e,t){e.toolsSVGA.coolcleanstartSVGA=t.val},setCoolcleanStopVideoItem(e,t){e.toolsSVGA.coolcleanstopSVGA=t.val},setCleaningVideoItem(e,t){e.cleaningSVGA=t.val},setScandoneVideoItem(e,t){e.scanDoneSVGA=t.val"
+  },
+  {
+    "file": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.210.10222\\skin\\dist\\js\\main.js",
+    "offset": 532438,
+    "needle": "coolclean",
+    "context": "m(e,t){e.scaningSVGA=t.val},setScanNoResultsVideoItem(e,t){e.scanNoResultsSVGA=t.val},setCoolcleanStartVideoItem(e,t){e.toolsSVGA.coolcleanstartSVGA=t.val},setCoolcleanStopVideoItem(e,t){e.toolsSVGA.coolcleanstopSVGA=t.val},setCleaningVideoItem(e,t){e.cleaningSVGA=t.val},setScandoneVideoItem(e,t){e.scanDoneSVGA=t.val},setDriverScaningVideoItem(e,t){e.driver"
+  },
+  {
+    "file": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.210.10222\\skin\\dist\\js\\main.js",
+    "offset": 532467,
+    "needle": "Coolclean",
+    "context": "etScanNoResultsVideoItem(e,t){e.scanNoResultsSVGA=t.val},setCoolcleanStartVideoItem(e,t){e.toolsSVGA.coolcleanstartSVGA=t.val},setCoolcleanStopVideoItem(e,t){e.toolsSVGA.coolcleanstopSVGA=t.val},setCleaningVideoItem(e,t){e.cleaningSVGA=t.val},setScandoneVideoItem(e,t){e.scanDoneSVGA=t.val},setDriverScaningVideoItem(e,t){e.driverSVGA.scaningSVGA=t.val},setDr"
+  },
+  {
+    "file": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.210.10222\\skin\\dist\\js\\main.js",
+    "offset": 532507,
+    "needle": "coolclean",
+    "context": "sultsSVGA=t.val},setCoolcleanStartVideoItem(e,t){e.toolsSVGA.coolcleanstartSVGA=t.val},setCoolcleanStopVideoItem(e,t){e.toolsSVGA.coolcleanstopSVGA=t.val},setCleaningVideoItem(e,t){e.cleaningSVGA=t.val},setScandoneVideoItem(e,t){e.scanDoneSVGA=t.val},setDriverScaningVideoItem(e,t){e.driverSVGA.scaningSVGA=t.val},setDriverScanFinishVideoItem(e,t){e.driverSVG"
+  },
+  {
+    "file": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.210.10222\\skin\\dist\\js\\main.js",
+    "offset": 533651,
+    "needle": "CoolClean",
+    "context": "te(e,t){e.beforeEnterToolsRoute=t.val},setNetScanStatus(e,t){e.showNetScan=t.val},setNetSpeedStatus(e,t){e.showNetSpeed=t.val},setCoolCleanStatus(e,t){e.showCoolClean=t.val},setDesktopAssistantStatus(e,t){e.showDesktopAssistant=t.val},setScreencapSettingsStatus(e,t){e.showScreencapSettings=t.val},setHardwareStatus(e,t){e.showHardware=t.val},setStartUpList(e"
+  },
+  {
+    "file": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.210.10222\\skin\\dist\\js\\main.js",
+    "offset": 533674,
+    "needle": "showCoolClean",
+    "context": "olsRoute=t.val},setNetScanStatus(e,t){e.showNetScan=t.val},setNetSpeedStatus(e,t){e.showNetSpeed=t.val},setCoolCleanStatus(e,t){e.showCoolClean=t.val},setDesktopAssistantStatus(e,t){e.showDesktopAssistant=t.val},setScreencapSettingsStatus(e,t){e.showScreencapSettings=t.val},setHardwareStatus(e,t){e.showHardware=t.val},setStartUpList(e,t){e.startUpList=t.val},se"
+  },
+  {
+    "file": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.210.10222\\skin\\dist\\js\\main.js",
+    "offset": 535048,
+    "needle": "coolclean",
+    "context": "ll,failSVGA:null,failDisappearSVGA:null},homeSVGA:{CPUSVGA:null,memoryOptimizeSVGA:null,memoryOptimizeFinishSVGA:null},toolsSVGA:{coolcleanstartSVGA:null,coolcleanstopSVGA:null},drawMemoryChart:1,beforeEnterFeedBackRoute:\"/home/index\",beforeEnterToolsRoute:\"/home/index\",showNetScan:!1,showNetSpeed:!1,showCoolClean:!1,showDesktopAssistant:!1,showScreencapSet"
+  },
+  {
+    "file": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.210.10222\\skin\\dist\\js\\main.js",
+    "offset": 535072,
+    "needle": "coolclean",
+    "context": "appearSVGA:null},homeSVGA:{CPUSVGA:null,memoryOptimizeSVGA:null,memoryOptimizeFinishSVGA:null},toolsSVGA:{coolcleanstartSVGA:null,coolcleanstopSVGA:null},drawMemoryChart:1,beforeEnterFeedBackRoute:\"/home/index\",beforeEnterToolsRoute:\"/home/index\",showNetScan:!1,showNetSpeed:!1,showCoolClean:!1,showDesktopAssistant:!1,showScreencapSettings:!1,showHardware:!1"
+  },
+  {
+    "file": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.210.10222\\skin\\dist\\js\\main.js",
+    "offset": 535220,
+    "needle": "showCoolClean",
+    "context": "null},drawMemoryChart:1,beforeEnterFeedBackRoute:\"/home/index\",beforeEnterToolsRoute:\"/home/index\",showNetScan:!1,showNetSpeed:!1,showCoolClean:!1,showDesktopAssistant:!1,showScreencapSettings:!1,showHardware:!1,startUpList:null,hasGetStartUpData:0,memoryInfo:{},hasClickMomerySpeedUpBtn:!1,homeMemoryASEJumpInfo:null,showCustomHotkey:!1,showRightClickMenu:!1,isA"
+  },
+  {
+    "file": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.210.10222\\skin\\dist\\js\\main.js",
+    "offset": 573403,
+    "needle": "coolclean",
+    "context": "rkspeed\"==e.id?(window.pcmNetSpeedPlugin.isOpenFromTools=!0,function(e){N.A.commit({type:\"modal/setNetSpeedStatus\",val:e})}(!0)):\"coolclean\"==e.id?(window.pcmHardWareModule.isCoolCleanWinToOpen=!0,window.pcmHardWareModule.isOpenFromTools=!0,function(e){N.A.commit({type:\"modal/setCoolCleanStatus\",val:e})}(!0),window.jsbridge.asyncBrowerQuery(\"NEWPLUGIN_WRAPP"
+  },
+  {
+    "file": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.210.10222\\skin\\dist\\js\\main.js",
+    "offset": 573448,
+    "needle": "CoolClean",
+    "context": "enFromTools=!0,function(e){N.A.commit({type:\"modal/setNetSpeedStatus\",val:e})}(!0)):\"coolclean\"==e.id?(window.pcmHardWareModule.isCoolCleanWinToOpen=!0,window.pcmHardWareModule.isOpenFromTools=!0,function(e){N.A.commit({type:\"modal/setCoolCleanStatus\",val:e})}(!0),window.jsbridge.asyncBrowerQuery(\"NEWPLUGIN_WRAPPLUGIN_SERVICEAGENTDATAREPORT\",'{\"type\":\"fundu"
+  },
+  {
+    "file": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.210.10222\\skin\\dist\\js\\main.js",
+    "offset": 573553,
+    "needle": "CoolClean",
+    "context": "ndow.pcmHardWareModule.isCoolCleanWinToOpen=!0,window.pcmHardWareModule.isOpenFromTools=!0,function(e){N.A.commit({type:\"modal/setCoolCleanStatus\",val:e})}(!0),window.jsbridge.asyncBrowerQuery(\"NEWPLUGIN_WRAPPLUGIN_SERVICEAGENTDATAREPORT\",'{\"type\":\"fundustreport\",\"param\":\"\"}')):\"hardwareupdate\"==e.id&&(window.pcmdata.tvsuUpdateinfo.isOpenFromTools=!0,functi"
+  },
+  {
+    "file": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.210.10222\\skin\\dist\\js\\main.js",
+    "offset": 723061,
+    "needle": "CoolClean",
+    "context": "a(t,i))||I);return s>3&&I&&Object.defineProperty(t,i,I),I};let qe=class extends u.lD{showSlide;back(e,t){this.pcmHardWareModule.isCoolCleanWinToOpen=!1,this.finish()}infomation=window.pcmdata;interactive=window.interactive;pcmHardWareModule=window.pcmHardWareModule;isRunning=!0;parser=null;playerStart;playerFinish;startText=\"\";finishText=\"\";hasLoadCoolClean"
+  },
+  {
+    "file": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.210.10222\\skin\\dist\\js\\main.js",
+    "offset": 723281,
+    "needle": "CoolClean",
+    "context": "ve;pcmHardWareModule=window.pcmHardWareModule;isRunning=!0;parser=null;playerStart;playerFinish;startText=\"\";finishText=\"\";hasLoadCoolCleanStartSvga=!1;text=[[\"正在吹跑灰尘和烦恼\",\"每天都要过得清爽美好\"],[\"太热了，风扇开大点\",\"吹吹风扇，凉快多了\"]];showRecommendEntry=!1;recommendUrl=\"\";created(){this.parser=new(Xe().Parser)}mounted(){let e=Math.round(Math.random());this.startText=this.text[e]["
+  },
+  {
+    "file": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.210.10222\\skin\\dist\\js\\main.js",
+    "offset": 723674,
+    "needle": "coolclean",
+    "context": ",this.playerStart=new(Xe().Player)(\"#svga_running\"),this.playerFinish=new(Xe().Player)(\"#svga_finish\"),this.parser.load(\"./images/coolcleanstop.svga\",e=>{this.playerFinish.setVideoItem(e)}),this.start(!1),this.checkHasLecooRecommendEntry()}start(e=!0){this.hasLoadCoolCleanStartSvga?(this.playerStart.startAnimation(),this.playerStart.onFinished(()=>{this.fin"
+  },
+  {
+    "file": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.210.10222\\skin\\dist\\js\\main.js",
+    "offset": 723808,
+    "needle": "CoolClean",
+    "context": "cleanstop.svga\",e=>{this.playerFinish.setVideoItem(e)}),this.start(!1),this.checkHasLecooRecommendEntry()}start(e=!0){this.hasLoadCoolCleanStartSvga?(this.playerStart.startAnimation(),this.playerStart.onFinished(()=>{this.finish(!1)})):this.parser.load(\"./images/coolcleanstart.svga\",e=>{this.hasLoadCoolCleanStartSvga=!0,this.playerStart.setVideoItem(e),this"
+  },
+  {
+    "file": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.210.10222\\skin\\dist\\js\\main.js",
+    "offset": 723941,
+    "needle": "coolclean",
+    "context": "lCleanStartSvga?(this.playerStart.startAnimation(),this.playerStart.onFinished(()=>{this.finish(!1)})):this.parser.load(\"./images/coolcleanstart.svga\",e=>{this.hasLoadCoolCleanStartSvga=!0,this.playerStart.setVideoItem(e),this.playerStart.loops=1,this.playerStart.startAnimation(),this.playerStart.onFinished(()=>{this.finish(!1)})}),this.isRunning=!0,this.pc"
+  },
+  {
+    "file": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.210.10222\\skin\\dist\\js\\main.js",
+    "offset": 723978,
+    "needle": "CoolClean",
+    "context": "rtAnimation(),this.playerStart.onFinished(()=>{this.finish(!1)})):this.parser.load(\"./images/coolcleanstart.svga\",e=>{this.hasLoadCoolCleanStartSvga=!0,this.playerStart.setVideoItem(e),this.playerStart.loops=1,this.playerStart.startAnimation(),this.playerStart.onFinished(()=>{this.finish(!1)})}),this.isRunning=!0,this.pcmHardWareModule.DoFanRun(),this.inter"
+  },
+  {
+    "file": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.210.10222\\skin\\dist\\js\\main.js",
+    "offset": 725603,
+    "needle": "coolclean",
+    "context": "$createElement,i=e._self._c||t;return i(\"div\",{staticClass:\"right_sliding_win\",class:{active:e.showSlide}},[i(\"div\",{staticClass:\"coolclean_secondpage\"},[i(\"div\",{staticClass:\"back_icon nodrag\",attrs:{tabindex:\"0\",role:\"button\",\"aria-label\":\"返回\"},on:{click:e.back,keydown:[function(t){return!t.type.indexOf(\"key\")&&e._k(t.keyCode,\"enter\",13,t.key,\"Enter\")?nul"
+  },
+  {
+    "file": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.210.10222\\skin\\dist\\js\\main.js",
+    "offset": 784333,
+    "needle": "CoolClean",
+    "context": "ScreenSetting:ee,GPUOCToolsWindow:ae,GameBlockWindow:ge,OledSavingPower:le,NPS:Ce,ITS:ye,DriverProgress:Se,Netscan:Oe,Netspeed:He,CoolClean:et,DesktopAssistant:at,ScreencapSettings:gt,HardwareUpdate:jt,HomeFunctionASE:zt,SystemDriveModal:Y,CustomHotkey:kt,RightClickMenu:Pt,AiagentWrapper:_t},mixins:Qt.default,data(){return{isUpdate:!1,isShowCommonBg:!1,prod"
+  },
+  {
+    "file": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.210.10222\\skin\\dist\\js\\main.js",
+    "offset": 786609,
+    "needle": "showCoolClean",
+    "context": "!1,driverScanModule:window.driverScanModule,pcmMachfeature:window.pcmMachineFeatureHandler,showNetScanWrap:!1,showNetSpeedWrap:!1,showCoolCleanWrap:!1,showDesktopAssistantWrap:!1,showScreencapSettingsWrap:!1,showHardwareWrap:!1,showHotkeyWrap:!1,showRightClickMenuWrap:!1,hotkeySource:\"\",yunmodaldata:{title:\"联想电脑管家\",visible:!1,logoshow:!0},cleandata:{title:\"联想电脑"
+  },
+  {
+    "file": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.210.10222\\skin\\dist\\js\\main.js",
+    "offset": 796716,
+    "needle": "showCoolClean",
+    "context": ",hideNetScanWrap(){this.showNetScanWrap=!1},showNetSpeed(){this.showNetSpeedWrap=!0},hideNetSpeedWrap(){this.showNetSpeedWrap=!1},showCoolClean(){this.showCoolCleanWrap=!0},hideCoolClean(){this.showCoolCleanWrap=!1},showDesktopAssistant(){this.showDesktopAssistantWrap=!0},hideDesktopAssistant(){this.showDesktopAssistantWrap=!1},showScreencapSettings(){this.show"
+  },
+  {
+    "file": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.210.10222\\skin\\dist\\js\\main.js",
+    "offset": 796737,
+    "needle": "showCoolClean",
+    "context": "is.showNetScanWrap=!1},showNetSpeed(){this.showNetSpeedWrap=!0},hideNetSpeedWrap(){this.showNetSpeedWrap=!1},showCoolClean(){this.showCoolCleanWrap=!0},hideCoolClean(){this.showCoolCleanWrap=!1},showDesktopAssistant(){this.showDesktopAssistantWrap=!0},hideDesktopAssistant(){this.showDesktopAssistantWrap=!1},showScreencapSettings(){this.showScreencapSettingsWrap"
+  },
+  {
+    "file": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.210.10222\\skin\\dist\\js\\main.js",
+    "offset": 796763,
+    "needle": "CoolClean",
+    "context": "wNetSpeed(){this.showNetSpeedWrap=!0},hideNetSpeedWrap(){this.showNetSpeedWrap=!1},showCoolClean(){this.showCoolCleanWrap=!0},hideCoolClean(){this.showCoolCleanWrap=!1},showDesktopAssistant(){this.showDesktopAssistantWrap=!0},hideDesktopAssistant(){this.showDesktopAssistantWrap=!1},showScreencapSettings(){this.showScreencapSettingsWrap=!0},hideScreencapSett"
+  },
+  {
+    "file": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.210.10222\\skin\\dist\\js\\main.js",
+    "offset": 796780,
+    "needle": "showCoolClean",
+    "context": "showNetSpeedWrap=!0},hideNetSpeedWrap(){this.showNetSpeedWrap=!1},showCoolClean(){this.showCoolCleanWrap=!0},hideCoolClean(){this.showCoolCleanWrap=!1},showDesktopAssistant(){this.showDesktopAssistantWrap=!0},hideDesktopAssistant(){this.showDesktopAssistantWrap=!1},showScreencapSettings(){this.showScreencapSettingsWrap=!0},hideScreencapSettings(){this.showScree"
+  },
+  {
+    "file": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.210.10222\\skin\\dist\\js\\main.js",
+    "offset": 831846,
+    "needle": "coolclean",
+    "context": ".showNPS();else if(\"tools_netscan\"==i.page)this.showNetScan();else if(\"tools_netspeed\"==i.page)this.showNetSpeed();else if(\"tools_coolclean\"==i.page)this.showCoolClean();else if(\"tools_desktopassistant\"==i.page)this.showDesktopAssistant();else if(\"tools_screencapsettings\"==i.page)this.showScreencapSettings();else if(\"feedback\"==i.page)this.callfeedback();el"
+  },
+  {
+    "file": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.210.10222\\skin\\dist\\js\\main.js",
+    "offset": 831870,
+    "needle": "showCoolClean",
+    "context": "s_netscan\"==i.page)this.showNetScan();else if(\"tools_netspeed\"==i.page)this.showNetSpeed();else if(\"tools_coolclean\"==i.page)this.showCoolClean();else if(\"tools_desktopassistant\"==i.page)this.showDesktopAssistant();else if(\"tools_screencapsettings\"==i.page)this.showScreencapSettings();else if(\"feedback\"==i.page)this.callfeedback();else if(\"tools_tvsu\"==i.page)t"
+  },
+  {
+    "file": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.210.10222\\skin\\dist\\js\\main.js",
+    "offset": 832493,
+    "needle": "coolclean",
+    "context": "is.showRightClick()}return}if(\"driver\"==i.tab&&(this.$store.state.modal.driverDetailName=n),\"tools\"==i.tab)if(i.param){if([\"tools_coolclean\",\"tools_netscan\",\"tools_netspeed\",\"tools_desktopassistant\",\"tools_screencapsettings\",\"tools_tvsu\",\"tools_custom_hotKey\",\"tools_rightclick_management\"].includes(i.param)){switch(i.param){case\"tools_coolclean\":window.pcmH"
+  },
+  {
+    "file": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.210.10222\\skin\\dist\\js\\main.js",
+    "offset": 832700,
+    "needle": "coolclean",
+    "context": "creencapsettings\",\"tools_tvsu\",\"tools_custom_hotKey\",\"tools_rightclick_management\"].includes(i.param)){switch(i.param){case\"tools_coolclean\":window.pcmHardWareModule.isCoolCleanWinToOpen=!0,window.pcmHardWareModule.isOpenFromTools=!1,this.showCoolClean(),this.$store.commit({type:\"modal/setCoolCleanStatus\",val:!0});break;case\"tools_desktopassistant\":window.p"
+  },
+  {
+    "file": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.210.10222\\skin\\dist\\js\\main.js",
+    "offset": 832738,
+    "needle": "CoolClean",
+    "context": "custom_hotKey\",\"tools_rightclick_management\"].includes(i.param)){switch(i.param){case\"tools_coolclean\":window.pcmHardWareModule.isCoolCleanWinToOpen=!0,window.pcmHardWareModule.isOpenFromTools=!1,this.showCoolClean(),this.$store.commit({type:\"modal/setCoolCleanStatus\",val:!0});break;case\"tools_desktopassistant\":window.pcmHardWareModule.isDesktopAssistantWin"
+  },
+  {
+    "file": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.210.10222\\skin\\dist\\js\\main.js",
+    "offset": 832809,
+    "needle": "showCoolClean",
+    "context": "(i.param){case\"tools_coolclean\":window.pcmHardWareModule.isCoolCleanWinToOpen=!0,window.pcmHardWareModule.isOpenFromTools=!1,this.showCoolClean(),this.$store.commit({type:\"modal/setCoolCleanStatus\",val:!0});break;case\"tools_desktopassistant\":window.pcmHardWareModule.isDesktopAssistantWinToOpen=!0,window.pcmHardWareModule.isOpenFromTools=!1,this.showDesktopAssis"
+  },
+  {
+    "file": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.210.10222\\skin\\dist\\js\\main.js",
+    "offset": 832860,
+    "needle": "CoolClean",
+    "context": "odule.isCoolCleanWinToOpen=!0,window.pcmHardWareModule.isOpenFromTools=!1,this.showCoolClean(),this.$store.commit({type:\"modal/setCoolCleanStatus\",val:!0});break;case\"tools_desktopassistant\":window.pcmHardWareModule.isDesktopAssistantWinToOpen=!0,window.pcmHardWareModule.isOpenFromTools=!1,this.showDesktopAssistant(),this.$store.commit({type:\"modal/setDeskt"
+  },
+  {
+    "file": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.210.10222\\skin\\dist\\js\\main.js",
+    "offset": 839873,
+    "needle": "showCoolClean",
+    "context": ",e},showNetScanFlag(){return this.$store.state.modal.showNetScan},showNetSpeedFlag(){return this.$store.state.modal.showNetSpeed},showCoolCleanFlag(){return this.$store.state.modal.showCoolClean},showDesktopAssistantFlag(){return this.$store.state.modal.showDesktopAssistant},showScreencapSettingsFlag(){return this.$store.state.modal.showScreencapSettings},showH"
+  },
+  {
+    "file": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.210.10222\\skin\\dist\\js\\main.js",
+    "offset": 839924,
+    "needle": "showCoolClean",
+    "context": "l.showNetScan},showNetSpeedFlag(){return this.$store.state.modal.showNetSpeed},showCoolCleanFlag(){return this.$store.state.modal.showCoolClean},showDesktopAssistantFlag(){return this.$store.state.modal.showDesktopAssistant},showScreencapSettingsFlag(){return this.$store.state.modal.showScreencapSettings},showHardwareFlag(){return this.$store.state.modal.showHa"
+  },
+  {
+    "file": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.210.10222\\skin\\dist\\js\\main.js",
+    "offset": 854724,
+    "needle": "showCoolClean",
+    "context": "e:e.showNetSpeedFlag,expression:\"showNetSpeedFlag\"}],attrs:{showSlide:e.showNetSpeedFlag},on:{back:e.hideNetSpeedWrap}}):e._e(),e.showCoolCleanWrap?n(\"CoolClean\",{directives:[{name:\"show\",rawName:\"v-show\",value:e.showCoolCleanFlag,expression:\"showCoolCleanFlag\"}],attrs:{showSlide:e.showCoolCleanFlag},on:{back:e.hideCoolClean}}):e._e(),e.showDesktopAssistantWrap"
+  },
+  {
+    "file": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.210.10222\\skin\\dist\\js\\main.js",
+    "offset": 854745,
+    "needle": "CoolClean",
+    "context": "expression:\"showNetSpeedFlag\"}],attrs:{showSlide:e.showNetSpeedFlag},on:{back:e.hideNetSpeedWrap}}):e._e(),e.showCoolCleanWrap?n(\"CoolClean\",{directives:[{name:\"show\",rawName:\"v-show\",value:e.showCoolCleanFlag,expression:\"showCoolCleanFlag\"}],attrs:{showSlide:e.showCoolCleanFlag},on:{back:e.hideCoolClean}}):e._e(),e.showDesktopAssistantWrap?n(\"DesktopAssist"
+  },
+  {
+    "file": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.210.10222\\skin\\dist\\js\\main.js",
+    "offset": 854807,
+    "needle": "showCoolClean",
+    "context": "dFlag},on:{back:e.hideNetSpeedWrap}}):e._e(),e.showCoolCleanWrap?n(\"CoolClean\",{directives:[{name:\"show\",rawName:\"v-show\",value:e.showCoolCleanFlag,expression:\"showCoolCleanFlag\"}],attrs:{showSlide:e.showCoolCleanFlag},on:{back:e.hideCoolClean}}):e._e(),e.showDesktopAssistantWrap?n(\"DesktopAssistant\",{directives:[{name:\"show\",rawName:\"v-show\",value:e.showDeskto"
+  },
+  {
+    "file": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.210.10222\\skin\\dist\\js\\main.js",
+    "offset": 854837,
+    "needle": "showCoolClean",
+    "context": "Wrap}}):e._e(),e.showCoolCleanWrap?n(\"CoolClean\",{directives:[{name:\"show\",rawName:\"v-show\",value:e.showCoolCleanFlag,expression:\"showCoolCleanFlag\"}],attrs:{showSlide:e.showCoolCleanFlag},on:{back:e.hideCoolClean}}):e._e(),e.showDesktopAssistantWrap?n(\"DesktopAssistant\",{directives:[{name:\"show\",rawName:\"v-show\",value:e.showDesktopAssistantFlag,expression:\"sho"
+  },
+  {
+    "file": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.210.10222\\skin\\dist\\js\\main.js",
+    "offset": 854877,
+    "needle": "showCoolClean",
+    "context": "olClean\",{directives:[{name:\"show\",rawName:\"v-show\",value:e.showCoolCleanFlag,expression:\"showCoolCleanFlag\"}],attrs:{showSlide:e.showCoolCleanFlag},on:{back:e.hideCoolClean}}):e._e(),e.showDesktopAssistantWrap?n(\"DesktopAssistant\",{directives:[{name:\"show\",rawName:\"v-show\",value:e.showDesktopAssistantFlag,expression:\"showDesktopAssistantFlag\"}],attrs:{showSlid"
+  },
+  {
+    "file": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.210.10222\\skin\\dist\\js\\main.js",
+    "offset": 854911,
+    "needle": "CoolClean",
+    "context": ",rawName:\"v-show\",value:e.showCoolCleanFlag,expression:\"showCoolCleanFlag\"}],attrs:{showSlide:e.showCoolCleanFlag},on:{back:e.hideCoolClean}}):e._e(),e.showDesktopAssistantWrap?n(\"DesktopAssistant\",{directives:[{name:\"show\",rawName:\"v-show\",value:e.showDesktopAssistantFlag,expression:\"showDesktopAssistantFlag\"}],attrs:{showSlide:e.showDesktopAssistantFlag},"
+  },
+  {
+    "file": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.210.10222\\skin\\dist\\js\\main.js",
+    "offset": 901949,
+    "needle": "CoolClean",
+    "context": "w($t());t.wsplugin=\"WSHardwarePlugin\",t.messageModule=proto.PCMMessageModule.PCM_MESSAGE_MODULE_HARDWARE,t.isOpenFromTools=!1,t.isCoolCleanWinToOpen=!1,t.isDesktopAssistantWinToOpen=!1,t.isScreencapSettingsWinToOpen=!1,t.isCustomHotkeyWinToOpen=!1,t.isRightClickWinToOpen=!1,t.isRunning=!1,t.sendRequest=function(e,t,i){this.pluginRequest(e,t,i)},pcmConnect.o"
+  },
+  {
+    "file": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.210.10222\\skin\\dist\\js\\service.js",
+    "offset": 624586,
+    "needle": "coolclean",
+    "context": "fect_download:N(31007),lighteffect:N(31007),geeklighteffect:N(31007),screensetting:N(3816),gpuoctools:N(83777),gameblock:N(50253),coolclean:N(39694),screencapsettings:N(55003),dissipateheat:N(57466),its:N(32254),oledsavingpower:N(13555),recycle:N(5883),lenovookm:N(46915),hardwareupdate:N(1324),lenovoaware:N(41429),datarecovery:N(46501),moondogs:N(93398),omn"
+  },
+  {
+    "file": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.210.10222\\skin\\dist\\js\\service.js",
+    "offset": 634552,
+    "needle": "coolclean",
+    "context": "(\"NotNewToolsIdListFrom5020\");JSON.parse(I).findIndex(I=>I===M.id)>=0&&(M.hottips=!1)}})}reportShowAllToolsBigData(){let M=[],I=[\"coolclean\",\"recycle\",\"desktopassistant\",\"lenovookm\",\"screencapsettings\",\"hardwareupdate\",\"lighteffect\",\"datarecover\",\"moondogs\",\"geeklighteffect\",\"rightclickmanagement\"];this.pcmdata.toolboxList.forEach(N=>{I.includes(N.id)&&M.pu"
+  },
+  {
+    "file": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.210.10222\\skin\\dist\\js\\service.js",
+    "offset": 635466,
+    "needle": "CoolClean",
+    "context": "this.setNetScanGlobalStatus(!0),this.pcmNetSpeedPlugin.isOpenFromTools&&this.setNetSpeedGlobalStatus(!0),this.pcmHardWareModule.isCoolCleanWinToOpen&&this.setCoolCleanGlobaStatus(!0),this.pcmHardWareModule.isDesktopAssistantWinToOpen&&this.setDesktopAssistantStatus(!0),this.pcmCommonModule.isScreencapSettingsWinToOpen&&this.setScreencapSettingsStatus(!0),th"
+  },
+  {
+    "file": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.210.10222\\skin\\dist\\js\\service.js",
+    "offset": 635494,
+    "needle": "CoolClean",
+    "context": "!0),this.pcmNetSpeedPlugin.isOpenFromTools&&this.setNetSpeedGlobalStatus(!0),this.pcmHardWareModule.isCoolCleanWinToOpen&&this.setCoolCleanGlobaStatus(!0),this.pcmHardWareModule.isDesktopAssistantWinToOpen&&this.setDesktopAssistantStatus(!0),this.pcmCommonModule.isScreencapSettingsWinToOpen&&this.setScreencapSettingsStatus(!0),this.pcmdata.tvsuUpdateinfo.is"
+  },
+  {
+    "file": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.210.10222\\skin\\dist\\js\\service.js",
+    "offset": 636291,
+    "needle": "CoolClean",
+    "context": "this.setNetScanGlobalStatus(!1),this.pcmNetSpeedPlugin.isOpenFromTools&&this.setNetSpeedGlobalStatus(!1),this.pcmHardWareModule.isCoolCleanWinToOpen&&this.setCoolCleanGlobaStatus(!1),this.pcmHardWareModule.isDesktopAssistantWinToOpen&&this.setDesktopAssistantStatus(!1),this.pcmCommonModule.isScreencapSettingsWinToOpen&&this.setScreencapSettingsStatus(!1),th"
+  },
+  {
+    "file": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.210.10222\\skin\\dist\\js\\service.js",
+    "offset": 636319,
+    "needle": "CoolClean",
+    "context": "!1),this.pcmNetSpeedPlugin.isOpenFromTools&&this.setNetSpeedGlobalStatus(!1),this.pcmHardWareModule.isCoolCleanWinToOpen&&this.setCoolCleanGlobaStatus(!1),this.pcmHardWareModule.isDesktopAssistantWinToOpen&&this.setDesktopAssistantStatus(!1),this.pcmCommonModule.isScreencapSettingsWinToOpen&&this.setScreencapSettingsStatus(!1),this.pcmdata.tvsuUpdateinfo.is"
+  },
+  {
+    "file": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.210.10222\\skin\\dist\\js\\service.js",
+    "offset": 636927,
+    "needle": "CoolClean",
+    "context": "t({type:\"modal/setNetScanStatus\",val:M})}setNetSpeedGlobalStatus(M){this.$store.commit({type:\"modal/setNetSpeedStatus\",val:M})}setCoolCleanGlobaStatus(M){this.$store.commit({type:\"modal/setCoolCleanStatus\",val:M})}setDesktopAssistantStatus(M){this.$store.commit({type:\"modal/setDesktopAssistantStatus\",val:M})}setScreencapSettingsStatus(M){this.$store.commit("
+  },
+  {
+    "file": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.210.10222\\skin\\dist\\js\\service.js",
+    "offset": 636986,
+    "needle": "CoolClean",
+    "context": "tatus(M){this.$store.commit({type:\"modal/setNetSpeedStatus\",val:M})}setCoolCleanGlobaStatus(M){this.$store.commit({type:\"modal/setCoolCleanStatus\",val:M})}setDesktopAssistantStatus(M){this.$store.commit({type:\"modal/setDesktopAssistantStatus\",val:M})}setScreencapSettingsStatus(M){this.$store.commit({type:\"modal/setScreencapSettingsStatus\",val:M})}setHardwar"
+  }
+]

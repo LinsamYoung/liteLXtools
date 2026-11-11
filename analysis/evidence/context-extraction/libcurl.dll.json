@@ -1,0 +1,1550 @@
+{
+  "path": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.210.10222\\libcurl.dll",
+  "sha256": "e820c3fc10de2d2999b84a669a8c9c64d99cdb3159118cf701bb7d29cde8ac1f",
+  "machine": "0x14c",
+  "image_base": "0x10000000",
+  "exports": [
+    {
+      "name": "curl_easy_cleanup",
+      "rva": "0x15270",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_easy_duphandle",
+      "rva": "0x15290",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_easy_escape",
+      "rva": "0x16050",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_easy_getinfo",
+      "rva": "0x15610",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_easy_header",
+      "rva": "0x1f6c0",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_easy_init",
+      "rva": "0x15630",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_easy_nextheader",
+      "rva": "0x1f880",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_easy_option_by_id",
+      "rva": "0x15e20",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_easy_option_by_name",
+      "rva": "0x15e50",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_easy_option_next",
+      "rva": "0x15ea0",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_easy_pause",
+      "rva": "0x15690",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_easy_perform",
+      "rva": "0x15810",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_easy_recv",
+      "rva": "0x15970",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_easy_reset",
+      "rva": "0x15a30",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_easy_send",
+      "rva": "0x15ac0",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_easy_setopt",
+      "rva": "0x3fab0",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_easy_strerror",
+      "rva": "0x48d50",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_easy_unescape",
+      "rva": "0x16170",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_easy_upkeep",
+      "rva": "0x15bb0",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_escape",
+      "rva": "0x16270",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_formadd",
+      "rva": "0x178d0",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_formfree",
+      "rva": "0x178f0",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_formget",
+      "rva": "0x17960",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_free",
+      "rva": "0x1ec0",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_getdate",
+      "rva": "0x37a70",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_getenv",
+      "rva": "0x1dca0",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_global_cleanup",
+      "rva": "0x15bf0",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_global_init",
+      "rva": "0x15c40",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_global_init_mem",
+      "rva": "0x15c70",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_global_sslset",
+      "rva": "0x15d20",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_global_trace",
+      "rva": "0x15d60",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_maprintf",
+      "rva": "0x2ff60",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_mfprintf",
+      "rva": "0x2ff80",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_mime_addpart",
+      "rva": "0x2eb30",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_mime_data",
+      "rva": "0x2eba0",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_mime_data_cb",
+      "rva": "0x2ec30",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_mime_encoder",
+      "rva": "0x2ec80",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_mime_filedata",
+      "rva": "0x2ecf0",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_mime_filename",
+      "rva": "0x2eea0",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_mime_free",
+      "rva": "0x2eef0",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_mime_headers",
+      "rva": "0x2efd0",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_mime_init",
+      "rva": "0x2f030",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_mime_name",
+      "rva": "0x2f0b0",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_mime_subparts",
+      "rva": "0x2f100",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_mime_type",
+      "rva": "0x2f190",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_mprintf",
+      "rva": "0x2ffa0",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_msnprintf",
+      "rva": "0x2ffd0",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_msprintf",
+      "rva": "0x30000",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_multi_add_handle",
+      "rva": "0x33210",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_multi_assign",
+      "rva": "0x33390",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_multi_cleanup",
+      "rva": "0x333e0",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_multi_fdset",
+      "rva": "0x33580",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_multi_get_handles",
+      "rva": "0x33710",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_multi_info_read",
+      "rva": "0x33780",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_multi_init",
+      "rva": "0x337f0",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_multi_perform",
+      "rva": "0x33910",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_multi_poll",
+      "rva": "0x33ac0",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_multi_remove_handle",
+      "rva": "0x33af0",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_multi_setopt",
+      "rva": "0x33ce0",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_multi_socket",
+      "rva": "0x33e40",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_multi_socket_action",
+      "rva": "0x33e70",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_multi_socket_all",
+      "rva": "0x33ea0",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_multi_strerror",
+      "rva": "0x49120",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_multi_timeout",
+      "rva": "0x33ed0",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_multi_wait",
+      "rva": "0x33f20",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_multi_waitfds",
+      "rva": "0x33f50",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_multi_wakeup",
+      "rva": "0x34030",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_mvaprintf",
+      "rva": "0x30030",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_mvfprintf",
+      "rva": "0x300b0",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_mvprintf",
+      "rva": "0x300d0",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_mvsnprintf",
+      "rva": "0x30100",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_mvsprintf",
+      "rva": "0x30160",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_pushheader_byname",
+      "rva": "0x20a0",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_pushheader_bynum",
+      "rva": "0x20a0",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_share_cleanup",
+      "rva": "0x42770",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_share_init",
+      "rva": "0x42880",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_share_setopt",
+      "rva": "0x428c0",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_share_strerror",
+      "rva": "0x491d0",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_slist_append",
+      "rva": "0x42be0",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_slist_free_all",
+      "rva": "0x42c50",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_strequal",
+      "rva": "0x483b0",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_strnequal",
+      "rva": "0x48410",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_unescape",
+      "rva": "0x16290",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_url",
+      "rva": "0x52c70",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_url_cleanup",
+      "rva": "0x52c80",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_url_dup",
+      "rva": "0x52ca0",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_url_get",
+      "rva": "0x52df0",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_url_set",
+      "rva": "0x53590",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_url_strerror",
+      "rva": "0x49230",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_version",
+      "rva": "0x55130",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_version_info",
+      "rva": "0x551f0",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_ws_meta",
+      "rva": "0x55a40",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_ws_recv",
+      "rva": "0x55a90",
+      "forwarder": "None"
+    },
+    {
+      "name": "curl_ws_send",
+      "rva": "0x55c90",
+      "forwarder": "None"
+    }
+  ],
+  "imports": [
+    {
+      "dll": "WS2_32.dll",
+      "symbols": [
+        {
+          "name": "send",
+          "iat": "0x10086258"
+        },
+        {
+          "name": "WSAGetLastError",
+          "iat": "0x1008625c"
+        },
+        {
+          "name": "accept",
+          "iat": "0x10086260"
+        },
+        {
+          "name": "sendto",
+          "iat": "0x10086264"
+        },
+        {
+          "name": "recvfrom",
+          "iat": "0x10086268"
+        },
+        {
+          "name": "WSACleanup",
+          "iat": "0x1008626c"
+        },
+        {
+          "name": "WSAStartup",
+          "iat": "0x10086270"
+        },
+        {
+          "name": "select",
+          "iat": "0x10086274"
+        },
+        {
+          "name": "__WSAFDIsSet",
+          "iat": "0x10086278"
+        },
+        {
+          "name": "htonl",
+          "iat": "0x1008627c"
+        },
+        {
+          "name": "ioctlsocket",
+          "iat": "0x10086280"
+        },
+        {
+          "name": "WSAWaitForMultipleEvents",
+          "iat": "0x10086284"
+        },
+        {
+          "name": "WSASetEvent",
+          "iat": "0x10086288"
+        },
+        {
+          "name": "WSAResetEvent",
+          "iat": "0x1008628c"
+        },
+        {
+          "name": "WSAEventSelect",
+          "iat": "0x10086290"
+        },
+        {
+          "name": "WSAEnumNetworkEvents",
+          "iat": "0x10086294"
+        },
+        {
+          "name": "WSACreateEvent",
+          "iat": "0x10086298"
+        },
+        {
+          "name": "WSACloseEvent",
+          "iat": "0x1008629c"
+        },
+        {
+          "name": "listen",
+          "iat": "0x100862a0"
+        },
+        {
+          "name": "gethostname",
+          "iat": "0x100862a4"
+        },
+        {
+          "name": "freeaddrinfo",
+          "iat": "0x100862a8"
+        },
+        {
+          "name": "getaddrinfo",
+          "iat": "0x100862ac"
+        },
+        {
+          "name": "WSAIoctl",
+          "iat": "0x100862b0"
+        },
+        {
+          "name": "WSASetLastError",
+          "iat": "0x100862b4"
+        },
+        {
+          "name": "socket",
+          "iat": "0x100862b8"
+        },
+        {
+          "name": "setsockopt",
+          "iat": "0x100862bc"
+        },
+        {
+          "name": "recv",
+          "iat": "0x100862c0"
+        },
+        {
+          "name": "ntohs",
+          "iat": "0x100862c4"
+        },
+        {
+          "name": "htons",
+          "iat": "0x100862c8"
+        },
+        {
+          "name": "getsockopt",
+          "iat": "0x100862cc"
+        },
+        {
+          "name": "getsockname",
+          "iat": "0x100862d0"
+        },
+        {
+          "name": "getpeername",
+          "iat": "0x100862d4"
+        },
+        {
+          "name": "connect",
+          "iat": "0x100862d8"
+        },
+        {
+          "name": "bind",
+          "iat": "0x100862dc"
+        },
+        {
+          "name": "closesocket",
+          "iat": "0x100862e0"
+        }
+      ]
+    },
+    {
+      "dll": "WLDAP32.dll",
+      "symbols": [
+        {
+          "name": "",
+          "iat": "0x1008620c"
+        },
+        {
+          "name": "",
+          "iat": "0x10086210"
+        },
+        {
+          "name": "",
+          "iat": "0x10086214"
+        },
+        {
+          "name": "",
+          "iat": "0x10086218"
+        },
+        {
+          "name": "",
+          "iat": "0x1008621c"
+        },
+        {
+          "name": "",
+          "iat": "0x10086220"
+        },
+        {
+          "name": "",
+          "iat": "0x10086224"
+        },
+        {
+          "name": "",
+          "iat": "0x10086228"
+        },
+        {
+          "name": "",
+          "iat": "0x1008622c"
+        },
+        {
+          "name": "",
+          "iat": "0x10086230"
+        },
+        {
+          "name": "",
+          "iat": "0x10086234"
+        },
+        {
+          "name": "",
+          "iat": "0x10086238"
+        },
+        {
+          "name": "",
+          "iat": "0x1008623c"
+        },
+        {
+          "name": "",
+          "iat": "0x10086240"
+        },
+        {
+          "name": "",
+          "iat": "0x10086244"
+        },
+        {
+          "name": "",
+          "iat": "0x10086248"
+        },
+        {
+          "name": "",
+          "iat": "0x1008624c"
+        },
+        {
+          "name": "",
+          "iat": "0x10086250"
+        }
+      ]
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "symbols": [
+        {
+          "name": "CryptAcquireContextA",
+          "iat": "0x10086000"
+        },
+        {
+          "name": "CryptDestroyKey",
+          "iat": "0x10086004"
+        },
+        {
+          "name": "CryptImportKey",
+          "iat": "0x10086008"
+        },
+        {
+          "name": "CryptEncrypt",
+          "iat": "0x1008600c"
+        },
+        {
+          "name": "CryptGetHashParam",
+          "iat": "0x10086010"
+        },
+        {
+          "name": "CryptCreateHash",
+          "iat": "0x10086014"
+        },
+        {
+          "name": "CryptHashData",
+          "iat": "0x10086018"
+        },
+        {
+          "name": "CryptDestroyHash",
+          "iat": "0x1008601c"
+        },
+        {
+          "name": "CryptReleaseContext",
+          "iat": "0x10086020"
+        }
+      ]
+    },
+    {
+      "dll": "CRYPT32.dll",
+      "symbols": [
+        {
+          "name": "CertFreeCertificateContext",
+          "iat": "0x10086028"
+        },
+        {
+          "name": "CryptDecodeObjectEx",
+          "iat": "0x1008602c"
+        },
+        {
+          "name": "CertEnumCertificatesInStore",
+          "iat": "0x10086030"
+        },
+        {
+          "name": "CertCloseStore",
+          "iat": "0x10086034"
+        },
+        {
+          "name": "CertOpenStore",
+          "iat": "0x10086038"
+        },
+        {
+          "name": "CryptStringToBinaryA",
+          "iat": "0x1008603c"
+        },
+        {
+          "name": "PFXImportCertStore",
+          "iat": "0x10086040"
+        },
+        {
+          "name": "CertAddCertificateContextToStore",
+          "iat": "0x10086044"
+        },
+        {
+          "name": "CertFindExtension",
+          "iat": "0x10086048"
+        },
+        {
+          "name": "CertGetNameStringA",
+          "iat": "0x1008604c"
+        },
+        {
+          "name": "CryptQueryObject",
+          "iat": "0x10086050"
+        },
+        {
+          "name": "CertCreateCertificateChainEngine",
+          "iat": "0x10086054"
+        },
+        {
+          "name": "CertFreeCertificateChainEngine",
+          "iat": "0x10086058"
+        },
+        {
+          "name": "CertGetCertificateChain",
+          "iat": "0x1008605c"
+        },
+        {
+          "name": "CertFindCertificateInStore",
+          "iat": "0x10086060"
+        },
+        {
+          "name": "CertFreeCertificateChain",
+          "iat": "0x10086064"
+        }
+      ]
+    },
+    {
+      "dll": "bcrypt.dll",
+      "symbols": [
+        {
+          "name": "BCryptGenRandom",
+          "iat": "0x100862e8"
+        }
+      ]
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "symbols": [
+        {
+          "name": "SetStdHandle",
+          "iat": "0x1008606c"
+        },
+        {
+          "name": "LCMapStringW",
+          "iat": "0x10086070"
+        },
+        {
+          "name": "CompareStringW",
+          "iat": "0x10086074"
+        },
+        {
+          "name": "GetTimeFormatW",
+          "iat": "0x10086078"
+        },
+        {
+          "name": "GetDateFormatW",
+          "iat": "0x1008607c"
+        },
+        {
+          "name": "HeapAlloc",
+          "iat": "0x10086080"
+        },
+        {
+          "name": "HeapFree",
+          "iat": "0x10086084"
+        },
+        {
+          "name": "SetEndOfFile",
+          "iat": "0x10086088"
+        },
+        {
+          "name": "WriteFile",
+          "iat": "0x1008608c"
+        },
+        {
+          "name": "ReadConsoleW",
+          "iat": "0x10086090"
+        },
+        {
+          "name": "GetConsoleMode",
+          "iat": "0x10086094"
+        },
+        {
+          "name": "GetModuleFileNameW",
+          "iat": "0x10086098"
+        },
+        {
+          "name": "ExitProcess",
+          "iat": "0x1008609c"
+        },
+        {
+          "name": "SetFilePointerEx",
+          "iat": "0x100860a0"
+        },
+        {
+          "name": "GetModuleHandleExW",
+          "iat": "0x100860a4"
+        },
+        {
+          "name": "FreeLibraryAndExitThread",
+          "iat": "0x100860a8"
+        },
+        {
+          "name": "ExitThread",
+          "iat": "0x100860ac"
+        },
+        {
+          "name": "CreateThread",
+          "iat": "0x100860b0"
+        },
+        {
+          "name": "FileTimeToSystemTime",
+          "iat": "0x100860b4"
+        },
+        {
+          "name": "SystemTimeToTzSpecificLocalTime",
+          "iat": "0x100860b8"
+        },
+        {
+          "name": "GetFileInformationByHandle",
+          "iat": "0x100860bc"
+        },
+        {
+          "name": "GetCurrentDirectoryW",
+          "iat": "0x100860c0"
+        },
+        {
+          "name": "GetFullPathNameW",
+          "iat": "0x100860c4"
+        },
+        {
+          "name": "HeapReAlloc",
+          "iat": "0x100860c8"
+        },
+        {
+          "name": "FlushFileBuffers",
+          "iat": "0x100860cc"
+        },
+        {
+          "name": "FindClose",
+          "iat": "0x100860d0"
+        },
+        {
+          "name": "FindFirstFileExW",
+          "iat": "0x100860d4"
+        },
+        {
+          "name": "FindNextFileW",
+          "iat": "0x100860d8"
+        },
+        {
+          "name": "IsValidCodePage",
+          "iat": "0x100860dc"
+        },
+        {
+          "name": "GetACP",
+          "iat": "0x100860e0"
+        },
+        {
+          "name": "GetOEMCP",
+          "iat": "0x100860e4"
+        },
+        {
+          "name": "GetCPInfo",
+          "iat": "0x100860e8"
+        },
+        {
+          "name": "GetCommandLineA",
+          "iat": "0x100860ec"
+        },
+        {
+          "name": "GetCommandLineW",
+          "iat": "0x100860f0"
+        },
+        {
+          "name": "GetEnvironmentStringsW",
+          "iat": "0x100860f4"
+        },
+        {
+          "name": "FreeEnvironmentStringsW",
+          "iat": "0x100860f8"
+        },
+        {
+          "name": "SetEnvironmentVariableW",
+          "iat": "0x100860fc"
+        },
+        {
+          "name": "GetProcessHeap",
+          "iat": "0x10086100"
+        },
+        {
+          "name": "DeleteFileW",
+          "iat": "0x10086104"
+        },
+        {
+          "name": "GetStringTypeW",
+          "iat": "0x10086108"
+        },
+        {
+          "name": "GetTimeZoneInformation",
+          "iat": "0x1008610c"
+        },
+        {
+          "name": "HeapSize",
+          "iat": "0x10086110"
+        },
+        {
+          "name": "WriteConsoleW",
+          "iat": "0x10086114"
+        },
+        {
+          "name": "GetConsoleOutputCP",
+          "iat": "0x10086118"
+        },
+        {
+          "name": "MoveFileExA",
+          "iat": "0x1008611c"
+        },
+        {
+          "name": "GetDriveTypeW",
+          "iat": "0x10086120"
+        },
+        {
+          "name": "CreateFileW",
+          "iat": "0x10086124"
+        },
+        {
+          "name": "EnterCriticalSection",
+          "iat": "0x10086128"
+        },
+        {
+          "name": "LeaveCriticalSection",
+          "iat": "0x1008612c"
+        },
+        {
+          "name": "InitializeCriticalSectionEx",
+          "iat": "0x10086130"
+        },
+        {
+          "name": "DeleteCriticalSection",
+          "iat": "0x10086134"
+        },
+        {
+          "name": "SleepEx",
+          "iat": "0x10086138"
+        },
+        {
+          "name": "MultiByteToWideChar",
+          "iat": "0x1008613c"
+        },
+        {
+          "name": "WideCharToMultiByte",
+          "iat": "0x10086140"
+        },
+        {
+          "name": "FreeLibrary",
+          "iat": "0x10086144"
+        },
+        {
+          "name": "GetProcAddress",
+          "iat": "0x10086148"
+        },
+        {
+          "name": "CloseHandle",
+          "iat": "0x1008614c"
+        },
+        {
+          "name": "WaitForSingleObjectEx",
+          "iat": "0x10086150"
+        },
+        {
+          "name": "ReleaseSRWLockExclusive",
+          "iat": "0x10086154"
+        },
+        {
+          "name": "AcquireSRWLockExclusive",
+          "iat": "0x10086158"
+        },
+        {
+          "name": "GetEnvironmentVariableA",
+          "iat": "0x1008615c"
+        },
+        {
+          "name": "Sleep",
+          "iat": "0x10086160"
+        },
+        {
+          "name": "DecodePointer",
+          "iat": "0x10086164"
+        },
+        {
+          "name": "GetCurrentProcessId",
+          "iat": "0x10086168"
+        },
+        {
+          "name": "GetLastError",
+          "iat": "0x1008616c"
+        },
+        {
+          "name": "SetLastError",
+          "iat": "0x10086170"
+        },
+        {
+          "name": "FormatMessageW",
+          "iat": "0x10086174"
+        },
+        {
+          "name": "QueryPerformanceFrequency",
+          "iat": "0x10086178"
+        },
+        {
+          "name": "GetSystemDirectoryA",
+          "iat": "0x1008617c"
+        },
+        {
+          "name": "GetModuleHandleA",
+          "iat": "0x10086180"
+        },
+        {
+          "name": "LoadLibraryA",
+          "iat": "0x10086184"
+        },
+        {
+          "name": "GetStdHandle",
+          "iat": "0x10086188"
+        },
+        {
+          "name": "GetFileType",
+          "iat": "0x1008618c"
+        },
+        {
+          "name": "ReadFile",
+          "iat": "0x10086190"
+        },
+        {
+          "name": "PeekNamedPipe",
+          "iat": "0x10086194"
+        },
+        {
+          "name": "WaitForMultipleObjects",
+          "iat": "0x10086198"
+        },
+        {
+          "name": "QueryPerformanceCounter",
+          "iat": "0x1008619c"
+        },
+        {
+          "name": "GetTickCount",
+          "iat": "0x100861a0"
+        },
+        {
+          "name": "VerSetConditionMask",
+          "iat": "0x100861a4"
+        },
+        {
+          "name": "VerifyVersionInfoW",
+          "iat": "0x100861a8"
+        },
+        {
+          "name": "CreateFileA",
+          "iat": "0x100861ac"
+        },
+        {
+          "name": "GetFileSizeEx",
+          "iat": "0x100861b0"
+        },
+        {
+          "name": "UnhandledExceptionFilter",
+          "iat": "0x100861b4"
+        },
+        {
+          "name": "SetUnhandledExceptionFilter",
+          "iat": "0x100861b8"
+        },
+        {
+          "name": "GetCurrentProcess",
+          "iat": "0x100861bc"
+        },
+        {
+          "name": "TerminateProcess",
+          "iat": "0x100861c0"
+        },
+        {
+          "name": "IsProcessorFeaturePresent",
+          "iat": "0x100861c4"
+        },
+        {
+          "name": "GetCurrentThreadId",
+          "iat": "0x100861c8"
+        },
+        {
+          "name": "GetSystemTimeAsFileTime",
+          "iat": "0x100861cc"
+        },
+        {
+          "name": "InitializeSListHead",
+          "iat": "0x100861d0"
+        },
+        {
+          "name": "IsDebuggerPresent",
+          "iat": "0x100861d4"
+        },
+        {
+          "name": "GetStartupInfoW",
+          "iat": "0x100861d8"
+        },
+        {
+          "name": "GetModuleHandleW",
+          "iat": "0x100861dc"
+        },
+        {
+          "name": "RaiseException",
+          "iat": "0x100861e0"
+        },
+        {
+          "name": "InterlockedFlushSList",
+          "iat": "0x100861e4"
+        },
+        {
+          "name": "RtlUnwind",
+          "iat": "0x100861e8"
+        },
+        {
+          "name": "InitializeCriticalSectionAndSpinCount",
+          "iat": "0x100861ec"
+        },
+        {
+          "name": "TlsAlloc",
+          "iat": "0x100861f0"
+        },
+        {
+          "name": "TlsGetValue",
+          "iat": "0x100861f4"
+        },
+        {
+          "name": "TlsSetValue",
+          "iat": "0x100861f8"
+        },
+        {
+          "name": "TlsFree",
+          "iat": "0x100861fc"
+        },
+        {
+          "name": "LoadLibraryExW",
+          "iat": "0x10086200"
+        },
+        {
+          "name": "EncodePointer",
+          "iat": "0x10086204"
+        }
+      ]
+    }
+  ],
+  "strings": [
+    {
+      "offset": "0x84e08",
+      "value": "# This file was generated by libcurl! Edit at your own risk.",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x86270",
+      "value": "Unrecognized content encoding type. libcurl understands %s content encodings.",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x86534",
+      "value": "version",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x866e5",
+      "value": "# This file was generated by libcurl! Edit at your own risk.",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x86b86",
+      "value": "Dlsecurity.dll",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x86b98",
+      "value": "secur32.dll",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x86e00",
+      "value": "CLIENT libcurl 8.11.0",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x86e68",
+      "value": "CLIENT libcurl 8.11.0",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x86e94",
+      "value": "CLIENT libcurl 8.11.0",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x877b0",
+      "value": "HTTP_VERSION",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x87d0c",
+      "value": "PROXY_SSLVERSION",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x88158",
+      "value": "SSLVERSION",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x89cfa",
+      "value": "# This file was generated by libcurl! Edit at your own risk.",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x8a1e0",
+      "value": "suppressing chunked transfer encoding on connection using HTTP version 2 or higher",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x8a758",
+      "value": "Version mismatch (from HTTP/%u to HTTP/%u)",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x8a784",
+      "value": "Unsupported HTTP version (%u.%d) in response",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x8aa44",
+      "value": "Unsupported HTTP/1 subversion in response",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x8aa70",
+      "value": "Unsupported HTTP version in response",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x8b614",
+      "value": "Mime-Version",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x8b624",
+      "value": "Mime-Version: 1.0",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x8b99c",
+      "value": "LDAP local: LDAP Vendor = %s ; LDAP Version = %d",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x8e634",
+      "value": "SOCKS4 reply has wrong version, version should be 0.",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x8e934",
+      "value": "Received invalid version in initial SOCKS5 response.",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x8ec60",
+      "value": "SOCKS5 reply has wrong version, version should be 5.",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x8f4b0",
+      "value": "A requested feature, protocol or option was not found built-in in this libcurl due to a build-time decision.",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x8f9c4",
+      "value": "A libcurl function was given a bad argument",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x8fa3c",
+      "value": "An unknown option was passed in to libcurl",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x90578",
+      "value": "libcurl lacks IDN support",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x90980",
+      "value": "Winsock version not supported",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x91384",
+      "value": "iphlpapi.dll",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x924d8",
+      "value": "Unsupported proxy '%s', libcurl is built without the HTTPS-proxy support.",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x92b00",
+      "value": "libcurl/8.11.0",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x92b18",
+      "value": "RtlVerifyVersionInfo",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x92f80",
+      "value": "Sec-WebSocket-Version:",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x93cfc",
+      "value": "SSL versions not supported",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x93d18",
+      "value": "Unrecognized parameter passed via CURLOPT_SSLVERSION",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x940d0",
+      "value": "schannel: WARNING: This version of Schannel may negotiate a less-secure TLS version than TLS 1.3 because the user set an algorithm cipher list.",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x94160",
+      "value": "schannel: This version of Schannel does not support setting an algorithm cipher list and TLS 1.3 cipher list at the same time",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x94240",
+      "value": "schannel: Windows version is old and may not be able to connect to some servers due to lack of SNI, algorithms, etc.",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x942b8",
+      "value": "wine_get_version",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x942d0",
+      "value": "schannel: this version of Windows is too old to support certificate verification via CA bundle file.",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x9549c",
+      "value": "Unrecognized parameter value passed via CURLOPT_SSLVERSION",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x954d8",
+      "value": "CURL_SSLVERSION_MAX incompatible with CURL_SSLVERSION",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x9627c",
+      "value": "Version",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x963dc",
+      "value": "incompatible version",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0xa0a44",
+      "value": "libcurl.dll",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0xa104c",
+      "value": "curl_version",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0xa1059",
+      "value": "curl_version_info",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0xa14c0",
+      "value": "WS2_32.dll",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0xa14cc",
+      "value": "WLDAP32.dll",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0xa1584",
+      "value": "ADVAPI32.dll",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0xa1730",
+      "value": "CRYPT32.dll",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0xa174e",
+      "value": "bcrypt.dll",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0xa19d4",
+      "value": "VerifyVersionInfoW",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0xa1b04",
+      "value": "KERNEL32.dll",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x9b804",
+      "value": "mscoree.dll",
+      "encoding": "utf-16le"
+    },
+    {
+      "offset": "0xa4666",
+      "value": "VS_VERSION_INFO",
+      "encoding": "utf-16le"
+    },
+    {
+      "offset": "0xa4788",
+      "value": "libcurl Shared Library",
+      "encoding": "utf-16le"
+    },
+    {
+      "offset": "0xa47be",
+      "value": "FileVersion",
+      "encoding": "utf-16le"
+    },
+    {
+      "offset": "0xa4808",
+      "value": "libcurl",
+      "encoding": "utf-16le"
+    },
+    {
+      "offset": "0xa4840",
+      "value": "libcurl.dll",
+      "encoding": "utf-16le"
+    },
+    {
+      "offset": "0xa48a2",
+      "value": "ProductVersion",
+      "encoding": "utf-16le"
+    }
+  ]
+}

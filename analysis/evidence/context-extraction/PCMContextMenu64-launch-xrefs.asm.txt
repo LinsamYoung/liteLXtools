@@ -1,0 +1,188 @@
+STRING 'pcmtabpage' at 0x18004a340 XREF 0x180010dec
+0000000180010da0 mov      r8, rdx
+0000000180010da3 lea      rdx, [rip + 0x39536]
+0000000180010daa call     0x180010a80
+0000000180010daf mov      r8, rbx
+0000000180010db2 lea      rdx, [rip + 0x39537]
+0000000180010db9 mov      rcx, rsi
+0000000180010dbc call     0x180010a80
+0000000180010dc1 mov      r8, rdi
+0000000180010dc4 lea      rdx, [rip + 0x3953d]
+0000000180010dcb mov      rcx, rsi
+0000000180010dce call     0x180010a80
+0000000180010dd3 mov      r8, qword ptr [rsp + 0x70]
+0000000180010dd8 lea      rdx, [rip + 0x39549]
+0000000180010ddf mov      rcx, rsi
+0000000180010de2 call     0x180010a80
+0000000180010de7 mov      r8, qword ptr [rsp + 0x60]
+0000000180010dec lea      rdx, [rip + 0x3954d]
+0000000180010df3 mov      rcx, rsi
+0000000180010df6 call     0x180010a80
+0000000180010dfb mov      r8, qword ptr [rsp + 0x68]
+0000000180010e00 lea      rdx, [rip + 0x39551]
+0000000180010e07 mov      rcx, rsi
+0000000180010e0a call     0x180010a80
+0000000180010e0f mov      r8, qword ptr [rsp + 0x78]
+0000000180010e14 lea      rdx, [rip + 0x39555]
+0000000180010e1b mov      rcx, rsi
+0000000180010e1e call     0x180010a80
+0000000180010e23 mov      r8, qword ptr [rsp + 0x80]
+0000000180010e2b lea      rdx, [rip + 0x39556]
+0000000180010e32 mov      rcx, rsi
+0000000180010e35 call     0x180010a80
+0000000180010e3a mov      r8, qword ptr [rsp + 0x88]
+0000000180010e42 lea      rdx, [rip + 0x39567]
+0000000180010e49 mov      rcx, rsi
+0000000180010e4c call     0x180010a80
+0000000180010e51 mov      r8, qword ptr [rsp + 0x90]
+0000000180010e59 lea      rdx, [rip + 0x39570]
+0000000180010e60 mov      rcx, rsi
+0000000180010e63 call     0x180010a80
+0000000180010e68 mov      rax, rsi
+0000000180010e6b mov      rbx, qword ptr [rsp + 0x48]
+0000000180010e70 mov      rsi, qword ptr [rsp + 0x50]
+0000000180010e75 add      rsp, 0x30
+0000000180010e79 pop      rdi
+0000000180010e7a ret      
+0000000180010e7b int3     
+STRING 'LenovoPcManager.exe' at 0x18004a2b0 XREF 0x180016037
+0000000180015ff4 or       rbx, 7
+0000000180015ff8 cmp      rbx, rcx
+0000000180015ffb jbe      0x1800160db
+0000000180016001 mov      rbx, rcx
+0000000180016004 movabs   rcx, 0x7fffffffffffffff
+000000018001600e add      rcx, rcx
+0000000180016011 call     0x18000c820
+0000000180016016 mov      rsi, rax
+0000000180016019 mov      qword ptr [rbp - 0x29], rax
+000000018001601d mov      qword ptr [rbp - 0x19], r15
+0000000180016021 mov      qword ptr [rbp - 0x11], rbx
+0000000180016025 lea      rbx, [r14 + r14]
+0000000180016029 mov      r8, rbx
+000000018001602c mov      rdx, r12
+000000018001602f mov      rcx, rsi
+0000000180016032 call     0x1800436e0
+0000000180016037 movups   xmm0, xmmword ptr [rip + 0x34272]
+000000018001603e movups   xmmword ptr [rbx + rsi], xmm0
+0000000180016042 movups   xmm1, xmmword ptr [rip + 0x34277]
+0000000180016049 movups   xmmword ptr [rbx + rsi + 0x10], xmm1
+000000018001604e mov      eax, dword ptr [rip + 0x3427c]
+0000000180016054 mov      dword ptr [rbx + rsi + 0x20], eax
+0000000180016058 movzx    eax, word ptr [rip + 0x34275]
+000000018001605f mov      word ptr [rbx + rsi + 0x24], ax
+0000000180016064 mov      word ptr [rsi + r15*2], r13w
+0000000180016069 mov      esi, 8
+000000018001606e mov      dword ptr [rbp - 0x39], esi
+0000000180016071 lea      rdx, [rbp - 0x29]
+0000000180016075 lea      rcx, [rbp + 7]
+0000000180016079 call     0x18000f8c0
+000000018001607e and      esi, 0xfffffff7
+0000000180016081 mov      dword ptr [rbp - 0x39], esi
+0000000180016084 mov      rdx, qword ptr [rbp - 0x11]
+0000000180016088 cmp      rdx, 7
+000000018001608c jbe      0x1800160c4
+000000018001608e lea      rdx, [rdx*2 + 2]
+0000000180016096 mov      rcx, qword ptr [rbp - 0x29]
+000000018001609a mov      rax, rcx
+000000018001609d cmp      rdx, 0x1000
+00000001800160a4 jb       0x1800160bf
+00000001800160a6 add      rdx, 0x27
+00000001800160aa mov      rcx, qword ptr [rcx - 8]
+00000001800160ae sub      rax, rcx
+00000001800160b1 sub      rax, 8
+00000001800160b5 cmp      rax, 0x1f
+00000001800160b9 ja       0x180016398
+STRING 'LenovoPcManager.exe' at 0x18004a2b0 XREF 0x1800161ed
+00000001800161af je       0x1800161bb
+00000001800161b1 mov      rdx, r13
+00000001800161b4 call     0x1800436e0
+00000001800161b9 jmp      0x1800161d2
+00000001800161bb xor      edx, edx
+00000001800161bd call     0x180043240
+00000001800161c2 call     0x180028484
+00000001800161c7 mov      dword ptr [rax], 0x16
+00000001800161cd call     0x180028204
+00000001800161d2 lea      rcx, [r14 + rbx]
+00000001800161d6 test     rcx, rcx
+00000001800161d9 jne      0x1800161ed
+00000001800161db call     0x180028484
+00000001800161e0 mov      dword ptr [rax], 0x16
+00000001800161e6 call     0x180028204
+00000001800161eb jmp      0x180016216
+00000001800161ed movups   xmm0, xmmword ptr [rip + 0x340bc]
+00000001800161f4 movups   xmmword ptr [rcx], xmm0
+00000001800161f7 movups   xmm1, xmmword ptr [rip + 0x340c2]
+00000001800161fe movups   xmmword ptr [rcx + 0x10], xmm1
+0000000180016202 mov      eax, dword ptr [rip + 0x340c8]
+0000000180016208 mov      dword ptr [rcx + 0x20], eax
+000000018001620b movzx    eax, word ptr [rip + 0x340c2]
+0000000180016212 mov      word ptr [rcx + 0x24], ax
+0000000180016216 cmp      r15d, dword ptr [rbx - 0xc]
+000000018001621a jg       0x180016387
+0000000180016220 mov      dword ptr [rbx - 0x10], r15d
+0000000180016224 xor      r13d, r13d
+0000000180016227 mov      word ptr [rbx + r12*2 + 0x26], r13w
+000000018001622d mov      rcx, rbx
+0000000180016230 call     0x1800288b0
+0000000180016235 mov      r8, rax
+0000000180016238 mov      rdx, rbx
+000000018001623b lea      rcx, [rbp + 7]
+000000018001623f call     0x18001f4d0
+0000000180016244 and      esi, 0xffffffef
+0000000180016247 mov      dword ptr [rbp - 0x39], esi
+000000018001624a lea      rdx, [rbx - 0x18]
+000000018001624e mov      ebx, 0xffffffff
+0000000180016253 mov      eax, ebx
+0000000180016255 lock xadd dword ptr [rdx + 0x10], eax
+000000018001625a sub      eax, 1
+000000018001625d jg       0x180016269
+000000018001625f mov      rcx, qword ptr [rdx]
+0000000180016262 mov      rax, qword ptr [rcx]
+0000000180016265 call     qword ptr [rax + 8]
+STRING 'tools_rightclick_management' at 0x18004b128 XREF 0x180019640
+00000001800195fd int3     
+00000001800195fe int3     
+00000001800195ff int3     
+0000000180019600 push     rbx
+0000000180019602 sub      rsp, 0x50
+0000000180019606 xor      eax, eax
+0000000180019608 lea      r9, [rip + 0x31b51]
+000000018001960f mov      qword ptr [rsp + 0x48], rax
+0000000180019614 lea      r8, [rip + 0x304ad]
+000000018001961b mov      qword ptr [rsp + 0x40], rax
+0000000180019620 lea      rdx, [rip + 0x31b51]
+0000000180019627 mov      qword ptr [rsp + 0x38], rax
+000000018001962c mov      rbx, rcx
+000000018001962f mov      qword ptr [rsp + 0x30], rax
+0000000180019634 lea      rcx, [rip + 0x3048d]
+000000018001963b mov      qword ptr [rsp + 0x28], rax
+0000000180019640 lea      rax, [rip + 0x31ae1]
+0000000180019647 mov      qword ptr [rsp + 0x20], rax
+000000018001964c call     0x18001d7c0
+0000000180019651 mov      rcx, rbx
+0000000180019654 add      rsp, 0x50
+0000000180019658 pop      rbx
+0000000180019659 jmp      0x1800110f0
+000000018001965e int3     
+000000018001965f int3     
+0000000180019660 mov      qword ptr [rsp + 0x10], rbx
+0000000180019665 push     rbp
+0000000180019666 push     rsi
+0000000180019667 push     rdi
+0000000180019668 push     r12
+000000018001966a push     r13
+000000018001966c push     r14
+000000018001966e push     r15
+0000000180019670 lea      rbp, [rsp - 0x27]
+0000000180019675 sub      rsp, 0xb0
+000000018001967c mov      rax, qword ptr [rip + 0x4ca7d]
+0000000180019683 xor      rax, rsp
+0000000180019686 mov      qword ptr [rbp + 0x17], rax
+000000018001968a mov      rax, r8
+000000018001968d mov      qword ptr [rbp - 0x39], rax
+0000000180019691 mov      rdi, rdx
+0000000180019694 mov      r15, rcx
+0000000180019697 test     rdx, rdx
+000000018001969a je       0x180019a36
+00000001800196a0 test     rax, rax
+00000001800196a3 je       0x180019a36

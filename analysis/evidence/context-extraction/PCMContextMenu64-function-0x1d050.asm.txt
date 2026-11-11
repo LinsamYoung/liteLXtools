@@ -1,0 +1,90 @@
+FUNCTION 0x18001d050..0x18001d1bf
+000000018001d050 push     rbp 
+000000018001d052 push     rbx 
+000000018001d053 push     rsi 
+000000018001d054 push     rdi 
+000000018001d055 push     r14 
+000000018001d057 lea      rbp, [rsp - 0x1b0] 
+000000018001d05f sub      rsp, 0x2b0 
+000000018001d066 mov      rax, qword ptr [rip + 0x49093] 
+000000018001d06d xor      rax, rsp 
+000000018001d070 mov      qword ptr [rbp + 0x1a0], rax 
+000000018001d077 mov      r14, qword ptr [rbp + 0x218] 
+000000018001d07e xor      eax, eax 
+000000018001d080 mov      rsi, qword ptr [rbp + 0x220] 
+000000018001d087 xorps    xmm0, xmm0 
+000000018001d08a movups   xmmword ptr [rsp + 0x34], xmm0 
+000000018001d08f mov      qword ptr [rbp - 0x7c], rax 
+000000018001d093 test     r8d, r8d 
+000000018001d096 mov      dword ptr [rbp - 0x74], eax 
+000000018001d099 mov      rbx, r9 
+000000018001d09c movups   xmmword ptr [rsp + 0x24], xmm0 
+000000018001d0a1 mov      rdi, rcx 
+000000018001d0a4 mov      qword ptr [rsp + 0x38], rcx 
+000000018001d0a9 movups   xmmword ptr [rsp + 0x44], xmm0 
+000000018001d0ae mov      qword ptr [rsp + 0x40], rdx 
+000000018001d0b3 lea      rax, [rip + 0x2cde6] 
+000000018001d0ba cmove    rax, qword ptr [rsp + 0x30] 
+000000018001d0c0 lea      rcx, [rbp - 0x70] 
+000000018001d0c4 mov      qword ptr [rsp + 0x30], rax 
+000000018001d0c9 xor      edx, edx 
+000000018001d0cb movzx    eax, word ptr [rbp + 0x200] 
+000000018001d0d2 mov      r8d, 0x208 
+000000018001d0d8 movups   xmmword ptr [rsp + 0x54], xmm0 
+000000018001d0dd mov      dword ptr [rsp + 0x50], eax 
+000000018001d0e1 movups   xmmword ptr [rsp + 0x64], xmm0 
+000000018001d0e6 mov      dword ptr [rsp + 0x24], 0x40 
+000000018001d0ee movups   xmmword ptr [rsp + 0x74], xmm0 
+000000018001d0f3 mov      dword ptr [rsp + 0x20], 0x70 
+000000018001d0fb mov      qword ptr [rsp + 0x58], 0 
+000000018001d104 mov      qword ptr [rsp + 0x48], rbx 
+000000018001d109 call     0x180043240 
+000000018001d10e test     rbx, rbx 
+000000018001d111 jne      0x18001d144 
+000000018001d113 mov      rcx, rdi 
+000000018001d116 call     qword ptr [rip + 0x2afc4] PathFileExistsW
+000000018001d11c test     eax, eax 
+000000018001d11e je       0x18001d144 
+000000018001d120 mov      r8, rdi 
+000000018001d123 lea      rcx, [rbp - 0x70] 
+000000018001d127 mov      edx, 0x104 
+000000018001d12c call     0x180028540 
+000000018001d131 lea      rcx, [rbp - 0x70] 
+000000018001d135 call     qword ptr [rip + 0x2af95] PathRemoveFileSpecW
+000000018001d13b lea      rax, [rbp - 0x70] 
+000000018001d13f mov      qword ptr [rsp + 0x48], rax 
+000000018001d144 lea      rcx, [rsp + 0x20] 
+000000018001d149 call     qword ptr [rip + 0x2af61] ShellExecuteExW
+000000018001d14f mov      ebx, eax 
+000000018001d151 test     eax, eax 
+000000018001d153 je       0x18001d180 
+000000018001d155 cmp      byte ptr [rbp + 0x208], 0 
+000000018001d15c je       0x18001d180 
+000000018001d15e mov      edx, dword ptr [rbp + 0x210] 
+000000018001d164 mov      rcx, qword ptr [rbp - 0x78] 
+000000018001d168 call     qword ptr [rip + 0x2b4ba] WaitForSingleObject
+000000018001d16e test     r14, r14 
+000000018001d171 je       0x18001d180 
+000000018001d173 mov      rcx, qword ptr [rbp - 0x78] 
+000000018001d177 mov      rdx, r14 
+000000018001d17a call     qword ptr [rip + 0x2b358] GetExitCodeProcess
+000000018001d180 test     rsi, rsi 
+000000018001d183 je       0x18001d191 
+000000018001d185 mov      rcx, qword ptr [rbp - 0x78] 
+000000018001d189 call     qword ptr [rip + 0x2b321] GetProcessId
+000000018001d18f mov      dword ptr [rsi], eax 
+000000018001d191 mov      rcx, qword ptr [rbp - 0x78] 
+000000018001d195 test     rcx, rcx 
+000000018001d198 je       0x18001d1a0 
+000000018001d19a call     qword ptr [rip + 0x2b128] CloseHandle
+000000018001d1a0 mov      eax, ebx 
+000000018001d1a2 mov      rcx, qword ptr [rbp + 0x1a0] 
+000000018001d1a9 xor      rcx, rsp 
+000000018001d1ac call     0x180021ce0 
+000000018001d1b1 add      rsp, 0x2b0 
+000000018001d1b8 pop      r14 
+000000018001d1ba pop      rdi 
+000000018001d1bb pop      rsi 
+000000018001d1bc pop      rbx 
+000000018001d1bd pop      rbp 
+000000018001d1be ret       

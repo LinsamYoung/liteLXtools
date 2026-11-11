@@ -1,0 +1,22 @@
+2026-11-10T19:02:35.3984327+08:00 鍑嗗鏌ヨ骞舵墽琛岄櫎灏樺懆鏈熴€?
+2026-11-10T19:02:35.4129234+08:00 Fan_Get_FullSpeed Status=False
+2026-11-10T19:02:35.4171624+08:00 Fan_Set_FullSpeed Status=True
+2026-11-10T19:02:35.4248499+08:00 Fan_Set_FullSpeed Status=False
+System.AggregateException: 闄ゅ皹杩愯涓庡仠姝㈠潎鍙戠敓閿欒銆?---> System.IO.IOException: WMI 鏈繑鍥炶緭鍑哄璞°€?
+   鍦?LiteLX.WmiFanDevice.VerifyReturn(ManagementBaseObject result)
+   鍦?LiteLX.WmiFanDevice.FanSet(Boolean enabled)
+   鍦?LiteLX.HardwareControl.RunFan(IFanDevice device, Int32 seconds, CancellationToken cancellation)
+   --- 鍐呴儴寮傚父鍫嗘爤璺熻釜鐨勭粨灏?---
+   鍦?LiteLX.HardwareControl.RunFan(IFanDevice device, Int32 seconds, CancellationToken cancellation)
+   鍦?LiteLX.Program.Fan(String[] args)
+   鍦?LiteLX.Program.Main(String[] args)
+---> (鍐呴儴寮傚父 #0) System.IO.IOException: WMI 鏈繑鍥炶緭鍑哄璞°€?
+   鍦?LiteLX.WmiFanDevice.VerifyReturn(ManagementBaseObject result)
+   鍦?LiteLX.WmiFanDevice.FanSet(Boolean enabled)
+   鍦?LiteLX.HardwareControl.RunFan(IFanDevice device, Int32 seconds, CancellationToken cancellation)<---
+
+---> (鍐呴儴寮傚父 #1) System.IO.IOException: WMI 鏈繑鍥炶緭鍑哄璞°€?
+   鍦?LiteLX.WmiFanDevice.VerifyReturn(ManagementBaseObject result)
+   鍦?LiteLX.WmiFanDevice.FanSet(Boolean enabled)
+   鍦?LiteLX.HardwareControl.RunFan(IFanDevice device, Int32 seconds, CancellationToken cancellation)<---
+

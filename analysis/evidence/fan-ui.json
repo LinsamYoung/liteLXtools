@@ -1,0 +1,26 @@
+[
+  {
+    "file": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.210.10222\\skin\\html\\common\\js\\mess_thresholdtoast.js",
+    "offset": 4934,
+    "needle": "tools_coolclean",
+    "context": "le = '快来给电脑降降温吧';\n            }\n            if (JSON.parse(method_params).funsupport) {//降温除尘\n                clickPrams = '--source=popwindow --pcmsourcetab=cpu --pcmtabname=tools --pcmtabpage=tools/index --pcmtabparam=tools_coolclean --pcmtabtimer=1';\n                commonPrams = [{ \"key\": \"type\", \"value\": \"2\" }];\n            } else {//cpu二级页\n                clickPrams = '--source=popwindow --pcmsourcetab=cpu --pcmtabname=home --pcmtabpage=home/index --pcmtabparam=DeviceinfoCPU --pcmtabtimer=1';\n                commonPrams = ["
+  },
+  {
+    "file": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.210.10222\\skin\\dist\\js\\main.js",
+    "offset": 831840,
+    "needle": "tools_coolclean",
+    "context": "BigData(\"FB3694\");else if(\"tools_its\"==i.page)this.ITSData.visible=!0;else if(\"nps\"==i.page)this.showNPS();else if(\"tools_netscan\"==i.page)this.showNetScan();else if(\"tools_netspeed\"==i.page)this.showNetSpeed();else if(\"tools_coolclean\"==i.page)this.showCoolClean();else if(\"tools_desktopassistant\"==i.page)this.showDesktopAssistant();else if(\"tools_screencapsettings\"==i.page)this.showScreencapSettings();else if(\"feedback\"==i.page)this.callfeedback();else if(\"tools_tvsu\"==i.page)this.showHardware();else if(\"lighteffect\"==i.page);el"
+  },
+  {
+    "file": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.210.10222\\skin\\dist\\js\\main.js",
+    "offset": 832487,
+    "needle": "tools_coolclean",
+    "context": "a.visible=!0;else{if(\"tools_rightclick_management\"!=i.page)return this.$router.push({path:n});this.showRightClick()}return}if(\"driver\"==i.tab&&(this.$store.state.modal.driverDetailName=n),\"tools\"==i.tab)if(i.param){if([\"tools_coolclean\",\"tools_netscan\",\"tools_netspeed\",\"tools_desktopassistant\",\"tools_screencapsettings\",\"tools_tvsu\",\"tools_custom_hotKey\",\"tools_rightclick_management\"].includes(i.param)){switch(i.param){case\"tools_coolclean\":window.pcmHardWareModule.isCoolCleanWinToOpen=!0,window.pcmHardWareModule.isOpenFromTools=!"
+  },
+  {
+    "file": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.210.10222\\skin\\dist\\js\\main.js",
+    "offset": 832694,
+    "needle": "tools_coolclean",
+    "context": ".param){if([\"tools_coolclean\",\"tools_netscan\",\"tools_netspeed\",\"tools_desktopassistant\",\"tools_screencapsettings\",\"tools_tvsu\",\"tools_custom_hotKey\",\"tools_rightclick_management\"].includes(i.param)){switch(i.param){case\"tools_coolclean\":window.pcmHardWareModule.isCoolCleanWinToOpen=!0,window.pcmHardWareModule.isOpenFromTools=!1,this.showCoolClean(),this.$store.commit({type:\"modal/setCoolCleanStatus\",val:!0});break;case\"tools_desktopassistant\":window.pcmHardWareModule.isDesktopAssistantWinToOpen=!0,window.pcmHardWareModule.isOpenF"
+  }
+]

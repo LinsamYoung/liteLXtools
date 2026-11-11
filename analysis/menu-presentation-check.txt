@@ -1,0 +1,944 @@
+READ Software\Classes\DesktopBackground\shell\.SpotlightLearnMore
+NAME .SpotlightLearnMore
+READ Software\Classes\DesktopBackground\shell\.SpotlightLearnMore
+NAME .SpotlightLearnMore
+READ Software\Classes\DesktopBackground\shell\.SpotlightNextImage
+NAME .SpotlightNextImage
+READ Software\Classes\DesktopBackground\shell\.SpotlightNextImage
+NAME .SpotlightNextImage
+READ Software\Classes\SystemFileAssociations\.ps1\shell\Windows.PowerShell.Run
+NAME 使用 PowerShell 运行
+READ Software\Classes\SystemFileAssociations\.ps1\shell\Windows.PowerShell.Run
+NAME 使用 PowerShell 运行
+READ Software\Classes\SystemFileAssociations\.dxf\shell\3D Print
+NAME @C:\WINDOWS\\system32\\PrintDialogs3D.dll,-5039
+READ Software\Classes\SystemFileAssociations\.dxf\shell\3D Print
+NAME @C:\WINDOWS\\system32\\PrintDialogs3D.dll,-5039
+READ Software\Classes\SystemFileAssociations\.obj\shell\3D Print
+NAME @C:\WINDOWS\\system32\\PrintDialogs3D.dll,-5039
+READ Software\Classes\SystemFileAssociations\.dae\shell\3D Print
+NAME @C:\WINDOWS\\system32\\PrintDialogs3D.dll,-5039
+READ Software\Classes\SystemFileAssociations\.wrl\shell\3D Print
+NAME @C:\WINDOWS\\system32\\PrintDialogs3D.dll,-5039
+READ Software\Classes\SystemFileAssociations\.dae\shell\3D Print
+NAME @C:\WINDOWS\\system32\\PrintDialogs3D.dll,-5039
+READ Software\Classes\SystemFileAssociations\.stl\shell\3D Print
+NAME @C:\WINDOWS\\system32\\PrintDialogs3D.dll,-5039
+READ Software\Classes\SystemFileAssociations\.stl\shell\3D Print
+NAME @C:\WINDOWS\\system32\\PrintDialogs3D.dll,-5039
+READ Software\Classes\SystemFileAssociations\.wrl\shell\3D Print
+NAME @C:\WINDOWS\\system32\\PrintDialogs3D.dll,-5039
+READ Software\Classes\SystemFileAssociations\.ply\shell\3D Print
+NAME @C:\WINDOWS\\system32\\PrintDialogs3D.dll,-5039
+READ Software\Classes\SystemFileAssociations\.obj\shell\3D Print
+NAME @C:\WINDOWS\\system32\\PrintDialogs3D.dll,-5039
+READ Software\Classes\SystemFileAssociations\.ply\shell\3D Print
+NAME @C:\WINDOWS\\system32\\PrintDialogs3D.dll,-5039
+READ Software\Classes\SystemFileAssociations\.3mf\shell\3D Print
+NAME @C:\WINDOWS\\system32\\PrintDialogs3D.dll,-5039
+READ Software\Classes\SystemFileAssociations\.3ds\shell\3D Print
+NAME @C:\WINDOWS\\system32\\PrintDialogs3D.dll,-5039
+READ Software\Classes\SystemFileAssociations\.3mf\shell\3D Print
+NAME @C:\WINDOWS\\system32\\PrintDialogs3D.dll,-5039
+READ Software\Classes\SystemFileAssociations\.3ds\shell\3D Print
+NAME @C:\WINDOWS\\system32\\PrintDialogs3D.dll,-5039
+READ Software\Classes\Drive\shell\unlock-bde
+NAME 解锁驱动器(U)...
+READ Software\Classes\Drive\shell\unlock-bde
+NAME 解锁驱动器(U)...
+READ Software\Classes\AllFilesystemObjects\shell\OfflineFilesLaunchSyncCenter
+NAME 启动同步中心。
+READ Software\Classes\AllFilesystemObjects\shell\OfflineFilesLaunchSyncCenter
+NAME 启动同步中心。
+READ Software\Classes\DesktopBackground\shell\Display
+NAME 显示设置(D)
+READ Software\Classes\DesktopBackground\shell\Display
+NAME 显示设置(D)
+READ Software\Classes\Drive\shell\encrypt-bde
+NAME 启用 BitLocker(B)
+READ Software\Classes\Drive\shell\encrypt-bde-elev
+NAME 启用 BitLocker(B)
+READ Software\Classes\Drive\shell\encrypt-bde-elev
+NAME 启用 BitLocker(B)
+READ Software\Classes\Drive\shell\encrypt-bde
+NAME 启用 BitLocker(B)
+READ Software\Classes\Drive\shell\resume-bde
+NAME 恢复 BitLocker 保护(B)
+READ Software\Classes\Drive\shell\resume-bde-elev
+NAME 恢复 BitLocker 保护(B)
+READ Software\Classes\Drive\shell\resume-bde-elev
+NAME 恢复 BitLocker 保护(B)
+READ Software\Classes\Drive\shell\resume-bde
+NAME 恢复 BitLocker 保护(B)
+READ Software\Classes\Drive\shell\manage-bde
+NAME 管理 BitLocker(B)
+READ Software\Classes\Drive\shell\manage-bde
+NAME 管理 BitLocker(B)
+READ Software\Classes\Drive\shell\change-pin
+NAME 更改 BitLocker PIN
+READ Software\Classes\Drive\shell\change-pin
+NAME 更改 BitLocker PIN
+READ Software\Classes\Drive\shell\change-passphrase
+NAME 更改 BitLocker 密码
+READ Software\Classes\Drive\shell\change-passphrase
+NAME 更改 BitLocker 密码
+READ Software\Classes\SystemFileAssociations\.inf\shell\Install
+NAME 安装(I)
+READ Software\Classes\SystemFileAssociations\.inf\shell\Install
+NAME 安装(I)
+READ Software\Classes\SystemFileAssociations\.png\shell\setdesktopwallpaper
+NAME 设置为桌面背景(B)
+READ Software\Classes\SystemFileAssociations\.dib\shell\setdesktopwallpaper
+NAME 设置为桌面背景(B)
+READ Software\Classes\SystemFileAssociations\.heic\shell\setdesktopwallpaper
+NAME 设置为桌面背景(B)
+READ Software\Classes\SystemFileAssociations\.avcs\shell\setdesktopwallpaper
+NAME 设置为桌面背景(B)
+READ Software\Classes\SystemFileAssociations\.avifs\shell\setdesktopwallpaper
+NAME 设置为桌面背景(B)
+READ Software\Classes\SystemFileAssociations\.wdp\shell\setdesktopwallpaper
+NAME 设置为桌面背景(B)
+READ Software\Classes\SystemFileAssociations\.avif\shell\setdesktopwallpaper
+NAME 设置为桌面背景(B)
+READ Software\Classes\SystemFileAssociations\.heifs\shell\setdesktopwallpaper
+NAME 设置为桌面背景(B)
+READ Software\Classes\SystemFileAssociations\.jpeg\shell\setdesktopwallpaper
+NAME 设置为桌面背景(B)
+READ Software\Classes\SystemFileAssociations\.heif\shell\setdesktopwallpaper
+NAME 设置为桌面背景(B)
+READ Software\Classes\SystemFileAssociations\.tiff\shell\setdesktopwallpaper
+NAME 设置为桌面背景(B)
+READ Software\Classes\SystemFileAssociations\.jxl\shell\setdesktopwallpaper
+NAME 设置为桌面背景(B)
+READ Software\Classes\SystemFileAssociations\.jfif\shell\setdesktopwallpaper
+NAME 设置为桌面背景(B)
+READ Software\Classes\SystemFileAssociations\.jpg\shell\setdesktopwallpaper
+NAME 设置为桌面背景(B)
+READ Software\Classes\SystemFileAssociations\.gif\shell\setdesktopwallpaper
+NAME 设置为桌面背景(B)
+READ Software\Classes\SystemFileAssociations\.jpg\shell\setdesktopwallpaper
+NAME 设置为桌面背景(B)
+READ Software\Classes\SystemFileAssociations\.heif\shell\setdesktopwallpaper
+NAME 设置为桌面背景(B)
+READ Software\Classes\SystemFileAssociations\.bmp\shell\setdesktopwallpaper
+NAME 设置为桌面背景(B)
+READ Software\Classes\SystemFileAssociations\.heics\shell\setdesktopwallpaper
+NAME 设置为桌面背景(B)
+READ Software\Classes\SystemFileAssociations\.bmp\shell\setdesktopwallpaper
+NAME 设置为桌面背景(B)
+READ Software\Classes\SystemFileAssociations\.avci\shell\setdesktopwallpaper
+NAME 设置为桌面背景(B)
+READ Software\Classes\SystemFileAssociations\.jpeg\shell\setdesktopwallpaper
+NAME 设置为桌面背景(B)
+READ Software\Classes\SystemFileAssociations\.heics\shell\setdesktopwallpaper
+NAME 设置为桌面背景(B)
+READ Software\Classes\SystemFileAssociations\.tiff\shell\setdesktopwallpaper
+NAME 设置为桌面背景(B)
+READ Software\Classes\SystemFileAssociations\.gif\shell\setdesktopwallpaper
+NAME 设置为桌面背景(B)
+READ Software\Classes\SystemFileAssociations\.wdp\shell\setdesktopwallpaper
+NAME 设置为桌面背景(B)
+READ Software\Classes\SystemFileAssociations\.avcs\shell\setdesktopwallpaper
+NAME 设置为桌面背景(B)
+READ Software\Classes\SystemFileAssociations\.avifs\shell\setdesktopwallpaper
+NAME 设置为桌面背景(B)
+READ Software\Classes\SystemFileAssociations\.jfif\shell\setdesktopwallpaper
+NAME 设置为桌面背景(B)
+READ Software\Classes\SystemFileAssociations\.tif\shell\setdesktopwallpaper
+NAME 设置为桌面背景(B)
+READ Software\Classes\SystemFileAssociations\.heifs\shell\setdesktopwallpaper
+NAME 设置为桌面背景(B)
+READ Software\Classes\SystemFileAssociations\.webp\shell\setdesktopwallpaper
+NAME 设置为桌面背景(B)
+READ Software\Classes\SystemFileAssociations\.avci\shell\setdesktopwallpaper
+NAME 设置为桌面背景(B)
+READ Software\Classes\SystemFileAssociations\.dib\shell\setdesktopwallpaper
+NAME 设置为桌面背景(B)
+READ Software\Classes\SystemFileAssociations\.webp\shell\setdesktopwallpaper
+NAME 设置为桌面背景(B)
+READ Software\Classes\SystemFileAssociations\.png\shell\setdesktopwallpaper
+NAME 设置为桌面背景(B)
+READ Software\Classes\SystemFileAssociations\.jpe\shell\setdesktopwallpaper
+NAME 设置为桌面背景(B)
+READ Software\Classes\SystemFileAssociations\.jxl\shell\setdesktopwallpaper
+NAME 设置为桌面背景(B)
+READ Software\Classes\SystemFileAssociations\.heic\shell\setdesktopwallpaper
+NAME 设置为桌面背景(B)
+READ Software\Classes\SystemFileAssociations\.hif\shell\setdesktopwallpaper
+NAME 设置为桌面背景(B)
+READ Software\Classes\SystemFileAssociations\.avif\shell\setdesktopwallpaper
+NAME 设置为桌面背景(B)
+READ Software\Classes\SystemFileAssociations\.jpe\shell\setdesktopwallpaper
+NAME 设置为桌面背景(B)
+READ Software\Classes\SystemFileAssociations\.tif\shell\setdesktopwallpaper
+NAME 设置为桌面背景(B)
+READ Software\Classes\SystemFileAssociations\.hif\shell\setdesktopwallpaper
+NAME 设置为桌面背景(B)
+READ Software\Classes\DesktopBackground\shell\Personalize
+NAME 个性化(R)
+READ Software\Classes\DesktopBackground\shell\Personalize
+NAME 个性化(R)
+READ Software\Classes\SystemFileAssociations\Directory.Image\shell\Enqueue
+NAME 添加到旧版 Windows Media Player 列表(A)
+READ Software\Classes\SystemFileAssociations\audio\shell\Enqueue
+NAME 添加到旧版 Windows Media Player 列表(A)
+READ Software\Classes\SystemFileAssociations\Directory.Image\shell\Enqueue
+NAME 添加到旧版 Windows Media Player 列表(A)
+READ Software\Classes\SystemFileAssociations\Directory.Audio\shell\Enqueue
+NAME 添加到旧版 Windows Media Player 列表(A)
+READ Software\Classes\SystemFileAssociations\Directory.Audio\shell\Enqueue
+NAME 添加到旧版 Windows Media Player 列表(A)
+READ Software\Classes\SystemFileAssociations\audio\shell\Enqueue
+NAME 添加到旧版 Windows Media Player 列表(A)
+READ Software\Classes\SystemFileAssociations\Directory.Image\shell\Play
+NAME 使用旧版 Windows Media Player 播放(P)
+READ Software\Classes\SystemFileAssociations\Directory.Audio\shell\Play
+NAME 使用旧版 Windows Media Player 播放(P)
+READ Software\Classes\SystemFileAssociations\Directory.Audio\shell\Play
+NAME 使用旧版 Windows Media Player 播放(P)
+READ Software\Classes\SystemFileAssociations\audio\shell\Play
+NAME 使用旧版 Windows Media Player 播放(P)
+READ Software\Classes\SystemFileAssociations\audio\shell\Play
+NAME 使用旧版 Windows Media Player 播放(P)
+READ Software\Classes\SystemFileAssociations\Directory.Image\shell\Play
+NAME 使用旧版 Windows Media Player 播放(P)
+READ Software\Classes\AllFilesystemObjects\shell\LaunchWorkfoldersControl
+NAME 工作文件夹
+READ Software\Classes\AllFilesystemObjects\shell\LaunchWorkfoldersControl
+NAME 工作文件夹
+READ Software\Classes\Directory\shell\UpdateEncryptionSettings
+NAME 文件所有权
+READ Software\Classes\*\shell\UpdateEncryptionSettingsWork
+NAME 文件所有权
+READ Software\Classes\Directory\shell\UpdateEncryptionSettings
+NAME 文件所有权
+READ Software\Classes\*\shell\UpdateEncryptionSettingsWork
+NAME 文件所有权
+READ Software\Classes\Drive\shell\pintohome
+NAME 固定到快速访问
+READ Software\Classes\Drive\shell\pintohome
+NAME 固定到快速访问
+READ Software\Classes\Folder\shell\pintohome
+NAME 固定到快速访问(Q)
+READ Software\Classes\Folder\shell\pintohome
+NAME 固定到快速访问(Q)
+READ Software\Classes\*\shell\pintohomefile
+NAME 添加到收藏夹(F)
+READ Software\Classes\*\shell\pintohomefile
+NAME 添加到收藏夹(F)
+READ Software\Classes\Drive\shell\cmd
+NAME 在此处打开命令窗口(W)
+READ Software\Classes\Directory\Background\shell\cmd
+NAME 在此处打开命令窗口(W)
+READ Software\Classes\Directory\Background\shell\cmd
+NAME 在此处打开命令窗口(W)
+READ Software\Classes\Directory\shell\cmd
+NAME 在此处打开命令窗口(W)
+READ Software\Classes\Drive\shell\cmd
+NAME 在此处打开命令窗口(W)
+READ Software\Classes\Directory\shell\cmd
+NAME 在此处打开命令窗口(W)
+READ Software\Classes\Directory\Background\shell\Powershell
+NAME 在此处打开 Powershell 窗口(S)
+READ Software\Classes\Drive\shell\Powershell
+NAME 在此处打开 Powershell 窗口(S)
+READ Software\Classes\Directory\shell\Powershell
+NAME 在此处打开 Powershell 窗口(S)
+READ Software\Classes\Directory\Background\shell\Powershell
+NAME 在此处打开 Powershell 窗口(S)
+READ Software\Classes\Drive\shell\Powershell
+NAME 在此处打开 Powershell 窗口(S)
+READ Software\Classes\Directory\shell\Powershell
+NAME 在此处打开 Powershell 窗口(S)
+READ Software\Classes\Folder\shell\opennewprocess
+NAME 在新进程中打开(P)
+READ Software\Classes\Folder\shell\opennewprocess
+NAME 在新进程中打开(P)
+READ Software\Classes\Folder\shell\opennewwindow
+NAME 在新窗口中打开(E)
+READ Software\Classes\Folder\shell\opennewwindow
+NAME 在新窗口中打开(E)
+READ Software\Classes\Folder\shell\opennewtab
+NAME 在新标签页中打开(B)
+READ Software\Classes\Folder\shell\opennewtab
+NAME 在新标签页中打开(B)
+READ Software\Classes\Drive\shell\WSL
+NAME 在此处打开 Linux shell(L)
+READ Software\Classes\Directory\shell\WSL
+NAME 在此处打开 Linux shell(L)
+READ Software\Classes\Directory\Background\shell\WSL
+NAME 在此处打开 Linux shell(L)
+READ Software\Classes\Directory\Background\shell\WSL
+NAME 在此处打开 Linux shell(L)
+READ Software\Classes\Drive\shell\WSL
+NAME 在此处打开 Linux shell(L)
+READ Software\Classes\Directory\shell\WSL
+NAME 在此处打开 Linux shell(L)
+READ Software\Classes\*\shellex\ContextMenuHandlers\Open With
+NAME Open With Context Menu Handler
+READ Software\Classes\*\shellex\ContextMenuHandlers\Open With
+NAME Open With Context Menu Handler
+READ Software\Classes\*\shellex\ContextMenuHandlers\LockHunterShellExt
+NAME LockHunterShellExtensionHandler Class
+READ Software\Classes\Drive\shellex\ContextMenuHandlers\LockHunterShellExt
+NAME LockHunterShellExtensionHandler Class
+READ Software\Classes\Directory\shellex\ContextMenuHandlers\LockHunterShellExt
+NAME LockHunterShellExtensionHandler Class
+READ Software\Classes\*\shellex\ContextMenuHandlers\LockHunterShellExt
+NAME LockHunterShellExtensionHandler Class
+READ Software\Classes\Drive\shellex\ContextMenuHandlers\LockHunterShellExt
+NAME LockHunterShellExtensionHandler Class
+READ Software\Classes\Directory\shellex\ContextMenuHandlers\LockHunterShellExt
+NAME LockHunterShellExtensionHandler Class
+READ Software\Classes\DesktopBackground\shellex\ContextMenuHandlers\DesktopSlideshow
+NAME SlideshowContextMenu
+READ Software\Classes\DesktopBackground\shellex\ContextMenuHandlers\DesktopSlideshow
+NAME SlideshowContextMenu
+READ Software\Classes\*\shellex\ContextMenuHandlers\7-zip
+NAME 7-Zip Shell Extension
+READ Software\Classes\Folder\shellex\ContextMenuHandlers\7-zip
+NAME 7-Zip Shell Extension
+READ Software\Classes\Directory\shellex\ContextMenuHandlers\7-zip
+NAME 7-Zip Shell Extension
+READ Software\Classes\Directory\shellex\ContextMenuHandlers\7-zip
+NAME 7-Zip Shell Extension
+READ Software\Classes\*\shellex\ContextMenuHandlers\7-zip
+NAME 7-Zip Shell Extension
+READ Software\Classes\Folder\shellex\ContextMenuHandlers\7-zip
+NAME 7-Zip Shell Extension
+READ Software\Classes\Drive\shellex\ContextMenuHandlers\EnhancedStorageShell
+NAME Enhanced Storage Context Menu Handler Class
+READ Software\Classes\Drive\shellex\ContextMenuHandlers\EnhancedStorageShell
+NAME {2854F705-3548-414C-A113-93E27C808C85}
+READ Software\Classes\*\shellex\ContextMenuHandlers\AccExt
+NAME {2A118EB5-5797-4F5E-8B3D-F4ECBA3C98E4}
+READ Software\Classes\Folder\shellex\ContextMenuHandlers\AccExt
+NAME {2A118EB5-5797-4F5E-8B3D-F4ECBA3C98E4}
+READ Software\Classes\*\shellex\ContextMenuHandlers\AccExt
+NAME AccExt Class
+READ Software\Classes\Folder\shellex\ContextMenuHandlers\AccExt
+NAME AccExt Class
+READ Software\Classes\Directory\Background\shellex\ContextMenuHandlers\NvCplDesktopContext
+NAME {3D1975AF-48C6-4f8e-A182-BE0E08FA86A9}
+READ Software\Classes\Directory\Background\shellex\ContextMenuHandlers\NvCplDesktopContext
+NAME NVIDIA CPL Context Menu Extension
+READ Software\Classes\Folder\shellex\ContextMenuHandlers\Library Location
+NAME Include In Library Sub Context Menu
+READ Software\Classes\Folder\shellex\ContextMenuHandlers\Library Location
+NAME Include In Library Sub Context Menu
+READ Software\Classes\Folder\shellex\ContextMenuHandlers\PintoStartScreen
+NAME Pin To Start Screen verb handler
+READ Software\Classes\Folder\shellex\ContextMenuHandlers\PintoStartScreen
+NAME Pin To Start Screen verb handler
+READ Software\Classes\Directory\shellex\ContextMenuHandlers\Offline Files
+NAME 客户端缓存 UI
+READ Software\Classes\Directory\shellex\ContextMenuHandlers\Offline Files
+NAME {474C98EE-CF3D-41f5-80E3-4AAB0AB04301}
+READ Software\Classes\Folder\shellex\ContextMenuHandlers\Offline Files
+NAME {474C98EE-CF3D-41f5-80E3-4AAB0AB04301}
+READ Software\Classes\AllFilesystemObjects\shellex\ContextMenuHandlers\{474C98EE-CF3D-41f5-80E3-4AAB0AB04301}
+NAME 客户端缓存 UI
+READ Software\Classes\Folder\shellex\ContextMenuHandlers\Offline Files
+NAME 客户端缓存 UI
+READ Software\Classes\AllFilesystemObjects\shellex\ContextMenuHandlers\{474C98EE-CF3D-41f5-80E3-4AAB0AB04301}
+NAME {474C98EE-CF3D-41f5-80E3-4AAB0AB04301}
+READ Software\Classes\Directory\shellex\ContextMenuHandlers\{596AB062-B4D2-4215-9F74-E9109B0A8153}
+NAME Previous Versions Property Page
+READ Software\Classes\Drive\shellex\ContextMenuHandlers\{596AB062-B4D2-4215-9F74-E9109B0A8153}
+NAME Previous Versions Property Page
+READ Software\Classes\Drive\shellex\ContextMenuHandlers\{596AB062-B4D2-4215-9F74-E9109B0A8153}
+NAME Previous Versions Property Page
+READ Software\Classes\AllFilesystemObjects\shellex\ContextMenuHandlers\{596AB062-B4D2-4215-9F74-E9109B0A8153}
+NAME Previous Versions Property Page
+READ Software\Classes\AllFilesystemObjects\shellex\ContextMenuHandlers\{596AB062-B4D2-4215-9F74-E9109B0A8153}
+NAME Previous Versions Property Page
+READ Software\Classes\Directory\shellex\ContextMenuHandlers\{596AB062-B4D2-4215-9F74-E9109B0A8153}
+NAME Previous Versions Property Page
+READ Software\Classes\Directory\Background\shellex\ContextMenuHandlers\ODShlExt
+NAME {6356F8FF-EE89-4956-BF94-BBD64ED8FF4B}
+READ Software\Classes\*\shellex\ContextMenuHandlers\AppStoreExtEx
+NAME CAppStoreShlExtEx Class
+READ Software\Classes\Directory\Background\shellex\ContextMenuHandlers\ODShlExt
+NAME CAppStoreShlExtEx Class
+READ Software\Classes\*\shellex\ContextMenuHandlers\AppStoreExtEx
+NAME {6356F8FF-EE89-4956-BF94-BBD64ED8FF4B}
+READ Software\Classes\*\shellex\ContextMenuHandlers\YunShellExt
+NAME YunShellExtContextMenu Class
+READ Software\Classes\*\shellex\ContextMenuHandlers\YunShellExt
+NAME YunShellExtContextMenu Class
+READ Software\Classes\Directory\shellex\ContextMenuHandlers\YunShellExt
+NAME YunShellExtContextMenu Class
+READ Software\Classes\Directory\shellex\ContextMenuHandlers\YunShellExt
+NAME YunShellExtContextMenu Class
+READ Software\Classes\AllFilesystemObjects\shellex\ContextMenuHandlers\LenovoSafeMenu
+NAME ILenovoShellExt Class
+READ Software\Classes\AllFilesystemObjects\shellex\ContextMenuHandlers\LenovoSafeMenu
+NAME {758C684B-4D10-4BC1-90DA-6BEBF0B4E0B4}
+READ Software\Classes\Drive\shellex\ContextMenuHandlers\HRShell
+NAME {758C684B-4D10-4BC1-90DA-6BEBF0B4E0B4}
+READ Software\Classes\Drive\shellex\ContextMenuHandlers\HRShell
+NAME ILenovoShellExt Class
+READ Software\Classes\SystemFileAssociations\.m4a\shellex\ContextMenuHandlers\PlayTo
+NAME Play To menu
+READ Software\Classes\SystemFileAssociations\.mka\shellex\ContextMenuHandlers\PlayTo
+NAME Play To menu
+READ Software\Classes\SystemFileAssociations\.mk3d\shellex\ContextMenuHandlers\PlayTo
+NAME Play To menu
+READ Software\Classes\SystemFileAssociations\.dtcp-ip\shellex\ContextMenuHandlers\PlayTo
+NAME Play To menu
+READ Software\Classes\SystemFileAssociations\Directory.Image\shellex\ContextMenuHandlers\PlayTo
+NAME Play To menu
+READ Software\Classes\SystemFileAssociations\.dtcp-ip\shellex\ContextMenuHandlers\PlayTo
+NAME Play To menu
+READ Software\Classes\SystemFileAssociations\.mp4\shellex\ContextMenuHandlers\PlayTo
+NAME Play To menu
+READ Software\Classes\SystemFileAssociations\.3g2\shellex\ContextMenuHandlers\PlayTo
+NAME Play To menu
+READ Software\Classes\SystemFileAssociations\.wtv\shellex\ContextMenuHandlers\PlayTo
+NAME Play To menu
+READ Software\Classes\SystemFileAssociations\.m4v\shellex\ContextMenuHandlers\PlayTo
+NAME Play To menu
+READ Software\Classes\SystemFileAssociations\.m4a\shellex\ContextMenuHandlers\PlayTo
+NAME Play To menu
+READ Software\Classes\SystemFileAssociations\.3gpp\shellex\ContextMenuHandlers\PlayTo
+NAME Play To menu
+READ Software\Classes\SystemFileAssociations\.lpcm\shellex\ContextMenuHandlers\PlayTo
+NAME Play To menu
+READ Software\Classes\SystemFileAssociations\.mov\shellex\ContextMenuHandlers\PlayTo
+NAME Play To menu
+READ Software\Classes\SystemFileAssociations\.lpcm\shellex\ContextMenuHandlers\PlayTo
+NAME Play To menu
+READ Software\Classes\SystemFileAssociations\Directory.Audio\shellex\ContextMenuHandlers\PlayTo
+NAME Play To menu
+READ Software\Classes\SystemFileAssociations\.mkv\shellex\ContextMenuHandlers\PlayTo
+NAME Play To menu
+READ Software\Classes\SystemFileAssociations\.3gp\shellex\ContextMenuHandlers\PlayTo
+NAME Play To menu
+READ Software\Classes\SystemFileAssociations\.flac\shellex\ContextMenuHandlers\PlayTo
+NAME Play To menu
+READ Software\Classes\SystemFileAssociations\.mts\shellex\ContextMenuHandlers\PlayTo
+NAME Play To menu
+READ Software\Classes\SystemFileAssociations\.adt\shellex\ContextMenuHandlers\PlayTo
+NAME Play To menu
+READ Software\Classes\SystemFileAssociations\.adt\shellex\ContextMenuHandlers\PlayTo
+NAME Play To menu
+READ Software\Classes\SystemFileAssociations\Directory.Video\shellex\ContextMenuHandlers\PlayTo
+NAME Play To menu
+READ Software\Classes\SystemFileAssociations\image\shellex\ContextMenuHandlers\PlayTo
+NAME Play To menu
+READ Software\Classes\SystemFileAssociations\audio\shellex\ContextMenuHandlers\PlayTo
+NAME Play To menu
+READ Software\Classes\SystemFileAssociations\.3gp2\shellex\ContextMenuHandlers\PlayTo
+NAME Play To menu
+READ Software\Classes\SystemFileAssociations\.adts\shellex\ContextMenuHandlers\PlayTo
+NAME Play To menu
+READ Software\Classes\SystemFileAssociations\.m2ts\shellex\ContextMenuHandlers\PlayTo
+NAME Play To menu
+READ Software\Classes\SystemFileAssociations\.3gp\shellex\ContextMenuHandlers\PlayTo
+NAME Play To menu
+READ Software\Classes\SystemFileAssociations\.3g2\shellex\ContextMenuHandlers\PlayTo
+NAME Play To menu
+READ Software\Classes\SystemFileAssociations\.adts\shellex\ContextMenuHandlers\PlayTo
+NAME Play To menu
+READ Software\Classes\SystemFileAssociations\.mkv\shellex\ContextMenuHandlers\PlayTo
+NAME Play To menu
+READ Software\Classes\SystemFileAssociations\audio\shellex\ContextMenuHandlers\PlayTo
+NAME Play To menu
+READ Software\Classes\SystemFileAssociations\.m2ts\shellex\ContextMenuHandlers\PlayTo
+NAME Play To menu
+READ Software\Classes\SystemFileAssociations\Directory.Video\shellex\ContextMenuHandlers\PlayTo
+NAME Play To menu
+READ Software\Classes\SystemFileAssociations\.mp4v\shellex\ContextMenuHandlers\PlayTo
+NAME Play To menu
+READ Software\Classes\SystemFileAssociations\.aac\shellex\ContextMenuHandlers\PlayTo
+NAME Play To menu
+READ Software\Classes\SystemFileAssociations\.m2t\shellex\ContextMenuHandlers\PlayTo
+NAME Play To menu
+READ Software\Classes\SystemFileAssociations\video\shellex\ContextMenuHandlers\PlayTo
+NAME Play To menu
+READ Software\Classes\SystemFileAssociations\Directory.Image\shellex\ContextMenuHandlers\PlayTo
+NAME Play To menu
+READ Software\Classes\SystemFileAssociations\video\shellex\ContextMenuHandlers\PlayTo
+NAME Play To menu
+READ Software\Classes\SystemFileAssociations\.3gp2\shellex\ContextMenuHandlers\PlayTo
+NAME Play To menu
+READ Software\Classes\SystemFileAssociations\.mp4\shellex\ContextMenuHandlers\PlayTo
+NAME Play To menu
+READ Software\Classes\SystemFileAssociations\image\shellex\ContextMenuHandlers\PlayTo
+NAME Play To menu
+READ Software\Classes\SystemFileAssociations\.flac\shellex\ContextMenuHandlers\PlayTo
+NAME Play To menu
+READ Software\Classes\SystemFileAssociations\Directory.Audio\shellex\ContextMenuHandlers\PlayTo
+NAME Play To menu
+READ Software\Classes\SystemFileAssociations\.tts\shellex\ContextMenuHandlers\PlayTo
+NAME Play To menu
+READ Software\Classes\SystemFileAssociations\.wtv\shellex\ContextMenuHandlers\PlayTo
+NAME Play To menu
+READ Software\Classes\SystemFileAssociations\.ts\shellex\ContextMenuHandlers\PlayTo
+NAME Play To menu
+READ Software\Classes\SystemFileAssociations\.tts\shellex\ContextMenuHandlers\PlayTo
+NAME Play To menu
+READ Software\Classes\SystemFileAssociations\.mov\shellex\ContextMenuHandlers\PlayTo
+NAME Play To menu
+READ Software\Classes\SystemFileAssociations\.mts\shellex\ContextMenuHandlers\PlayTo
+NAME Play To menu
+READ Software\Classes\SystemFileAssociations\.m4v\shellex\ContextMenuHandlers\PlayTo
+NAME Play To menu
+READ Software\Classes\SystemFileAssociations\.mk3d\shellex\ContextMenuHandlers\PlayTo
+NAME Play To menu
+READ Software\Classes\SystemFileAssociations\.ts\shellex\ContextMenuHandlers\PlayTo
+NAME Play To menu
+READ Software\Classes\SystemFileAssociations\.aac\shellex\ContextMenuHandlers\PlayTo
+NAME Play To menu
+READ Software\Classes\SystemFileAssociations\.mka\shellex\ContextMenuHandlers\PlayTo
+NAME Play To menu
+READ Software\Classes\SystemFileAssociations\.3gpp\shellex\ContextMenuHandlers\PlayTo
+NAME Play To menu
+READ Software\Classes\SystemFileAssociations\.m2t\shellex\ContextMenuHandlers\PlayTo
+NAME Play To menu
+READ Software\Classes\SystemFileAssociations\.mp4v\shellex\ContextMenuHandlers\PlayTo
+NAME Play To menu
+READ Software\Classes\AllFilesystemObjects\shellex\ContextMenuHandlers\SendTo
+NAME Microsoft SendTo Service
+READ Software\Classes\AllFilesystemObjects\shellex\ContextMenuHandlers\SendTo
+NAME Microsoft SendTo Service
+READ Software\Classes\Directory\shellex\ContextMenuHandlers\QuarkAI.ContextMenu
+NAME Quark AI Context Menu
+READ Software\Classes\*\shellex\ContextMenuHandlers\QuarkAI.ContextMenu
+NAME Quark AI Context Menu
+READ Software\Classes\*\shellex\ContextMenuHandlers\QuarkAI.ContextMenu
+NAME {99D4E39A-EA7F-453E-9488-58C56BBF7B98}
+READ Software\Classes\Directory\shellex\ContextMenuHandlers\QuarkAI.ContextMenu
+NAME Quark AI Context Menu
+READ Software\Classes\*\shellex\ContextMenuHandlers\QuarkAI.ContextMenu
+NAME {99D4E39A-EA7F-453E-9488-58C56BBF7B98}
+READ Software\Classes\Directory\shellex\ContextMenuHandlers\QuarkAI.ContextMenu
+NAME {99D4E39A-EA7F-453E-9488-58C56BBF7B98}
+READ Software\Classes\*\shellex\ContextMenuHandlers\QuarkAI.ContextMenu
+NAME Quark AI Context Menu
+READ Software\Classes\Directory\shellex\ContextMenuHandlers\QuarkAI.ContextMenu
+NAME {99D4E39A-EA7F-453E-9488-58C56BBF7B98}
+READ Software\Classes\*\shellex\ContextMenuHandlers\Open With EncryptionMenu
+NAME Encryption Context Menu
+READ Software\Classes\*\shellex\ContextMenuHandlers\Open With EncryptionMenu
+NAME Encryption Context Menu
+READ Software\Classes\Directory\shellex\ContextMenuHandlers\EncryptionMenu
+NAME Encryption Context Menu
+READ Software\Classes\Directory\shellex\ContextMenuHandlers\EncryptionMenu
+NAME Encryption Context Menu
+READ Software\Classes\Folder\shellex\ContextMenuHandlers\Adobe.Acrobat.ContextMenu
+NAME {A6595CD1-BF77-430A-A452-18696685F7C7}
+READ Software\Classes\*\shellex\ContextMenuHandlers\Adobe.Acrobat.ContextMenu
+NAME {A6595CD1-BF77-430A-A452-18696685F7C7}
+READ Software\Classes\*\shellex\ContextMenuHandlers\Adobe.Acrobat.ContextMenu
+NAME Acrobat Elements Context Menu
+READ Software\Classes\Folder\shellex\ContextMenuHandlers\Adobe.Acrobat.ContextMenu
+NAME Acrobat Elements Context Menu
+READ Software\Classes\Drive\shellex\ContextMenuHandlers\{D6791A63-E7E2-4fee-BF52-5DED8E86E9B8}
+NAME Portable Devices Menu
+READ Software\Classes\Drive\shellex\ContextMenuHandlers\{D6791A63-E7E2-4fee-BF52-5DED8E86E9B8}
+NAME Portable Devices Menu
+READ Software\Classes\Directory\Background\shellex\ContextMenuHandlers\New
+NAME New Menu Handler
+READ Software\Classes\Directory\Background\shellex\ContextMenuHandlers\New
+NAME New Menu Handler
+READ Software\Classes\AllFilesystemObjects\shellex\ContextMenuHandlers\ModernSharing
+NAME Ribbon Modern Share Verb
+READ Software\Classes\AllFilesystemObjects\shellex\ContextMenuHandlers\ModernSharing
+NAME Ribbon Modern Share Verb
+READ Software\Classes\Directory\shellex\ContextMenuHandlers\MenuManagerExtEx
+NAME IMenuManagerShellExt Class
+READ Software\Classes\*\shellex\ContextMenuHandlers\MenuManagerExtEx
+NAME IMenuManagerShellExt Class
+READ Software\Classes\*\shellex\ContextMenuHandlers\MenuManagerExtEx
+NAME {E5428BAA-B363-4116-91F5-B2F86BA8BBF6}
+READ Software\Classes\Directory\Background\shellex\ContextMenuHandlers\MenuManagerExtEx
+NAME IMenuManagerShellExt Class
+READ Software\Classes\Directory\shellex\ContextMenuHandlers\MenuManagerExtEx
+NAME {E5428BAA-B363-4116-91F5-B2F86BA8BBF6}
+READ Software\Classes\Directory\Background\shellex\ContextMenuHandlers\MenuManagerExtEx
+NAME {E5428BAA-B363-4116-91F5-B2F86BA8BBF6}
+READ Software\Classes\Directory\Background\shellex\ContextMenuHandlers\WorkFolders
+NAME {E61BF828-5E63-4287-BEF1-60B1A4FDE0E3}
+READ Software\Classes\Directory\shellex\ContextMenuHandlers\WorkFolders
+NAME Work Folders Context Menu Handler
+READ Software\Classes\*\shellex\ContextMenuHandlers\WorkFolders
+NAME Work Folders Context Menu Handler
+READ Software\Classes\Directory\shellex\ContextMenuHandlers\WorkFolders
+NAME {E61BF828-5E63-4287-BEF1-60B1A4FDE0E3}
+READ Software\Classes\*\shellex\ContextMenuHandlers\WorkFolders
+NAME {E61BF828-5E63-4287-BEF1-60B1A4FDE0E3}
+READ Software\Classes\Directory\Background\shellex\ContextMenuHandlers\WorkFolders
+NAME Work Folders Context Menu Handler
+READ Software\Classes\Directory\Background\shellex\ContextMenuHandlers\NvAppDesktopContext
+NAME {F2E8B4A1-9C7D-4F6E-B3A5-8D2C1F4E9B7A}
+READ Software\Classes\Directory\Background\shellex\ContextMenuHandlers\NvAppDesktopContext
+NAME DesktopContext Class
+READ Software\Classes\AllFilesystemObjects\shellex\ContextMenuHandlers\CopyAsPathMenu
+NAME Copy as Path Menu
+READ Software\Classes\AllFilesystemObjects\shellex\ContextMenuHandlers\CopyAsPathMenu
+NAME Copy as Path Menu
+READ Software\Classes\*\shellex\ContextMenuHandlers\Sharing
+NAME Shell extensions for sharing
+READ Software\Classes\Drive\shellex\ContextMenuHandlers\Sharing
+NAME Shell extensions for sharing
+READ Software\Classes\Directory\Background\shellex\ContextMenuHandlers\Sharing
+NAME Shell extensions for sharing
+READ Software\Classes\Drive\shellex\ContextMenuHandlers\Sharing
+NAME Shell extensions for sharing
+READ Software\Classes\Directory\shellex\ContextMenuHandlers\Sharing
+NAME Shell extensions for sharing
+READ Software\Classes\Directory\Background\shellex\ContextMenuHandlers\Sharing
+NAME Shell extensions for sharing
+READ Software\Classes\Directory\shellex\ContextMenuHandlers\Sharing
+NAME Shell extensions for sharing
+READ Software\Classes\*\shellex\ContextMenuHandlers\Sharing
+NAME Shell extensions for sharing
+READ Software\Classes\Drive\shellex\ContextMenuHandlers\{fbeb8a05-beee-4442-804e-409d6c4515e9}
+NAME ShellFolder for CD Burning
+READ Software\Classes\Drive\shellex\ContextMenuHandlers\{fbeb8a05-beee-4442-804e-409d6c4515e9}
+NAME ShellFolder for CD Burning
+READ Software\Classes\SystemFileAssociations\.jpg\shellex\ContextMenuHandlers\ShellImagePreview
+NAME Windows Photo Viewer Image Verbs
+READ Software\Classes\SystemFileAssociations\.jpe\shellex\ContextMenuHandlers\ShellImagePreview
+NAME Windows Photo Viewer Image Verbs
+READ Software\Classes\SystemFileAssociations\.tiff\shellex\ContextMenuHandlers\ShellImagePreview
+NAME Windows Photo Viewer Image Verbs
+READ Software\Classes\SystemFileAssociations\.bmp\shellex\ContextMenuHandlers\ShellImagePreview
+NAME Windows Photo Viewer Image Verbs
+READ Software\Classes\SystemFileAssociations\.jpg\shellex\ContextMenuHandlers\ShellImagePreview
+NAME Windows Photo Viewer Image Verbs
+READ Software\Classes\SystemFileAssociations\.wdp\shellex\ContextMenuHandlers\ShellImagePreview
+NAME Windows Photo Viewer Image Verbs
+READ Software\Classes\SystemFileAssociations\.jfif\shellex\ContextMenuHandlers\ShellImagePreview
+NAME Windows Photo Viewer Image Verbs
+READ Software\Classes\SystemFileAssociations\.tiff\shellex\ContextMenuHandlers\ShellImagePreview
+NAME Windows Photo Viewer Image Verbs
+READ Software\Classes\SystemFileAssociations\.avif\shellex\ContextMenuHandlers\ShellImagePreview
+NAME Windows Photo Viewer Image Verbs
+READ Software\Classes\SystemFileAssociations\.heic\shellex\ContextMenuHandlers\ShellImagePreview
+NAME Windows Photo Viewer Image Verbs
+READ Software\Classes\SystemFileAssociations\.hif\shellex\ContextMenuHandlers\ShellImagePreview
+NAME Windows Photo Viewer Image Verbs
+READ Software\Classes\SystemFileAssociations\.jpeg\shellex\ContextMenuHandlers\ShellImagePreview
+NAME Windows Photo Viewer Image Verbs
+READ Software\Classes\SystemFileAssociations\.tif\shellex\ContextMenuHandlers\ShellImagePreview
+NAME Windows Photo Viewer Image Verbs
+READ Software\Classes\SystemFileAssociations\.dib\shellex\ContextMenuHandlers\ShellImagePreview
+NAME Windows Photo Viewer Image Verbs
+READ Software\Classes\SystemFileAssociations\.heif\shellex\ContextMenuHandlers\ShellImagePreview
+NAME Windows Photo Viewer Image Verbs
+READ Software\Classes\SystemFileAssociations\.dds\shellex\ContextMenuHandlers\ShellImagePreview
+NAME Windows Photo Viewer Image Verbs
+READ Software\Classes\SystemFileAssociations\.webp\shellex\ContextMenuHandlers\ShellImagePreview
+NAME Windows Photo Viewer Image Verbs
+READ Software\Classes\SystemFileAssociations\.avci\shellex\ContextMenuHandlers\ShellImagePreview
+NAME Windows Photo Viewer Image Verbs
+READ Software\Classes\SystemFileAssociations\.jxr\shellex\ContextMenuHandlers\ShellImagePreview
+NAME Windows Photo Viewer Image Verbs
+READ Software\Classes\SystemFileAssociations\.dds\shellex\ContextMenuHandlers\ShellImagePreview
+NAME Windows Photo Viewer Image Verbs
+READ Software\Classes\SystemFileAssociations\.jfif\shellex\ContextMenuHandlers\ShellImagePreview
+NAME Windows Photo Viewer Image Verbs
+READ Software\Classes\SystemFileAssociations\.jxr\shellex\ContextMenuHandlers\ShellImagePreview
+NAME Windows Photo Viewer Image Verbs
+READ Software\Classes\SystemFileAssociations\.dib\shellex\ContextMenuHandlers\ShellImagePreview
+NAME Windows Photo Viewer Image Verbs
+READ Software\Classes\SystemFileAssociations\.hif\shellex\ContextMenuHandlers\ShellImagePreview
+NAME Windows Photo Viewer Image Verbs
+READ Software\Classes\SystemFileAssociations\.webp\shellex\ContextMenuHandlers\ShellImagePreview
+NAME Windows Photo Viewer Image Verbs
+READ Software\Classes\SystemFileAssociations\.jxl\shellex\ContextMenuHandlers\ShellImagePreview
+NAME Windows Photo Viewer Image Verbs
+READ Software\Classes\SystemFileAssociations\.avci\shellex\ContextMenuHandlers\ShellImagePreview
+NAME Windows Photo Viewer Image Verbs
+READ Software\Classes\SystemFileAssociations\.tif\shellex\ContextMenuHandlers\ShellImagePreview
+NAME Windows Photo Viewer Image Verbs
+READ Software\Classes\SystemFileAssociations\.bmp\shellex\ContextMenuHandlers\ShellImagePreview
+NAME Windows Photo Viewer Image Verbs
+READ Software\Classes\SystemFileAssociations\.jxl\shellex\ContextMenuHandlers\ShellImagePreview
+NAME Windows Photo Viewer Image Verbs
+READ Software\Classes\SystemFileAssociations\.heif\shellex\ContextMenuHandlers\ShellImagePreview
+NAME Windows Photo Viewer Image Verbs
+READ Software\Classes\SystemFileAssociations\.gif\shellex\ContextMenuHandlers\ShellImagePreview
+NAME Windows Photo Viewer Image Verbs
+READ Software\Classes\SystemFileAssociations\.jpeg\shellex\ContextMenuHandlers\ShellImagePreview
+NAME Windows Photo Viewer Image Verbs
+READ Software\Classes\SystemFileAssociations\.avif\shellex\ContextMenuHandlers\ShellImagePreview
+NAME Windows Photo Viewer Image Verbs
+READ Software\Classes\SystemFileAssociations\.gif\shellex\ContextMenuHandlers\ShellImagePreview
+NAME Windows Photo Viewer Image Verbs
+READ Software\Classes\SystemFileAssociations\.ico\shellex\ContextMenuHandlers\ShellImagePreview
+NAME Windows Photo Viewer Image Verbs
+READ Software\Classes\SystemFileAssociations\.wdp\shellex\ContextMenuHandlers\ShellImagePreview
+NAME Windows Photo Viewer Image Verbs
+READ Software\Classes\SystemFileAssociations\.png\shellex\ContextMenuHandlers\ShellImagePreview
+NAME Windows Photo Viewer Image Verbs
+READ Software\Classes\SystemFileAssociations\.png\shellex\ContextMenuHandlers\ShellImagePreview
+NAME Windows Photo Viewer Image Verbs
+READ Software\Classes\SystemFileAssociations\.rle\shellex\ContextMenuHandlers\ShellImagePreview
+NAME Windows Photo Viewer Image Verbs
+READ Software\Classes\SystemFileAssociations\.rle\shellex\ContextMenuHandlers\ShellImagePreview
+NAME Windows Photo Viewer Image Verbs
+READ Software\Classes\SystemFileAssociations\.heic\shellex\ContextMenuHandlers\ShellImagePreview
+NAME Windows Photo Viewer Image Verbs
+READ Software\Classes\SystemFileAssociations\.jpe\shellex\ContextMenuHandlers\ShellImagePreview
+NAME Windows Photo Viewer Image Verbs
+READ Software\Classes\SystemFileAssociations\.ico\shellex\ContextMenuHandlers\ShellImagePreview
+NAME Windows Photo Viewer Image Verbs
+READ Software\Classes\SystemFileAssociations\.zip\shellex\ContextMenuHandlers\{b8cdcb65-b1bf-4b42-9428-1dfdb7ee92af}
+NAME Compressed (zipped) Folder Menu
+READ Software\Classes\SystemFileAssociations\.zip\shellex\ContextMenuHandlers\{b8cdcb65-b1bf-4b42-9428-1dfdb7ee92af}
+NAME Compressed (zipped) Folder Menu
+READ Software\Classes\SystemFileAssociations\.7z\shellex\ContextMenuHandlers\{EE07CEF5-3441-4CFB-870A-4002C724783A}
+NAME Compressed Archive Folder Menu
+READ Software\Classes\SystemFileAssociations\.nupkg\shellex\ContextMenuHandlers\{EE07CEF5-3441-4CFB-870A-4002C724783A}
+NAME Compressed Archive Folder Menu
+READ Software\Classes\SystemFileAssociations\.cpio\shellex\ContextMenuHandlers\{EE07CEF5-3441-4CFB-870A-4002C724783A}
+NAME Compressed Archive Folder Menu
+READ Software\Classes\SystemFileAssociations\.xar\shellex\ContextMenuHandlers\{EE07CEF5-3441-4CFB-870A-4002C724783A}
+NAME Compressed Archive Folder Menu
+READ Software\Classes\SystemFileAssociations\.xz\shellex\ContextMenuHandlers\{EE07CEF5-3441-4CFB-870A-4002C724783A}
+NAME Compressed Archive Folder Menu
+READ Software\Classes\SystemFileAssociations\.txz\shellex\ContextMenuHandlers\{EE07CEF5-3441-4CFB-870A-4002C724783A}
+NAME Compressed Archive Folder Menu
+READ Software\Classes\SystemFileAssociations\.tbz2\shellex\ContextMenuHandlers\{EE07CEF5-3441-4CFB-870A-4002C724783A}
+NAME Compressed Archive Folder Menu
+READ Software\Classes\SystemFileAssociations\.tgz\shellex\ContextMenuHandlers\{EE07CEF5-3441-4CFB-870A-4002C724783A}
+NAME Compressed Archive Folder Menu
+READ Software\Classes\SystemFileAssociations\.rar\shellex\ContextMenuHandlers\{EE07CEF5-3441-4CFB-870A-4002C724783A}
+NAME Compressed Archive Folder Menu
+READ Software\Classes\SystemFileAssociations\.rar\shellex\ContextMenuHandlers\{EE07CEF5-3441-4CFB-870A-4002C724783A}
+NAME Compressed Archive Folder Menu
+READ Software\Classes\SystemFileAssociations\.mtree\shellex\ContextMenuHandlers\{EE07CEF5-3441-4CFB-870A-4002C724783A}
+NAME Compressed Archive Folder Menu
+READ Software\Classes\SystemFileAssociations\.gz\shellex\ContextMenuHandlers\{EE07CEF5-3441-4CFB-870A-4002C724783A}
+NAME Compressed Archive Folder Menu
+READ Software\Classes\SystemFileAssociations\.tar\shellex\ContextMenuHandlers\{EE07CEF5-3441-4CFB-870A-4002C724783A}
+NAME Compressed Archive Folder Menu
+READ Software\Classes\SystemFileAssociations\.7z\shellex\ContextMenuHandlers\{EE07CEF5-3441-4CFB-870A-4002C724783A}
+NAME Compressed Archive Folder Menu
+READ Software\Classes\SystemFileAssociations\.zst\shellex\ContextMenuHandlers\{EE07CEF5-3441-4CFB-870A-4002C724783A}
+NAME Compressed Archive Folder Menu
+READ Software\Classes\SystemFileAssociations\.uu\shellex\ContextMenuHandlers\{EE07CEF5-3441-4CFB-870A-4002C724783A}
+NAME Compressed Archive Folder Menu
+READ Software\Classes\SystemFileAssociations\.uu\shellex\ContextMenuHandlers\{EE07CEF5-3441-4CFB-870A-4002C724783A}
+NAME Compressed Archive Folder Menu
+READ Software\Classes\SystemFileAssociations\.gz\shellex\ContextMenuHandlers\{EE07CEF5-3441-4CFB-870A-4002C724783A}
+NAME Compressed Archive Folder Menu
+READ Software\Classes\SystemFileAssociations\.zst\shellex\ContextMenuHandlers\{EE07CEF5-3441-4CFB-870A-4002C724783A}
+NAME Compressed Archive Folder Menu
+READ Software\Classes\SystemFileAssociations\.cpio\shellex\ContextMenuHandlers\{EE07CEF5-3441-4CFB-870A-4002C724783A}
+NAME Compressed Archive Folder Menu
+READ Software\Classes\SystemFileAssociations\.nupkg\shellex\ContextMenuHandlers\{EE07CEF5-3441-4CFB-870A-4002C724783A}
+NAME Compressed Archive Folder Menu
+READ Software\Classes\SystemFileAssociations\.tzst\shellex\ContextMenuHandlers\{EE07CEF5-3441-4CFB-870A-4002C724783A}
+NAME Compressed Archive Folder Menu
+READ Software\Classes\SystemFileAssociations\.xar\shellex\ContextMenuHandlers\{EE07CEF5-3441-4CFB-870A-4002C724783A}
+NAME Compressed Archive Folder Menu
+READ Software\Classes\SystemFileAssociations\.bz2\shellex\ContextMenuHandlers\{EE07CEF5-3441-4CFB-870A-4002C724783A}
+NAME Compressed Archive Folder Menu
+READ Software\Classes\SystemFileAssociations\.txz\shellex\ContextMenuHandlers\{EE07CEF5-3441-4CFB-870A-4002C724783A}
+NAME Compressed Archive Folder Menu
+READ Software\Classes\SystemFileAssociations\.tbz2\shellex\ContextMenuHandlers\{EE07CEF5-3441-4CFB-870A-4002C724783A}
+NAME Compressed Archive Folder Menu
+READ Software\Classes\SystemFileAssociations\.tzst\shellex\ContextMenuHandlers\{EE07CEF5-3441-4CFB-870A-4002C724783A}
+NAME Compressed Archive Folder Menu
+READ Software\Classes\SystemFileAssociations\.mtree\shellex\ContextMenuHandlers\{EE07CEF5-3441-4CFB-870A-4002C724783A}
+NAME Compressed Archive Folder Menu
+READ Software\Classes\SystemFileAssociations\.tgz\shellex\ContextMenuHandlers\{EE07CEF5-3441-4CFB-870A-4002C724783A}
+NAME Compressed Archive Folder Menu
+READ Software\Classes\SystemFileAssociations\.bz2\shellex\ContextMenuHandlers\{EE07CEF5-3441-4CFB-870A-4002C724783A}
+NAME Compressed Archive Folder Menu
+READ Software\Classes\SystemFileAssociations\.tar\shellex\ContextMenuHandlers\{EE07CEF5-3441-4CFB-870A-4002C724783A}
+NAME Compressed Archive Folder Menu
+READ Software\Classes\SystemFileAssociations\.xz\shellex\ContextMenuHandlers\{EE07CEF5-3441-4CFB-870A-4002C724783A}
+NAME Compressed Archive Folder Menu
+READ Software\Classes\SystemFileAssociations\text\shell\edit
+NAME edit
+READ Software\Classes\SystemFileAssociations\.ps1\shell\Edit
+NAME Edit
+READ Software\Classes\SystemFileAssociations\.psd1\shell\Edit
+NAME Edit
+READ Software\Classes\SystemFileAssociations\.vsto\shell\edit
+NAME edit
+READ Software\Classes\SystemFileAssociations\text\shell\edit
+NAME edit
+READ Software\Classes\SystemFileAssociations\.psm1\shell\Edit
+NAME Edit
+READ Software\Classes\SystemFileAssociations\.psd1\shell\Edit
+NAME Edit
+READ Software\Classes\SystemFileAssociations\.ps1\shell\Edit
+NAME Edit
+READ Software\Classes\SystemFileAssociations\.psm1\shell\Edit
+NAME Edit
+READ Software\Classes\SystemFileAssociations\.vsto\shell\edit
+NAME edit
+READ Software\Classes\*\shell\Open with IntelliJ IDEA
+NAME Edit with IntelliJ IDEA
+READ Software\Classes\*\shell\Open with IntelliJ IDEA
+NAME Edit with IntelliJ IDEA
+READ Software\Classes\*\shell\Open with PyCharm
+NAME Edit with PyCharm
+READ Software\Classes\*\shell\Open with PyCharm
+NAME Edit with PyCharm
+READ Software\Classes\DesktopBackground\shell\EditStickers
+NAME EditStickers
+READ Software\Classes\DesktopBackground\shell\EditStickers
+NAME EditStickers
+READ Software\Classes\Folder\shell\explore
+NAME explore
+READ Software\Classes\Folder\shell\explore
+NAME explore
+READ Software\Classes\Directory\shell\find
+NAME find
+READ Software\Classes\Drive\shell\find
+NAME find
+READ Software\Classes\Drive\shell\find
+NAME find
+READ Software\Classes\Directory\shell\find
+NAME find
+READ Software\Classes\AllFilesystemObjects\shell\ModernProperties
+NAME ModernProperties
+READ Software\Classes\AllFilesystemObjects\shell\ModernProperties
+NAME ModernProperties
+READ Software\Classes\SystemFileAssociations\.vsto\shell\open
+NAME open
+READ Software\Classes\SystemFileAssociations\text\shell\open
+NAME open
+READ Software\Classes\Folder\shell\open
+NAME open
+READ Software\Classes\SystemFileAssociations\text\shell\open
+NAME open
+READ Software\Classes\SystemFileAssociations\.vsto\shell\open
+NAME open
+READ Software\Classes\Folder\shell\open
+NAME open
+READ Software\Classes\Directory\shell\IntelliJ IDEA
+NAME Open Folder as IntelliJ IDEA Project
+READ Software\Classes\Directory\Background\shell\IntelliJ IDEA
+NAME Open Folder as IntelliJ IDEA Project
+READ Software\Classes\Directory\Background\shell\IntelliJ IDEA
+NAME Open Folder as IntelliJ IDEA Project
+READ Software\Classes\Directory\shell\IntelliJ IDEA
+NAME Open Folder as IntelliJ IDEA Project
+READ Software\Classes\Directory\Background\shell\PyCharm
+NAME Open Folder as PyCharm Project
+READ Software\Classes\Directory\shell\PyCharm
+NAME Open Folder as PyCharm Project
+READ Software\Classes\Directory\Background\shell\PyCharm
+NAME Open Folder as PyCharm Project
+READ Software\Classes\Directory\shell\PyCharm
+NAME Open Folder as PyCharm Project
+READ Software\Classes\Directory\Background\shell\git_gui
+NAME Open Git GUI here
+READ Software\Classes\Directory\shell\git_gui
+NAME Open Git GUI here
+READ Software\Classes\Directory\Background\shell\git_gui
+NAME Open Git GUI here
+READ Software\Classes\Directory\shell\git_gui
+NAME Open Git GUI here
+READ Software\Classes\Directory\Background\shell\git_shell
+NAME Open Git Bash here
+READ Software\Classes\Directory\shell\git_shell
+NAME Open Git Bash here
+READ Software\Classes\Directory\shell\git_shell
+NAME Open Git Bash here
+READ Software\Classes\Directory\Background\shell\git_shell
+NAME Open Git Bash here
+READ Software\Classes\SystemFileAssociations\.avif\shell\print
+NAME print
+READ Software\Classes\SystemFileAssociations\image\shell\print
+NAME print
+READ Software\Classes\SystemFileAssociations\.heif\shell\print
+NAME print
+READ Software\Classes\SystemFileAssociations\image\shell\print
+NAME print
+READ Software\Classes\SystemFileAssociations\.hif\shell\print
+NAME print
+READ Software\Classes\SystemFileAssociations\.heics\shell\print
+NAME print
+READ Software\Classes\SystemFileAssociations\.heics\shell\print
+NAME print
+READ Software\Classes\SystemFileAssociations\.avifs\shell\print
+NAME print
+READ Software\Classes\SystemFileAssociations\.avcs\shell\print
+NAME print
+READ Software\Classes\SystemFileAssociations\.avci\shell\print
+NAME print
+READ Software\Classes\SystemFileAssociations\.avcs\shell\print
+NAME print
+READ Software\Classes\SystemFileAssociations\.heif\shell\print
+NAME print
+READ Software\Classes\SystemFileAssociations\.heifs\shell\print
+NAME print
+READ Software\Classes\SystemFileAssociations\.heifs\shell\print
+NAME print
+READ Software\Classes\SystemFileAssociations\.avifs\shell\print
+NAME print
+READ Software\Classes\SystemFileAssociations\.hif\shell\print
+NAME print
+READ Software\Classes\SystemFileAssociations\.avif\shell\print
+NAME print
+READ Software\Classes\SystemFileAssociations\.avci\shell\print
+NAME print
+READ Software\Classes\SystemFileAssociations\.jxl\shell\print
+NAME print
+READ Software\Classes\SystemFileAssociations\.heic\shell\print
+NAME print
+READ Software\Classes\SystemFileAssociations\.jxl\shell\print
+NAME print
+READ Software\Classes\SystemFileAssociations\.heic\shell\print
+NAME print
+READ Software\Classes\*\shell\removeproperties
+NAME removeproperties
+READ Software\Classes\*\shell\removeproperties
+NAME removeproperties
+READ Software\Classes\Folder\shellex\ContextMenuHandlers\{a2a9545d-a0c2-42b4-9708-a0b2badd77c8}
+NAME Start Menu Pin
+READ Software\Classes\Folder\shellex\ContextMenuHandlers\{a2a9545d-a0c2-42b4-9708-a0b2badd77c8}
+NAME Start Menu Pin
+READ Software\Classes\*\shellex\ContextMenuHandlers\{a2a9545d-a0c2-42b4-9708-a0b2badd77c8}
+NAME Start Menu Pin
+READ Software\Classes\AllFilesystemObjects\shellex\ContextMenuHandlers\{a2a9545d-a0c2-42b4-9708-a0b2badd77c8}
+NAME Start Menu Pin
+READ Software\Classes\*\shellex\ContextMenuHandlers\{a2a9545d-a0c2-42b4-9708-a0b2badd77c8}
+NAME Start Menu Pin
+READ Software\Classes\AllFilesystemObjects\shellex\ContextMenuHandlers\{a2a9545d-a0c2-42b4-9708-a0b2badd77c8}
+NAME Start Menu Pin
+READ Software\Classes\*\shellex\ContextMenuHandlers\{90AA3A4E-1CBA-4233-B8BB-535773D48449}
+NAME Taskband Pin
+READ Software\Classes\*\shellex\ContextMenuHandlers\{90AA3A4E-1CBA-4233-B8BB-535773D48449}
+NAME Taskband Pin
+READ Software\Classes\*\shell\ThunderShell
+NAME ThunderShell - Context menu
+READ Software\Classes\*\shell\ThunderShell
+NAME ThunderShell - Context menu
+READ Software\Classes\Directory\Background\shell\Lenovo
+NAME 护眼卫士
+READ Software\Classes\Directory\Background\shell\Lenovo
+NAME 护眼卫士
+READ Software\Classes\*\shell\UploadToThunderPan
+NAME 上传到迅雷云盘
+READ Software\Classes\*\shell\UploadToThunderPan
+NAME 上传到迅雷云盘
+READ Software\Classes\*\shell\ToDeskSendFile
+NAME 使用 ToDesk 快传文件
+READ Software\Classes\*\shell\ToDeskSendFile
+NAME 使用 ToDesk 快传文件
+READ Software\Classes\Directory\shell\ToDeskSendFile
+NAME 使用 ToDesk 快传文件
+READ Software\Classes\Directory\shell\ToDeskSendFile
+NAME 使用 ToDesk 快传文件
+READ Software\Classes\Folder\shell\搜索 Everything...
+NAME 搜索 Everything...
+READ Software\Classes\Directory\Background\shell\搜索 Everything...
+NAME 搜索 Everything...
+READ Software\Classes\Directory\Background\shell\搜索 Everything...
+NAME 搜索 Everything...
+READ Software\Classes\Folder\shell\搜索 Everything...
+NAME 搜索 Everything...
+READ Software\Classes\AllFilesystemObjects\shell\shred.bleachbit
+NAME 用 BleachBit 擦除
+READ Software\Classes\AllFilesystemObjects\shell\shred.bleachbit
+NAME 用 BleachBit 擦除

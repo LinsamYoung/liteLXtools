@@ -1,0 +1,197 @@
+{
+  "evidence_id": "ev_0d494e2a252e97a9d302e621a1c0b171112a579a8d679424714aa2be6c4389cd",
+  "subject": {
+    "name": "DissipateHeat.dll",
+    "digest": {
+      "sha256": "1791f827660c2eb5c66092f3631b4da88ba201556c9c07c8e610b286f3fc0c90"
+    },
+    "local_path": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.210.10222\\Modules\\Setings\\yoga\\plugins\\DissipateHeat.dll",
+    "format": "pe",
+    "architecture": "x86"
+  },
+  "provider": {
+    "id": "rea-dotnet-static",
+    "name": "REA managed static analysis provider",
+    "version": "1"
+  },
+  "analysis_profile": null,
+  "predicate_type": "rea.analysis",
+  "operation": "inspect_managed_native_boundaries",
+  "parameters": {
+    "path": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.210.10222\\Modules\\Setings\\yoga\\plugins\\DissipateHeat.dll"
+  },
+  "raw_result": null,
+  "normalized_result": {
+    "artifact": {
+      "path": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.210.10222\\Modules\\Setings\\yoga\\plugins\\DissipateHeat.dll",
+      "sha256": "1791f827660c2eb5c66092f3631b4da88ba201556c9c07c8e610b286f3fc0c90",
+      "byte_length": 67848,
+      "format": "pe"
+    },
+    "module": {
+      "name": "DissipateHeat.dll",
+      "generation": 0,
+      "mvid": "26c2ebc2-0989-4415-806a-2410a3f77d3a",
+      "enc_id": null,
+      "enc_base_id": null,
+      "token": "0x00000001",
+      "row_offset": 1920
+    },
+    "metadata": {
+      "status": "complete",
+      "version": "v4.0.30319",
+      "table_row_counts": {
+        "Module": 1,
+        "TypeRef": 67,
+        "TypeDef": 8,
+        "Field": 18,
+        "MethodDef": 42,
+        "Param": 19,
+        "InterfaceImpl": 3,
+        "MemberRef": 56,
+        "Constant": 5,
+        "CustomAttribute": 29,
+        "StandAloneSig": 2,
+        "PropertyMap": 4,
+        "Property": 10,
+        "MethodSemantics": 14,
+        "MethodImpl": 1,
+        "ModuleRef": 1,
+        "ImplMap": 2,
+        "Assembly": 1,
+        "AssemblyRef": 7,
+        "ManifestResource": 2,
+        "MethodSpec": 2
+      }
+    },
+    "identity_scope": {
+      "token_identity": "build-local",
+      "requires_artifact_sha256": "1791f827660c2eb5c66092f3631b4da88ba201556c9c07c8e610b286f3fc0c90",
+      "requires_mvid": "26c2ebc2-0989-4415-806a-2410a3f77d3a"
+    },
+    "cli_native": {
+      "il_only": true,
+      "requires_32bit": true,
+      "strong_name_signed": false,
+      "native_entry_point": false,
+      "ready_to_run_signature": false,
+      "managed_native_header_rva": 0,
+      "managed_native_header_size": 0
+    },
+    "module_refs": [
+      {
+        "token": "0x1a000001",
+        "row_offset": 3976,
+        "name": "../../../GameSettingsPlugin.dll"
+      }
+    ],
+    "pinvoke_imports": [
+      {
+        "token": "0x1c000001",
+        "row_offset": 3978,
+        "mapping_flags": 516,
+        "mapping_flags_hex": "0x0204",
+        "member_token": "0x06000028",
+        "member_kind": "method",
+        "member_name": "SetSmartFanMode",
+        "import_name": "SetSmartFanMode",
+        "import_scope_token": "0x1a000001",
+        "import_scope_name": "../../../GameSettingsPlugin.dll",
+        "no_mangle": false,
+        "char_set": "unicode",
+        "call_convention": "cdecl",
+        "supports_last_error": false,
+        "best_fit": "assembly-default",
+        "throw_on_unmappable_char": "assembly-default",
+        "verification": "managed-declaration-only"
+      },
+      {
+        "token": "0x1c000002",
+        "row_offset": 3986,
+        "mapping_flags": 516,
+        "mapping_flags_hex": "0x0204",
+        "member_token": "0x06000029",
+        "member_kind": "method",
+        "member_name": "GetSmartFanMode",
+        "import_name": "GetSmartFanMode",
+        "import_scope_token": "0x1a000001",
+        "import_scope_name": "../../../GameSettingsPlugin.dll",
+        "no_mangle": false,
+        "char_set": "unicode",
+        "call_convention": "cdecl",
+        "supports_last_error": false,
+        "best_fit": "assembly-default",
+        "throw_on_unmappable_char": "assembly-default",
+        "verification": "managed-declaration-only"
+      }
+    ],
+    "native_implementations": [
+      {
+        "token": "0x06000028",
+        "row_offset": 3098,
+        "name": "SetSmartFanMode",
+        "rva": 0,
+        "flags": 8342,
+        "impl_flags": 128,
+        "code_type": "il",
+        "managed_kind": "managed",
+        "pinvoke_declared": true,
+        "boundary_kind": "pinvoke",
+        "body_interpretation": "not-file-backed"
+      },
+      {
+        "token": "0x06000029",
+        "row_offset": 3112,
+        "name": "GetSmartFanMode",
+        "rva": 0,
+        "flags": 8342,
+        "impl_flags": 128,
+        "code_type": "il",
+        "managed_kind": "managed",
+        "pinvoke_declared": true,
+        "boundary_kind": "pinvoke",
+        "body_interpretation": "not-file-backed"
+      }
+    ],
+    "summary": {
+      "module_ref_count": 1,
+      "pinvoke_import_count": 2,
+      "native_implementation_count": 2,
+      "ready_to_run": false,
+      "mixed_mode_or_native_header": false
+    },
+    "coverage": {
+      "state": "complete",
+      "issues": []
+    },
+    "limitations": [
+      "P/Invoke rows prove managed import declarations only; this inspection does not verify that a native library, export, thunk, or provider-qualified function exists.",
+      "Managed metadata tokens are build-local coordinates and are only meaningful with the reported artifact SHA-256 and MVID.",
+      "ReadyToRun, NativeAOT, C++/CLI, and IL2CPP native semantics require separately selected native-provider evidence; this tool does not translate managed tokens into native addresses."
+    ]
+  },
+  "confidence": "observed",
+  "authority": "shipped-artifact",
+  "environment": null,
+  "limitations": [
+    "P/Invoke rows prove managed import declarations only; this inspection does not verify that a native library, export, thunk, or provider-qualified function exists.",
+    "Managed metadata tokens are build-local coordinates and are only meaningful with the reported artifact SHA-256 and MVID.",
+    "ReadyToRun, NativeAOT, C++/CLI, and IL2CPP native semantics require separately selected native-provider evidence; this tool does not translate managed tokens into native addresses."
+  ],
+  "relationship_coverage": null,
+  "locations": [
+    {
+      "kind": "file-offset",
+      "offset": 1920
+    },
+    {
+      "kind": "file-offset",
+      "offset": 3978
+    },
+    {
+      "kind": "file-offset",
+      "offset": 3986
+    }
+  ],
+  "evidence_links": []
+}

@@ -1,0 +1,1047 @@
+[
+  {
+    "Namespace": "root/wmi",
+    "Class": "LENOVO_GAMEZONE_DATA",
+    "Methods": [
+      {
+        "Name": "GetIRTemp",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Direction": [
+              "out"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "GetThermalTableID",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Direction": [
+              "out"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "SetThermalTableID",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Direction": [
+              "in"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "IsSupportGpuOC",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Direction": [
+              "out"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "GetGpuGpsState",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Direction": [
+              "out"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "SetGpuGpsState",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Direction": [
+              "in"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "GetFanCount",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Direction": [
+              "out"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "GetFan1Speed",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Direction": [
+              "out"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "GetFan2Speed",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Direction": [
+              "out"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "GetFanMaxSpeed",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Direction": [
+              "out"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "GetVersion",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Direction": [
+              "out"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "IsSupportFanCooling",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Direction": [
+              "out"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "SetFanCooling",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Direction": [
+              "in"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "IsSupportCpuOC",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Direction": [
+              "out"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "IsBIOSSupportOC",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Direction": [
+              "out"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "SetBIOSOC",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Direction": [
+              "in"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "GetTriggerTemperatureValue",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Direction": [
+              "out"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "GetCPUTemp",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Direction": [
+              "out"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "GetGPUTemp",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Direction": [
+              "out"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "GetFanCoolingStatus",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Direction": [
+              "out"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "IsSupportDisableWinKey",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Direction": [
+              "out"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "SetWinKeyStatus",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Direction": [
+              "in"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "GetWinKeyStatus",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Direction": [
+              "out"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "IsSupportDisableTP",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Direction": [
+              "out"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "SetTPStatus",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Direction": [
+              "in"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "GetTPStatus",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Direction": [
+              "out"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "GetGPUPow",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Direction": [
+              "out"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "GetGPUOCPow",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Direction": [
+              "out"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "GetGPUOCType",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Direction": [
+              "out"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "GetKeyboardfeaturelist",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Direction": [
+              "out"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "GetMemoryOCInfo",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Direction": [
+              "out"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "IsSupportWaterCooling",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Direction": [
+              "out"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "SetWaterCoolingStatus",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Direction": [
+              "in"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "GetWaterCoolingStatus",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Direction": [
+              "out"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "IsSupportLightingFeature",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Direction": [
+              "out"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "SetKeyboardLight",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Direction": [
+              "in"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "GetKeyboardLight",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Direction": [
+              "out"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "GetMacrokeyScancode",
+        "Parameters": [
+          {
+            "Name": "idx",
+            "Type": "UInt32",
+            "Direction": [
+              "in"
+            ]
+          },
+          {
+            "Name": "scancode",
+            "Type": "UInt32",
+            "Direction": [
+              "out"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "GetMacrokeyCount",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Direction": [
+              "out"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "IsSupportGSync",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Direction": [
+              "out"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "GetGSyncStatus",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Direction": [
+              "out"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "SetGSyncStatus",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Direction": [
+              "in"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "IsSupportSmartFan",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Direction": [
+              "out"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "SetSmartFanMode",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Direction": [
+              "in"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "GetSmartFanMode",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Direction": [
+              "out"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "GetSmartFanSetting",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Direction": [
+              "out"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "GetPowerChargeMode",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Direction": [
+              "out"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "GetProductInfo",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Direction": [
+              "out"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "IsSupportOD",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Direction": [
+              "out"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "GetODStatus",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Direction": [
+              "out"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "SetODStatus",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Direction": [
+              "in"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "SetLightControlOwner",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Direction": [
+              "in"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "SetDDSControlOwner",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Direction": [
+              "in"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "IsRestoreOCValue",
+        "Parameters": [
+          {
+            "Name": "idx",
+            "Type": "UInt32",
+            "Direction": [
+              "in"
+            ]
+          },
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Direction": [
+              "out"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "GetThermalMode",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Direction": [
+              "out"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "GetBIOSOCMode",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Direction": [
+              "out"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "SetIntelligentSubMode",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Direction": [
+              "in"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "GetIntelligentSubMode",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Direction": [
+              "out"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "GetHardwareInfoSupportVersion",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Direction": [
+              "out"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "GetCpuFrequency",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Direction": [
+              "out"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "GetLearningProfileCount",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Direction": [
+              "out"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "IsACFitForOC",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Direction": [
+              "out"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "IsSupportIGPUMode",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Direction": [
+              "out"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "GetIGPUModeStatus",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Direction": [
+              "out"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "SetIGPUModeStatus",
+        "Parameters": [
+          {
+            "Name": "mode",
+            "Type": "UInt32",
+            "Direction": [
+              "in"
+            ]
+          },
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Direction": [
+              "out"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "NotifyDGPUStatus",
+        "Parameters": [
+          {
+            "Name": "status",
+            "Type": "UInt32",
+            "Direction": [
+              "in"
+            ]
+          },
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Direction": [
+              "out"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "IsChangedYLog",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Direction": [
+              "out"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "GetDGPUHWId",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "String",
+            "Direction": [
+              "out"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Namespace": "root/wmi",
+    "Class": "LENOVO_FAN_METHOD",
+    "Methods": [
+      {
+        "Name": "Fan_Get_FullSpeed",
+        "Parameters": [
+          {
+            "Name": "Status",
+            "Type": "Boolean",
+            "Direction": [
+              "out"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Fan_Set_FullSpeed",
+        "Parameters": [
+          {
+            "Name": "Status",
+            "Type": "Boolean",
+            "Direction": [
+              "in"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Fan_Get_MaxSpeed",
+        "Parameters": [
+          {
+            "Name": "Fan_ID",
+            "Type": "UInt8",
+            "Direction": [
+              "in"
+            ]
+          },
+          {
+            "Name": "FanMaxSpeed",
+            "Type": "UInt8Array",
+            "Direction": [
+              "out"
+            ]
+          },
+          {
+            "Name": "FanMaxSpeedSize",
+            "Type": "UInt32",
+            "Direction": [
+              "out"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Fan_Set_MaxSpeed",
+        "Parameters": [
+          {
+            "Name": "FanMaxSpeedTable",
+            "Type": "UInt8Array",
+            "Direction": [
+              "in"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Fan_Get_Table",
+        "Parameters": [
+          {
+            "Name": "FanID",
+            "Type": "UInt8",
+            "Direction": [
+              "in"
+            ]
+          },
+          {
+            "Name": "SensorID",
+            "Type": "UInt8",
+            "Direction": [
+              "in"
+            ]
+          },
+          {
+            "Name": "FanTable",
+            "Type": "UInt8Array",
+            "Direction": [
+              "out"
+            ]
+          },
+          {
+            "Name": "FanTableSize",
+            "Type": "UInt32",
+            "Direction": [
+              "out"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Fan_Set_Table",
+        "Parameters": [
+          {
+            "Name": "FanTable",
+            "Type": "UInt8Array",
+            "Direction": [
+              "in"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Fan_GetCurrentFanSpeed",
+        "Parameters": [
+          {
+            "Name": "FanID",
+            "Type": "UInt8",
+            "Direction": [
+              "in"
+            ]
+          },
+          {
+            "Name": "CurrentFanSpeed",
+            "Type": "UInt16",
+            "Direction": [
+              "out"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Fan_GetCurrentSensorTemperature",
+        "Parameters": [
+          {
+            "Name": "SensorID",
+            "Type": "UInt8",
+            "Direction": [
+              "in"
+            ]
+          },
+          {
+            "Name": "CurrentSensorTemperature",
+            "Type": "UInt16",
+            "Direction": [
+              "out"
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Fan_SetCurrentFanSpeed",
+        "Parameters": [
+          {
+            "Name": "CurrentFanSpeed",
+            "Type": "UInt16",
+            "Direction": [
+              "in"
+            ]
+          },
+          {
+            "Name": "FanID",
+            "Type": "UInt8",
+            "Direction": [
+              "in"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Namespace": "root/wmi",
+    "Class": "LENOVO_UTILITY_DATA",
+    "Methods": [
+      {
+        "Name": "GetIfSupportOrVersion",
+        "Parameters": [
+          {
+            "Name": "datatype",
+            "Type": "UInt32",
+            "Direction": [
+              "in"
+            ]
+          },
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Direction": [
+              "out"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

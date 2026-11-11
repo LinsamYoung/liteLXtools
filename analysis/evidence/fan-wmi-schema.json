@@ -1,0 +1,1156 @@
+[
+  {
+    "ClassName": "LENOVO_FAN_METHOD",
+    "Qualifiers": [
+      {
+        "Name": "Description",
+        "Value": "LENOVO_FAN_METHOD class"
+      },
+      {
+        "Name": "dynamic",
+        "Value": true
+      },
+      {
+        "Name": "guid",
+        "Value": "{92549549-4bde-4f06-ac04-ce8bf898dbaa}"
+      },
+      {
+        "Name": "Locale",
+        "Value": "MS\\0x409"
+      },
+      {
+        "Name": "provider",
+        "Value": "WmiProv"
+      },
+      {
+        "Name": "WMI",
+        "Value": true
+      }
+    ],
+    "Methods": [
+      {
+        "Name": "Fan_Get_FullSpeed",
+        "ReturnType": "Boolean",
+        "Parameters": [
+          {
+            "Name": "Status",
+            "Type": "Boolean",
+            "Qualifiers": [
+              {
+                "Name": "ID",
+                "Value": 0
+              },
+              {
+                "Name": "out",
+                "Value": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Fan_Set_FullSpeed",
+        "ReturnType": "Boolean",
+        "Parameters": [
+          {
+            "Name": "Status",
+            "Type": "Boolean",
+            "Qualifiers": [
+              {
+                "Name": "ID",
+                "Value": 0
+              },
+              {
+                "Name": "in",
+                "Value": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Fan_Get_MaxSpeed",
+        "ReturnType": "Boolean",
+        "Parameters": [
+          {
+            "Name": "Fan_ID",
+            "Type": "UInt8",
+            "Qualifiers": [
+              {
+                "Name": "ID",
+                "Value": 0
+              },
+              {
+                "Name": "in",
+                "Value": true
+              }
+            ]
+          },
+          {
+            "Name": "FanMaxSpeed",
+            "Type": "UInt8Array",
+            "Qualifiers": [
+              {
+                "Name": "ID",
+                "Value": 2
+              },
+              {
+                "Name": "out",
+                "Value": true
+              },
+              {
+                "Name": "WmiSizeIs",
+                "Value": "FanMaxSpeedSize"
+              }
+            ]
+          },
+          {
+            "Name": "FanMaxSpeedSize",
+            "Type": "UInt32",
+            "Qualifiers": [
+              {
+                "Name": "ID",
+                "Value": 1
+              },
+              {
+                "Name": "out",
+                "Value": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Fan_Set_MaxSpeed",
+        "ReturnType": "Boolean",
+        "Parameters": [
+          {
+            "Name": "FanMaxSpeedTable",
+            "Type": "UInt8Array",
+            "Qualifiers": [
+              {
+                "Name": "ID",
+                "Value": 0
+              },
+              {
+                "Name": "in",
+                "Value": true
+              },
+              {
+                "Name": "Max",
+                "Value": 3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Fan_Get_Table",
+        "ReturnType": "Boolean",
+        "Parameters": [
+          {
+            "Name": "FanID",
+            "Type": "UInt8",
+            "Qualifiers": [
+              {
+                "Name": "ID",
+                "Value": 0
+              },
+              {
+                "Name": "in",
+                "Value": true
+              }
+            ]
+          },
+          {
+            "Name": "SensorID",
+            "Type": "UInt8",
+            "Qualifiers": [
+              {
+                "Name": "ID",
+                "Value": 1
+              },
+              {
+                "Name": "in",
+                "Value": true
+              }
+            ]
+          },
+          {
+            "Name": "FanTable",
+            "Type": "UInt8Array",
+            "Qualifiers": [
+              {
+                "Name": "ID",
+                "Value": 3
+              },
+              {
+                "Name": "out",
+                "Value": true
+              },
+              {
+                "Name": "WmiSizeIs",
+                "Value": "FanTableSize"
+              }
+            ]
+          },
+          {
+            "Name": "FanTableSize",
+            "Type": "UInt32",
+            "Qualifiers": [
+              {
+                "Name": "ID",
+                "Value": 2
+              },
+              {
+                "Name": "out",
+                "Value": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Fan_Set_Table",
+        "ReturnType": "Boolean",
+        "Parameters": [
+          {
+            "Name": "FanTable",
+            "Type": "UInt8Array",
+            "Qualifiers": [
+              {
+                "Name": "ID",
+                "Value": 0
+              },
+              {
+                "Name": "in",
+                "Value": true
+              },
+              {
+                "Name": "Max",
+                "Value": 64
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Fan_GetCurrentFanSpeed",
+        "ReturnType": "Boolean",
+        "Parameters": [
+          {
+            "Name": "FanID",
+            "Type": "UInt8",
+            "Qualifiers": [
+              {
+                "Name": "ID",
+                "Value": 0
+              },
+              {
+                "Name": "in",
+                "Value": true
+              }
+            ]
+          },
+          {
+            "Name": "CurrentFanSpeed",
+            "Type": "UInt16",
+            "Qualifiers": [
+              {
+                "Name": "ID",
+                "Value": 1
+              },
+              {
+                "Name": "out",
+                "Value": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Fan_GetCurrentSensorTemperature",
+        "ReturnType": "Boolean",
+        "Parameters": [
+          {
+            "Name": "SensorID",
+            "Type": "UInt8",
+            "Qualifiers": [
+              {
+                "Name": "ID",
+                "Value": 0
+              },
+              {
+                "Name": "in",
+                "Value": true
+              }
+            ]
+          },
+          {
+            "Name": "CurrentSensorTemperature",
+            "Type": "UInt16",
+            "Qualifiers": [
+              {
+                "Name": "ID",
+                "Value": 1
+              },
+              {
+                "Name": "out",
+                "Value": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Fan_SetCurrentFanSpeed",
+        "ReturnType": "Boolean",
+        "Parameters": [
+          {
+            "Name": "CurrentFanSpeed",
+            "Type": "UInt16",
+            "Qualifiers": [
+              {
+                "Name": "ID",
+                "Value": 1
+              },
+              {
+                "Name": "in",
+                "Value": true
+              }
+            ]
+          },
+          {
+            "Name": "FanID",
+            "Type": "UInt8",
+            "Qualifiers": [
+              {
+                "Name": "ID",
+                "Value": 0
+              },
+              {
+                "Name": "in",
+                "Value": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ClassName": "LENOVO_GAMEZONE_DATA",
+    "Qualifiers": [
+      {
+        "Name": "Description",
+        "Value": "LENOVO_GAMEZONE_DATA class"
+      },
+      {
+        "Name": "dynamic",
+        "Value": true
+      },
+      {
+        "Name": "guid",
+        "Value": "{887B54E3-DDDC-4B2C-8B88-68A26A8835D0}"
+      },
+      {
+        "Name": "Locale",
+        "Value": "MS\\0x409"
+      },
+      {
+        "Name": "provider",
+        "Value": "WmiProv"
+      },
+      {
+        "Name": "WMI",
+        "Value": true
+      }
+    ],
+    "Methods": [
+      {
+        "Name": "IsSupportGpuOC",
+        "ReturnType": "Boolean",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Qualifiers": [
+              {
+                "Name": "Description",
+                "Value": "Is SupportGpu OverClock"
+              },
+              {
+                "Name": "ID",
+                "Value": 0
+              },
+              {
+                "Name": "out",
+                "Value": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "GetFanCount",
+        "ReturnType": "Boolean",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Qualifiers": [
+              {
+                "Name": "Description",
+                "Value": "Fan Count"
+              },
+              {
+                "Name": "ID",
+                "Value": 0
+              },
+              {
+                "Name": "out",
+                "Value": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "GetFan1Speed",
+        "ReturnType": "Boolean",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Qualifiers": [
+              {
+                "Name": "Description",
+                "Value": "Fan1 Speed"
+              },
+              {
+                "Name": "ID",
+                "Value": 0
+              },
+              {
+                "Name": "out",
+                "Value": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "GetFan2Speed",
+        "ReturnType": "Boolean",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Qualifiers": [
+              {
+                "Name": "Description",
+                "Value": "Fan2 Speed"
+              },
+              {
+                "Name": "ID",
+                "Value": 0
+              },
+              {
+                "Name": "out",
+                "Value": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "GetFanMaxSpeed",
+        "ReturnType": "Boolean",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Qualifiers": [
+              {
+                "Name": "Description",
+                "Value": "Fan Max Speed"
+              },
+              {
+                "Name": "ID",
+                "Value": 0
+              },
+              {
+                "Name": "out",
+                "Value": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "GetVersion",
+        "ReturnType": "Boolean",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Qualifiers": [
+              {
+                "Name": "Description",
+                "Value": "AslCode version"
+              },
+              {
+                "Name": "ID",
+                "Value": 0
+              },
+              {
+                "Name": "out",
+                "Value": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "IsSupportFanCooling",
+        "ReturnType": "Boolean",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Qualifiers": [
+              {
+                "Name": "Description",
+                "Value": "Fan cooling capablity"
+              },
+              {
+                "Name": "ID",
+                "Value": 0
+              },
+              {
+                "Name": "out",
+                "Value": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "SetFanCooling",
+        "ReturnType": "Boolean",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Qualifiers": [
+              {
+                "Name": "Description",
+                "Value": "Set Fan cooling on/off"
+              },
+              {
+                "Name": "ID",
+                "Value": 0
+              },
+              {
+                "Name": "in",
+                "Value": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "IsSupportCpuOC",
+        "ReturnType": "Boolean",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Qualifiers": [
+              {
+                "Name": "Description",
+                "Value": "cpu oc capability"
+              },
+              {
+                "Name": "ID",
+                "Value": 0
+              },
+              {
+                "Name": "out",
+                "Value": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "IsBIOSSupportOC",
+        "ReturnType": "Boolean",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Qualifiers": [
+              {
+                "Name": "Description",
+                "Value": "bios has overclock capability"
+              },
+              {
+                "Name": "ID",
+                "Value": 0
+              },
+              {
+                "Name": "out",
+                "Value": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "GetFanCoolingStatus",
+        "ReturnType": "Boolean",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Qualifiers": [
+              {
+                "Name": "Description",
+                "Value": "Get Fan cooling on/off status"
+              },
+              {
+                "Name": "ID",
+                "Value": 0
+              },
+              {
+                "Name": "out",
+                "Value": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "IsSupportDisableWinKey",
+        "ReturnType": "Boolean",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Qualifiers": [
+              {
+                "Name": "Description",
+                "Value": "EC support disable windows key capability"
+              },
+              {
+                "Name": "ID",
+                "Value": 0
+              },
+              {
+                "Name": "out",
+                "Value": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "IsSupportDisableTP",
+        "ReturnType": "Boolean",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Qualifiers": [
+              {
+                "Name": "Description",
+                "Value": "EC support disable touchpad capability"
+              },
+              {
+                "Name": "ID",
+                "Value": 0
+              },
+              {
+                "Name": "out",
+                "Value": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "IsSupportWaterCooling",
+        "ReturnType": "Boolean",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Qualifiers": [
+              {
+                "Name": "Description",
+                "Value": "Water Cooling feature capability"
+              },
+              {
+                "Name": "ID",
+                "Value": 0
+              },
+              {
+                "Name": "out",
+                "Value": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "IsSupportLightingFeature",
+        "ReturnType": "Boolean",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Qualifiers": [
+              {
+                "Name": "Description",
+                "Value": "Lighting feature capability"
+              },
+              {
+                "Name": "ID",
+                "Value": 0
+              },
+              {
+                "Name": "out",
+                "Value": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "IsSupportGSync",
+        "ReturnType": "Boolean",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Qualifiers": [
+              {
+                "Name": "Description",
+                "Value": "Support G-Sync feature"
+              },
+              {
+                "Name": "ID",
+                "Value": 0
+              },
+              {
+                "Name": "out",
+                "Value": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "IsSupportSmartFan",
+        "ReturnType": "Boolean",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Qualifiers": [
+              {
+                "Name": "Description",
+                "Value": "Support Smart Fan feature"
+              },
+              {
+                "Name": "ID",
+                "Value": 0
+              },
+              {
+                "Name": "out",
+                "Value": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "SetSmartFanMode",
+        "ReturnType": "Boolean",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Qualifiers": [
+              {
+                "Name": "Description",
+                "Value": "Set Smart Fan Mode"
+              },
+              {
+                "Name": "ID",
+                "Value": 0
+              },
+              {
+                "Name": "in",
+                "Value": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "GetSmartFanMode",
+        "ReturnType": "Boolean",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Qualifiers": [
+              {
+                "Name": "Description",
+                "Value": "Get Smart Fan Mode"
+              },
+              {
+                "Name": "ID",
+                "Value": 0
+              },
+              {
+                "Name": "out",
+                "Value": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "GetSmartFanSetting",
+        "ReturnType": "Boolean",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Qualifiers": [
+              {
+                "Name": "Description",
+                "Value": "Get Smart Setting Mode"
+              },
+              {
+                "Name": "ID",
+                "Value": 0
+              },
+              {
+                "Name": "out",
+                "Value": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "IsSupportOD",
+        "ReturnType": "Boolean",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Qualifiers": [
+              {
+                "Name": "Description",
+                "Value": "Over Drive feature capability"
+              },
+              {
+                "Name": "ID",
+                "Value": 0
+              },
+              {
+                "Name": "out",
+                "Value": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "GetHardwareInfoSupportVersion",
+        "ReturnType": "Boolean",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Qualifiers": [
+              {
+                "Name": "Description",
+                "Value": "version"
+              },
+              {
+                "Name": "ID",
+                "Value": 0
+              },
+              {
+                "Name": "out",
+                "Value": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "IsSupportIGPUMode",
+        "ReturnType": "Boolean",
+        "Parameters": [
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Qualifiers": [
+              {
+                "Name": "Description",
+                "Value": "IGPU modes"
+              },
+              {
+                "Name": "ID",
+                "Value": 0
+              },
+              {
+                "Name": "out",
+                "Value": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ClassName": "LENOVO_OTHER_METHOD",
+    "Qualifiers": [
+      {
+        "Name": "Description",
+        "Value": "LENOVO_OTHER_METHOD class"
+      },
+      {
+        "Name": "dynamic",
+        "Value": true
+      },
+      {
+        "Name": "guid",
+        "Value": "{dc2a8805-3a8c-41ba-a6f7-092e0089cd3b}"
+      },
+      {
+        "Name": "Locale",
+        "Value": "MS\\0x409"
+      },
+      {
+        "Name": "provider",
+        "Value": "WmiProv"
+      },
+      {
+        "Name": "WMI",
+        "Value": true
+      }
+    ],
+    "Methods": [
+      {
+        "Name": "GetSupportThermalMode",
+        "ReturnType": "Boolean",
+        "Parameters": [
+          {
+            "Name": "mode",
+            "Type": "UInt32",
+            "Qualifiers": [
+              {
+                "Name": "ID",
+                "Value": 0
+              },
+              {
+                "Name": "out",
+                "Value": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Get_Legion_Device_Support_Feature",
+        "ReturnType": "Boolean",
+        "Parameters": [
+          {
+            "Name": "Status",
+            "Type": "UInt32",
+            "Qualifiers": [
+              {
+                "Name": "ID",
+                "Value": 0
+              },
+              {
+                "Name": "out",
+                "Value": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Get_Device_Current_Support_Feature",
+        "ReturnType": "Boolean",
+        "Parameters": [
+          {
+            "Name": "Flag",
+            "Type": "UInt32",
+            "Qualifiers": [
+              {
+                "Name": "ID",
+                "Value": 0
+              },
+              {
+                "Name": "out",
+                "Value": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Set_Device_Current_Support_Feature",
+        "ReturnType": "Boolean",
+        "Parameters": [
+          {
+            "Name": "FunctionID",
+            "Type": "UInt8",
+            "Qualifiers": [
+              {
+                "Name": "ID",
+                "Value": 0
+              },
+              {
+                "Name": "in",
+                "Value": true
+              }
+            ]
+          },
+          {
+            "Name": "value",
+            "Type": "UInt8",
+            "Qualifiers": [
+              {
+                "Name": "ID",
+                "Value": 1
+              },
+              {
+                "Name": "in",
+                "Value": true
+              }
+            ]
+          },
+          {
+            "Name": "ret",
+            "Type": "UInt8",
+            "Qualifiers": [
+              {
+                "Name": "ID",
+                "Value": 2
+              },
+              {
+                "Name": "out",
+                "Value": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Get_Support_LegionZone_Version",
+        "ReturnType": "Boolean",
+        "Parameters": [
+          {
+            "Name": "Version",
+            "Type": "UInt32",
+            "Qualifiers": [
+              {
+                "Name": "ID",
+                "Value": 0
+              },
+              {
+                "Name": "out",
+                "Value": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ClassName": "LENOVO_UTILITY_DATA",
+    "Qualifiers": [
+      {
+        "Name": "Description",
+        "Value": "LENOVO_UTILITY_DATA class"
+      },
+      {
+        "Name": "dynamic",
+        "Value": true
+      },
+      {
+        "Name": "guid",
+        "Value": "{ce6c0974-0407-4f50-88ba-4fc3b6559ad8}"
+      },
+      {
+        "Name": "Locale",
+        "Value": "MS\\0x409"
+      },
+      {
+        "Name": "provider",
+        "Value": "WmiProv"
+      },
+      {
+        "Name": "WMI",
+        "Value": true
+      }
+    ],
+    "Methods": [
+      {
+        "Name": "GetIfSupportOrVersion",
+        "ReturnType": "Boolean",
+        "Parameters": [
+          {
+            "Name": "datatype",
+            "Type": "UInt32",
+            "Qualifiers": [
+              {
+                "Name": "Description",
+                "Value": "Control type"
+              },
+              {
+                "Name": "ID",
+                "Value": 0
+              },
+              {
+                "Name": "in",
+                "Value": true
+              }
+            ]
+          },
+          {
+            "Name": "Data",
+            "Type": "UInt32",
+            "Qualifiers": [
+              {
+                "Name": "Description",
+                "Value": "0 is not support 1,2,3...version"
+              },
+              {
+                "Name": "ID",
+                "Value": 1
+              },
+              {
+                "Name": "out",
+                "Value": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,425 @@
+{
+  "evidence_id": "ev_37c779c2a6e7278ee544674a50d0881261907e0fc1f1756cda304ed057fab58d",
+  "subject": {
+    "name": "LogoDiy.dll",
+    "digest": {
+      "sha256": "5f6efa18804da953408f98c6eda6058937a80537c17945e851434963eabc6e85"
+    },
+    "local_path": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.210.10222\\Modules\\Setings\\yoga\\plugins\\LogoDiy.dll",
+    "format": "pe",
+    "architecture": "x86"
+  },
+  "provider": {
+    "id": "rea-dotnet-static",
+    "name": "REA managed static analysis provider",
+    "version": "1"
+  },
+  "analysis_profile": null,
+  "predicate_type": "rea.analysis",
+  "operation": "inspect_managed_native_boundaries",
+  "parameters": {
+    "path": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.210.10222\\Modules\\Setings\\yoga\\plugins\\LogoDiy.dll"
+  },
+  "raw_result": null,
+  "normalized_result": {
+    "artifact": {
+      "path": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.210.10222\\Modules\\Setings\\yoga\\plugins\\LogoDiy.dll",
+      "sha256": "5f6efa18804da953408f98c6eda6058937a80537c17945e851434963eabc6e85",
+      "byte_length": 530696,
+      "format": "pe"
+    },
+    "module": {
+      "name": "LogoDiy.dll",
+      "generation": 0,
+      "mvid": "1bd9e573-3291-43f2-85c7-bb672a811be6",
+      "enc_id": null,
+      "enc_base_id": null,
+      "token": "0x00000001",
+      "row_offset": 7548
+    },
+    "metadata": {
+      "status": "complete",
+      "version": "v4.0.30319",
+      "table_row_counts": {
+        "Module": 1,
+        "TypeRef": 118,
+        "TypeDef": 14,
+        "Field": 58,
+        "MethodDef": 108,
+        "Param": 68,
+        "InterfaceImpl": 3,
+        "MemberRef": 152,
+        "Constant": 20,
+        "CustomAttribute": 41,
+        "StandAloneSig": 19,
+        "PropertyMap": 5,
+        "Property": 28,
+        "MethodSemantics": 47,
+        "MethodImpl": 1,
+        "ModuleRef": 3,
+        "TypeSpec": 2,
+        "ImplMap": 8,
+        "Assembly": 1,
+        "AssemblyRef": 9,
+        "ManifestResource": 2,
+        "NestedClass": 3,
+        "MethodSpec": 12
+      }
+    },
+    "identity_scope": {
+      "token_identity": "build-local",
+      "requires_artifact_sha256": "5f6efa18804da953408f98c6eda6058937a80537c17945e851434963eabc6e85",
+      "requires_mvid": "1bd9e573-3291-43f2-85c7-bb672a811be6"
+    },
+    "cli_native": {
+      "il_only": true,
+      "requires_32bit": true,
+      "strong_name_signed": false,
+      "native_entry_point": false,
+      "ready_to_run_signature": false,
+      "managed_native_header_rva": 0,
+      "managed_native_header_size": 0
+    },
+    "module_refs": [
+      {
+        "token": "0x1a000001",
+        "row_offset": 12534,
+        "name": "User32.dll"
+      },
+      {
+        "token": "0x1a000002",
+        "row_offset": 12536,
+        "name": "AIToolAPI.dll"
+      },
+      {
+        "token": "0x1a000003",
+        "row_offset": 12538,
+        "name": "Kernel32.dll"
+      }
+    ],
+    "pinvoke_imports": [
+      {
+        "token": "0x1c000001",
+        "row_offset": 12544,
+        "mapping_flags": 256,
+        "mapping_flags_hex": "0x0100",
+        "member_token": "0x06000061",
+        "member_kind": "method",
+        "member_name": "FindWindow",
+        "import_name": "FindWindow",
+        "import_scope_token": "0x1a000001",
+        "import_scope_name": "User32.dll",
+        "no_mangle": false,
+        "char_set": "not-specified",
+        "call_convention": "winapi",
+        "supports_last_error": false,
+        "best_fit": "assembly-default",
+        "throw_on_unmappable_char": "assembly-default",
+        "verification": "managed-declaration-only"
+      },
+      {
+        "token": "0x1c000002",
+        "row_offset": 12552,
+        "mapping_flags": 256,
+        "mapping_flags_hex": "0x0100",
+        "member_token": "0x06000062",
+        "member_kind": "method",
+        "member_name": "SendMessage",
+        "import_name": "SendMessage",
+        "import_scope_token": "0x1a000001",
+        "import_scope_name": "User32.dll",
+        "no_mangle": false,
+        "char_set": "not-specified",
+        "call_convention": "winapi",
+        "supports_last_error": false,
+        "best_fit": "assembly-default",
+        "throw_on_unmappable_char": "assembly-default",
+        "verification": "managed-declaration-only"
+      },
+      {
+        "token": "0x1c000003",
+        "row_offset": 12560,
+        "mapping_flags": 512,
+        "mapping_flags_hex": "0x0200",
+        "member_token": "0x06000063",
+        "member_kind": "method",
+        "member_name": "GetLogoDIYInfo",
+        "import_name": "GetLogoDIYInfo",
+        "import_scope_token": "0x1a000002",
+        "import_scope_name": "AIToolAPI.dll",
+        "no_mangle": false,
+        "char_set": "not-specified",
+        "call_convention": "cdecl",
+        "supports_last_error": false,
+        "best_fit": "assembly-default",
+        "throw_on_unmappable_char": "assembly-default",
+        "verification": "managed-declaration-only"
+      },
+      {
+        "token": "0x1c000004",
+        "row_offset": 12568,
+        "mapping_flags": 512,
+        "mapping_flags_hex": "0x0200",
+        "member_token": "0x06000064",
+        "member_kind": "method",
+        "member_name": "SetLogoDIYInfo",
+        "import_name": "SetLogoDIYInfo",
+        "import_scope_token": "0x1a000002",
+        "import_scope_name": "AIToolAPI.dll",
+        "no_mangle": false,
+        "char_set": "not-specified",
+        "call_convention": "cdecl",
+        "supports_last_error": false,
+        "best_fit": "assembly-default",
+        "throw_on_unmappable_char": "assembly-default",
+        "verification": "managed-declaration-only"
+      },
+      {
+        "token": "0x1c000005",
+        "row_offset": 12576,
+        "mapping_flags": 512,
+        "mapping_flags_hex": "0x0200",
+        "member_token": "0x06000065",
+        "member_kind": "method",
+        "member_name": "SetLogDIYCheck",
+        "import_name": "SetLogDIYCheck",
+        "import_scope_token": "0x1a000002",
+        "import_scope_name": "AIToolAPI.dll",
+        "no_mangle": false,
+        "char_set": "not-specified",
+        "call_convention": "cdecl",
+        "supports_last_error": false,
+        "best_fit": "assembly-default",
+        "throw_on_unmappable_char": "assembly-default",
+        "verification": "managed-declaration-only"
+      },
+      {
+        "token": "0x1c000006",
+        "row_offset": 12584,
+        "mapping_flags": 512,
+        "mapping_flags_hex": "0x0200",
+        "member_token": "0x06000066",
+        "member_kind": "method",
+        "member_name": "IsEditionCircle",
+        "import_name": "IsEditionCircle",
+        "import_scope_token": "0x1a000002",
+        "import_scope_name": "AIToolAPI.dll",
+        "no_mangle": false,
+        "char_set": "not-specified",
+        "call_convention": "cdecl",
+        "supports_last_error": false,
+        "best_fit": "assembly-default",
+        "throw_on_unmappable_char": "assembly-default",
+        "verification": "managed-declaration-only"
+      },
+      {
+        "token": "0x1c000007",
+        "row_offset": 12592,
+        "mapping_flags": 326,
+        "mapping_flags_hex": "0x0146",
+        "member_token": "0x06000067",
+        "member_kind": "method",
+        "member_name": "Wow64DisableWow64FsRedirection",
+        "import_name": "Wow64DisableWow64FsRedirection",
+        "import_scope_token": "0x1a000003",
+        "import_scope_name": "Kernel32.dll",
+        "no_mangle": false,
+        "char_set": "auto",
+        "call_convention": "winapi",
+        "supports_last_error": true,
+        "best_fit": "assembly-default",
+        "throw_on_unmappable_char": "assembly-default",
+        "verification": "managed-declaration-only"
+      },
+      {
+        "token": "0x1c000008",
+        "row_offset": 12600,
+        "mapping_flags": 326,
+        "mapping_flags_hex": "0x0146",
+        "member_token": "0x06000068",
+        "member_kind": "method",
+        "member_name": "Wow64RevertWow64FsRedirection",
+        "import_name": "Wow64RevertWow64FsRedirection",
+        "import_scope_token": "0x1a000003",
+        "import_scope_name": "Kernel32.dll",
+        "no_mangle": false,
+        "char_set": "auto",
+        "call_convention": "winapi",
+        "supports_last_error": true,
+        "best_fit": "assembly-default",
+        "throw_on_unmappable_char": "assembly-default",
+        "verification": "managed-declaration-only"
+      }
+    ],
+    "native_implementations": [
+      {
+        "token": "0x06000061",
+        "row_offset": 10154,
+        "name": "FindWindow",
+        "rva": 0,
+        "flags": 8342,
+        "impl_flags": 128,
+        "code_type": "il",
+        "managed_kind": "managed",
+        "pinvoke_declared": true,
+        "boundary_kind": "pinvoke",
+        "body_interpretation": "not-file-backed"
+      },
+      {
+        "token": "0x06000062",
+        "row_offset": 10168,
+        "name": "SendMessage",
+        "rva": 0,
+        "flags": 8342,
+        "impl_flags": 128,
+        "code_type": "il",
+        "managed_kind": "managed",
+        "pinvoke_declared": true,
+        "boundary_kind": "pinvoke",
+        "body_interpretation": "not-file-backed"
+      },
+      {
+        "token": "0x06000063",
+        "row_offset": 10182,
+        "name": "GetLogoDIYInfo",
+        "rva": 0,
+        "flags": 8342,
+        "impl_flags": 128,
+        "code_type": "il",
+        "managed_kind": "managed",
+        "pinvoke_declared": true,
+        "boundary_kind": "pinvoke",
+        "body_interpretation": "not-file-backed"
+      },
+      {
+        "token": "0x06000064",
+        "row_offset": 10196,
+        "name": "SetLogoDIYInfo",
+        "rva": 0,
+        "flags": 8342,
+        "impl_flags": 128,
+        "code_type": "il",
+        "managed_kind": "managed",
+        "pinvoke_declared": true,
+        "boundary_kind": "pinvoke",
+        "body_interpretation": "not-file-backed"
+      },
+      {
+        "token": "0x06000065",
+        "row_offset": 10210,
+        "name": "SetLogDIYCheck",
+        "rva": 0,
+        "flags": 8342,
+        "impl_flags": 128,
+        "code_type": "il",
+        "managed_kind": "managed",
+        "pinvoke_declared": true,
+        "boundary_kind": "pinvoke",
+        "body_interpretation": "not-file-backed"
+      },
+      {
+        "token": "0x06000066",
+        "row_offset": 10224,
+        "name": "IsEditionCircle",
+        "rva": 0,
+        "flags": 8342,
+        "impl_flags": 128,
+        "code_type": "il",
+        "managed_kind": "managed",
+        "pinvoke_declared": true,
+        "boundary_kind": "pinvoke",
+        "body_interpretation": "not-file-backed"
+      },
+      {
+        "token": "0x06000067",
+        "row_offset": 10238,
+        "name": "Wow64DisableWow64FsRedirection",
+        "rva": 0,
+        "flags": 8342,
+        "impl_flags": 128,
+        "code_type": "il",
+        "managed_kind": "managed",
+        "pinvoke_declared": true,
+        "boundary_kind": "pinvoke",
+        "body_interpretation": "not-file-backed"
+      },
+      {
+        "token": "0x06000068",
+        "row_offset": 10252,
+        "name": "Wow64RevertWow64FsRedirection",
+        "rva": 0,
+        "flags": 8342,
+        "impl_flags": 128,
+        "code_type": "il",
+        "managed_kind": "managed",
+        "pinvoke_declared": true,
+        "boundary_kind": "pinvoke",
+        "body_interpretation": "not-file-backed"
+      }
+    ],
+    "summary": {
+      "module_ref_count": 3,
+      "pinvoke_import_count": 8,
+      "native_implementation_count": 8,
+      "ready_to_run": false,
+      "mixed_mode_or_native_header": false
+    },
+    "coverage": {
+      "state": "complete",
+      "issues": []
+    },
+    "limitations": [
+      "P/Invoke rows prove managed import declarations only; this inspection does not verify that a native library, export, thunk, or provider-qualified function exists.",
+      "Managed metadata tokens are build-local coordinates and are only meaningful with the reported artifact SHA-256 and MVID.",
+      "ReadyToRun, NativeAOT, C++/CLI, and IL2CPP native semantics require separately selected native-provider evidence; this tool does not translate managed tokens into native addresses."
+    ]
+  },
+  "confidence": "observed",
+  "authority": "shipped-artifact",
+  "environment": null,
+  "limitations": [
+    "P/Invoke rows prove managed import declarations only; this inspection does not verify that a native library, export, thunk, or provider-qualified function exists.",
+    "Managed metadata tokens are build-local coordinates and are only meaningful with the reported artifact SHA-256 and MVID.",
+    "ReadyToRun, NativeAOT, C++/CLI, and IL2CPP native semantics require separately selected native-provider evidence; this tool does not translate managed tokens into native addresses."
+  ],
+  "relationship_coverage": null,
+  "locations": [
+    {
+      "kind": "file-offset",
+      "offset": 7548
+    },
+    {
+      "kind": "file-offset",
+      "offset": 12544
+    },
+    {
+      "kind": "file-offset",
+      "offset": 12552
+    },
+    {
+      "kind": "file-offset",
+      "offset": 12560
+    },
+    {
+      "kind": "file-offset",
+      "offset": 12568
+    },
+    {
+      "kind": "file-offset",
+      "offset": 12576
+    },
+    {
+      "kind": "file-offset",
+      "offset": 12584
+    },
+    {
+      "kind": "file-offset",
+      "offset": 12592
+    },
+    {
+      "kind": "file-offset",
+      "offset": 12600
+    }
+  ],
+  "evidence_links": []
+}

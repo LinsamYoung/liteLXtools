@@ -1,0 +1,3434 @@
+{
+  "path": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.210.10222\\plugins\\PCMBatterySettingsPlugin.dll",
+  "sha256": "fbcadf58c28cb0df2296a0931fed99ee56599423be23a075503427355464b51a",
+  "image_base": "0x10000000",
+  "imports": [
+    {
+      "dll": "api-ms-win-core-processenvironment-l1-1-0.dll",
+      "symbols": [
+        {
+          "name": "SetStdHandle",
+          "va": "0x1002418c"
+        },
+        {
+          "name": "FreeEnvironmentStringsW",
+          "va": "0x10024190"
+        },
+        {
+          "name": "GetEnvironmentStringsW",
+          "va": "0x10024194"
+        },
+        {
+          "name": "GetCommandLineA",
+          "va": "0x10024198"
+        },
+        {
+          "name": "GetCommandLineW",
+          "va": "0x1002419c"
+        },
+        {
+          "name": "GetStdHandle",
+          "va": "0x100241a0"
+        }
+      ]
+    },
+    {
+      "dll": "api-ms-win-core-file-l1-1-0.dll",
+      "symbols": [
+        {
+          "name": "DeleteFileW",
+          "va": "0x100240b8"
+        },
+        {
+          "name": "GetFileAttributesW",
+          "va": "0x100240bc"
+        },
+        {
+          "name": "GetFileType",
+          "va": "0x100240c0"
+        },
+        {
+          "name": "FindClose",
+          "va": "0x100240c4"
+        },
+        {
+          "name": "FindFirstFileExW",
+          "va": "0x100240c8"
+        },
+        {
+          "name": "WriteFile",
+          "va": "0x100240cc"
+        },
+        {
+          "name": "SetFilePointer",
+          "va": "0x100240d0"
+        },
+        {
+          "name": "CreateFileW",
+          "va": "0x100240d4"
+        },
+        {
+          "name": "GetFileSizeEx",
+          "va": "0x100240d8"
+        },
+        {
+          "name": "SetFilePointerEx",
+          "va": "0x100240dc"
+        },
+        {
+          "name": "FindNextFileW",
+          "va": "0x100240e0"
+        },
+        {
+          "name": "FlushFileBuffers",
+          "va": "0x100240e4"
+        }
+      ]
+    },
+    {
+      "dll": "api-ms-win-core-file-l1-2-0.dll",
+      "symbols": [
+        {
+          "name": "GetTempPathW",
+          "va": "0x100240ec"
+        }
+      ]
+    },
+    {
+      "dll": "api-ms-win-core-debug-l1-1-0.dll",
+      "symbols": [
+        {
+          "name": "IsDebuggerPresent",
+          "va": "0x10024080"
+        },
+        {
+          "name": "OutputDebugStringW",
+          "va": "0x10024084"
+        }
+      ]
+    },
+    {
+      "dll": "api-ms-win-core-util-l1-1-0.dll",
+      "symbols": [
+        {
+          "name": "DecodePointer",
+          "va": "0x1002426c"
+        },
+        {
+          "name": "EncodePointer",
+          "va": "0x10024270"
+        }
+      ]
+    },
+    {
+      "dll": "api-ms-win-core-handle-l1-1-0.dll",
+      "symbols": [
+        {
+          "name": "CloseHandle",
+          "va": "0x100240f4"
+        }
+      ]
+    },
+    {
+      "dll": "api-ms-win-core-errorhandling-l1-1-0.dll",
+      "symbols": [
+        {
+          "name": "RaiseException",
+          "va": "0x1002408c"
+        },
+        {
+          "name": "SetUnhandledExceptionFilter",
+          "va": "0x10024090"
+        },
+        {
+          "name": "GetLastError",
+          "va": "0x10024094"
+        },
+        {
+          "name": "SetLastError",
+          "va": "0x10024098"
+        },
+        {
+          "name": "UnhandledExceptionFilter",
+          "va": "0x1002409c"
+        }
+      ]
+    },
+    {
+      "dll": "api-ms-win-core-heap-l1-1-0.dll",
+      "symbols": [
+        {
+          "name": "HeapFree",
+          "va": "0x100240fc"
+        },
+        {
+          "name": "HeapDestroy",
+          "va": "0x10024100"
+        },
+        {
+          "name": "HeapAlloc",
+          "va": "0x10024104"
+        },
+        {
+          "name": "HeapSize",
+          "va": "0x10024108"
+        },
+        {
+          "name": "GetProcessHeap",
+          "va": "0x1002410c"
+        },
+        {
+          "name": "HeapReAlloc",
+          "va": "0x10024110"
+        }
+      ]
+    },
+    {
+      "dll": "api-ms-win-core-io-l1-1-0.dll",
+      "symbols": [
+        {
+          "name": "DeviceIoControl",
+          "va": "0x10024124"
+        }
+      ]
+    },
+    {
+      "dll": "api-ms-win-core-synch-l1-1-0.dll",
+      "symbols": [
+        {
+          "name": "DeleteCriticalSection",
+          "va": "0x1002421c"
+        },
+        {
+          "name": "InitializeCriticalSectionEx",
+          "va": "0x10024220"
+        },
+        {
+          "name": "ReleaseMutex",
+          "va": "0x10024224"
+        },
+        {
+          "name": "WaitForSingleObject",
+          "va": "0x10024228"
+        },
+        {
+          "name": "TryAcquireSRWLockExclusive",
+          "va": "0x1002422c"
+        },
+        {
+          "name": "AcquireSRWLockExclusive",
+          "va": "0x10024230"
+        },
+        {
+          "name": "ReleaseSRWLockExclusive",
+          "va": "0x10024234"
+        },
+        {
+          "name": "InitializeCriticalSectionAndSpinCount",
+          "va": "0x10024238"
+        },
+        {
+          "name": "LeaveCriticalSection",
+          "va": "0x1002423c"
+        },
+        {
+          "name": "EnterCriticalSection",
+          "va": "0x10024240"
+        },
+        {
+          "name": "CreateMutexW",
+          "va": "0x10024244"
+        },
+        {
+          "name": "InitializeCriticalSection",
+          "va": "0x10024248"
+        }
+      ]
+    },
+    {
+      "dll": "api-ms-win-core-synch-l1-2-0.dll",
+      "symbols": [
+        {
+          "name": "WakeAllConditionVariable",
+          "va": "0x10024250"
+        },
+        {
+          "name": "Sleep",
+          "va": "0x10024254"
+        },
+        {
+          "name": "SleepConditionVariableSRW",
+          "va": "0x10024258"
+        }
+      ]
+    },
+    {
+      "dll": "api-ms-win-core-processthreads-l1-1-0.dll",
+      "symbols": [
+        {
+          "name": "GetCurrentThreadId",
+          "va": "0x100241a8"
+        },
+        {
+          "name": "TlsSetValue",
+          "va": "0x100241ac"
+        },
+        {
+          "name": "ProcessIdToSessionId",
+          "va": "0x100241b0"
+        },
+        {
+          "name": "TlsAlloc",
+          "va": "0x100241b4"
+        },
+        {
+          "name": "TerminateProcess",
+          "va": "0x100241b8"
+        },
+        {
+          "name": "GetCurrentProcess",
+          "va": "0x100241bc"
+        },
+        {
+          "name": "GetStartupInfoW",
+          "va": "0x100241c0"
+        },
+        {
+          "name": "GetCurrentProcessId",
+          "va": "0x100241c4"
+        },
+        {
+          "name": "TlsFree",
+          "va": "0x100241c8"
+        },
+        {
+          "name": "ExitProcess",
+          "va": "0x100241cc"
+        },
+        {
+          "name": "TlsGetValue",
+          "va": "0x100241d0"
+        }
+      ]
+    },
+    {
+      "dll": "api-ms-win-core-sysinfo-l1-1-0.dll",
+      "symbols": [
+        {
+          "name": "GetLocalTime",
+          "va": "0x10024260"
+        },
+        {
+          "name": "GetSystemTimeAsFileTime",
+          "va": "0x10024264"
+        }
+      ]
+    },
+    {
+      "dll": "api-ms-win-core-memory-l1-1-0.dll",
+      "symbols": [
+        {
+          "name": "VirtualQuery",
+          "va": "0x10024178"
+        },
+        {
+          "name": "VirtualProtect",
+          "va": "0x1002417c"
+        }
+      ]
+    },
+    {
+      "dll": "api-ms-win-core-libraryloader-l1-2-0.dll",
+      "symbols": [
+        {
+          "name": "SizeofResource",
+          "va": "0x1002412c"
+        },
+        {
+          "name": "GetModuleHandleExW",
+          "va": "0x10024130"
+        },
+        {
+          "name": "LoadLibraryExW",
+          "va": "0x10024134"
+        },
+        {
+          "name": "GetModuleHandleW",
+          "va": "0x10024138"
+        },
+        {
+          "name": "FindResourceExW",
+          "va": "0x1002413c"
+        },
+        {
+          "name": "LockResource",
+          "va": "0x10024140"
+        },
+        {
+          "name": "GetProcAddress",
+          "va": "0x10024144"
+        },
+        {
+          "name": "LoadResource",
+          "va": "0x10024148"
+        },
+        {
+          "name": "GetModuleFileNameW",
+          "va": "0x1002414c"
+        },
+        {
+          "name": "FreeLibrary",
+          "va": "0x10024150"
+        }
+      ]
+    },
+    {
+      "dll": "api-ms-win-core-libraryloader-l1-2-1.dll",
+      "symbols": [
+        {
+          "name": "FindResourceW",
+          "va": "0x10024158"
+        }
+      ]
+    },
+    {
+      "dll": "api-ms-win-security-base-l1-1-0.dll",
+      "symbols": [
+        {
+          "name": "DuplicateTokenEx",
+          "va": "0x10024278"
+        },
+        {
+          "name": "SetSecurityDescriptorDacl",
+          "va": "0x1002427c"
+        },
+        {
+          "name": "SetFileSecurityW",
+          "va": "0x10024280"
+        },
+        {
+          "name": "RevertToSelf",
+          "va": "0x10024284"
+        },
+        {
+          "name": "InitializeSecurityDescriptor",
+          "va": "0x10024288"
+        },
+        {
+          "name": "ImpersonateLoggedOnUser",
+          "va": "0x1002428c"
+        }
+      ]
+    },
+    {
+      "dll": "api-ms-win-core-string-l1-1-0.dll",
+      "symbols": [
+        {
+          "name": "GetStringTypeW",
+          "va": "0x1002420c"
+        },
+        {
+          "name": "WideCharToMultiByte",
+          "va": "0x10024210"
+        },
+        {
+          "name": "MultiByteToWideChar",
+          "va": "0x10024214"
+        }
+      ]
+    },
+    {
+      "dll": "api-ms-win-core-console-l1-1-0.dll",
+      "symbols": [
+        {
+          "name": "GetConsoleOutputCP",
+          "va": "0x10024068"
+        },
+        {
+          "name": "WriteConsoleW",
+          "va": "0x1002406c"
+        },
+        {
+          "name": "GetConsoleMode",
+          "va": "0x10024070"
+        }
+      ]
+    },
+    {
+      "dll": "api-ms-win-core-console-l2-1-0.dll",
+      "symbols": [
+        {
+          "name": "SetConsoleTextAttribute",
+          "va": "0x10024078"
+        }
+      ]
+    },
+    {
+      "dll": "api-ms-win-core-registry-l1-1-0.dll",
+      "symbols": [
+        {
+          "name": "RegOpenCurrentUser",
+          "va": "0x100241e8"
+        },
+        {
+          "name": "RegSetValueExW",
+          "va": "0x100241ec"
+        },
+        {
+          "name": "RegCreateKeyExW",
+          "va": "0x100241f0"
+        },
+        {
+          "name": "RegGetValueW",
+          "va": "0x100241f4"
+        },
+        {
+          "name": "RegCloseKey",
+          "va": "0x100241f8"
+        },
+        {
+          "name": "RegOpenKeyExW",
+          "va": "0x100241fc"
+        }
+      ]
+    },
+    {
+      "dll": "api-ms-win-core-privateprofile-l1-1-0.dll",
+      "symbols": [
+        {
+          "name": "GetPrivateProfileStringW",
+          "va": "0x10024184"
+        }
+      ]
+    },
+    {
+      "dll": "CRYPT32.dll",
+      "symbols": [
+        {
+          "name": "CertGetNameStringW",
+          "va": "0x10024000"
+        },
+        {
+          "name": "CryptMsgClose",
+          "va": "0x10024004"
+        },
+        {
+          "name": "CryptMsgGetParam",
+          "va": "0x10024008"
+        },
+        {
+          "name": "CertCloseStore",
+          "va": "0x1002400c"
+        },
+        {
+          "name": "CertFindCertificateInStore",
+          "va": "0x10024010"
+        },
+        {
+          "name": "CertFreeCertificateContext",
+          "va": "0x10024014"
+        },
+        {
+          "name": "CryptQueryObject",
+          "va": "0x10024018"
+        }
+      ]
+    },
+    {
+      "dll": "WINTRUST.dll",
+      "symbols": [
+        {
+          "name": "WTHelperGetProvCertFromChain",
+          "va": "0x1002404c"
+        },
+        {
+          "name": "WinVerifyTrust",
+          "va": "0x10024050"
+        },
+        {
+          "name": "WTHelperGetProvSignerFromChain",
+          "va": "0x10024054"
+        },
+        {
+          "name": "WTHelperProvDataFromStateData",
+          "va": "0x10024058"
+        }
+      ]
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "symbols": [
+        {
+          "name": "GetPrivateProfileIntW",
+          "va": "0x10024020"
+        },
+        {
+          "name": "WTSGetActiveConsoleSessionId",
+          "va": "0x10024024"
+        }
+      ]
+    },
+    {
+      "dll": "SHELL32.dll",
+      "symbols": [
+        {
+          "name": "SHCreateDirectoryExW",
+          "va": "0x1002402c"
+        },
+        {
+          "name": "SHGetSpecialFolderPathW",
+          "va": "0x10024030"
+        }
+      ]
+    },
+    {
+      "dll": "SHLWAPI.dll",
+      "symbols": [
+        {
+          "name": "PathFindFileNameW",
+          "va": "0x10024038"
+        },
+        {
+          "name": "PathFileExistsW",
+          "va": "0x1002403c"
+        },
+        {
+          "name": "PathIsDirectoryW",
+          "va": "0x10024040"
+        },
+        {
+          "name": "PathRemoveFileSpecW",
+          "va": "0x10024044"
+        }
+      ]
+    },
+    {
+      "dll": "WTSAPI32.dll",
+      "symbols": [
+        {
+          "name": "WTSQueryUserToken",
+          "va": "0x10024060"
+        }
+      ]
+    },
+    {
+      "dll": "api-ms-win-core-profile-l1-1-0.dll",
+      "symbols": [
+        {
+          "name": "QueryPerformanceCounter",
+          "va": "0x100241e0"
+        }
+      ]
+    },
+    {
+      "dll": "api-ms-win-core-localization-l1-2-0.dll",
+      "symbols": [
+        {
+          "name": "GetOEMCP",
+          "va": "0x10024160"
+        },
+        {
+          "name": "GetACP",
+          "va": "0x10024164"
+        },
+        {
+          "name": "LCMapStringW",
+          "va": "0x10024168"
+        },
+        {
+          "name": "IsValidCodePage",
+          "va": "0x1002416c"
+        },
+        {
+          "name": "GetCPInfo",
+          "va": "0x10024170"
+        }
+      ]
+    },
+    {
+      "dll": "api-ms-win-core-processthreads-l1-1-1.dll",
+      "symbols": [
+        {
+          "name": "IsProcessorFeaturePresent",
+          "va": "0x100241d8"
+        }
+      ]
+    },
+    {
+      "dll": "api-ms-win-core-interlocked-l1-1-0.dll",
+      "symbols": [
+        {
+          "name": "InterlockedFlushSList",
+          "va": "0x10024118"
+        },
+        {
+          "name": "InitializeSListHead",
+          "va": "0x1002411c"
+        }
+      ]
+    },
+    {
+      "dll": "api-ms-win-core-rtlsupport-l1-1-0.dll",
+      "symbols": [
+        {
+          "name": "RtlUnwind",
+          "va": "0x10024204"
+        }
+      ]
+    },
+    {
+      "dll": "api-ms-win-core-fibers-l1-1-0.dll",
+      "symbols": [
+        {
+          "name": "FlsFree",
+          "va": "0x100240a4"
+        },
+        {
+          "name": "FlsGetValue",
+          "va": "0x100240a8"
+        },
+        {
+          "name": "FlsSetValue",
+          "va": "0x100240ac"
+        },
+        {
+          "name": "FlsAlloc",
+          "va": "0x100240b0"
+        }
+      ]
+    }
+  ],
+  "exports": [
+    {
+      "name": "pcm_plugin_action",
+      "va": "0x1000c460",
+      "rva": "0xc460",
+      "forwarder": null
+    },
+    {
+      "name": "pcm_plugin_buffer_allocate",
+      "va": "0x1000c660",
+      "rva": "0xc660",
+      "forwarder": null
+    },
+    {
+      "name": "pcm_plugin_buffer_free",
+      "va": "0x1000c670",
+      "rva": "0xc670",
+      "forwarder": null
+    },
+    {
+      "name": "pcm_plugin_deininitialize",
+      "va": "0x1000c690",
+      "rva": "0xc690",
+      "forwarder": null
+    },
+    {
+      "name": "pcm_plugin_ininitialize",
+      "va": "0x1000c760",
+      "rva": "0xc760",
+      "forwarder": null
+    }
+  ],
+  "strings": [
+    {
+      "offset": "0x245ac",
+      "va": "0x10025dac",
+      "encoding": "ascii",
+      "value": "NEWPLUGIN_PCMBATTERYSETTINGSPLUGIN_GET_PCM_SUPPORT_MODE"
+    },
+    {
+      "offset": "0x245e4",
+      "va": "0x10025de4",
+      "encoding": "ascii",
+      "value": "NEWPLUGIN_PCMBATTERYSETTINGSPLUGIN_GET_PCM_CHARGE_MODE"
+    },
+    {
+      "offset": "0x2461c",
+      "va": "0x10025e1c",
+      "encoding": "ascii",
+      "value": "NEWPLUGIN_PCMBATTERYSETTINGSPLUGIN_SET_PCM_CHARGE_MODE"
+    },
+    {
+      "offset": "0x24654",
+      "va": "0x10025e54",
+      "encoding": "ascii",
+      "value": "NEWPLUGIN_PCMBATTERYSETTINGSPLUGIN_GET_QUICKCHARGE_SUPPORT"
+    },
+    {
+      "offset": "0x24690",
+      "va": "0x10025e90",
+      "encoding": "ascii",
+      "value": "NEWPLUGIN_PCMBATTERYSETTINGSPLUGIN_GET_QUICKCHARGE_STATE"
+    },
+    {
+      "offset": "0x246cc",
+      "va": "0x10025ecc",
+      "encoding": "ascii",
+      "value": "NEWPLUGIN_PCMBATTERYSETTINGSPLUGIN_SET_QUICKCHARGE_STATE"
+    },
+    {
+      "offset": "0x2bdcc",
+      "va": "0x1002d5cc",
+      "encoding": "ascii",
+      "value": "E:\\Jenkins\\jobs\\pcmanager_build_OTA\\workspace\\bin\\x86\\Release\\plugins\\PCMBatterySettingsPlugin.pdb"
+    },
+    {
+      "offset": "0x2d85a",
+      "va": "0x1002f05a",
+      "encoding": "ascii",
+      "value": "PCMBatterySettingsPlugin.dll"
+    },
+    {
+      "offset": "0x2e352",
+      "va": "0x1002fb52",
+      "encoding": "ascii",
+      "value": "api-ms-win-core-processenvironment-l1-1-0.dll"
+    },
+    {
+      "offset": "0x2e380",
+      "va": "0x1002fb80",
+      "encoding": "ascii",
+      "value": "api-ms-win-core-file-l1-1-0.dll"
+    },
+    {
+      "offset": "0x2e3a0",
+      "va": "0x1002fba0",
+      "encoding": "ascii",
+      "value": "api-ms-win-core-file-l1-2-0.dll"
+    },
+    {
+      "offset": "0x2e3c0",
+      "va": "0x1002fbc0",
+      "encoding": "ascii",
+      "value": "api-ms-win-core-debug-l1-1-0.dll"
+    },
+    {
+      "offset": "0x2e3e2",
+      "va": "0x1002fbe2",
+      "encoding": "ascii",
+      "value": "api-ms-win-core-util-l1-1-0.dll"
+    },
+    {
+      "offset": "0x2e402",
+      "va": "0x1002fc02",
+      "encoding": "ascii",
+      "value": "api-ms-win-core-handle-l1-1-0.dll"
+    },
+    {
+      "offset": "0x2e424",
+      "va": "0x1002fc24",
+      "encoding": "ascii",
+      "value": "api-ms-win-core-errorhandling-l1-1-0.dll"
+    },
+    {
+      "offset": "0x2e44e",
+      "va": "0x1002fc4e",
+      "encoding": "ascii",
+      "value": "api-ms-win-core-heap-l1-1-0.dll"
+    },
+    {
+      "offset": "0x2e46e",
+      "va": "0x1002fc6e",
+      "encoding": "ascii",
+      "value": "api-ms-win-core-io-l1-1-0.dll"
+    },
+    {
+      "offset": "0x2e48c",
+      "va": "0x1002fc8c",
+      "encoding": "ascii",
+      "value": "api-ms-win-core-synch-l1-1-0.dll"
+    },
+    {
+      "offset": "0x2e4ae",
+      "va": "0x1002fcae",
+      "encoding": "ascii",
+      "value": "api-ms-win-core-synch-l1-2-0.dll"
+    },
+    {
+      "offset": "0x2e4d0",
+      "va": "0x1002fcd0",
+      "encoding": "ascii",
+      "value": "api-ms-win-core-processthreads-l1-1-0.dll"
+    },
+    {
+      "offset": "0x2e4fa",
+      "va": "0x1002fcfa",
+      "encoding": "ascii",
+      "value": "api-ms-win-core-sysinfo-l1-1-0.dll"
+    },
+    {
+      "offset": "0x2e51e",
+      "va": "0x1002fd1e",
+      "encoding": "ascii",
+      "value": "api-ms-win-core-memory-l1-1-0.dll"
+    },
+    {
+      "offset": "0x2e540",
+      "va": "0x1002fd40",
+      "encoding": "ascii",
+      "value": "api-ms-win-core-libraryloader-l1-2-0.dll"
+    },
+    {
+      "offset": "0x2e56a",
+      "va": "0x1002fd6a",
+      "encoding": "ascii",
+      "value": "api-ms-win-core-libraryloader-l1-2-1.dll"
+    },
+    {
+      "offset": "0x2e594",
+      "va": "0x1002fd94",
+      "encoding": "ascii",
+      "value": "api-ms-win-security-base-l1-1-0.dll"
+    },
+    {
+      "offset": "0x2e5b8",
+      "va": "0x1002fdb8",
+      "encoding": "ascii",
+      "value": "api-ms-win-core-string-l1-1-0.dll"
+    },
+    {
+      "offset": "0x2e5da",
+      "va": "0x1002fdda",
+      "encoding": "ascii",
+      "value": "api-ms-win-core-console-l1-1-0.dll"
+    },
+    {
+      "offset": "0x2e5fe",
+      "va": "0x1002fdfe",
+      "encoding": "ascii",
+      "value": "api-ms-win-core-console-l2-1-0.dll"
+    },
+    {
+      "offset": "0x2e622",
+      "va": "0x1002fe22",
+      "encoding": "ascii",
+      "value": "api-ms-win-core-registry-l1-1-0.dll"
+    },
+    {
+      "offset": "0x2e646",
+      "va": "0x1002fe46",
+      "encoding": "ascii",
+      "value": "api-ms-win-core-privateprofile-l1-1-0.dll"
+    },
+    {
+      "offset": "0x2e670",
+      "va": "0x1002fe70",
+      "encoding": "ascii",
+      "value": "CRYPT32.dll"
+    },
+    {
+      "offset": "0x2e67c",
+      "va": "0x1002fe7c",
+      "encoding": "ascii",
+      "value": "WINTRUST.dll"
+    },
+    {
+      "offset": "0x2e6c2",
+      "va": "0x1002fec2",
+      "encoding": "ascii",
+      "value": "KERNEL32.dll"
+    },
+    {
+      "offset": "0x2e702",
+      "va": "0x1002ff02",
+      "encoding": "ascii",
+      "value": "SHELL32.dll"
+    },
+    {
+      "offset": "0x2e75e",
+      "va": "0x1002ff5e",
+      "encoding": "ascii",
+      "value": "SHLWAPI.dll"
+    },
+    {
+      "offset": "0x2e77e",
+      "va": "0x1002ff7e",
+      "encoding": "ascii",
+      "value": "WTSAPI32.dll"
+    },
+    {
+      "offset": "0x2ebba",
+      "va": "0x100303ba",
+      "encoding": "ascii",
+      "value": "GetConsoleMode"
+    },
+    {
+      "offset": "0x2ebca",
+      "va": "0x100303ca",
+      "encoding": "ascii",
+      "value": "api-ms-win-core-profile-l1-1-0.dll"
+    },
+    {
+      "offset": "0x2ebee",
+      "va": "0x100303ee",
+      "encoding": "ascii",
+      "value": "api-ms-win-core-localization-l1-2-0.dll"
+    },
+    {
+      "offset": "0x2ec16",
+      "va": "0x10030416",
+      "encoding": "ascii",
+      "value": "api-ms-win-core-processthreads-l1-1-1.dll"
+    },
+    {
+      "offset": "0x2ec40",
+      "va": "0x10030440",
+      "encoding": "ascii",
+      "value": "api-ms-win-core-interlocked-l1-1-0.dll"
+    },
+    {
+      "offset": "0x2ec68",
+      "va": "0x10030468",
+      "encoding": "ascii",
+      "value": "api-ms-win-core-rtlsupport-l1-1-0.dll"
+    },
+    {
+      "offset": "0x2ec8e",
+      "va": "0x1003048e",
+      "encoding": "ascii",
+      "value": "api-ms-win-core-fibers-l1-1-0.dll"
+    },
+    {
+      "offset": "0x2fb58",
+      "va": "0x10031d58",
+      "encoding": "ascii",
+      "value": ".?AVCDriverHelper@BatteryChargingModeHelper@@"
+    },
+    {
+      "offset": "0x2fb90",
+      "va": "0x10031d90",
+      "encoding": "ascii",
+      "value": ".?AVCQuickChargingHelper@BatteryChargingModeHelper@@"
+    },
+    {
+      "offset": "0x2fbd0",
+      "va": "0x10031dd0",
+      "encoding": "ascii",
+      "value": ".?AVCStorageChargingHelper@BatteryChargingModeHelper@@"
+    },
+    {
+      "offset": "0x2fc10",
+      "va": "0x10031e10",
+      "encoding": "ascii",
+      "value": ".?AVCBatteryChargingHelper@BatteryChargingModeHelper@@"
+    },
+    {
+      "offset": "0x2fc50",
+      "va": "0x10031e50",
+      "encoding": "ascii",
+      "value": ".?AV?$CSingleBase@VCBatteryChargingHelper@BatteryChargingModeHelper@@@CommonDef@@"
+    },
+    {
+      "offset": "0x22e6c",
+      "va": "0x1002466c",
+      "encoding": "utf-16le",
+      "value": "\\\\.\\EnergyDrv"
+    },
+    {
+      "offset": "0x22ea8",
+      "va": "0x100246a8",
+      "encoding": "utf-16le",
+      "value": "E:\\Jenkins\\jobs\\pcmanager_build_OTA\\workspace\\libsrc\\Commonnew\\hardware\\BatteryChargingModeHelper.hpp"
+    },
+    {
+      "offset": "0x22f80",
+      "va": "0x10024780",
+      "encoding": "utf-16le",
+      "value": "SOFTWARE\\Lenovo\\iMController\\Contracts\\SystemManagement.BatteryMgmt"
+    },
+    {
+      "offset": "0x23090",
+      "va": "0x10024890",
+      "encoding": "utf-16le",
+      "value": "BatteryChargeMode"
+    },
+    {
+      "offset": "0x231b0",
+      "va": "0x100249b0",
+      "encoding": "utf-16le",
+      "value": "E:\\Jenkins\\jobs\\pcmanager_build_OTA\\workspace\\V3\\Plugins\\PCMBatterySettingsPlugin\\BatteryChargingMode.cpp"
+    },
+    {
+      "offset": "0x23288",
+      "va": "0x10024a88",
+      "encoding": "utf-16le",
+      "value": "GetBatterySupportChargingType type = %d"
+    },
+    {
+      "offset": "0x232d8",
+      "va": "0x10024ad8",
+      "encoding": "utf-16le",
+      "value": "GetBatteryChargingMode mode = %d"
+    },
+    {
+      "offset": "0x23348",
+      "va": "0x10024b48",
+      "encoding": "utf-16le",
+      "value": "SetBatteryChargingMode mode = %d"
+    },
+    {
+      "offset": "0x2418c",
+      "va": "0x1002598c",
+      "encoding": "utf-16le",
+      "value": "WrapPlugin.dll"
+    },
+    {
+      "offset": "0x244b8",
+      "va": "0x10025cb8",
+      "encoding": "utf-16le",
+      "value": "E:\\Jenkins\\jobs\\pcmanager_build_OTA\\workspace\\V3\\Plugins\\PCMBatterySettingsPlugin\\PCMBatterySettingsPlugin.cpp"
+    },
+    {
+      "offset": "0x253bc",
+      "va": "0x10026bbc",
+      "encoding": "utf-16le",
+      "value": "kernel32.dll"
+    },
+    {
+      "offset": "0x264dc",
+      "va": "0x10027cdc",
+      "encoding": "utf-16le",
+      "value": "mscoree.dll"
+    },
+    {
+      "offset": "0x30610",
+      "va": "0x10034210",
+      "encoding": "utf-16le",
+      "value": "PCMBatte.dll"
+    },
+    {
+      "offset": "0x306a0",
+      "va": "0x100342a0",
+      "encoding": "utf-16le",
+      "value": "PCMBatte.dll"
+    }
+  ],
+  "xrefs": [
+    {
+      "va": "0x10001eb0",
+      "instruction": "call dword ptr [0x10024024]",
+      "target": "KERNEL32.dll!WTSGetActiveConsoleSessionId",
+      "target_va": "0x10024024"
+    },
+    {
+      "va": "0x10001ed6",
+      "instruction": "call dword ptr [0x10024278]",
+      "target": "api-ms-win-security-base-l1-1-0.dll!DuplicateTokenEx",
+      "target_va": "0x10024278"
+    },
+    {
+      "va": "0x10001edf",
+      "instruction": "call dword ptr [0x100240f4]",
+      "target": "api-ms-win-core-handle-l1-1-0.dll!CloseHandle",
+      "target_va": "0x100240f4"
+    },
+    {
+      "va": "0x10001ee8",
+      "instruction": "call dword ptr [0x1002428c]",
+      "target": "api-ms-win-security-base-l1-1-0.dll!ImpersonateLoggedOnUser",
+      "target_va": "0x1002428c"
+    },
+    {
+      "va": "0x10001ef3",
+      "instruction": "call dword ptr [0x100240f4]",
+      "target": "api-ms-win-core-handle-l1-1-0.dll!CloseHandle",
+      "target_va": "0x100240f4"
+    },
+    {
+      "va": "0x10001f81",
+      "instruction": "push 0x1002466c",
+      "target": "\\\\.\\EnergyDrv",
+      "target_va": "0x1002466c"
+    },
+    {
+      "va": "0x10001f86",
+      "instruction": "call dword ptr [0x100240d4]",
+      "target": "api-ms-win-core-file-l1-1-0.dll!CreateFileW",
+      "target_va": "0x100240d4"
+    },
+    {
+      "va": "0x10001fae",
+      "instruction": "call dword ptr [0x10024124]",
+      "target": "api-ms-win-core-io-l1-1-0.dll!DeviceIoControl",
+      "target_va": "0x10024124"
+    },
+    {
+      "va": "0x10002128",
+      "instruction": "call dword ptr [0x1002423c]",
+      "target": "api-ms-win-core-synch-l1-1-0.dll!LeaveCriticalSection",
+      "target_va": "0x1002423c"
+    },
+    {
+      "va": "0x10002131",
+      "instruction": "call dword ptr [0x1002421c]",
+      "target": "api-ms-win-core-synch-l1-1-0.dll!DeleteCriticalSection",
+      "target_va": "0x1002421c"
+    },
+    {
+      "va": "0x100022cc",
+      "instruction": "call dword ptr [0x100240f4]",
+      "target": "api-ms-win-core-handle-l1-1-0.dll!CloseHandle",
+      "target_va": "0x100240f4"
+    },
+    {
+      "va": "0x100022fc",
+      "instruction": "call dword ptr [0x100240f4]",
+      "target": "api-ms-win-core-handle-l1-1-0.dll!CloseHandle",
+      "target_va": "0x100240f4"
+    },
+    {
+      "va": "0x1000236a",
+      "instruction": "call dword ptr [0x100240f4]",
+      "target": "api-ms-win-core-handle-l1-1-0.dll!CloseHandle",
+      "target_va": "0x100240f4"
+    },
+    {
+      "va": "0x1000238e",
+      "instruction": "call dword ptr [0x100240f4]",
+      "target": "api-ms-win-core-handle-l1-1-0.dll!CloseHandle",
+      "target_va": "0x100240f4"
+    },
+    {
+      "va": "0x100023c5",
+      "instruction": "call dword ptr [0x100240f4]",
+      "target": "api-ms-win-core-handle-l1-1-0.dll!CloseHandle",
+      "target_va": "0x100240f4"
+    },
+    {
+      "va": "0x10002414",
+      "instruction": "call dword ptr [0x100240f4]",
+      "target": "api-ms-win-core-handle-l1-1-0.dll!CloseHandle",
+      "target_va": "0x100240f4"
+    },
+    {
+      "va": "0x10002464",
+      "instruction": "call dword ptr [0x100240f4]",
+      "target": "api-ms-win-core-handle-l1-1-0.dll!CloseHandle",
+      "target_va": "0x100240f4"
+    },
+    {
+      "va": "0x100024aa",
+      "instruction": "call dword ptr [0x10024100]",
+      "target": "api-ms-win-core-heap-l1-1-0.dll!HeapDestroy",
+      "target_va": "0x10024100"
+    },
+    {
+      "va": "0x1000257b",
+      "instruction": "call dword ptr [0x10024104]",
+      "target": "api-ms-win-core-heap-l1-1-0.dll!HeapAlloc",
+      "target_va": "0x10024104"
+    },
+    {
+      "va": "0x10002740",
+      "instruction": "call dword ptr [0x10024094]",
+      "target": "api-ms-win-core-errorhandling-l1-1-0.dll!GetLastError",
+      "target_va": "0x10024094"
+    },
+    {
+      "va": "0x100027b7",
+      "instruction": "call dword ptr [0x1002413c]",
+      "target": "api-ms-win-core-libraryloader-l1-2-0.dll!FindResourceExW",
+      "target_va": "0x1002413c"
+    },
+    {
+      "va": "0x100027f5",
+      "instruction": "call dword ptr [0x10024158]",
+      "target": "api-ms-win-core-libraryloader-l1-2-1.dll!FindResourceW",
+      "target_va": "0x10024158"
+    },
+    {
+      "va": "0x100029e9",
+      "instruction": "call dword ptr [0x100241f8]",
+      "target": "api-ms-win-core-registry-l1-1-0.dll!RegCloseKey",
+      "target_va": "0x100241f8"
+    },
+    {
+      "va": "0x10002b17",
+      "instruction": "call dword ptr [0x100241e8]",
+      "target": "api-ms-win-core-registry-l1-1-0.dll!RegOpenCurrentUser",
+      "target_va": "0x100241e8"
+    },
+    {
+      "va": "0x10002b23",
+      "instruction": "call dword ptr [0x10024284]",
+      "target": "api-ms-win-security-base-l1-1-0.dll!RevertToSelf",
+      "target_va": "0x10024284"
+    },
+    {
+      "va": "0x10002b4b",
+      "instruction": "call dword ptr [0x100241f0]",
+      "target": "api-ms-win-core-registry-l1-1-0.dll!RegCreateKeyExW",
+      "target_va": "0x100241f0"
+    },
+    {
+      "va": "0x10002bab",
+      "instruction": "call dword ptr [0x100241f8]",
+      "target": "api-ms-win-core-registry-l1-1-0.dll!RegCloseKey",
+      "target_va": "0x100241f8"
+    },
+    {
+      "va": "0x10002c05",
+      "instruction": "push 0x1002466c",
+      "target": "\\\\.\\EnergyDrv",
+      "target_va": "0x1002466c"
+    },
+    {
+      "va": "0x10002c0a",
+      "instruction": "call dword ptr [0x100240d4]",
+      "target": "api-ms-win-core-file-l1-1-0.dll!CreateFileW",
+      "target_va": "0x100240d4"
+    },
+    {
+      "va": "0x10002c2a",
+      "instruction": "call dword ptr [0x10024124]",
+      "target": "api-ms-win-core-io-l1-1-0.dll!DeviceIoControl",
+      "target_va": "0x10024124"
+    },
+    {
+      "va": "0x10002f80",
+      "instruction": "call dword ptr [0x100240fc]",
+      "target": "api-ms-win-core-heap-l1-1-0.dll!HeapFree",
+      "target_va": "0x100240fc"
+    },
+    {
+      "va": "0x1000308e",
+      "instruction": "push 0x100249b0",
+      "target": "E:\\Jenkins\\jobs\\pcmanager_build_OTA\\workspace\\V3\\Plugins\\PCMBatterySettingsPlugin\\BatteryChargingMode.cpp",
+      "target_va": "0x100249b0"
+    },
+    {
+      "va": "0x10003093",
+      "instruction": "push 0x10024ad8",
+      "target": "GetBatteryChargingMode mode = %d",
+      "target_va": "0x10024ad8"
+    },
+    {
+      "va": "0x100031d4",
+      "instruction": "push 0x100249b0",
+      "target": "E:\\Jenkins\\jobs\\pcmanager_build_OTA\\workspace\\V3\\Plugins\\PCMBatterySettingsPlugin\\BatteryChargingMode.cpp",
+      "target_va": "0x100249b0"
+    },
+    {
+      "va": "0x100031d9",
+      "instruction": "push 0x10024a88",
+      "target": "GetBatterySupportChargingType type = %d",
+      "target_va": "0x10024a88"
+    },
+    {
+      "va": "0x1000340c",
+      "instruction": "call dword ptr [0x1002410c]",
+      "target": "api-ms-win-core-heap-l1-1-0.dll!GetProcessHeap",
+      "target_va": "0x1002410c"
+    },
+    {
+      "va": "0x1000360f",
+      "instruction": "call dword ptr [0x10024248]",
+      "target": "api-ms-win-core-synch-l1-1-0.dll!InitializeCriticalSection",
+      "target_va": "0x10024248"
+    },
+    {
+      "va": "0x100036fe",
+      "instruction": "push 0x1002466c",
+      "target": "\\\\.\\EnergyDrv",
+      "target_va": "0x1002466c"
+    },
+    {
+      "va": "0x10003703",
+      "instruction": "call dword ptr [0x100240d4]",
+      "target": "api-ms-win-core-file-l1-1-0.dll!CreateFileW",
+      "target_va": "0x100240d4"
+    },
+    {
+      "va": "0x1000372a",
+      "instruction": "call dword ptr [0x10024124]",
+      "target": "api-ms-win-core-io-l1-1-0.dll!DeviceIoControl",
+      "target_va": "0x10024124"
+    },
+    {
+      "va": "0x100037cb",
+      "instruction": "call dword ptr [0x100241e8]",
+      "target": "api-ms-win-core-registry-l1-1-0.dll!RegOpenCurrentUser",
+      "target_va": "0x100241e8"
+    },
+    {
+      "va": "0x100037d7",
+      "instruction": "call dword ptr [0x10024284]",
+      "target": "api-ms-win-security-base-l1-1-0.dll!RevertToSelf",
+      "target_va": "0x10024284"
+    },
+    {
+      "va": "0x100037fd",
+      "instruction": "call dword ptr [0x100241fc]",
+      "target": "api-ms-win-core-registry-l1-1-0.dll!RegOpenKeyExW",
+      "target_va": "0x100241fc"
+    },
+    {
+      "va": "0x1000387c",
+      "instruction": "call dword ptr [0x100241f8]",
+      "target": "api-ms-win-core-registry-l1-1-0.dll!RegCloseKey",
+      "target_va": "0x100241f8"
+    },
+    {
+      "va": "0x100038bb",
+      "instruction": "call dword ptr [0x10024108]",
+      "target": "api-ms-win-core-heap-l1-1-0.dll!HeapSize",
+      "target_va": "0x10024108"
+    },
+    {
+      "va": "0x1000390e",
+      "instruction": "push 0x1002466c",
+      "target": "\\\\.\\EnergyDrv",
+      "target_va": "0x1002466c"
+    },
+    {
+      "va": "0x10003913",
+      "instruction": "call dword ptr [0x100240d4]",
+      "target": "api-ms-win-core-file-l1-1-0.dll!CreateFileW",
+      "target_va": "0x100240d4"
+    },
+    {
+      "va": "0x1000393a",
+      "instruction": "call dword ptr [0x10024124]",
+      "target": "api-ms-win-core-io-l1-1-0.dll!DeviceIoControl",
+      "target_va": "0x10024124"
+    },
+    {
+      "va": "0x10003a1e",
+      "instruction": "call dword ptr [0x10024210]",
+      "target": "api-ms-win-core-string-l1-1-0.dll!WideCharToMultiByte",
+      "target_va": "0x10024210"
+    },
+    {
+      "va": "0x10003a2f",
+      "instruction": "call dword ptr [0x10024094]",
+      "target": "api-ms-win-core-errorhandling-l1-1-0.dll!GetLastError",
+      "target_va": "0x10024094"
+    },
+    {
+      "va": "0x10003a4e",
+      "instruction": "call dword ptr [0x10024210]",
+      "target": "api-ms-win-core-string-l1-1-0.dll!WideCharToMultiByte",
+      "target_va": "0x10024210"
+    },
+    {
+      "va": "0x10003a79",
+      "instruction": "call dword ptr [0x10024210]",
+      "target": "api-ms-win-core-string-l1-1-0.dll!WideCharToMultiByte",
+      "target_va": "0x10024210"
+    },
+    {
+      "va": "0x10003b2e",
+      "instruction": "push 0x10024780",
+      "target": "SOFTWARE\\Lenovo\\iMController\\Contracts\\SystemManagement.BatteryMgmt",
+      "target_va": "0x10024780"
+    },
+    {
+      "va": "0x10003b69",
+      "instruction": "push 0x10024780",
+      "target": "SOFTWARE\\Lenovo\\iMController\\Contracts\\SystemManagement.BatteryMgmt",
+      "target_va": "0x10024780"
+    },
+    {
+      "va": "0x10003c47",
+      "instruction": "push 0x10024890",
+      "target": "BatteryChargeMode",
+      "target_va": "0x10024890"
+    },
+    {
+      "va": "0x10003c70",
+      "instruction": "push 0x10024780",
+      "target": "SOFTWARE\\Lenovo\\iMController\\Contracts\\SystemManagement.BatteryMgmt",
+      "target_va": "0x10024780"
+    },
+    {
+      "va": "0x10003ce8",
+      "instruction": "push 0x10024890",
+      "target": "BatteryChargeMode",
+      "target_va": "0x10024890"
+    },
+    {
+      "va": "0x10003d11",
+      "instruction": "push 0x10024780",
+      "target": "SOFTWARE\\Lenovo\\iMController\\Contracts\\SystemManagement.BatteryMgmt",
+      "target_va": "0x10024780"
+    },
+    {
+      "va": "0x10003d70",
+      "instruction": "push 0x100246a8",
+      "target": "E:\\Jenkins\\jobs\\pcmanager_build_OTA\\workspace\\libsrc\\Commonnew\\hardware\\BatteryChargingModeHelper.hpp",
+      "target_va": "0x100246a8"
+    },
+    {
+      "va": "0x10003e99",
+      "instruction": "call dword ptr [0x10024038]",
+      "target": "SHLWAPI.dll!PathFindFileNameW",
+      "target_va": "0x10024038"
+    },
+    {
+      "va": "0x10003fdd",
+      "instruction": "call dword ptr [0x10024030]",
+      "target": "SHELL32.dll!SHGetSpecialFolderPathW",
+      "target_va": "0x10024030"
+    },
+    {
+      "va": "0x10004077",
+      "instruction": "call dword ptr [0x100240ec]",
+      "target": "api-ms-win-core-file-l1-2-0.dll!GetTempPathW",
+      "target_va": "0x100240ec"
+    },
+    {
+      "va": "0x100041a4",
+      "instruction": "call dword ptr [0x10024040]",
+      "target": "SHLWAPI.dll!PathIsDirectoryW",
+      "target_va": "0x10024040"
+    },
+    {
+      "va": "0x100041b1",
+      "instruction": "call dword ptr [0x1002402c]",
+      "target": "SHELL32.dll!SHCreateDirectoryExW",
+      "target_va": "0x1002402c"
+    },
+    {
+      "va": "0x100041b8",
+      "instruction": "call dword ptr [0x100240bc]",
+      "target": "api-ms-win-core-file-l1-1-0.dll!GetFileAttributesW",
+      "target_va": "0x100240bc"
+    },
+    {
+      "va": "0x10004263",
+      "instruction": "call dword ptr [0x1002403c]",
+      "target": "SHLWAPI.dll!PathFileExistsW",
+      "target_va": "0x1002403c"
+    },
+    {
+      "va": "0x1000426e",
+      "instruction": "call dword ptr [0x100240b8]",
+      "target": "api-ms-win-core-file-l1-1-0.dll!DeleteFileW",
+      "target_va": "0x100240b8"
+    },
+    {
+      "va": "0x100042cd",
+      "instruction": "call dword ptr [0x10024038]",
+      "target": "SHLWAPI.dll!PathFindFileNameW",
+      "target_va": "0x10024038"
+    },
+    {
+      "va": "0x100043c7",
+      "instruction": "call dword ptr [0x10024240]",
+      "target": "api-ms-win-core-synch-l1-1-0.dll!EnterCriticalSection",
+      "target_va": "0x10024240"
+    },
+    {
+      "va": "0x100043f1",
+      "instruction": "call dword ptr [0x1002403c]",
+      "target": "SHLWAPI.dll!PathFileExistsW",
+      "target_va": "0x1002403c"
+    },
+    {
+      "va": "0x100043fb",
+      "instruction": "mov esi, dword ptr [0x10024020]",
+      "target": "KERNEL32.dll!GetPrivateProfileIntW",
+      "target_va": "0x10024020"
+    },
+    {
+      "va": "0x100044c9",
+      "instruction": "call dword ptr [0x10024288]",
+      "target": "api-ms-win-security-base-l1-1-0.dll!InitializeSecurityDescriptor",
+      "target_va": "0x10024288"
+    },
+    {
+      "va": "0x100044d9",
+      "instruction": "call dword ptr [0x1002427c]",
+      "target": "api-ms-win-security-base-l1-1-0.dll!SetSecurityDescriptorDacl",
+      "target_va": "0x1002427c"
+    },
+    {
+      "va": "0x100044f6",
+      "instruction": "call dword ptr [0x10024038]",
+      "target": "SHLWAPI.dll!PathFindFileNameW",
+      "target_va": "0x10024038"
+    },
+    {
+      "va": "0x10004525",
+      "instruction": "call dword ptr [0x10024244]",
+      "target": "api-ms-win-core-synch-l1-1-0.dll!CreateMutexW",
+      "target_va": "0x10024244"
+    },
+    {
+      "va": "0x10004564",
+      "instruction": "call dword ptr [0x1002423c]",
+      "target": "api-ms-win-core-synch-l1-1-0.dll!LeaveCriticalSection",
+      "target_va": "0x1002423c"
+    },
+    {
+      "va": "0x100045b1",
+      "instruction": "call dword ptr [0x100241c4]",
+      "target": "api-ms-win-core-processthreads-l1-1-0.dll!GetCurrentProcessId",
+      "target_va": "0x100241c4"
+    },
+    {
+      "va": "0x100045bc",
+      "instruction": "call dword ptr [0x100241b0]",
+      "target": "api-ms-win-core-processthreads-l1-1-0.dll!ProcessIdToSessionId",
+      "target_va": "0x100241b0"
+    },
+    {
+      "va": "0x10004637",
+      "instruction": "call dword ptr [0x100241e8]",
+      "target": "api-ms-win-core-registry-l1-1-0.dll!RegOpenCurrentUser",
+      "target_va": "0x100241e8"
+    },
+    {
+      "va": "0x10004643",
+      "instruction": "call dword ptr [0x10024284]",
+      "target": "api-ms-win-security-base-l1-1-0.dll!RevertToSelf",
+      "target_va": "0x10024284"
+    },
+    {
+      "va": "0x10004667",
+      "instruction": "call dword ptr [0x100241fc]",
+      "target": "api-ms-win-core-registry-l1-1-0.dll!RegOpenKeyExW",
+      "target_va": "0x100241fc"
+    },
+    {
+      "va": "0x100046c7",
+      "instruction": "call dword ptr [0x100241f8]",
+      "target": "api-ms-win-core-registry-l1-1-0.dll!RegCloseKey",
+      "target_va": "0x100241f8"
+    },
+    {
+      "va": "0x1000472e",
+      "instruction": "push 0x1002466c",
+      "target": "\\\\.\\EnergyDrv",
+      "target_va": "0x1002466c"
+    },
+    {
+      "va": "0x10004733",
+      "instruction": "call dword ptr [0x100240d4]",
+      "target": "api-ms-win-core-file-l1-1-0.dll!CreateFileW",
+      "target_va": "0x100240d4"
+    },
+    {
+      "va": "0x1000475a",
+      "instruction": "call dword ptr [0x10024124]",
+      "target": "api-ms-win-core-io-l1-1-0.dll!DeviceIoControl",
+      "target_va": "0x10024124"
+    },
+    {
+      "va": "0x100048a9",
+      "instruction": "call dword ptr [0x1002403c]",
+      "target": "SHLWAPI.dll!PathFileExistsW",
+      "target_va": "0x1002403c"
+    },
+    {
+      "va": "0x100048c8",
+      "instruction": "call dword ptr [0x100240d4]",
+      "target": "api-ms-win-core-file-l1-1-0.dll!CreateFileW",
+      "target_va": "0x100240d4"
+    },
+    {
+      "va": "0x100048da",
+      "instruction": "call dword ptr [0x100240d8]",
+      "target": "api-ms-win-core-file-l1-1-0.dll!GetFileSizeEx",
+      "target_va": "0x100240d8"
+    },
+    {
+      "va": "0x100048e1",
+      "instruction": "mov ebx, dword ptr [0x100240f4]",
+      "target": "api-ms-win-core-handle-l1-1-0.dll!CloseHandle",
+      "target_va": "0x100240f4"
+    },
+    {
+      "va": "0x10004921",
+      "instruction": "call dword ptr [0x100240d4]",
+      "target": "api-ms-win-core-file-l1-1-0.dll!CreateFileW",
+      "target_va": "0x100240d4"
+    },
+    {
+      "va": "0x100049b6",
+      "instruction": "call dword ptr [0x10024178]",
+      "target": "api-ms-win-core-memory-l1-1-0.dll!VirtualQuery",
+      "target_va": "0x10024178"
+    },
+    {
+      "va": "0x100049ee",
+      "instruction": "call dword ptr [0x1002414c]",
+      "target": "api-ms-win-core-libraryloader-l1-2-0.dll!GetModuleFileNameW",
+      "target_va": "0x1002414c"
+    },
+    {
+      "va": "0x10004ce0",
+      "instruction": "push 0x10024890",
+      "target": "BatteryChargeMode",
+      "target_va": "0x10024890"
+    },
+    {
+      "va": "0x10004d09",
+      "instruction": "push 0x10024780",
+      "target": "SOFTWARE\\Lenovo\\iMController\\Contracts\\SystemManagement.BatteryMgmt",
+      "target_va": "0x10024780"
+    },
+    {
+      "va": "0x10004d4d",
+      "instruction": "push 0x10024890",
+      "target": "BatteryChargeMode",
+      "target_va": "0x10024890"
+    },
+    {
+      "va": "0x10004d60",
+      "instruction": "push 0x10024780",
+      "target": "SOFTWARE\\Lenovo\\iMController\\Contracts\\SystemManagement.BatteryMgmt",
+      "target_va": "0x10024780"
+    },
+    {
+      "va": "0x10004e0d",
+      "instruction": "push 0x1002466c",
+      "target": "\\\\.\\EnergyDrv",
+      "target_va": "0x1002466c"
+    },
+    {
+      "va": "0x10004e12",
+      "instruction": "call dword ptr [0x100240d4]",
+      "target": "api-ms-win-core-file-l1-1-0.dll!CreateFileW",
+      "target_va": "0x100240d4"
+    },
+    {
+      "va": "0x10004e38",
+      "instruction": "call dword ptr [0x10024124]",
+      "target": "api-ms-win-core-io-l1-1-0.dll!DeviceIoControl",
+      "target_va": "0x10024124"
+    },
+    {
+      "va": "0x10004e54",
+      "instruction": "call dword ptr [0x10024254]",
+      "target": "api-ms-win-core-synch-l1-2-0.dll!Sleep",
+      "target_va": "0x10024254"
+    },
+    {
+      "va": "0x10004eaf",
+      "instruction": "push 0x10024890",
+      "target": "BatteryChargeMode",
+      "target_va": "0x10024890"
+    },
+    {
+      "va": "0x10004ed8",
+      "instruction": "push 0x10024780",
+      "target": "SOFTWARE\\Lenovo\\iMController\\Contracts\\SystemManagement.BatteryMgmt",
+      "target_va": "0x10024780"
+    },
+    {
+      "va": "0x1000506f",
+      "instruction": "call dword ptr [0x10024110]",
+      "target": "api-ms-win-core-heap-l1-1-0.dll!HeapReAlloc",
+      "target_va": "0x10024110"
+    },
+    {
+      "va": "0x10005257",
+      "instruction": "mov edx, 0x10024b48",
+      "target": "SetBatteryChargingMode mode = %d",
+      "target_va": "0x10024b48"
+    },
+    {
+      "va": "0x10005281",
+      "instruction": "push 0x100249b0",
+      "target": "E:\\Jenkins\\jobs\\pcmanager_build_OTA\\workspace\\V3\\Plugins\\PCMBatterySettingsPlugin\\BatteryChargingMode.cpp",
+      "target_va": "0x100249b0"
+    },
+    {
+      "va": "0x10005377",
+      "instruction": "call dword ptr [0x10024254]",
+      "target": "api-ms-win-core-synch-l1-2-0.dll!Sleep",
+      "target_va": "0x10024254"
+    },
+    {
+      "va": "0x100053d2",
+      "instruction": "push 0x10024890",
+      "target": "BatteryChargeMode",
+      "target_va": "0x10024890"
+    },
+    {
+      "va": "0x100053fb",
+      "instruction": "push 0x10024780",
+      "target": "SOFTWARE\\Lenovo\\iMController\\Contracts\\SystemManagement.BatteryMgmt",
+      "target_va": "0x10024780"
+    },
+    {
+      "va": "0x100054b8",
+      "instruction": "push 0x1002466c",
+      "target": "\\\\.\\EnergyDrv",
+      "target_va": "0x1002466c"
+    },
+    {
+      "va": "0x100054bd",
+      "instruction": "call dword ptr [0x100240d4]",
+      "target": "api-ms-win-core-file-l1-1-0.dll!CreateFileW",
+      "target_va": "0x100240d4"
+    },
+    {
+      "va": "0x100054e4",
+      "instruction": "call dword ptr [0x10024124]",
+      "target": "api-ms-win-core-io-l1-1-0.dll!DeviceIoControl",
+      "target_va": "0x10024124"
+    },
+    {
+      "va": "0x1000554c",
+      "instruction": "call dword ptr [0x100241e8]",
+      "target": "api-ms-win-core-registry-l1-1-0.dll!RegOpenCurrentUser",
+      "target_va": "0x100241e8"
+    },
+    {
+      "va": "0x10005558",
+      "instruction": "call dword ptr [0x10024284]",
+      "target": "api-ms-win-security-base-l1-1-0.dll!RevertToSelf",
+      "target_va": "0x10024284"
+    },
+    {
+      "va": "0x1000557e",
+      "instruction": "call dword ptr [0x100241f0]",
+      "target": "api-ms-win-core-registry-l1-1-0.dll!RegCreateKeyExW",
+      "target_va": "0x100241f0"
+    },
+    {
+      "va": "0x100055b0",
+      "instruction": "call dword ptr [0x100241ec]",
+      "target": "api-ms-win-core-registry-l1-1-0.dll!RegSetValueExW",
+      "target_va": "0x100241ec"
+    },
+    {
+      "va": "0x1000560e",
+      "instruction": "call dword ptr [0x100241f8]",
+      "target": "api-ms-win-core-registry-l1-1-0.dll!RegCloseKey",
+      "target_va": "0x100241f8"
+    },
+    {
+      "va": "0x10005689",
+      "instruction": "push 0x1002466c",
+      "target": "\\\\.\\EnergyDrv",
+      "target_va": "0x1002466c"
+    },
+    {
+      "va": "0x1000568e",
+      "instruction": "call dword ptr [0x100240d4]",
+      "target": "api-ms-win-core-file-l1-1-0.dll!CreateFileW",
+      "target_va": "0x100240d4"
+    },
+    {
+      "va": "0x100056b6",
+      "instruction": "call dword ptr [0x10024124]",
+      "target": "api-ms-win-core-io-l1-1-0.dll!DeviceIoControl",
+      "target_va": "0x10024124"
+    },
+    {
+      "va": "0x1000588c",
+      "instruction": "push 0x10024890",
+      "target": "BatteryChargeMode",
+      "target_va": "0x10024890"
+    },
+    {
+      "va": "0x100058fa",
+      "instruction": "push 0x10024890",
+      "target": "BatteryChargeMode",
+      "target_va": "0x10024890"
+    },
+    {
+      "va": "0x100059d1",
+      "instruction": "call dword ptr [0x100241f4]",
+      "target": "api-ms-win-core-registry-l1-1-0.dll!RegGetValueW",
+      "target_va": "0x100241f4"
+    },
+    {
+      "va": "0x10005a31",
+      "instruction": "call dword ptr [0x100241f4]",
+      "target": "api-ms-win-core-registry-l1-1-0.dll!RegGetValueW",
+      "target_va": "0x100241f4"
+    },
+    {
+      "va": "0x10005bc1",
+      "instruction": "call dword ptr [0x10024288]",
+      "target": "api-ms-win-security-base-l1-1-0.dll!InitializeSecurityDescriptor",
+      "target_va": "0x10024288"
+    },
+    {
+      "va": "0x10005bd5",
+      "instruction": "call dword ptr [0x1002427c]",
+      "target": "api-ms-win-security-base-l1-1-0.dll!SetSecurityDescriptorDacl",
+      "target_va": "0x1002427c"
+    },
+    {
+      "va": "0x10005bf9",
+      "instruction": "call dword ptr [0x10024280]",
+      "target": "api-ms-win-security-base-l1-1-0.dll!SetFileSecurityW",
+      "target_va": "0x10024280"
+    },
+    {
+      "va": "0x10005c01",
+      "instruction": "call dword ptr [0x1002403c]",
+      "target": "SHLWAPI.dll!PathFileExistsW",
+      "target_va": "0x1002403c"
+    },
+    {
+      "va": "0x10005c0d",
+      "instruction": "call dword ptr [0x100240bc]",
+      "target": "api-ms-win-core-file-l1-1-0.dll!GetFileAttributesW",
+      "target_va": "0x100240bc"
+    },
+    {
+      "va": "0x10005c2f",
+      "instruction": "call dword ptr [0x100240d4]",
+      "target": "api-ms-win-core-file-l1-1-0.dll!CreateFileW",
+      "target_va": "0x100240d4"
+    },
+    {
+      "va": "0x10005c41",
+      "instruction": "call dword ptr [0x100240d0]",
+      "target": "api-ms-win-core-file-l1-1-0.dll!SetFilePointer",
+      "target_va": "0x100240d0"
+    },
+    {
+      "va": "0x10005d5c",
+      "instruction": "call dword ptr [0x100240f4]",
+      "target": "api-ms-win-core-handle-l1-1-0.dll!CloseHandle",
+      "target_va": "0x100240f4"
+    },
+    {
+      "va": "0x10005e64",
+      "instruction": "call dword ptr [0x10024228]",
+      "target": "api-ms-win-core-synch-l1-1-0.dll!WaitForSingleObject",
+      "target_va": "0x10024228"
+    },
+    {
+      "va": "0x10005ec7",
+      "instruction": "call dword ptr [0x10024260]",
+      "target": "api-ms-win-core-sysinfo-l1-1-0.dll!GetLocalTime",
+      "target_va": "0x10024260"
+    },
+    {
+      "va": "0x10005eed",
+      "instruction": "call dword ptr [0x100241a8]",
+      "target": "api-ms-win-core-processthreads-l1-1-0.dll!GetCurrentThreadId",
+      "target_va": "0x100241a8"
+    },
+    {
+      "va": "0x10005f06",
+      "instruction": "call dword ptr [0x10024038]",
+      "target": "SHLWAPI.dll!PathFindFileNameW",
+      "target_va": "0x10024038"
+    },
+    {
+      "va": "0x1000604b",
+      "instruction": "mov esi, dword ptr [0x100241a0]",
+      "target": "api-ms-win-core-processenvironment-l1-1-0.dll!GetStdHandle",
+      "target_va": "0x100241a0"
+    },
+    {
+      "va": "0x10006090",
+      "instruction": "call dword ptr [0x10024078]",
+      "target": "api-ms-win-core-console-l2-1-0.dll!SetConsoleTextAttribute",
+      "target_va": "0x10024078"
+    },
+    {
+      "va": "0x100060b3",
+      "instruction": "call dword ptr [0x100241a0]",
+      "target": "api-ms-win-core-processenvironment-l1-1-0.dll!GetStdHandle",
+      "target_va": "0x100241a0"
+    },
+    {
+      "va": "0x100060c2",
+      "instruction": "call dword ptr [0x1002406c]",
+      "target": "api-ms-win-core-console-l1-1-0.dll!WriteConsoleW",
+      "target_va": "0x1002406c"
+    },
+    {
+      "va": "0x100060ee",
+      "instruction": "call dword ptr [0x100240d4]",
+      "target": "api-ms-win-core-file-l1-1-0.dll!CreateFileW",
+      "target_va": "0x100240d4"
+    },
+    {
+      "va": "0x10006106",
+      "instruction": "call dword ptr [0x100240bc]",
+      "target": "api-ms-win-core-file-l1-1-0.dll!GetFileAttributesW",
+      "target_va": "0x100240bc"
+    },
+    {
+      "va": "0x1000612b",
+      "instruction": "call dword ptr [0x10024288]",
+      "target": "api-ms-win-security-base-l1-1-0.dll!InitializeSecurityDescriptor",
+      "target_va": "0x10024288"
+    },
+    {
+      "va": "0x1000613f",
+      "instruction": "call dword ptr [0x1002427c]",
+      "target": "api-ms-win-security-base-l1-1-0.dll!SetSecurityDescriptorDacl",
+      "target_va": "0x1002427c"
+    },
+    {
+      "va": "0x10006169",
+      "instruction": "call dword ptr [0x10024280]",
+      "target": "api-ms-win-security-base-l1-1-0.dll!SetFileSecurityW",
+      "target_va": "0x10024280"
+    },
+    {
+      "va": "0x1000617b",
+      "instruction": "call dword ptr [0x100240d0]",
+      "target": "api-ms-win-core-file-l1-1-0.dll!SetFilePointer",
+      "target_va": "0x100240d0"
+    },
+    {
+      "va": "0x10006214",
+      "instruction": "call dword ptr [0x10024084]",
+      "target": "api-ms-win-core-debug-l1-1-0.dll!OutputDebugStringW",
+      "target_va": "0x10024084"
+    },
+    {
+      "va": "0x10006255",
+      "instruction": "call dword ptr [0x100240cc]",
+      "target": "api-ms-win-core-file-l1-1-0.dll!WriteFile",
+      "target_va": "0x100240cc"
+    },
+    {
+      "va": "0x1000628d",
+      "instruction": "call dword ptr [0x100240cc]",
+      "target": "api-ms-win-core-file-l1-1-0.dll!WriteFile",
+      "target_va": "0x100240cc"
+    },
+    {
+      "va": "0x100062fe",
+      "instruction": "call dword ptr [0x100240f4]",
+      "target": "api-ms-win-core-handle-l1-1-0.dll!CloseHandle",
+      "target_va": "0x100240f4"
+    },
+    {
+      "va": "0x10006348",
+      "instruction": "call dword ptr [0x10024224]",
+      "target": "api-ms-win-core-synch-l1-1-0.dll!ReleaseMutex",
+      "target_va": "0x10024224"
+    },
+    {
+      "va": "0x1000639e",
+      "instruction": "call dword ptr [0x100241c4]",
+      "target": "api-ms-win-core-processthreads-l1-1-0.dll!GetCurrentProcessId",
+      "target_va": "0x100241c4"
+    },
+    {
+      "va": "0x1000643d",
+      "instruction": "call dword ptr [0x100240cc]",
+      "target": "api-ms-win-core-file-l1-1-0.dll!WriteFile",
+      "target_va": "0x100240cc"
+    },
+    {
+      "va": "0x10006458",
+      "instruction": "call dword ptr [0x100240cc]",
+      "target": "api-ms-win-core-file-l1-1-0.dll!WriteFile",
+      "target_va": "0x100240cc"
+    },
+    {
+      "va": "0x1000647a",
+      "instruction": "call dword ptr [0x10024148]",
+      "target": "api-ms-win-core-libraryloader-l1-2-0.dll!LoadResource",
+      "target_va": "0x10024148"
+    },
+    {
+      "va": "0x10006485",
+      "instruction": "call dword ptr [0x10024140]",
+      "target": "api-ms-win-core-libraryloader-l1-2-0.dll!LockResource",
+      "target_va": "0x10024140"
+    },
+    {
+      "va": "0x10006497",
+      "instruction": "call dword ptr [0x1002412c]",
+      "target": "api-ms-win-core-libraryloader-l1-2-0.dll!SizeofResource",
+      "target_va": "0x1002412c"
+    },
+    {
+      "va": "0x100064dc",
+      "instruction": "call dword ptr [0x10024220]",
+      "target": "api-ms-win-core-synch-l1-1-0.dll!InitializeCriticalSectionEx",
+      "target_va": "0x10024220"
+    },
+    {
+      "va": "0x1000791c",
+      "instruction": "push 0x1002598c",
+      "target": "WrapPlugin.dll",
+      "target_va": "0x1002598c"
+    },
+    {
+      "va": "0x1000792e",
+      "instruction": "call dword ptr [0x10024138]",
+      "target": "api-ms-win-core-libraryloader-l1-2-0.dll!GetModuleHandleW",
+      "target_va": "0x10024138"
+    },
+    {
+      "va": "0x10007947",
+      "instruction": "push 0x1002598c",
+      "target": "WrapPlugin.dll",
+      "target_va": "0x1002598c"
+    },
+    {
+      "va": "0x10007973",
+      "instruction": "mov esi, dword ptr [0x1002403c]",
+      "target": "SHLWAPI.dll!PathFileExistsW",
+      "target_va": "0x1002403c"
+    },
+    {
+      "va": "0x100079f5",
+      "instruction": "push 0x1002598c",
+      "target": "WrapPlugin.dll",
+      "target_va": "0x1002598c"
+    },
+    {
+      "va": "0x10007a3e",
+      "instruction": "call dword ptr [0x10024134]",
+      "target": "api-ms-win-core-libraryloader-l1-2-0.dll!LoadLibraryExW",
+      "target_va": "0x10024134"
+    },
+    {
+      "va": "0x10007b36",
+      "instruction": "call dword ptr [0x10024150]",
+      "target": "api-ms-win-core-libraryloader-l1-2-0.dll!FreeLibrary",
+      "target_va": "0x10024150"
+    },
+    {
+      "va": "0x10007f28",
+      "instruction": "call dword ptr [0x10024040]",
+      "target": "SHLWAPI.dll!PathIsDirectoryW",
+      "target_va": "0x10024040"
+    },
+    {
+      "va": "0x10008379",
+      "instruction": "call dword ptr [0x10024094]",
+      "target": "api-ms-win-core-errorhandling-l1-1-0.dll!GetLastError",
+      "target_va": "0x10024094"
+    },
+    {
+      "va": "0x1000880e",
+      "instruction": "call dword ptr [0x1002403c]",
+      "target": "SHLWAPI.dll!PathFileExistsW",
+      "target_va": "0x1002403c"
+    },
+    {
+      "va": "0x10008a98",
+      "instruction": "call dword ptr [0x1002403c]",
+      "target": "SHLWAPI.dll!PathFileExistsW",
+      "target_va": "0x1002403c"
+    },
+    {
+      "va": "0x10008c38",
+      "instruction": "call dword ptr [0x1002403c]",
+      "target": "SHLWAPI.dll!PathFileExistsW",
+      "target_va": "0x1002403c"
+    },
+    {
+      "va": "0x10008dbc",
+      "instruction": "call dword ptr [0x1002403c]",
+      "target": "SHLWAPI.dll!PathFileExistsW",
+      "target_va": "0x1002403c"
+    },
+    {
+      "va": "0x10008e40",
+      "instruction": "call dword ptr [0x1002403c]",
+      "target": "SHLWAPI.dll!PathFileExistsW",
+      "target_va": "0x1002403c"
+    },
+    {
+      "va": "0x10008e4b",
+      "instruction": "call dword ptr [0x100240bc]",
+      "target": "api-ms-win-core-file-l1-1-0.dll!GetFileAttributesW",
+      "target_va": "0x100240bc"
+    },
+    {
+      "va": "0x1000900c",
+      "instruction": "mov esi, dword ptr [0x100241f4]",
+      "target": "api-ms-win-core-registry-l1-1-0.dll!RegGetValueW",
+      "target_va": "0x100241f4"
+    },
+    {
+      "va": "0x10009104",
+      "instruction": "call dword ptr [0x10024040]",
+      "target": "SHLWAPI.dll!PathIsDirectoryW",
+      "target_va": "0x10024040"
+    },
+    {
+      "va": "0x10009278",
+      "instruction": "call dword ptr [0x100241f8]",
+      "target": "api-ms-win-core-registry-l1-1-0.dll!RegCloseKey",
+      "target_va": "0x100241f8"
+    },
+    {
+      "va": "0x10009502",
+      "instruction": "call dword ptr [0x10024000]",
+      "target": "CRYPT32.dll!CertGetNameStringW",
+      "target_va": "0x10024000"
+    },
+    {
+      "va": "0x10009536",
+      "instruction": "call dword ptr [0x10024000]",
+      "target": "CRYPT32.dll!CertGetNameStringW",
+      "target_va": "0x10024000"
+    },
+    {
+      "va": "0x100099c7",
+      "instruction": "call dword ptr [0x10024044]",
+      "target": "SHLWAPI.dll!PathRemoveFileSpecW",
+      "target_va": "0x10024044"
+    },
+    {
+      "va": "0x1000a1bc",
+      "instruction": "call dword ptr [0x1002414c]",
+      "target": "api-ms-win-core-libraryloader-l1-2-0.dll!GetModuleFileNameW",
+      "target_va": "0x1002414c"
+    },
+    {
+      "va": "0x1000a2a5",
+      "instruction": "call dword ptr [0x10024018]",
+      "target": "CRYPT32.dll!CryptQueryObject",
+      "target_va": "0x10024018"
+    },
+    {
+      "va": "0x1000a2b3",
+      "instruction": "mov esi, dword ptr [0x10024008]",
+      "target": "CRYPT32.dll!CryptMsgGetParam",
+      "target_va": "0x10024008"
+    },
+    {
+      "va": "0x1000a357",
+      "instruction": "call dword ptr [0x10024010]",
+      "target": "CRYPT32.dll!CertFindCertificateInStore",
+      "target_va": "0x10024010"
+    },
+    {
+      "va": "0x1000a372",
+      "instruction": "call dword ptr [0x10024000]",
+      "target": "CRYPT32.dll!CertGetNameStringW",
+      "target_va": "0x10024000"
+    },
+    {
+      "va": "0x1000a3aa",
+      "instruction": "call dword ptr [0x10024000]",
+      "target": "CRYPT32.dll!CertGetNameStringW",
+      "target_va": "0x10024000"
+    },
+    {
+      "va": "0x1000a402",
+      "instruction": "call dword ptr [0x10024014]",
+      "target": "CRYPT32.dll!CertFreeCertificateContext",
+      "target_va": "0x10024014"
+    },
+    {
+      "va": "0x1000a415",
+      "instruction": "call dword ptr [0x1002400c]",
+      "target": "CRYPT32.dll!CertCloseStore",
+      "target_va": "0x1002400c"
+    },
+    {
+      "va": "0x1000a426",
+      "instruction": "call dword ptr [0x10024004]",
+      "target": "CRYPT32.dll!CryptMsgClose",
+      "target_va": "0x10024004"
+    },
+    {
+      "va": "0x1000a711",
+      "instruction": "call dword ptr [0x10024184]",
+      "target": "api-ms-win-core-privateprofile-l1-1-0.dll!GetPrivateProfileStringW",
+      "target_va": "0x10024184"
+    },
+    {
+      "va": "0x1000a7f9",
+      "instruction": "call dword ptr [0x10024214]",
+      "target": "api-ms-win-core-string-l1-1-0.dll!MultiByteToWideChar",
+      "target_va": "0x10024214"
+    },
+    {
+      "va": "0x1000a80d",
+      "instruction": "call dword ptr [0x10024094]",
+      "target": "api-ms-win-core-errorhandling-l1-1-0.dll!GetLastError",
+      "target_va": "0x10024094"
+    },
+    {
+      "va": "0x1000a825",
+      "instruction": "call dword ptr [0x10024214]",
+      "target": "api-ms-win-core-string-l1-1-0.dll!MultiByteToWideChar",
+      "target_va": "0x10024214"
+    },
+    {
+      "va": "0x1000a84c",
+      "instruction": "call dword ptr [0x10024214]",
+      "target": "api-ms-win-core-string-l1-1-0.dll!MultiByteToWideChar",
+      "target_va": "0x10024214"
+    },
+    {
+      "va": "0x1000a8fa",
+      "instruction": "mov edi, dword ptr [0x10024144]",
+      "target": "api-ms-win-core-libraryloader-l1-2-0.dll!GetProcAddress",
+      "target_va": "0x10024144"
+    },
+    {
+      "va": "0x1000aa4d",
+      "instruction": "mov esi, dword ptr [0x10024144]",
+      "target": "api-ms-win-core-libraryloader-l1-2-0.dll!GetProcAddress",
+      "target_va": "0x10024144"
+    },
+    {
+      "va": "0x1000ab73",
+      "instruction": "call dword ptr [0x100241fc]",
+      "target": "api-ms-win-core-registry-l1-1-0.dll!RegOpenKeyExW",
+      "target_va": "0x100241fc"
+    },
+    {
+      "va": "0x1000ac14",
+      "instruction": "call dword ptr [0x100241f8]",
+      "target": "api-ms-win-core-registry-l1-1-0.dll!RegCloseKey",
+      "target_va": "0x100241f8"
+    },
+    {
+      "va": "0x1000ac81",
+      "instruction": "push 0x10025cb8",
+      "target": "E:\\Jenkins\\jobs\\pcmanager_build_OTA\\workspace\\V3\\Plugins\\PCMBatterySettingsPlugin\\PCMBatterySettingsPlugin.cpp",
+      "target_va": "0x10025cb8"
+    },
+    {
+      "va": "0x1000ad07",
+      "instruction": "push 0x10025dac",
+      "target": "NEWPLUGIN_PCMBATTERYSETTINGSPLUGIN_GET_PCM_SUPPORT_MODE",
+      "target_va": "0x10025dac"
+    },
+    {
+      "va": "0x1000ad51",
+      "instruction": "push 0x10025de4",
+      "target": "NEWPLUGIN_PCMBATTERYSETTINGSPLUGIN_GET_PCM_CHARGE_MODE",
+      "target_va": "0x10025de4"
+    },
+    {
+      "va": "0x1000ad9b",
+      "instruction": "push 0x10025e1c",
+      "target": "NEWPLUGIN_PCMBATTERYSETTINGSPLUGIN_SET_PCM_CHARGE_MODE",
+      "target_va": "0x10025e1c"
+    },
+    {
+      "va": "0x1000ade5",
+      "instruction": "push 0x10025e54",
+      "target": "NEWPLUGIN_PCMBATTERYSETTINGSPLUGIN_GET_QUICKCHARGE_SUPPORT",
+      "target_va": "0x10025e54"
+    },
+    {
+      "va": "0x1000ae2f",
+      "instruction": "push 0x10025e90",
+      "target": "NEWPLUGIN_PCMBATTERYSETTINGSPLUGIN_GET_QUICKCHARGE_STATE",
+      "target_va": "0x10025e90"
+    },
+    {
+      "va": "0x1000ae77",
+      "instruction": "push 0x10025ecc",
+      "target": "NEWPLUGIN_PCMBATTERYSETTINGSPLUGIN_SET_QUICKCHARGE_STATE",
+      "target_va": "0x10025ecc"
+    },
+    {
+      "va": "0x1000c9fe",
+      "instruction": "jmp dword ptr [0x10024050]",
+      "target": "WINTRUST.dll!WinVerifyTrust",
+      "target_va": "0x10024050"
+    },
+    {
+      "va": "0x1000cc4c",
+      "instruction": "call dword ptr [0x10024234]",
+      "target": "api-ms-win-core-synch-l1-1-0.dll!ReleaseSRWLockExclusive",
+      "target_va": "0x10024234"
+    },
+    {
+      "va": "0x1000cc6a",
+      "instruction": "call dword ptr [0x100241a8]",
+      "target": "api-ms-win-core-processthreads-l1-1-0.dll!GetCurrentThreadId",
+      "target_va": "0x100241a8"
+    },
+    {
+      "va": "0x1000cc89",
+      "instruction": "call dword ptr [0x10024230]",
+      "target": "api-ms-win-core-synch-l1-1-0.dll!AcquireSRWLockExclusive",
+      "target_va": "0x10024230"
+    },
+    {
+      "va": "0x1000ccb7",
+      "instruction": "call dword ptr [0x10024230]",
+      "target": "api-ms-win-core-synch-l1-1-0.dll!AcquireSRWLockExclusive",
+      "target_va": "0x10024230"
+    },
+    {
+      "va": "0x1000cd12",
+      "instruction": "call dword ptr [0x1002422c]",
+      "target": "api-ms-win-core-synch-l1-1-0.dll!TryAcquireSRWLockExclusive",
+      "target_va": "0x1002422c"
+    },
+    {
+      "va": "0x1000cd29",
+      "instruction": "call dword ptr [0x1002422c]",
+      "target": "api-ms-win-core-synch-l1-1-0.dll!TryAcquireSRWLockExclusive",
+      "target_va": "0x1002422c"
+    },
+    {
+      "va": "0x1000d1bf",
+      "instruction": "push 0x10026bbc",
+      "target": "kernel32.dll",
+      "target_va": "0x10026bbc"
+    },
+    {
+      "va": "0x1000d1c4",
+      "instruction": "call dword ptr [0x10024138]",
+      "target": "api-ms-win-core-libraryloader-l1-2-0.dll!GetModuleHandleW",
+      "target_va": "0x10024138"
+    },
+    {
+      "va": "0x1000d1d2",
+      "instruction": "call dword ptr [0x10024144]",
+      "target": "api-ms-win-core-libraryloader-l1-2-0.dll!GetProcAddress",
+      "target_va": "0x10024144"
+    },
+    {
+      "va": "0x1000d1e3",
+      "instruction": "call dword ptr [0x10024144]",
+      "target": "api-ms-win-core-libraryloader-l1-2-0.dll!GetProcAddress",
+      "target_va": "0x10024144"
+    },
+    {
+      "va": "0x1000d22e",
+      "instruction": "call dword ptr [0x10024264]",
+      "target": "api-ms-win-core-sysinfo-l1-1-0.dll!GetSystemTimeAsFileTime",
+      "target_va": "0x10024264"
+    },
+    {
+      "va": "0x1000d27a",
+      "instruction": "call dword ptr [0x10024080]",
+      "target": "api-ms-win-core-debug-l1-1-0.dll!IsDebuggerPresent",
+      "target_va": "0x10024080"
+    },
+    {
+      "va": "0x1000d289",
+      "instruction": "call dword ptr [0x10024084]",
+      "target": "api-ms-win-core-debug-l1-1-0.dll!OutputDebugStringW",
+      "target_va": "0x10024084"
+    },
+    {
+      "va": "0x1000d2c4",
+      "instruction": "call dword ptr [0x1002421c]",
+      "target": "api-ms-win-core-synch-l1-1-0.dll!DeleteCriticalSection",
+      "target_va": "0x1002421c"
+    },
+    {
+      "va": "0x1000d301",
+      "instruction": "call dword ptr [0x10024240]",
+      "target": "api-ms-win-core-synch-l1-1-0.dll!EnterCriticalSection",
+      "target_va": "0x10024240"
+    },
+    {
+      "va": "0x1000d32d",
+      "instruction": "call dword ptr [0x1002423c]",
+      "target": "api-ms-win-core-synch-l1-1-0.dll!LeaveCriticalSection",
+      "target_va": "0x1002423c"
+    },
+    {
+      "va": "0x1000d34d",
+      "instruction": "call dword ptr [0x10024094]",
+      "target": "api-ms-win-core-errorhandling-l1-1-0.dll!GetLastError",
+      "target_va": "0x10024094"
+    },
+    {
+      "va": "0x1000d38b",
+      "instruction": "jmp dword ptr [0x10024060]",
+      "target": "WTSAPI32.dll!WTSQueryUserToken",
+      "target_va": "0x10024060"
+    },
+    {
+      "va": "0x1000d6f5",
+      "instruction": "call dword ptr [0x10024230]",
+      "target": "api-ms-win-core-synch-l1-1-0.dll!AcquireSRWLockExclusive",
+      "target_va": "0x10024230"
+    },
+    {
+      "va": "0x1000d705",
+      "instruction": "call dword ptr [0x10024234]",
+      "target": "api-ms-win-core-synch-l1-1-0.dll!ReleaseSRWLockExclusive",
+      "target_va": "0x10024234"
+    },
+    {
+      "va": "0x1000d710",
+      "instruction": "call dword ptr [0x10024250]",
+      "target": "api-ms-win-core-synch-l1-2-0.dll!WakeAllConditionVariable",
+      "target_va": "0x10024250"
+    },
+    {
+      "va": "0x1000d723",
+      "instruction": "call dword ptr [0x10024230]",
+      "target": "api-ms-win-core-synch-l1-1-0.dll!AcquireSRWLockExclusive",
+      "target_va": "0x10024230"
+    },
+    {
+      "va": "0x1000d756",
+      "instruction": "call dword ptr [0x10024234]",
+      "target": "api-ms-win-core-synch-l1-1-0.dll!ReleaseSRWLockExclusive",
+      "target_va": "0x10024234"
+    },
+    {
+      "va": "0x1000d761",
+      "instruction": "call dword ptr [0x10024250]",
+      "target": "api-ms-win-core-synch-l1-2-0.dll!WakeAllConditionVariable",
+      "target_va": "0x10024250"
+    },
+    {
+      "va": "0x1000d775",
+      "instruction": "call dword ptr [0x10024230]",
+      "target": "api-ms-win-core-synch-l1-1-0.dll!AcquireSRWLockExclusive",
+      "target_va": "0x10024230"
+    },
+    {
+      "va": "0x1000d7b2",
+      "instruction": "call dword ptr [0x10024234]",
+      "target": "api-ms-win-core-synch-l1-1-0.dll!ReleaseSRWLockExclusive",
+      "target_va": "0x10024234"
+    },
+    {
+      "va": "0x1000d7ca",
+      "instruction": "call dword ptr [0x10024258]",
+      "target": "api-ms-win-core-synch-l1-2-0.dll!SleepConditionVariableSRW",
+      "target_va": "0x10024258"
+    },
+    {
+      "va": "0x1000de8b",
+      "instruction": "call dword ptr [0x100241d8]",
+      "target": "api-ms-win-core-processthreads-l1-1-1.dll!IsProcessorFeaturePresent",
+      "target_va": "0x100241d8"
+    },
+    {
+      "va": "0x1000e1a8",
+      "instruction": "call dword ptr [0x100241d8]",
+      "target": "api-ms-win-core-processthreads-l1-1-1.dll!IsProcessorFeaturePresent",
+      "target_va": "0x100241d8"
+    },
+    {
+      "va": "0x1000e274",
+      "instruction": "call dword ptr [0x10024080]",
+      "target": "api-ms-win-core-debug-l1-1-0.dll!IsDebuggerPresent",
+      "target_va": "0x10024080"
+    },
+    {
+      "va": "0x1000e28d",
+      "instruction": "call dword ptr [0x10024090]",
+      "target": "api-ms-win-core-errorhandling-l1-1-0.dll!SetUnhandledExceptionFilter",
+      "target_va": "0x10024090"
+    },
+    {
+      "va": "0x1000e297",
+      "instruction": "call dword ptr [0x1002409c]",
+      "target": "api-ms-win-core-errorhandling-l1-1-0.dll!UnhandledExceptionFilter",
+      "target_va": "0x1002409c"
+    },
+    {
+      "va": "0x1000e30a",
+      "instruction": "call dword ptr [0x10024090]",
+      "target": "api-ms-win-core-errorhandling-l1-1-0.dll!SetUnhandledExceptionFilter",
+      "target_va": "0x10024090"
+    },
+    {
+      "va": "0x1000e313",
+      "instruction": "call dword ptr [0x1002409c]",
+      "target": "api-ms-win-core-errorhandling-l1-1-0.dll!UnhandledExceptionFilter",
+      "target_va": "0x1002409c"
+    },
+    {
+      "va": "0x1000e31e",
+      "instruction": "call dword ptr [0x100241bc]",
+      "target": "api-ms-win-core-processthreads-l1-1-0.dll!GetCurrentProcess",
+      "target_va": "0x100241bc"
+    },
+    {
+      "va": "0x1000e325",
+      "instruction": "call dword ptr [0x100241b8]",
+      "target": "api-ms-win-core-processthreads-l1-1-0.dll!TerminateProcess",
+      "target_va": "0x100241b8"
+    },
+    {
+      "va": "0x1000e338",
+      "instruction": "call dword ptr [0x100241d8]",
+      "target": "api-ms-win-core-processthreads-l1-1-1.dll!IsProcessorFeaturePresent",
+      "target_va": "0x100241d8"
+    },
+    {
+      "va": "0x1000e43a",
+      "instruction": "call dword ptr [0x10024264]",
+      "target": "api-ms-win-core-sysinfo-l1-1-0.dll!GetSystemTimeAsFileTime",
+      "target_va": "0x10024264"
+    },
+    {
+      "va": "0x1000e449",
+      "instruction": "call dword ptr [0x100241a8]",
+      "target": "api-ms-win-core-processthreads-l1-1-0.dll!GetCurrentThreadId",
+      "target_va": "0x100241a8"
+    },
+    {
+      "va": "0x1000e452",
+      "instruction": "call dword ptr [0x100241c4]",
+      "target": "api-ms-win-core-processthreads-l1-1-0.dll!GetCurrentProcessId",
+      "target_va": "0x100241c4"
+    },
+    {
+      "va": "0x1000e45f",
+      "instruction": "call dword ptr [0x100241e0]",
+      "target": "api-ms-win-core-profile-l1-1-0.dll!QueryPerformanceCounter",
+      "target_va": "0x100241e0"
+    },
+    {
+      "va": "0x1000e4c5",
+      "instruction": "call dword ptr [0x1002411c]",
+      "target": "api-ms-win-core-interlocked-l1-1-0.dll!InitializeSListHead",
+      "target_va": "0x1002411c"
+    },
+    {
+      "va": "0x1000e559",
+      "instruction": "jmp dword ptr [0x10024054]",
+      "target": "WINTRUST.dll!WTHelperGetProvSignerFromChain",
+      "target_va": "0x10024054"
+    },
+    {
+      "va": "0x1000e55f",
+      "instruction": "jmp dword ptr [0x1002404c]",
+      "target": "WINTRUST.dll!WTHelperGetProvCertFromChain",
+      "target_va": "0x1002404c"
+    },
+    {
+      "va": "0x1000e565",
+      "instruction": "jmp dword ptr [0x10024058]",
+      "target": "WINTRUST.dll!WTHelperProvDataFromStateData",
+      "target_va": "0x10024058"
+    },
+    {
+      "va": "0x1000e8b8",
+      "instruction": "call dword ptr [0x1002408c]",
+      "target": "api-ms-win-core-errorhandling-l1-1-0.dll!RaiseException",
+      "target_va": "0x1002408c"
+    },
+    {
+      "va": "0x1000eae6",
+      "instruction": "call dword ptr [0x10024204]",
+      "target": "api-ms-win-core-rtlsupport-l1-1-0.dll!RtlUnwind",
+      "target_va": "0x10024204"
+    },
+    {
+      "va": "0x1000f830",
+      "instruction": "call dword ptr [0x10024118]",
+      "target": "api-ms-win-core-interlocked-l1-1-0.dll!InterlockedFlushSList",
+      "target_va": "0x10024118"
+    },
+    {
+      "va": "0x1000f8b0",
+      "instruction": "call dword ptr [0x10024094]",
+      "target": "api-ms-win-core-errorhandling-l1-1-0.dll!GetLastError",
+      "target_va": "0x10024094"
+    },
+    {
+      "va": "0x1000f929",
+      "instruction": "call dword ptr [0x10024098]",
+      "target": "api-ms-win-core-errorhandling-l1-1-0.dll!SetLastError",
+      "target_va": "0x10024098"
+    },
+    {
+      "va": "0x1000ffa8",
+      "instruction": "call dword ptr [0x10024270]",
+      "target": "api-ms-win-core-util-l1-1-0.dll!EncodePointer",
+      "target_va": "0x10024270"
+    },
+    {
+      "va": "0x100107ae",
+      "instruction": "call dword ptr [0x1002421c]",
+      "target": "api-ms-win-core-synch-l1-1-0.dll!DeleteCriticalSection",
+      "target_va": "0x1002421c"
+    },
+    {
+      "va": "0x1001090f",
+      "instruction": "call dword ptr [0x10024204]",
+      "target": "api-ms-win-core-rtlsupport-l1-1-0.dll!RtlUnwind",
+      "target_va": "0x10024204"
+    },
+    {
+      "va": "0x100109ba",
+      "instruction": "call dword ptr [0x10024150]",
+      "target": "api-ms-win-core-libraryloader-l1-2-0.dll!FreeLibrary",
+      "target_va": "0x10024150"
+    },
+    {
+      "va": "0x100109c4",
+      "instruction": "call dword ptr [0x10024144]",
+      "target": "api-ms-win-core-libraryloader-l1-2-0.dll!GetProcAddress",
+      "target_va": "0x10024144"
+    },
+    {
+      "va": "0x100109e4",
+      "instruction": "call dword ptr [0x10024134]",
+      "target": "api-ms-win-core-libraryloader-l1-2-0.dll!LoadLibraryExW",
+      "target_va": "0x10024134"
+    },
+    {
+      "va": "0x100109ee",
+      "instruction": "call dword ptr [0x10024094]",
+      "target": "api-ms-win-core-errorhandling-l1-1-0.dll!GetLastError",
+      "target_va": "0x10024094"
+    },
+    {
+      "va": "0x10010a16",
+      "instruction": "call dword ptr [0x10024134]",
+      "target": "api-ms-win-core-libraryloader-l1-2-0.dll!LoadLibraryExW",
+      "target_va": "0x10024134"
+    },
+    {
+      "va": "0x10010a57",
+      "instruction": "jmp dword ptr [0x100241b4]",
+      "target": "api-ms-win-core-processthreads-l1-1-0.dll!TlsAlloc",
+      "target_va": "0x100241b4"
+    },
+    {
+      "va": "0x10010a8f",
+      "instruction": "call dword ptr [0x100241c8]",
+      "target": "api-ms-win-core-processthreads-l1-1-0.dll!TlsFree",
+      "target_va": "0x100241c8"
+    },
+    {
+      "va": "0x10010aca",
+      "instruction": "call dword ptr [0x100241d0]",
+      "target": "api-ms-win-core-processthreads-l1-1-0.dll!TlsGetValue",
+      "target_va": "0x100241d0"
+    },
+    {
+      "va": "0x10010b08",
+      "instruction": "call dword ptr [0x100241ac]",
+      "target": "api-ms-win-core-processthreads-l1-1-0.dll!TlsSetValue",
+      "target_va": "0x100241ac"
+    },
+    {
+      "va": "0x10010b4f",
+      "instruction": "call dword ptr [0x10024238]",
+      "target": "api-ms-win-core-synch-l1-1-0.dll!InitializeCriticalSectionAndSpinCount",
+      "target_va": "0x10024238"
+    },
+    {
+      "va": "0x10010c62",
+      "instruction": "call dword ptr [0x10024094]",
+      "target": "api-ms-win-core-errorhandling-l1-1-0.dll!GetLastError",
+      "target_va": "0x10024094"
+    },
+    {
+      "va": "0x10010c71",
+      "instruction": "call dword ptr [0x10024098]",
+      "target": "api-ms-win-core-errorhandling-l1-1-0.dll!SetLastError",
+      "target_va": "0x10024098"
+    },
+    {
+      "va": "0x10010c8a",
+      "instruction": "call dword ptr [0x10024094]",
+      "target": "api-ms-win-core-errorhandling-l1-1-0.dll!GetLastError",
+      "target_va": "0x10024094"
+    },
+    {
+      "va": "0x10010cba",
+      "instruction": "call dword ptr [0x10024098]",
+      "target": "api-ms-win-core-errorhandling-l1-1-0.dll!SetLastError",
+      "target_va": "0x10024098"
+    },
+    {
+      "va": "0x10010ddb",
+      "instruction": "call dword ptr [0x10024080]",
+      "target": "api-ms-win-core-debug-l1-1-0.dll!IsDebuggerPresent",
+      "target_va": "0x10024080"
+    },
+    {
+      "va": "0x10010de5",
+      "instruction": "call dword ptr [0x10024090]",
+      "target": "api-ms-win-core-errorhandling-l1-1-0.dll!SetUnhandledExceptionFilter",
+      "target_va": "0x10024090"
+    },
+    {
+      "va": "0x10010df2",
+      "instruction": "call dword ptr [0x1002409c]",
+      "target": "api-ms-win-core-errorhandling-l1-1-0.dll!UnhandledExceptionFilter",
+      "target_va": "0x1002409c"
+    },
+    {
+      "va": "0x10010ef1",
+      "instruction": "call dword ptr [0x100241d8]",
+      "target": "api-ms-win-core-processthreads-l1-1-1.dll!IsProcessorFeaturePresent",
+      "target_va": "0x100241d8"
+    },
+    {
+      "va": "0x10010f14",
+      "instruction": "call dword ptr [0x100241bc]",
+      "target": "api-ms-win-core-processthreads-l1-1-0.dll!GetCurrentProcess",
+      "target_va": "0x100241bc"
+    },
+    {
+      "va": "0x10010f1b",
+      "instruction": "call dword ptr [0x100241b8]",
+      "target": "api-ms-win-core-processthreads-l1-1-0.dll!TerminateProcess",
+      "target_va": "0x100241b8"
+    },
+    {
+      "va": "0x10014f7c",
+      "instruction": "call dword ptr [0x1002421c]",
+      "target": "api-ms-win-core-synch-l1-1-0.dll!DeleteCriticalSection",
+      "target_va": "0x1002421c"
+    },
+    {
+      "va": "0x10014fab",
+      "instruction": "call dword ptr [0x10024240]",
+      "target": "api-ms-win-core-synch-l1-1-0.dll!EnterCriticalSection",
+      "target_va": "0x10024240"
+    },
+    {
+      "va": "0x10014fbf",
+      "instruction": "call dword ptr [0x1002423c]",
+      "target": "api-ms-win-core-synch-l1-1-0.dll!LeaveCriticalSection",
+      "target_va": "0x1002423c"
+    },
+    {
+      "va": "0x10015010",
+      "instruction": "call dword ptr [0x100241d8]",
+      "target": "api-ms-win-core-processthreads-l1-1-1.dll!IsProcessorFeaturePresent",
+      "target_va": "0x100241d8"
+    },
+    {
+      "va": "0x1001551e",
+      "instruction": "call dword ptr [0x100241bc]",
+      "target": "api-ms-win-core-processthreads-l1-1-0.dll!GetCurrentProcess",
+      "target_va": "0x100241bc"
+    },
+    {
+      "va": "0x10015525",
+      "instruction": "call dword ptr [0x100241b8]",
+      "target": "api-ms-win-core-processthreads-l1-1-0.dll!TerminateProcess",
+      "target_va": "0x100241b8"
+    },
+    {
+      "va": "0x10015537",
+      "instruction": "call dword ptr [0x100241cc]",
+      "target": "api-ms-win-core-processthreads-l1-1-0.dll!ExitProcess",
+      "target_va": "0x100241cc"
+    },
+    {
+      "va": "0x10015540",
+      "instruction": "call dword ptr [0x10024138]",
+      "target": "api-ms-win-core-libraryloader-l1-2-0.dll!GetModuleHandleW",
+      "target_va": "0x10024138"
+    },
+    {
+      "va": "0x100155ae",
+      "instruction": "push 0x10027cdc",
+      "target": "mscoree.dll",
+      "target_va": "0x10027cdc"
+    },
+    {
+      "va": "0x100155b5",
+      "instruction": "call dword ptr [0x10024130]",
+      "target": "api-ms-win-core-libraryloader-l1-2-0.dll!GetModuleHandleExW",
+      "target_va": "0x10024130"
+    },
+    {
+      "va": "0x100155c7",
+      "instruction": "call dword ptr [0x10024144]",
+      "target": "api-ms-win-core-libraryloader-l1-2-0.dll!GetProcAddress",
+      "target_va": "0x10024144"
+    },
+    {
+      "va": "0x100155e9",
+      "instruction": "call dword ptr [0x10024150]",
+      "target": "api-ms-win-core-libraryloader-l1-2-0.dll!FreeLibrary",
+      "target_va": "0x10024150"
+    },
+    {
+      "va": "0x100164e9",
+      "instruction": "call dword ptr [0x10024094]",
+      "target": "api-ms-win-core-errorhandling-l1-1-0.dll!GetLastError",
+      "target_va": "0x10024094"
+    },
+    {
+      "va": "0x10016503",
+      "instruction": "call dword ptr [0x10024098]",
+      "target": "api-ms-win-core-errorhandling-l1-1-0.dll!SetLastError",
+      "target_va": "0x10024098"
+    },
+    {
+      "va": "0x10016539",
+      "instruction": "call dword ptr [0x10024098]",
+      "target": "api-ms-win-core-errorhandling-l1-1-0.dll!SetLastError",
+      "target_va": "0x10024098"
+    },
+    {
+      "va": "0x10016582",
+      "instruction": "call dword ptr [0x10024098]",
+      "target": "api-ms-win-core-errorhandling-l1-1-0.dll!SetLastError",
+      "target_va": "0x10024098"
+    },
+    {
+      "va": "0x100166b0",
+      "instruction": "call dword ptr [0x10024094]",
+      "target": "api-ms-win-core-errorhandling-l1-1-0.dll!GetLastError",
+      "target_va": "0x10024094"
+    },
+    {
+      "va": "0x100166e7",
+      "instruction": "call dword ptr [0x10024098]",
+      "target": "api-ms-win-core-errorhandling-l1-1-0.dll!SetLastError",
+      "target_va": "0x10024098"
+    },
+    {
+      "va": "0x10016884",
+      "instruction": "call dword ptr [0x10024104]",
+      "target": "api-ms-win-core-heap-l1-1-0.dll!HeapAlloc",
+      "target_va": "0x10024104"
+    },
+    {
+      "va": "0x100168b6",
+      "instruction": "call dword ptr [0x100240fc]",
+      "target": "api-ms-win-core-heap-l1-1-0.dll!HeapFree",
+      "target_va": "0x100240fc"
+    },
+    {
+      "va": "0x100168c1",
+      "instruction": "call dword ptr [0x10024094]",
+      "target": "api-ms-win-core-errorhandling-l1-1-0.dll!GetLastError",
+      "target_va": "0x10024094"
+    },
+    {
+      "va": "0x1001691b",
+      "instruction": "call dword ptr [0x10024108]",
+      "target": "api-ms-win-core-heap-l1-1-0.dll!HeapSize",
+      "target_va": "0x10024108"
+    },
+    {
+      "va": "0x1001699d",
+      "instruction": "call dword ptr [0x10024110]",
+      "target": "api-ms-win-core-heap-l1-1-0.dll!HeapReAlloc",
+      "target_va": "0x10024110"
+    },
+    {
+      "va": "0x10016bf5",
+      "instruction": "call dword ptr [0x10024104]",
+      "target": "api-ms-win-core-heap-l1-1-0.dll!HeapAlloc",
+      "target_va": "0x10024104"
+    },
+    {
+      "va": "0x10017860",
+      "instruction": "call dword ptr [0x10024094]",
+      "target": "api-ms-win-core-errorhandling-l1-1-0.dll!GetLastError",
+      "target_va": "0x10024094"
+    },
+    {
+      "va": "0x1001802b",
+      "instruction": "call dword ptr [0x100241c0]",
+      "target": "api-ms-win-core-processthreads-l1-1-0.dll!GetStartupInfoW",
+      "target_va": "0x100241c0"
+    },
+    {
+      "va": "0x10018095",
+      "instruction": "call dword ptr [0x100240c0]",
+      "target": "api-ms-win-core-file-l1-1-0.dll!GetFileType",
+      "target_va": "0x100240c0"
+    },
+    {
+      "va": "0x1001811b",
+      "instruction": "call dword ptr [0x100241a0]",
+      "target": "api-ms-win-core-processenvironment-l1-1-0.dll!GetStdHandle",
+      "target_va": "0x100241a0"
+    },
+    {
+      "va": "0x1001812d",
+      "instruction": "call dword ptr [0x100240c0]",
+      "target": "api-ms-win-core-file-l1-1-0.dll!GetFileType",
+      "target_va": "0x100240c0"
+    },
+    {
+      "va": "0x10018332",
+      "instruction": "call dword ptr [0x1002417c]",
+      "target": "api-ms-win-core-memory-l1-1-0.dll!VirtualProtect",
+      "target_va": "0x1002417c"
+    },
+    {
+      "va": "0x1001835a",
+      "instruction": "call dword ptr [0x1002417c]",
+      "target": "api-ms-win-core-memory-l1-1-0.dll!VirtualProtect",
+      "target_va": "0x1002417c"
+    },
+    {
+      "va": "0x1001837c",
+      "instruction": "call dword ptr [0x10024150]",
+      "target": "api-ms-win-core-libraryloader-l1-2-0.dll!FreeLibrary",
+      "target_va": "0x10024150"
+    },
+    {
+      "va": "0x10018386",
+      "instruction": "call dword ptr [0x10024144]",
+      "target": "api-ms-win-core-libraryloader-l1-2-0.dll!GetProcAddress",
+      "target_va": "0x10024144"
+    },
+    {
+      "va": "0x100183a5",
+      "instruction": "call dword ptr [0x10024134]",
+      "target": "api-ms-win-core-libraryloader-l1-2-0.dll!LoadLibraryExW",
+      "target_va": "0x10024134"
+    },
+    {
+      "va": "0x100183af",
+      "instruction": "call dword ptr [0x10024094]",
+      "target": "api-ms-win-core-errorhandling-l1-1-0.dll!GetLastError",
+      "target_va": "0x10024094"
+    },
+    {
+      "va": "0x100183ed",
+      "instruction": "call dword ptr [0x10024134]",
+      "target": "api-ms-win-core-libraryloader-l1-2-0.dll!LoadLibraryExW",
+      "target_va": "0x10024134"
+    },
+    {
+      "va": "0x1001846d",
+      "instruction": "jmp dword ptr [0x100240b0]",
+      "target": "api-ms-win-core-fibers-l1-1-0.dll!FlsAlloc",
+      "target_va": "0x100240b0"
+    },
+    {
+      "va": "0x10018479",
+      "instruction": "jmp dword ptr [0x100240a4]",
+      "target": "api-ms-win-core-fibers-l1-1-0.dll!FlsFree",
+      "target_va": "0x100240a4"
+    },
+    {
+      "va": "0x10018492",
+      "instruction": "jmp dword ptr [0x100240a8]",
+      "target": "api-ms-win-core-fibers-l1-1-0.dll!FlsGetValue",
+      "target_va": "0x100240a8"
+    },
+    {
+      "va": "0x1001849e",
+      "instruction": "jmp dword ptr [0x100240ac]",
+      "target": "api-ms-win-core-fibers-l1-1-0.dll!FlsSetValue",
+      "target_va": "0x100240ac"
+    },
+    {
+      "va": "0x100184aa",
+      "instruction": "jmp dword ptr [0x10024220]",
+      "target": "api-ms-win-core-synch-l1-1-0.dll!InitializeCriticalSectionEx",
+      "target_va": "0x10024220"
+    },
+    {
+      "va": "0x10018502",
+      "instruction": "call dword ptr [0x10024168]",
+      "target": "api-ms-win-core-localization-l1-2-0.dll!LCMapStringW",
+      "target_va": "0x10024168"
+    },
+    {
+      "va": "0x10018554",
+      "instruction": "call dword ptr [0x1002417c]",
+      "target": "api-ms-win-core-memory-l1-1-0.dll!VirtualProtect",
+      "target_va": "0x1002417c"
+    },
+    {
+      "va": "0x100185af",
+      "instruction": "call dword ptr [0x10024150]",
+      "target": "api-ms-win-core-libraryloader-l1-2-0.dll!FreeLibrary",
+      "target_va": "0x10024150"
+    },
+    {
+      "va": "0x1001862b",
+      "instruction": "call dword ptr [0x1002421c]",
+      "target": "api-ms-win-core-synch-l1-1-0.dll!DeleteCriticalSection",
+      "target_va": "0x1002421c"
+    },
+    {
+      "va": "0x10018d52",
+      "instruction": "call dword ptr [0x100240dc]",
+      "target": "api-ms-win-core-file-l1-1-0.dll!SetFilePointerEx",
+      "target_va": "0x100240dc"
+    },
+    {
+      "va": "0x10018d61",
+      "instruction": "call dword ptr [0x100240d8]",
+      "target": "api-ms-win-core-file-l1-1-0.dll!GetFileSizeEx",
+      "target_va": "0x100240d8"
+    },
+    {
+      "va": "0x100190f6",
+      "instruction": "call dword ptr [0x10024240]",
+      "target": "api-ms-win-core-synch-l1-1-0.dll!EnterCriticalSection",
+      "target_va": "0x10024240"
+    },
+    {
+      "va": "0x10019116",
+      "instruction": "call dword ptr [0x1002421c]",
+      "target": "api-ms-win-core-synch-l1-1-0.dll!DeleteCriticalSection",
+      "target_va": "0x1002421c"
+    },
+    {
+      "va": "0x1001913e",
+      "instruction": "call dword ptr [0x1002423c]",
+      "target": "api-ms-win-core-synch-l1-1-0.dll!LeaveCriticalSection",
+      "target_va": "0x1002423c"
+    },
+    {
+      "va": "0x1001920e",
+      "instruction": "call dword ptr [0x10024094]",
+      "target": "api-ms-win-core-errorhandling-l1-1-0.dll!GetLastError",
+      "target_va": "0x10024094"
+    },
+    {
+      "va": "0x100192c0",
+      "instruction": "call dword ptr [0x10024094]",
+      "target": "api-ms-win-core-errorhandling-l1-1-0.dll!GetLastError",
+      "target_va": "0x10024094"
+    },
+    {
+      "va": "0x10019301",
+      "instruction": "call dword ptr [0x10024094]",
+      "target": "api-ms-win-core-errorhandling-l1-1-0.dll!GetLastError",
+      "target_va": "0x10024094"
+    },
+    {
+      "va": "0x1001965c",
+      "instruction": "call dword ptr [0x100240c8]",
+      "target": "api-ms-win-core-file-l1-1-0.dll!FindFirstFileExW",
+      "target_va": "0x100240c8"
+    },
+    {
+      "va": "0x10019758",
+      "instruction": "call dword ptr [0x100240e0]",
+      "target": "api-ms-win-core-file-l1-1-0.dll!FindNextFileW",
+      "target_va": "0x100240e0"
+    },
+    {
+      "va": "0x10019797",
+      "instruction": "call dword ptr [0x100240c4]",
+      "target": "api-ms-win-core-file-l1-1-0.dll!FindClose",
+      "target_va": "0x100240c4"
+    },
+    {
+      "va": "0x100197ca",
+      "instruction": "call dword ptr [0x100240c4]",
+      "target": "api-ms-win-core-file-l1-1-0.dll!FindClose",
+      "target_va": "0x100240c4"
+    },
+    {
+      "va": "0x10019a29",
+      "instruction": "call dword ptr [0x10024094]",
+      "target": "api-ms-win-core-errorhandling-l1-1-0.dll!GetLastError",
+      "target_va": "0x10024094"
+    },
+    {
+      "va": "0x10019a6a",
+      "instruction": "call dword ptr [0x10024094]",
+      "target": "api-ms-win-core-errorhandling-l1-1-0.dll!GetLastError",
+      "target_va": "0x10024094"
+    },
+    {
+      "va": "0x10019aeb",
+      "instruction": "call dword ptr [0x1002414c]",
+      "target": "api-ms-win-core-libraryloader-l1-2-0.dll!GetModuleFileNameW",
+      "target_va": "0x1002414c"
+    },
+    {
+      "va": "0x10019af5",
+      "instruction": "call dword ptr [0x10024094]",
+      "target": "api-ms-win-core-errorhandling-l1-1-0.dll!GetLastError",
+      "target_va": "0x10024094"
+    },
+    {
+      "va": "0x10019ca0",
+      "instruction": "call dword ptr [0x10024160]",
+      "target": "api-ms-win-core-localization-l1-2-0.dll!GetOEMCP",
+      "target_va": "0x10024160"
+    },
+    {
+      "va": "0x10019cb7",
+      "instruction": "call dword ptr [0x10024164]",
+      "target": "api-ms-win-core-localization-l1-2-0.dll!GetACP",
+      "target_va": "0x10024164"
+    },
+    {
+      "va": "0x10019d7b",
+      "instruction": "call dword ptr [0x10024170]",
+      "target": "api-ms-win-core-localization-l1-2-0.dll!GetCPInfo",
+      "target_va": "0x10024170"
+    },
+    {
+      "va": "0x1001a19f",
+      "instruction": "call dword ptr [0x1002416c]",
+      "target": "api-ms-win-core-localization-l1-2-0.dll!IsValidCodePage",
+      "target_va": "0x1002416c"
+    },
+    {
+      "va": "0x1001a1db",
+      "instruction": "call dword ptr [0x10024170]",
+      "target": "api-ms-win-core-localization-l1-2-0.dll!GetCPInfo",
+      "target_va": "0x10024170"
+    },
+    {
+      "va": "0x1001a42c",
+      "instruction": "call dword ptr [0x10024198]",
+      "target": "api-ms-win-core-processenvironment-l1-1-0.dll!GetCommandLineA",
+      "target_va": "0x10024198"
+    },
+    {
+      "va": "0x1001a437",
+      "instruction": "call dword ptr [0x1002419c]",
+      "target": "api-ms-win-core-processenvironment-l1-1-0.dll!GetCommandLineW",
+      "target_va": "0x1002419c"
+    },
+    {
+      "va": "0x1001a4ff",
+      "instruction": "call dword ptr [0x10024214]",
+      "target": "api-ms-win-core-string-l1-1-0.dll!MultiByteToWideChar",
+      "target_va": "0x10024214"
+    },
+    {
+      "va": "0x1001a5f6",
+      "instruction": "call dword ptr [0x10024210]",
+      "target": "api-ms-win-core-string-l1-1-0.dll!WideCharToMultiByte",
+      "target_va": "0x10024210"
+    },
+    {
+      "va": "0x1001a640",
+      "instruction": "call dword ptr [0x10024194]",
+      "target": "api-ms-win-core-processenvironment-l1-1-0.dll!GetEnvironmentStringsW",
+      "target_va": "0x10024194"
+    },
+    {
+      "va": "0x1001a678",
+      "instruction": "call dword ptr [0x10024190]",
+      "target": "api-ms-win-core-processenvironment-l1-1-0.dll!FreeEnvironmentStringsW",
+      "target_va": "0x10024190"
+    },
+    {
+      "va": "0x1001a698",
+      "instruction": "call dword ptr [0x10024190]",
+      "target": "api-ms-win-core-processenvironment-l1-1-0.dll!FreeEnvironmentStringsW",
+      "target_va": "0x10024190"
+    },
+    {
+      "va": "0x1001a6cb",
+      "instruction": "call dword ptr [0x10024190]",
+      "target": "api-ms-win-core-processenvironment-l1-1-0.dll!FreeEnvironmentStringsW",
+      "target_va": "0x10024190"
+    },
+    {
+      "va": "0x1001a6f0",
+      "instruction": "call dword ptr [0x1002410c]",
+      "target": "api-ms-win-core-heap-l1-1-0.dll!GetProcessHeap",
+      "target_va": "0x1002410c"
+    },
+    {
+      "va": "0x1001aefa",
+      "instruction": "call dword ptr [0x1002420c]",
+      "target": "api-ms-win-core-string-l1-1-0.dll!GetStringTypeW",
+      "target_va": "0x1002420c"
+    },
+    {
+      "va": "0x1001af90",
+      "instruction": "call dword ptr [0x1002420c]",
+      "target": "api-ms-win-core-string-l1-1-0.dll!GetStringTypeW",
+      "target_va": "0x1002420c"
+    },
+    {
+      "va": "0x1001cce0",
+      "instruction": "call dword ptr [0x1002421c]",
+      "target": "api-ms-win-core-synch-l1-1-0.dll!DeleteCriticalSection",
+      "target_va": "0x1002421c"
+    },
+    {
+      "va": "0x1001cdb2",
+      "instruction": "call dword ptr [0x10024240]",
+      "target": "api-ms-win-core-synch-l1-1-0.dll!EnterCriticalSection",
+      "target_va": "0x10024240"
+    },
+    {
+      "va": "0x1001cdd5",
+      "instruction": "call dword ptr [0x1002423c]",
+      "target": "api-ms-win-core-synch-l1-1-0.dll!LeaveCriticalSection",
+      "target_va": "0x1002423c"
+    },
+    {
+      "va": "0x1001ce3d",
+      "instruction": "call dword ptr [0x1002418c]",
+      "target": "api-ms-win-core-processenvironment-l1-1-0.dll!SetStdHandle",
+      "target_va": "0x1002418c"
+    },
+    {
+      "va": "0x1001d0f6",
+      "instruction": "call dword ptr [0x100240e4]",
+      "target": "api-ms-win-core-file-l1-1-0.dll!FlushFileBuffers",
+      "target_va": "0x100240e4"
+    },
+    {
+      "va": "0x1001d100",
+      "instruction": "call dword ptr [0x10024094]",
+      "target": "api-ms-win-core-errorhandling-l1-1-0.dll!GetLastError",
+      "target_va": "0x10024094"
+    },
+    {
+      "va": "0x1001d22f",
+      "instruction": "call dword ptr [0x10024068]",
+      "target": "api-ms-win-core-console-l1-1-0.dll!GetConsoleOutputCP",
+      "target_va": "0x10024068"
+    },
+    {
+      "va": "0x1001d485",
+      "instruction": "call dword ptr [0x100240cc]",
+      "target": "api-ms-win-core-file-l1-1-0.dll!WriteFile",
+      "target_va": "0x100240cc"
+    },
+    {
+      "va": "0x1001d4cb",
+      "instruction": "call dword ptr [0x100240cc]",
+      "target": "api-ms-win-core-file-l1-1-0.dll!WriteFile",
+      "target_va": "0x100240cc"
+    },
+    {
+      "va": "0x1001d56e",
+      "instruction": "call dword ptr [0x10024094]",
+      "target": "api-ms-win-core-errorhandling-l1-1-0.dll!GetLastError",
+      "target_va": "0x10024094"
+    },
+    {
+      "va": "0x1001d5f0",
+      "instruction": "call dword ptr [0x10024094]",
+      "target": "api-ms-win-core-errorhandling-l1-1-0.dll!GetLastError",
+      "target_va": "0x10024094"
+    },
+    {
+      "va": "0x1001d668",
+      "instruction": "call dword ptr [0x10024070]",
+      "target": "api-ms-win-core-console-l1-1-0.dll!GetConsoleMode",
+      "target_va": "0x10024070"
+    },
+    {
+      "va": "0x1001d718",
+      "instruction": "call dword ptr [0x100240cc]",
+      "target": "api-ms-win-core-file-l1-1-0.dll!WriteFile",
+      "target_va": "0x100240cc"
+    },
+    {
+      "va": "0x1001d73e",
+      "instruction": "call dword ptr [0x10024094]",
+      "target": "api-ms-win-core-errorhandling-l1-1-0.dll!GetLastError",
+      "target_va": "0x10024094"
+    },
+    {
+      "va": "0x1001d801",
+      "instruction": "call dword ptr [0x100240cc]",
+      "target": "api-ms-win-core-file-l1-1-0.dll!WriteFile",
+      "target_va": "0x100240cc"
+    },
+    {
+      "va": "0x1001d827",
+      "instruction": "call dword ptr [0x10024094]",
+      "target": "api-ms-win-core-errorhandling-l1-1-0.dll!GetLastError",
+      "target_va": "0x10024094"
+    },
+    {
+      "va": "0x1001d929",
+      "instruction": "call dword ptr [0x100240cc]",
+      "target": "api-ms-win-core-file-l1-1-0.dll!WriteFile",
+      "target_va": "0x100240cc"
+    },
+    {
+      "va": "0x1001d959",
+      "instruction": "call dword ptr [0x10024094]",
+      "target": "api-ms-win-core-errorhandling-l1-1-0.dll!GetLastError",
+      "target_va": "0x10024094"
+    },
+    {
+      "va": "0x1001dc08",
+      "instruction": "call dword ptr [0x100240cc]",
+      "target": "api-ms-win-core-file-l1-1-0.dll!WriteFile",
+      "target_va": "0x100240cc"
+    },
+    {
+      "va": "0x1001dc12",
+      "instruction": "call dword ptr [0x10024094]",
+      "target": "api-ms-win-core-errorhandling-l1-1-0.dll!GetLastError",
+      "target_va": "0x10024094"
+    },
+    {
+      "va": "0x1001de00",
+      "instruction": "call dword ptr [0x100240dc]",
+      "target": "api-ms-win-core-file-l1-1-0.dll!SetFilePointerEx",
+      "target_va": "0x100240dc"
+    },
+    {
+      "va": "0x1001de0d",
+      "instruction": "call dword ptr [0x10024094]",
+      "target": "api-ms-win-core-errorhandling-l1-1-0.dll!GetLastError",
+      "target_va": "0x10024094"
+    },
+    {
+      "va": "0x1001f4d9",
+      "instruction": "call dword ptr [0x100240f4]",
+      "target": "api-ms-win-core-handle-l1-1-0.dll!CloseHandle",
+      "target_va": "0x100240f4"
+    },
+    {
+      "va": "0x1001f4e3",
+      "instruction": "call dword ptr [0x10024094]",
+      "target": "api-ms-win-core-errorhandling-l1-1-0.dll!GetLastError",
+      "target_va": "0x10024094"
+    },
+    {
+      "va": "0x1001fc48",
+      "instruction": "call dword ptr [0x1002426c]",
+      "target": "api-ms-win-core-util-l1-1-0.dll!DecodePointer",
+      "target_va": "0x1002426c"
+    },
+    {
+      "va": "0x1001ffe2",
+      "instruction": "call dword ptr [0x100241d8]",
+      "target": "api-ms-win-core-processthreads-l1-1-1.dll!IsProcessorFeaturePresent",
+      "target_va": "0x100241d8"
+    },
+    {
+      "va": "0x100200f6",
+      "instruction": "call dword ptr [0x100240d4]",
+      "target": "api-ms-win-core-file-l1-1-0.dll!CreateFileW",
+      "target_va": "0x100240d4"
+    },
+    {
+      "va": "0x10020131",
+      "instruction": "call dword ptr [0x100240f4]",
+      "target": "api-ms-win-core-handle-l1-1-0.dll!CloseHandle",
+      "target_va": "0x100240f4"
+    },
+    {
+      "va": "0x1002014f",
+      "instruction": "call dword ptr [0x1002406c]",
+      "target": "api-ms-win-core-console-l1-1-0.dll!WriteConsoleW",
+      "target_va": "0x1002406c"
+    },
+    {
+      "va": "0x1002015b",
+      "instruction": "call dword ptr [0x10024094]",
+      "target": "api-ms-win-core-errorhandling-l1-1-0.dll!GetLastError",
+      "target_va": "0x10024094"
+    },
+    {
+      "va": "0x10020180",
+      "instruction": "call dword ptr [0x1002406c]",
+      "target": "api-ms-win-core-console-l1-1-0.dll!WriteConsoleW",
+      "target_va": "0x1002406c"
+    },
+    {
+      "va": "0x100213a8",
+      "instruction": "call dword ptr [0x1002408c]",
+      "target": "api-ms-win-core-errorhandling-l1-1-0.dll!RaiseException",
+      "target_va": "0x1002408c"
+    },
+    {
+      "va": "0x1002332d",
+      "instruction": "call dword ptr [0x10024100]",
+      "target": "api-ms-win-core-heap-l1-1-0.dll!HeapDestroy",
+      "target_va": "0x10024100"
+    }
+  ],
+  "limitations": [
+    "线性反汇编只给出立即数/绝对内存操作数引用，未重建完整控制流，可能包含误解码，未执行任何目标代码。"
+  ]
+}

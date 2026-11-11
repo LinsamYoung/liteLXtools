@@ -1,0 +1,26 @@
+[
+  {
+    "Name": "ACPIVPC",
+    "State": "Running",
+    "StartMode": "Manual",
+    "PathName": "C:\\WINDOWS\\system32\\DriverStore\\FileRepository\\acpivpc.inf_amd64_07db38bc9e02b27d\\AcpiVpc.sys"
+  },
+  {
+    "Name": "LnCoolit",
+    "State": "Running",
+    "StartMode": "System",
+    "PathName": "C:\\WINDOWS\\system32\\DRIVERS\\LnCoolit.sys"
+  },
+  {
+    "Name": "LnvDrvFdn",
+    "State": "Running",
+    "StartMode": "System",
+    "PathName": "C:\\WINDOWS\\system32\\DRIVERS\\LnvDrvFdn.sys"
+  },
+  {
+    "Name": "lnvscenter",
+    "State": "Running",
+    "StartMode": "System",
+    "PathName": "C:\\WINDOWS\\system32\\DRIVERS\\lnvscenter.sys"
+  }
+]

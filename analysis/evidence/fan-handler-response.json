@@ -1,0 +1,12 @@
+[
+  {
+    "va": "0x100c6ba4",
+    "encoding": "ascii",
+    "value": "{\"result\":\"OK\"}"
+  },
+  {
+    "va": "0x100c62b0",
+    "encoding": "utf-16le",
+    "value": "SOFTWARE\\Lenovo\\PcManager"
+  }
+]

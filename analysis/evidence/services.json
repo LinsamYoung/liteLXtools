@@ -1,0 +1,68 @@
+[
+  {
+    "Name": "HRWSCCtrl",
+    "State": "Running",
+    "StartMode": "Manual",
+    "PathName": "\"C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.210.10222\\Security\\x64\\wsctrl11.exe\" /svc_run"
+  },
+  {
+    "Name": "LAVService",
+    "State": "Running",
+    "StartMode": "Manual",
+    "PathName": "\"C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.210.10222\\Security\\service\\LAVService.exe\""
+  },
+  {
+    "Name": "LenovoFnAndFunctionKeys",
+    "State": "Running",
+    "StartMode": "Auto",
+    "PathName": "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\lenovofnandfunctionkeys.inf_amd64_5e21bf389d23855a\\LenovoUtilityService.exe"
+  },
+  {
+    "Name": "LenovoPcManagerService",
+    "State": "Running",
+    "StartMode": "Auto",
+    "PathName": "\"C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.210.10222\\LenovoPcManagerService.exe\""
+  },
+  {
+    "Name": "LenovoPCMKeyService",
+    "State": "Running",
+    "StartMode": "Auto",
+    "PathName": "C:\\WINDOWS\\SysWOW64\\drivers\\LenovoPCMKeyService.exe"
+  },
+  {
+    "Name": "LenovoServiceAS",
+    "State": "Running",
+    "StartMode": "Auto",
+    "PathName": "\"C:\\Program Files (x86)\\Lenovo\\LeAppStore\\LenovoServiceAS.exe\""
+  },
+  {
+    "Name": "LenovoSmartService",
+    "State": "Running",
+    "StartMode": "Auto",
+    "PathName": "\"D:\\Program Files\\LegionZone\\1.0.23.10093\\SESDK\\LenovoSmartService.exe\""
+  },
+  {
+    "Name": "LISFService",
+    "State": "Running",
+    "StartMode": "Auto",
+    "PathName": "\"C:\\Program Files (x86)\\Lenovo\\LenovoInternetSoftwareFramework\\LISFService.exe\""
+  },
+  {
+    "Name": "LnvSvcFdn",
+    "State": "Running",
+    "StartMode": "Manual",
+    "PathName": "\"C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.210.10222\\LnvSvcFdn.exe\""
+  },
+  {
+    "Name": "PCManager Service Store",
+    "State": "Running",
+    "StartMode": "Auto",
+    "PathName": "\"C:\\Program Files\\WindowsApps\\Microsoft.MicrosoftPCManager_3.23.2.0_x64__8wekyb3d8bbwe\\PCManager\\MSPCManagerService.exe\""
+  },
+  {
+    "Name": "UDCService",
+    "State": "Running",
+    "StartMode": "Auto",
+    "PathName": "C:\\WINDOWS\\System32\\drivers\\Lenovo\\udc\\Service\\UDClientService.exe"
+  }
+]

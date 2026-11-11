@@ -1,0 +1,40 @@
+{
+  "Files": [
+    {
+      "Path": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.210.10222\\skin\\dist\\js\\main.js",
+      "Length": 1400472,
+      "SHA256": "7A60F4496F0918EE4D2B130D4B6C6794FB5C62047B6532B4DF15028F194E9682"
+    },
+    {
+      "Path": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.210.10222\\skin\\dist\\json\\defaultToolList.json",
+      "Length": 44749,
+      "SHA256": "47BB93B4EF2EDDA724BB3C77B7ED4300C3F5D51B0FA9525969F18AAFA0079F27"
+    },
+    {
+      "Path": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.210.10222\\skin\\dist\\images\\coolcleanstart.svga",
+      "Length": 101808,
+      "SHA256": "08BE7A4CDAD73436C2ADC1C292CC54BD16AADEB3E55546084D2D30727C6D9568"
+    },
+    {
+      "Path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\acpivpc.inf_amd64_07db38bc9e02b27d\\AcpiVpc.sys",
+      "Length": 52800,
+      "SHA256": "C02B879E601C1689425BDD71EC6FC2CCF66D75436E973AB4F209D45473E58C95"
+    },
+    {
+      "Path": "C:\\Windows\\INF\\oem130.inf",
+      "Length": 3152,
+      "SHA256": "F6947DAD3150F4222F76E8C9DE53023010EE65B91682EB104689C65189B1B17C"
+    }
+  ],
+  "Service": {
+    "Name": "ACPIVPC",
+    "State": "Running",
+    "StartMode": "Manual",
+    "PathName": "C:\\WINDOWS\\system32\\DriverStore\\FileRepository\\acpivpc.inf_amd64_07db38bc9e02b27d\\AcpiVpc.sys"
+  },
+  "Signature": {
+    "Status": 0,
+    "StatusMessage": "Signature verified.",
+    "Signer": "CN=Microsoft Windows Hardware Compatibility Publisher, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+  }
+}

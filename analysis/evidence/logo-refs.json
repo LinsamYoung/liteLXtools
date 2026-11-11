@@ -1,0 +1,3521 @@
+{
+  "evidence_id": "ev_b87d836399478dd9a8caec7b7c408537ae31b6238794f51e260cbc3a100f22c8",
+  "subject": {
+    "name": "LogoDiy.dll",
+    "digest": {
+      "sha256": "5f6efa18804da953408f98c6eda6058937a80537c17945e851434963eabc6e85"
+    },
+    "local_path": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.210.10222\\Modules\\Setings\\yoga\\plugins\\LogoDiy.dll",
+    "format": "pe",
+    "architecture": "x86"
+  },
+  "provider": {
+    "id": "rea-analysis-view",
+    "name": "REA analysis view projection",
+    "version": "1"
+  },
+  "analysis_profile": null,
+  "predicate_type": "rea.analysis-view",
+  "operation": "inspect_analysis_view",
+  "parameters": {
+    "parent_evidence_id": "ev_e2053eb3135c706b293eb734a414aff9008baabce1ad049bbe26a48633b2bc38",
+    "view": {
+      "kind": "managed-members",
+      "collection": "member_refs",
+      "offset": 0,
+      "limit": 160
+    }
+  },
+  "raw_result": null,
+  "normalized_result": {
+    "kind": "managed-members",
+    "view": {
+      "kind": "managed-members",
+      "collection": "member_refs",
+      "offset": 0,
+      "limit": 160
+    },
+    "page": {
+      "collection": "member_refs",
+      "rows": [
+        {
+          "token": "0x0a000001",
+          "row_offset": 10742,
+          "parent_token": "0x01000001",
+          "parent_name": "System.Runtime.CompilerServices.ExtensionAttribute",
+          "name": ".ctor",
+          "signature": {
+            "raw_length": 3,
+            "raw_sha256": "0c9373898d2dd1c85902837a9e979cb88484e2548a008ad2b2176cc7119d09df",
+            "resolved_sha256": "0c9373898d2dd1c85902837a9e979cb88484e2548a008ad2b2176cc7119d09df",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 0,
+            "return_type": "void",
+            "parameter_types": [],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000002",
+          "row_offset": 10748,
+          "parent_token": "0x01000002",
+          "parent_name": "System.Runtime.CompilerServices.CompilationRelaxationsAttribute",
+          "name": ".ctor",
+          "signature": {
+            "raw_length": 4,
+            "raw_sha256": "c889396c66b535112cb33472b6ecf61ad5f09860a1ea642fb8c31a4ed004296a",
+            "resolved_sha256": "c889396c66b535112cb33472b6ecf61ad5f09860a1ea642fb8c31a4ed004296a",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 1,
+            "return_type": "void",
+            "parameter_types": [
+              "i4"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000003",
+          "row_offset": 10754,
+          "parent_token": "0x01000003",
+          "parent_name": "System.Runtime.CompilerServices.RuntimeCompatibilityAttribute",
+          "name": ".ctor",
+          "signature": {
+            "raw_length": 3,
+            "raw_sha256": "0c9373898d2dd1c85902837a9e979cb88484e2548a008ad2b2176cc7119d09df",
+            "resolved_sha256": "0c9373898d2dd1c85902837a9e979cb88484e2548a008ad2b2176cc7119d09df",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 0,
+            "return_type": "void",
+            "parameter_types": [],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000004",
+          "row_offset": 10760,
+          "parent_token": "0x01000004",
+          "parent_name": "System.Diagnostics.DebuggableAttribute",
+          "name": ".ctor",
+          "signature": {
+            "raw_length": 5,
+            "raw_sha256": "0fcfedb46db2b1b26a0865751d54e9231de7bc72433439b5f654dfb0ccd4afc7",
+            "resolved_sha256": "d71fa89725ab09ca05740c537491429d9c0cab41aedd737dd977a8ddda9bfe77",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 1,
+            "return_type": "void",
+            "parameter_types": [
+              "valuetype:21"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000005",
+          "row_offset": 10766,
+          "parent_token": "0x01000006",
+          "parent_name": "System.Reflection.AssemblyTitleAttribute",
+          "name": ".ctor",
+          "signature": {
+            "raw_length": 4,
+            "raw_sha256": "c65dc7d303e94729245de0fa4db4b80ac687af6d0bb38c5c884bc9c11f01e005",
+            "resolved_sha256": "c65dc7d303e94729245de0fa4db4b80ac687af6d0bb38c5c884bc9c11f01e005",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 1,
+            "return_type": "void",
+            "parameter_types": [
+              "string"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000006",
+          "row_offset": 10772,
+          "parent_token": "0x01000007",
+          "parent_name": "System.Reflection.AssemblyDescriptionAttribute",
+          "name": ".ctor",
+          "signature": {
+            "raw_length": 4,
+            "raw_sha256": "c65dc7d303e94729245de0fa4db4b80ac687af6d0bb38c5c884bc9c11f01e005",
+            "resolved_sha256": "c65dc7d303e94729245de0fa4db4b80ac687af6d0bb38c5c884bc9c11f01e005",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 1,
+            "return_type": "void",
+            "parameter_types": [
+              "string"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000007",
+          "row_offset": 10778,
+          "parent_token": "0x01000008",
+          "parent_name": "System.Reflection.AssemblyConfigurationAttribute",
+          "name": ".ctor",
+          "signature": {
+            "raw_length": 4,
+            "raw_sha256": "c65dc7d303e94729245de0fa4db4b80ac687af6d0bb38c5c884bc9c11f01e005",
+            "resolved_sha256": "c65dc7d303e94729245de0fa4db4b80ac687af6d0bb38c5c884bc9c11f01e005",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 1,
+            "return_type": "void",
+            "parameter_types": [
+              "string"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000008",
+          "row_offset": 10784,
+          "parent_token": "0x01000009",
+          "parent_name": "System.Reflection.AssemblyCompanyAttribute",
+          "name": ".ctor",
+          "signature": {
+            "raw_length": 4,
+            "raw_sha256": "c65dc7d303e94729245de0fa4db4b80ac687af6d0bb38c5c884bc9c11f01e005",
+            "resolved_sha256": "c65dc7d303e94729245de0fa4db4b80ac687af6d0bb38c5c884bc9c11f01e005",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 1,
+            "return_type": "void",
+            "parameter_types": [
+              "string"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000009",
+          "row_offset": 10790,
+          "parent_token": "0x0100000a",
+          "parent_name": "System.Reflection.AssemblyProductAttribute",
+          "name": ".ctor",
+          "signature": {
+            "raw_length": 4,
+            "raw_sha256": "c65dc7d303e94729245de0fa4db4b80ac687af6d0bb38c5c884bc9c11f01e005",
+            "resolved_sha256": "c65dc7d303e94729245de0fa4db4b80ac687af6d0bb38c5c884bc9c11f01e005",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 1,
+            "return_type": "void",
+            "parameter_types": [
+              "string"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a00000a",
+          "row_offset": 10796,
+          "parent_token": "0x0100000b",
+          "parent_name": "System.Reflection.AssemblyCopyrightAttribute",
+          "name": ".ctor",
+          "signature": {
+            "raw_length": 4,
+            "raw_sha256": "c65dc7d303e94729245de0fa4db4b80ac687af6d0bb38c5c884bc9c11f01e005",
+            "resolved_sha256": "c65dc7d303e94729245de0fa4db4b80ac687af6d0bb38c5c884bc9c11f01e005",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 1,
+            "return_type": "void",
+            "parameter_types": [
+              "string"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a00000b",
+          "row_offset": 10802,
+          "parent_token": "0x0100000c",
+          "parent_name": "System.Reflection.AssemblyTrademarkAttribute",
+          "name": ".ctor",
+          "signature": {
+            "raw_length": 4,
+            "raw_sha256": "c65dc7d303e94729245de0fa4db4b80ac687af6d0bb38c5c884bc9c11f01e005",
+            "resolved_sha256": "c65dc7d303e94729245de0fa4db4b80ac687af6d0bb38c5c884bc9c11f01e005",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 1,
+            "return_type": "void",
+            "parameter_types": [
+              "string"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a00000c",
+          "row_offset": 10808,
+          "parent_token": "0x0100000d",
+          "parent_name": "System.Runtime.InteropServices.ComVisibleAttribute",
+          "name": ".ctor",
+          "signature": {
+            "raw_length": 4,
+            "raw_sha256": "7366e2ddae008ee5e5ba63f1c2504e9a452ccd8cc0f40fdd3d8d03430bae9e33",
+            "resolved_sha256": "7366e2ddae008ee5e5ba63f1c2504e9a452ccd8cc0f40fdd3d8d03430bae9e33",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 1,
+            "return_type": "void",
+            "parameter_types": [
+              "bool"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a00000d",
+          "row_offset": 10814,
+          "parent_token": "0x0100000f",
+          "parent_name": "System.Windows.ThemeInfoAttribute",
+          "name": ".ctor",
+          "signature": {
+            "raw_length": 7,
+            "raw_sha256": "81897923d109333cf42196cfc8def235f3418b63f9ebb165cb829164fe5a3e42",
+            "resolved_sha256": "95612d9f9666c8895a60ca6b59971c17d9d368b4ec0357cffc2e5bd8f7b2ea47",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 2,
+            "return_type": "void",
+            "parameter_types": [
+              "valuetype:57",
+              "valuetype:57"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a00000e",
+          "row_offset": 10820,
+          "parent_token": "0x01000010",
+          "parent_name": "System.Reflection.AssemblyFileVersionAttribute",
+          "name": ".ctor",
+          "signature": {
+            "raw_length": 4,
+            "raw_sha256": "c65dc7d303e94729245de0fa4db4b80ac687af6d0bb38c5c884bc9c11f01e005",
+            "resolved_sha256": "c65dc7d303e94729245de0fa4db4b80ac687af6d0bb38c5c884bc9c11f01e005",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 1,
+            "return_type": "void",
+            "parameter_types": [
+              "string"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a00000f",
+          "row_offset": 10826,
+          "parent_token": "0x01000011",
+          "parent_name": "System.Runtime.Versioning.TargetFrameworkAttribute",
+          "name": ".ctor",
+          "signature": {
+            "raw_length": 4,
+            "raw_sha256": "c65dc7d303e94729245de0fa4db4b80ac687af6d0bb38c5c884bc9c11f01e005",
+            "resolved_sha256": "c65dc7d303e94729245de0fa4db4b80ac687af6d0bb38c5c884bc9c11f01e005",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 1,
+            "return_type": "void",
+            "parameter_types": [
+              "string"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000010",
+          "row_offset": 10832,
+          "parent_token": "0x01000014",
+          "parent_name": "System.Runtime.CompilerServices.CompilerGeneratedAttribute",
+          "name": ".ctor",
+          "signature": {
+            "raw_length": 3,
+            "raw_sha256": "0c9373898d2dd1c85902837a9e979cb88484e2548a008ad2b2176cc7119d09df",
+            "resolved_sha256": "0c9373898d2dd1c85902837a9e979cb88484e2548a008ad2b2176cc7119d09df",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 0,
+            "return_type": "void",
+            "parameter_types": [],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000011",
+          "row_offset": 10838,
+          "parent_token": "0x01000017",
+          "parent_name": "System.AttributeUsageAttribute",
+          "name": ".ctor",
+          "signature": {
+            "raw_length": 5,
+            "raw_sha256": "4774d37891f45e0d28e6335e3884f9ab81fd3928298538e7c8a4b7d57cbc141a",
+            "resolved_sha256": "d7d2893c197a96c420e606479e869355b6f521527dc3b0e33b953f528b530a5b",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 1,
+            "return_type": "void",
+            "parameter_types": [
+              "valuetype:89"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000012",
+          "row_offset": 10844,
+          "parent_token": "0x01000019",
+          "parent_name": "AICommon.ExportCardAttribute",
+          "name": ".ctor",
+          "signature": {
+            "raw_length": 3,
+            "raw_sha256": "0c9373898d2dd1c85902837a9e979cb88484e2548a008ad2b2176cc7119d09df",
+            "resolved_sha256": "0c9373898d2dd1c85902837a9e979cb88484e2548a008ad2b2176cc7119d09df",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 0,
+            "return_type": "void",
+            "parameter_types": [],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000013",
+          "row_offset": 10850,
+          "parent_token": "0x0100001c",
+          "parent_name": "System.Windows.Markup.IComponentConnector",
+          "name": "Connect",
+          "signature": {
+            "raw_length": 5,
+            "raw_sha256": "d6517ca4bcaab587315849a2c4aa2410740112d771aa8ca6dbd3f90f52f87a05",
+            "resolved_sha256": "d6517ca4bcaab587315849a2c4aa2410740112d771aa8ca6dbd3f90f52f87a05",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 2,
+            "return_type": "void",
+            "parameter_types": [
+              "i4",
+              "object"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000014",
+          "row_offset": 10856,
+          "parent_token": "0x01000022",
+          "parent_name": "System.Diagnostics.DebuggerNonUserCodeAttribute",
+          "name": ".ctor",
+          "signature": {
+            "raw_length": 3,
+            "raw_sha256": "0c9373898d2dd1c85902837a9e979cb88484e2548a008ad2b2176cc7119d09df",
+            "resolved_sha256": "0c9373898d2dd1c85902837a9e979cb88484e2548a008ad2b2176cc7119d09df",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 0,
+            "return_type": "void",
+            "parameter_types": [],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000015",
+          "row_offset": 10862,
+          "parent_token": "0x01000023",
+          "parent_name": "System.CodeDom.Compiler.GeneratedCodeAttribute",
+          "name": ".ctor",
+          "signature": {
+            "raw_length": 5,
+            "raw_sha256": "d6045e3691dde84d1c8000945562b6178a4d3b22f0ae6450913b33ea59cc2613",
+            "resolved_sha256": "d6045e3691dde84d1c8000945562b6178a4d3b22f0ae6450913b33ea59cc2613",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 2,
+            "return_type": "void",
+            "parameter_types": [
+              "string",
+              "string"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000016",
+          "row_offset": 10868,
+          "parent_token": "0x01000026",
+          "parent_name": "System.ComponentModel.EditorBrowsableAttribute",
+          "name": ".ctor",
+          "signature": {
+            "raw_length": 6,
+            "raw_sha256": "7fb74ad118ecb4e22462d222106fec338e1f78a069f9653c2c12c8698dbe35e7",
+            "resolved_sha256": "9cfabca1edee6bf3c8fca8f9cd7180833f038bbd71fe8fdf9af2afa868c94ca1",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 1,
+            "return_type": "void",
+            "parameter_types": [
+              "valuetype:149"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000017",
+          "row_offset": 10874,
+          "parent_token": "0x01000012",
+          "parent_name": "System.Object",
+          "name": "GetType",
+          "signature": {
+            "raw_length": 5,
+            "raw_sha256": "7549813f828c62db26a0f38e487d7f81ae36dc8aeddb9d6f1901224459bd1613",
+            "resolved_sha256": "66f99d37b9fbc698e745fbb103be1779a1a2c8843f41c3a748f33542914b898e",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 0,
+            "return_type": "class:161",
+            "parameter_types": [],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000018",
+          "row_offset": 10880,
+          "parent_token": "0x01000013",
+          "parent_name": "System.Enum",
+          "name": "GetName",
+          "signature": {
+            "raw_length": 7,
+            "raw_sha256": "4380c4946f9edbf68be0f02241785c23c2eba2b84eead9ffcd11f56ae9af049c",
+            "resolved_sha256": "4a384bf0e2b4f227c9652f4397b9cf6a078dd398ebdff893d2367a01520a62c7",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default",
+            "generic_parameter_count": null,
+            "parameter_count": 2,
+            "return_type": "string",
+            "parameter_types": [
+              "class:161",
+              "object"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000019",
+          "row_offset": 10886,
+          "parent_token": "0x01000028",
+          "parent_name": "System.Type",
+          "name": "GetField",
+          "signature": {
+            "raw_length": 6,
+            "raw_sha256": "f62cd9d65db77eef10b4d5206b5cfc473fe72921f4a91b58cd343a63c94f76e6",
+            "resolved_sha256": "f595bcc7f3491d3b31617dd42849304726277df2b2a10035b8af0e9fefc6cfe7",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 1,
+            "return_type": "class:233",
+            "parameter_types": [
+              "string"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a00001a",
+          "row_offset": 10892,
+          "parent_token": "0x0100003b",
+          "parent_name": "System.Reflection.MemberInfo",
+          "name": "GetCustomAttributes",
+          "signature": {
+            "raw_length": 5,
+            "raw_sha256": "6daac1f2dbcd75ce89db42a1690c51109550ae2af8bacc6ec05245c96a964440",
+            "resolved_sha256": "6daac1f2dbcd75ce89db42a1690c51109550ae2af8bacc6ec05245c96a964440",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 1,
+            "return_type": "object[]",
+            "parameter_types": [
+              "bool"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a00001b",
+          "row_offset": 10898,
+          "parent_token": "0x1b000001",
+          "parent_name": "System.Func`2",
+          "name": ".ctor",
+          "signature": {
+            "raw_length": 5,
+            "raw_sha256": "0052b6e077fac63010429b99bca5fb4e60662e7d1064b08ed76223ec591c095e",
+            "resolved_sha256": "0052b6e077fac63010429b99bca5fb4e60662e7d1064b08ed76223ec591c095e",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 2,
+            "return_type": "void",
+            "parameter_types": [
+              "object",
+              "native-int"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a00001c",
+          "row_offset": 10904,
+          "parent_token": "0x0100003c",
+          "parent_name": "System.Linq.Enumerable",
+          "name": "FirstOrDefault",
+          "signature": {
+            "raw_length": 19,
+            "raw_sha256": "eebc80b04c2710c50b8ab65f584a68c55d741c97e80de31dc4b4dfb8b1542139",
+            "resolved_sha256": "230b33e8ec2f536e21d93ae8d529ae64bea648bbedea3b93ead3c82c7ea7e4af",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default generic",
+            "generic_parameter_count": 1,
+            "parameter_count": 2,
+            "return_type": "mvar:0",
+            "parameter_types": [
+              "class:245<mvar:0>",
+              "class:85<mvar:0,bool>"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a00001d",
+          "row_offset": 10910,
+          "parent_token": "0x01000018",
+          "parent_name": "System.Attribute",
+          "name": ".ctor",
+          "signature": {
+            "raw_length": 3,
+            "raw_sha256": "0c9373898d2dd1c85902837a9e979cb88484e2548a008ad2b2176cc7119d09df",
+            "resolved_sha256": "0c9373898d2dd1c85902837a9e979cb88484e2548a008ad2b2176cc7119d09df",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 0,
+            "return_type": "void",
+            "parameter_types": [],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a00001e",
+          "row_offset": 10916,
+          "parent_token": "0x0100003e",
+          "parent_name": "System.NotImplementedException",
+          "name": ".ctor",
+          "signature": {
+            "raw_length": 3,
+            "raw_sha256": "0c9373898d2dd1c85902837a9e979cb88484e2548a008ad2b2176cc7119d09df",
+            "resolved_sha256": "0c9373898d2dd1c85902837a9e979cb88484e2548a008ad2b2176cc7119d09df",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 0,
+            "return_type": "void",
+            "parameter_types": [],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a00001f",
+          "row_offset": 10922,
+          "parent_token": "0x0100001b",
+          "parent_name": "System.Windows.Window",
+          "name": "get_IsActive",
+          "signature": {
+            "raw_length": 3,
+            "raw_sha256": "59a9a8765c535212b9ad71c5c8e1e24ffadbd3331fd04b3bbe1b121ecf6004cc",
+            "resolved_sha256": "59a9a8765c535212b9ad71c5c8e1e24ffadbd3331fd04b3bbe1b121ecf6004cc",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 0,
+            "return_type": "bool",
+            "parameter_types": [],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000020",
+          "row_offset": 10928,
+          "parent_token": "0x0100003f",
+          "parent_name": "AICommon.LogHelper",
+          "name": "Info",
+          "signature": {
+            "raw_length": 4,
+            "raw_sha256": "c4b09415ffb1775511675d7cebf491665545d45f793cde2dc8771f745f236624",
+            "resolved_sha256": "c4b09415ffb1775511675d7cebf491665545d45f793cde2dc8771f745f236624",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default",
+            "generic_parameter_count": null,
+            "parameter_count": 1,
+            "return_type": "i4",
+            "parameter_types": [
+              "string"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000021",
+          "row_offset": 10934,
+          "parent_token": "0x0100001b",
+          "parent_name": "System.Windows.Window",
+          "name": "Close",
+          "signature": {
+            "raw_length": 3,
+            "raw_sha256": "0c9373898d2dd1c85902837a9e979cb88484e2548a008ad2b2176cc7119d09df",
+            "resolved_sha256": "0c9373898d2dd1c85902837a9e979cb88484e2548a008ad2b2176cc7119d09df",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 0,
+            "return_type": "void",
+            "parameter_types": [],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000022",
+          "row_offset": 10940,
+          "parent_token": "0x01000040",
+          "parent_name": "AICommon.BigDataHelper",
+          "name": "showEvent",
+          "signature": {
+            "raw_length": 4,
+            "raw_sha256": "c5afaa5198a8f9479b385d39a65e684c135797e6ef70a51282df8254b0bb22a7",
+            "resolved_sha256": "c5afaa5198a8f9479b385d39a65e684c135797e6ef70a51282df8254b0bb22a7",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default",
+            "generic_parameter_count": null,
+            "parameter_count": 1,
+            "return_type": "u4",
+            "parameter_types": [
+              "string"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000023",
+          "row_offset": 10946,
+          "parent_token": "0x0100001b",
+          "parent_name": "System.Windows.Window",
+          "name": "set_Topmost",
+          "signature": {
+            "raw_length": 4,
+            "raw_sha256": "7366e2ddae008ee5e5ba63f1c2504e9a452ccd8cc0f40fdd3d8d03430bae9e33",
+            "resolved_sha256": "7366e2ddae008ee5e5ba63f1c2504e9a452ccd8cc0f40fdd3d8d03430bae9e33",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 1,
+            "return_type": "void",
+            "parameter_types": [
+              "bool"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000024",
+          "row_offset": 10952,
+          "parent_token": "0x0100001b",
+          "parent_name": "System.Windows.Window",
+          "name": "Show",
+          "signature": {
+            "raw_length": 3,
+            "raw_sha256": "0c9373898d2dd1c85902837a9e979cb88484e2548a008ad2b2176cc7119d09df",
+            "resolved_sha256": "0c9373898d2dd1c85902837a9e979cb88484e2548a008ad2b2176cc7119d09df",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 0,
+            "return_type": "void",
+            "parameter_types": [],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000025",
+          "row_offset": 10958,
+          "parent_token": "0x01000012",
+          "parent_name": "System.Object",
+          "name": ".ctor",
+          "signature": {
+            "raw_length": 3,
+            "raw_sha256": "0c9373898d2dd1c85902837a9e979cb88484e2548a008ad2b2176cc7119d09df",
+            "resolved_sha256": "0c9373898d2dd1c85902837a9e979cb88484e2548a008ad2b2176cc7119d09df",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 0,
+            "return_type": "void",
+            "parameter_types": [],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000026",
+          "row_offset": 10964,
+          "parent_token": "0x0100001b",
+          "parent_name": "System.Windows.Window",
+          "name": ".ctor",
+          "signature": {
+            "raw_length": 3,
+            "raw_sha256": "0c9373898d2dd1c85902837a9e979cb88484e2548a008ad2b2176cc7119d09df",
+            "resolved_sha256": "0c9373898d2dd1c85902837a9e979cb88484e2548a008ad2b2176cc7119d09df",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 0,
+            "return_type": "void",
+            "parameter_types": [],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000027",
+          "row_offset": 10970,
+          "parent_token": "0x01000041",
+          "parent_name": "System.Windows.FrameworkElement",
+          "name": "set_DataContext",
+          "signature": {
+            "raw_length": 4,
+            "raw_sha256": "cf4b7c51fb192d1f447c7f142ae8f38af4d8565d1a160a31640656a7a4d83925",
+            "resolved_sha256": "cf4b7c51fb192d1f447c7f142ae8f38af4d8565d1a160a31640656a7a4d83925",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 1,
+            "return_type": "void",
+            "parameter_types": [
+              "object"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000028",
+          "row_offset": 10976,
+          "parent_token": "0x01000040",
+          "parent_name": "AICommon.BigDataHelper",
+          "name": "clickEvent",
+          "signature": {
+            "raw_length": 4,
+            "raw_sha256": "c5afaa5198a8f9479b385d39a65e684c135797e6ef70a51282df8254b0bb22a7",
+            "resolved_sha256": "c5afaa5198a8f9479b385d39a65e684c135797e6ef70a51282df8254b0bb22a7",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default",
+            "generic_parameter_count": null,
+            "parameter_count": 1,
+            "return_type": "u4",
+            "parameter_types": [
+              "string"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000029",
+          "row_offset": 10982,
+          "parent_token": "0x0100001b",
+          "parent_name": "System.Windows.Window",
+          "name": "DragMove",
+          "signature": {
+            "raw_length": 3,
+            "raw_sha256": "0c9373898d2dd1c85902837a9e979cb88484e2548a008ad2b2176cc7119d09df",
+            "resolved_sha256": "0c9373898d2dd1c85902837a9e979cb88484e2548a008ad2b2176cc7119d09df",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 0,
+            "return_type": "void",
+            "parameter_types": [],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a00002a",
+          "row_offset": 10988,
+          "parent_token": "0x0100001b",
+          "parent_name": "System.Windows.Window",
+          "name": "set_WindowState",
+          "signature": {
+            "raw_length": 6,
+            "raw_sha256": "407d72af0fe478d0e59d62f8697abc172577cfa20813b73b9a64cfe582622297",
+            "resolved_sha256": "87bd999fa3271a4e9ad7ee5551352acb99f7b09677ad89eae99206f1c9c3ad72",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 1,
+            "return_type": "void",
+            "parameter_types": [
+              "valuetype:265"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a00002b",
+          "row_offset": 10994,
+          "parent_token": "0x01000024",
+          "parent_name": "System.Uri",
+          "name": ".ctor",
+          "signature": {
+            "raw_length": 7,
+            "raw_sha256": "3d18c3a1386d4c364edcf796d68a4f2ddf6a1ff01ac4a9d4fc72d7e52bebaca0",
+            "resolved_sha256": "875a03af040c18551b2adc419de7ecd79512506fcf037e077174571d7b7355bd",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 2,
+            "return_type": "void",
+            "parameter_types": [
+              "string",
+              "valuetype:269"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a00002c",
+          "row_offset": 11000,
+          "parent_token": "0x01000044",
+          "parent_name": "System.Windows.Application",
+          "name": "LoadComponent",
+          "signature": {
+            "raw_length": 7,
+            "raw_sha256": "957d61b0527c68322b457ae56289861113a029a8645cfe006783135ab209f381",
+            "resolved_sha256": "b14d8502ce83a159a85dcf517ce701e1df47b7e396b61fad3d99402be7d6e13b",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default",
+            "generic_parameter_count": null,
+            "parameter_count": 2,
+            "return_type": "void",
+            "parameter_types": [
+              "object",
+              "class:145"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a00002d",
+          "row_offset": 11006,
+          "parent_token": "0x01000046",
+          "parent_name": "System.Windows.Input.MouseButtonEventHandler",
+          "name": ".ctor",
+          "signature": {
+            "raw_length": 5,
+            "raw_sha256": "0052b6e077fac63010429b99bca5fb4e60662e7d1064b08ed76223ec591c095e",
+            "resolved_sha256": "0052b6e077fac63010429b99bca5fb4e60662e7d1064b08ed76223ec591c095e",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 2,
+            "return_type": "void",
+            "parameter_types": [
+              "object",
+              "native-int"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a00002e",
+          "row_offset": 11012,
+          "parent_token": "0x01000047",
+          "parent_name": "System.Windows.UIElement",
+          "name": "add_MouseLeftButtonDown",
+          "signature": {
+            "raw_length": 6,
+            "raw_sha256": "a54e1bbb7e130034e00ae2cccbdbd32d121f1334b47831ddbd626afc74bdc55b",
+            "resolved_sha256": "672942b79748450e22fd83bfc0b435202b23f6db59ec548cc6c419a903a325ce",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 1,
+            "return_type": "void",
+            "parameter_types": [
+              "class:281"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a00002f",
+          "row_offset": 11018,
+          "parent_token": "0x01000048",
+          "parent_name": "System.Windows.RoutedEventHandler",
+          "name": ".ctor",
+          "signature": {
+            "raw_length": 5,
+            "raw_sha256": "0052b6e077fac63010429b99bca5fb4e60662e7d1064b08ed76223ec591c095e",
+            "resolved_sha256": "0052b6e077fac63010429b99bca5fb4e60662e7d1064b08ed76223ec591c095e",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 2,
+            "return_type": "void",
+            "parameter_types": [
+              "object",
+              "native-int"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000030",
+          "row_offset": 11024,
+          "parent_token": "0x01000049",
+          "parent_name": "System.Windows.Controls.Primitives.ButtonBase",
+          "name": "add_Click",
+          "signature": {
+            "raw_length": 6,
+            "raw_sha256": "97806fd5fe0f2053076b85c029fbf8add2372557127db00c483502de50e644c5",
+            "resolved_sha256": "ee585c2d527f89e2f7f68804db39e25a7cac7da42419a5352ec0b56e89b9c5a8",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 1,
+            "return_type": "void",
+            "parameter_types": [
+              "class:289"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000031",
+          "row_offset": 11030,
+          "parent_token": "0x01000028",
+          "parent_name": "System.Type",
+          "name": "GetTypeFromHandle",
+          "signature": {
+            "raw_length": 8,
+            "raw_sha256": "94965cdfbb80dcab0b27f2910cdb6c299701d9468043c214624d405c2ee2bda9",
+            "resolved_sha256": "c74087f1b8dbe572c0820c718453694d7608c61297c6a5b89d0b7cdd96aaeefa",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default",
+            "generic_parameter_count": null,
+            "parameter_count": 1,
+            "return_type": "class:161",
+            "parameter_types": [
+              "valuetype:305"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000032",
+          "row_offset": 11036,
+          "parent_token": "0x01000028",
+          "parent_name": "System.Type",
+          "name": "get_Assembly",
+          "signature": {
+            "raw_length": 5,
+            "raw_sha256": "efd32ffa272181e2a31fd133b4b3df1236b1d6bd42990159cb57b1c498b0fafb",
+            "resolved_sha256": "64b4f49dc7da812bf4b7b8079e85b067ab15c776924a757fae2aa5a7db6deeeb",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 0,
+            "return_type": "class:309",
+            "parameter_types": [],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000033",
+          "row_offset": 11042,
+          "parent_token": "0x0100002a",
+          "parent_name": "System.Resources.ResourceManager",
+          "name": ".ctor",
+          "signature": {
+            "raw_length": 7,
+            "raw_sha256": "01100c9231f5eca871001dca676d6a1114b6b1c4872e7f70c8f7eb411396da53",
+            "resolved_sha256": "10abba8deb49596b71b854f15728133431cd8ceb049d04344f20c9b7b92f1e6c",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 2,
+            "return_type": "void",
+            "parameter_types": [
+              "string",
+              "class:309"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000034",
+          "row_offset": 11048,
+          "parent_token": "0x0100002b",
+          "parent_name": "System.Configuration.ApplicationSettingsBase",
+          "name": ".ctor",
+          "signature": {
+            "raw_length": 3,
+            "raw_sha256": "0c9373898d2dd1c85902837a9e979cb88484e2548a008ad2b2176cc7119d09df",
+            "resolved_sha256": "0c9373898d2dd1c85902837a9e979cb88484e2548a008ad2b2176cc7119d09df",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 0,
+            "return_type": "void",
+            "parameter_types": [],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000035",
+          "row_offset": 11054,
+          "parent_token": "0x0100004e",
+          "parent_name": "System.Configuration.SettingsBase",
+          "name": "Synchronized",
+          "signature": {
+            "raw_length": 8,
+            "raw_sha256": "686026104ebea173bf53bf436736d922f0b649f68b97f3bb2de5ec43623946cd",
+            "resolved_sha256": "56d0c80919b137a5d9e07e70c67179831d80adbb287543047702444a2ecadbfe",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default",
+            "generic_parameter_count": null,
+            "parameter_count": 1,
+            "return_type": "class:313",
+            "parameter_types": [
+              "class:313"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000036",
+          "row_offset": 11060,
+          "parent_token": "0x0100004f",
+          "parent_name": "System.AppDomain",
+          "name": "get_CurrentDomain",
+          "signature": {
+            "raw_length": 5,
+            "raw_sha256": "e678fe20b72cfbe26ba7f6cc4ee199e76977bb761baf066aca4890d9c7d5a10b",
+            "resolved_sha256": "a68ae951f319fd151d33f8c8eabfa1d6c1533d1bc438e55a846c67dba6b87848",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default",
+            "generic_parameter_count": null,
+            "parameter_count": 0,
+            "return_type": "class:317",
+            "parameter_types": [],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000037",
+          "row_offset": 11066,
+          "parent_token": "0x0100004f",
+          "parent_name": "System.AppDomain",
+          "name": "get_BaseDirectory",
+          "signature": {
+            "raw_length": 3,
+            "raw_sha256": "df29f5ab2554df47369dafce3bc8630f16eabc3f72c21bbd24c5e73c286f650f",
+            "resolved_sha256": "df29f5ab2554df47369dafce3bc8630f16eabc3f72c21bbd24c5e73c286f650f",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 0,
+            "return_type": "string",
+            "parameter_types": [],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000038",
+          "row_offset": 11072,
+          "parent_token": "0x01000050",
+          "parent_name": "System.IO.Path",
+          "name": "Combine",
+          "signature": {
+            "raw_length": 5,
+            "raw_sha256": "e25b82e7e909d55b3ee4778b8dc964ae5cbe58b51c92839f74e3d560fbe3037d",
+            "resolved_sha256": "e25b82e7e909d55b3ee4778b8dc964ae5cbe58b51c92839f74e3d560fbe3037d",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default",
+            "generic_parameter_count": null,
+            "parameter_count": 2,
+            "return_type": "string",
+            "parameter_types": [
+              "string",
+              "string"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000039",
+          "row_offset": 11078,
+          "parent_token": "0x0100002c",
+          "parent_name": "AICommon.ViewModelBase",
+          "name": ".ctor",
+          "signature": {
+            "raw_length": 3,
+            "raw_sha256": "0c9373898d2dd1c85902837a9e979cb88484e2548a008ad2b2176cc7119d09df",
+            "resolved_sha256": "0c9373898d2dd1c85902837a9e979cb88484e2548a008ad2b2176cc7119d09df",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 0,
+            "return_type": "void",
+            "parameter_types": [],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a00003a",
+          "row_offset": 11084,
+          "parent_token": "0x01000051",
+          "parent_name": "System.Environment",
+          "name": "get_OSVersion",
+          "signature": {
+            "raw_length": 5,
+            "raw_sha256": "d076030039bd4e1f8d5b66203e45ff313a800f1a2300bab97e89a8bf46110b0f",
+            "resolved_sha256": "5ffed17bb4317b96ca386d8968741e7faf21bfb9bd1181d0470d82d59f56307f",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default",
+            "generic_parameter_count": null,
+            "parameter_count": 0,
+            "return_type": "class:329",
+            "parameter_types": [],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a00003b",
+          "row_offset": 11090,
+          "parent_token": "0x01000052",
+          "parent_name": "System.OperatingSystem",
+          "name": "get_Version",
+          "signature": {
+            "raw_length": 5,
+            "raw_sha256": "d957ef772379696cf8fb2fadb55a21ece158e97c413f981dfba638eef47fc33a",
+            "resolved_sha256": "cdf94cf60557b2f1b56ccaec5f547a369fccb94de2d6833ac1244efd4430a4fa",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 0,
+            "return_type": "class:333",
+            "parameter_types": [],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a00003c",
+          "row_offset": 11096,
+          "parent_token": "0x01000053",
+          "parent_name": "System.Version",
+          "name": "get_Build",
+          "signature": {
+            "raw_length": 3,
+            "raw_sha256": "19e1bd1daf2ae492b895802f55c905ef2d25aea509c6010868e218adb408c010",
+            "resolved_sha256": "19e1bd1daf2ae492b895802f55c905ef2d25aea509c6010868e218adb408c010",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 0,
+            "return_type": "i4",
+            "parameter_types": [],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a00003d",
+          "row_offset": 11102,
+          "parent_token": "0x01000055",
+          "parent_name": "System.String",
+          "name": "Format",
+          "signature": {
+            "raw_length": 5,
+            "raw_sha256": "ffdaadaa7d3d3384817c98808d26f19e72a546a5c03b01c2c48516ddf640d562",
+            "resolved_sha256": "ffdaadaa7d3d3384817c98808d26f19e72a546a5c03b01c2c48516ddf640d562",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default",
+            "generic_parameter_count": null,
+            "parameter_count": 2,
+            "return_type": "string",
+            "parameter_types": [
+              "string",
+              "object"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a00003e",
+          "row_offset": 11108,
+          "parent_token": "0x01000040",
+          "parent_name": "AICommon.BigDataHelper",
+          "name": "clickEvent",
+          "signature": {
+            "raw_length": 7,
+            "raw_sha256": "2f0a7d9e5e44e92fe132a260b6d30a59746ecfa0e3b453414d4924f8f50341b3",
+            "resolved_sha256": "2f0a7d9e5e44e92fe132a260b6d30a59746ecfa0e3b453414d4924f8f50341b3",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default",
+            "generic_parameter_count": null,
+            "parameter_count": 4,
+            "return_type": "u4",
+            "parameter_types": [
+              "string",
+              "string",
+              "string",
+              "string"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a00003f",
+          "row_offset": 11114,
+          "parent_token": "0x01000056",
+          "parent_name": "System.Linq.Expressions.Expression",
+          "name": "Constant",
+          "signature": {
+            "raw_length": 9,
+            "raw_sha256": "96db26150e91dbf9e2996543cc19d7f827202c520a6e97ff582569078959b2e3",
+            "resolved_sha256": "751d86d17b3141268cbfa61559df39a8a2006d1dba99f42e7c56e90c665b91bd",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default",
+            "generic_parameter_count": null,
+            "parameter_count": 2,
+            "return_type": "class:349",
+            "parameter_types": [
+              "object",
+              "class:161"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000040",
+          "row_offset": 11120,
+          "parent_token": "0x01000058",
+          "parent_name": "System.Reflection.MethodBase",
+          "name": "GetMethodFromHandle",
+          "signature": {
+            "raw_length": 8,
+            "raw_sha256": "f84db04b73b41f65b9b80ad6bb1158f5f4a90e208359d9b58a81a3da6272220d",
+            "resolved_sha256": "41aee606ac894105efb26d68821d69967d75e16433f081e82522cdbde139a54d",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default",
+            "generic_parameter_count": null,
+            "parameter_count": 1,
+            "return_type": "class:353",
+            "parameter_types": [
+              "valuetype:357"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000041",
+          "row_offset": 11126,
+          "parent_token": "0x01000056",
+          "parent_name": "System.Linq.Expressions.Expression",
+          "name": "Property",
+          "signature": {
+            "raw_length": 11,
+            "raw_sha256": "51a4d39ac178da4a5292ceb1d0cac0f1ed7d2972a34fa19f724747d1540ccda0",
+            "resolved_sha256": "6a6214f7efd021db36d4b9e836a541ecbd9850d8737dd6f6eea43680898c2658",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default",
+            "generic_parameter_count": null,
+            "parameter_count": 2,
+            "return_type": "class:365",
+            "parameter_types": [
+              "class:345",
+              "class:361"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000042",
+          "row_offset": 11132,
+          "parent_token": "0x01000056",
+          "parent_name": "System.Linq.Expressions.Expression",
+          "name": "Lambda",
+          "signature": {
+            "raw_length": 17,
+            "raw_sha256": "fe238ac1245ac495319a5649bf90608ee2973b70a2b792cce79805637815c48d",
+            "resolved_sha256": "564aa3b52550503f5ded5e2a88e015d5d5effc3415193fe7ae3cfee9cd4ad617",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default generic",
+            "generic_parameter_count": 1,
+            "parameter_count": 2,
+            "return_type": "class:377<mvar:0>",
+            "parameter_types": [
+              "class:345",
+              "class:369[]"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000043",
+          "row_offset": 11138,
+          "parent_token": "0x0100002c",
+          "parent_name": "AICommon.ViewModelBase",
+          "name": "RaisePropertyChanged",
+          "signature": {
+            "raw_length": 16,
+            "raw_sha256": "96308e0275409a89e881e3ee098d60ac9bc40da3ca4a580e58d5929d9fe4c191",
+            "resolved_sha256": "24017dc6180767d2f3787d5033cae4516c93ca85e6e5fa16a350467b3f5dc5dc",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this generic",
+            "generic_parameter_count": 1,
+            "parameter_count": 1,
+            "return_type": "void",
+            "parameter_types": [
+              "class:377<class:373<mvar:0>>"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000044",
+          "row_offset": 11144,
+          "parent_token": "0x0100002e",
+          "parent_name": "System.Diagnostics.Process",
+          "name": ".ctor",
+          "signature": {
+            "raw_length": 3,
+            "raw_sha256": "0c9373898d2dd1c85902837a9e979cb88484e2548a008ad2b2176cc7119d09df",
+            "resolved_sha256": "0c9373898d2dd1c85902837a9e979cb88484e2548a008ad2b2176cc7119d09df",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 0,
+            "return_type": "void",
+            "parameter_types": [],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000045",
+          "row_offset": 11150,
+          "parent_token": "0x0100002e",
+          "parent_name": "System.Diagnostics.Process",
+          "name": "get_StartInfo",
+          "signature": {
+            "raw_length": 5,
+            "raw_sha256": "fabcf8a085134fa096ed1b4e87a5afc4d479547de6ec157b47dd699d2b40656a",
+            "resolved_sha256": "0667d34608cfbf6dbeb484ef4b21e186a14212e726f4b82e4e7f7ae0fe3e8ddd",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 0,
+            "return_type": "class:385",
+            "parameter_types": [],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000046",
+          "row_offset": 11156,
+          "parent_token": "0x01000060",
+          "parent_name": "System.Diagnostics.ProcessStartInfo",
+          "name": "set_FileName",
+          "signature": {
+            "raw_length": 4,
+            "raw_sha256": "c65dc7d303e94729245de0fa4db4b80ac687af6d0bb38c5c884bc9c11f01e005",
+            "resolved_sha256": "c65dc7d303e94729245de0fa4db4b80ac687af6d0bb38c5c884bc9c11f01e005",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 1,
+            "return_type": "void",
+            "parameter_types": [
+              "string"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000047",
+          "row_offset": 11162,
+          "parent_token": "0x01000060",
+          "parent_name": "System.Diagnostics.ProcessStartInfo",
+          "name": "set_UseShellExecute",
+          "signature": {
+            "raw_length": 4,
+            "raw_sha256": "7366e2ddae008ee5e5ba63f1c2504e9a452ccd8cc0f40fdd3d8d03430bae9e33",
+            "resolved_sha256": "7366e2ddae008ee5e5ba63f1c2504e9a452ccd8cc0f40fdd3d8d03430bae9e33",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 1,
+            "return_type": "void",
+            "parameter_types": [
+              "bool"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000048",
+          "row_offset": 11168,
+          "parent_token": "0x01000060",
+          "parent_name": "System.Diagnostics.ProcessStartInfo",
+          "name": "set_RedirectStandardInput",
+          "signature": {
+            "raw_length": 4,
+            "raw_sha256": "7366e2ddae008ee5e5ba63f1c2504e9a452ccd8cc0f40fdd3d8d03430bae9e33",
+            "resolved_sha256": "7366e2ddae008ee5e5ba63f1c2504e9a452ccd8cc0f40fdd3d8d03430bae9e33",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 1,
+            "return_type": "void",
+            "parameter_types": [
+              "bool"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000049",
+          "row_offset": 11174,
+          "parent_token": "0x01000060",
+          "parent_name": "System.Diagnostics.ProcessStartInfo",
+          "name": "set_RedirectStandardOutput",
+          "signature": {
+            "raw_length": 4,
+            "raw_sha256": "7366e2ddae008ee5e5ba63f1c2504e9a452ccd8cc0f40fdd3d8d03430bae9e33",
+            "resolved_sha256": "7366e2ddae008ee5e5ba63f1c2504e9a452ccd8cc0f40fdd3d8d03430bae9e33",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 1,
+            "return_type": "void",
+            "parameter_types": [
+              "bool"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a00004a",
+          "row_offset": 11180,
+          "parent_token": "0x01000060",
+          "parent_name": "System.Diagnostics.ProcessStartInfo",
+          "name": "set_RedirectStandardError",
+          "signature": {
+            "raw_length": 4,
+            "raw_sha256": "7366e2ddae008ee5e5ba63f1c2504e9a452ccd8cc0f40fdd3d8d03430bae9e33",
+            "resolved_sha256": "7366e2ddae008ee5e5ba63f1c2504e9a452ccd8cc0f40fdd3d8d03430bae9e33",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 1,
+            "return_type": "void",
+            "parameter_types": [
+              "bool"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a00004b",
+          "row_offset": 11186,
+          "parent_token": "0x01000060",
+          "parent_name": "System.Diagnostics.ProcessStartInfo",
+          "name": "set_CreateNoWindow",
+          "signature": {
+            "raw_length": 4,
+            "raw_sha256": "7366e2ddae008ee5e5ba63f1c2504e9a452ccd8cc0f40fdd3d8d03430bae9e33",
+            "resolved_sha256": "7366e2ddae008ee5e5ba63f1c2504e9a452ccd8cc0f40fdd3d8d03430bae9e33",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 1,
+            "return_type": "void",
+            "parameter_types": [
+              "bool"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a00004c",
+          "row_offset": 11192,
+          "parent_token": "0x0100002e",
+          "parent_name": "System.Diagnostics.Process",
+          "name": "Start",
+          "signature": {
+            "raw_length": 3,
+            "raw_sha256": "59a9a8765c535212b9ad71c5c8e1e24ffadbd3331fd04b3bbe1b121ecf6004cc",
+            "resolved_sha256": "59a9a8765c535212b9ad71c5c8e1e24ffadbd3331fd04b3bbe1b121ecf6004cc",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 0,
+            "return_type": "bool",
+            "parameter_types": [],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a00004d",
+          "row_offset": 11198,
+          "parent_token": "0x0100002e",
+          "parent_name": "System.Diagnostics.Process",
+          "name": "get_StandardInput",
+          "signature": {
+            "raw_length": 5,
+            "raw_sha256": "f417580b2072aa4bb5c9a01f8910519a12eda4a79ad221fb0384ac3a56247e8c",
+            "resolved_sha256": "2aec576e98a72a9bf394453d9c2df7060d6e8b5922b1027a89b699ae5af7a0f4",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 0,
+            "return_type": "class:389",
+            "parameter_types": [],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a00004e",
+          "row_offset": 11204,
+          "parent_token": "0x01000055",
+          "parent_name": "System.String",
+          "name": "Concat",
+          "signature": {
+            "raw_length": 5,
+            "raw_sha256": "e25b82e7e909d55b3ee4778b8dc964ae5cbe58b51c92839f74e3d560fbe3037d",
+            "resolved_sha256": "e25b82e7e909d55b3ee4778b8dc964ae5cbe58b51c92839f74e3d560fbe3037d",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default",
+            "generic_parameter_count": null,
+            "parameter_count": 2,
+            "return_type": "string",
+            "parameter_types": [
+              "string",
+              "string"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a00004f",
+          "row_offset": 11210,
+          "parent_token": "0x01000062",
+          "parent_name": "System.IO.TextWriter",
+          "name": "WriteLine",
+          "signature": {
+            "raw_length": 4,
+            "raw_sha256": "c65dc7d303e94729245de0fa4db4b80ac687af6d0bb38c5c884bc9c11f01e005",
+            "resolved_sha256": "c65dc7d303e94729245de0fa4db4b80ac687af6d0bb38c5c884bc9c11f01e005",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 1,
+            "return_type": "void",
+            "parameter_types": [
+              "string"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000050",
+          "row_offset": 11216,
+          "parent_token": "0x01000061",
+          "parent_name": "System.IO.StreamWriter",
+          "name": "set_AutoFlush",
+          "signature": {
+            "raw_length": 4,
+            "raw_sha256": "7366e2ddae008ee5e5ba63f1c2504e9a452ccd8cc0f40fdd3d8d03430bae9e33",
+            "resolved_sha256": "7366e2ddae008ee5e5ba63f1c2504e9a452ccd8cc0f40fdd3d8d03430bae9e33",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 1,
+            "return_type": "void",
+            "parameter_types": [
+              "bool"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000051",
+          "row_offset": 11222,
+          "parent_token": "0x0100002e",
+          "parent_name": "System.Diagnostics.Process",
+          "name": "get_StandardOutput",
+          "signature": {
+            "raw_length": 5,
+            "raw_sha256": "8e20908f6c3f30c3e066d14f621b8ec01fbb7e3a49a9bb707aff467c862b4abc",
+            "resolved_sha256": "c60859c798e0df81cd29eb04ba3485fbcefee79f4ee1c66c2d899d6ea4d64323",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 0,
+            "return_type": "class:189",
+            "parameter_types": [],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000052",
+          "row_offset": 11228,
+          "parent_token": "0x01000063",
+          "parent_name": "System.IO.TextReader",
+          "name": "ReadLine",
+          "signature": {
+            "raw_length": 3,
+            "raw_sha256": "df29f5ab2554df47369dafce3bc8630f16eabc3f72c21bbd24c5e73c286f650f",
+            "resolved_sha256": "df29f5ab2554df47369dafce3bc8630f16eabc3f72c21bbd24c5e73c286f650f",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 0,
+            "return_type": "string",
+            "parameter_types": [],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000053",
+          "row_offset": 11234,
+          "parent_token": "0x01000055",
+          "parent_name": "System.String",
+          "name": "Contains",
+          "signature": {
+            "raw_length": 4,
+            "raw_sha256": "61bbd491345d80bcde08286d395defead9e181d82e76ce39bf961ebefbf660be",
+            "resolved_sha256": "61bbd491345d80bcde08286d395defead9e181d82e76ce39bf961ebefbf660be",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 1,
+            "return_type": "bool",
+            "parameter_types": [
+              "string"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000054",
+          "row_offset": 11240,
+          "parent_token": "0x01000055",
+          "parent_name": "System.String",
+          "name": "Replace",
+          "signature": {
+            "raw_length": 5,
+            "raw_sha256": "daebeaf17341d3068aef1b1fdae8f1a044519f828efe57b256a1f892fa6b3c08",
+            "resolved_sha256": "daebeaf17341d3068aef1b1fdae8f1a044519f828efe57b256a1f892fa6b3c08",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 2,
+            "return_type": "string",
+            "parameter_types": [
+              "string",
+              "string"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000055",
+          "row_offset": 11246,
+          "parent_token": "0x01000055",
+          "parent_name": "System.String",
+          "name": "Trim",
+          "signature": {
+            "raw_length": 3,
+            "raw_sha256": "df29f5ab2554df47369dafce3bc8630f16eabc3f72c21bbd24c5e73c286f650f",
+            "resolved_sha256": "df29f5ab2554df47369dafce3bc8630f16eabc3f72c21bbd24c5e73c286f650f",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 0,
+            "return_type": "string",
+            "parameter_types": [],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000056",
+          "row_offset": 11252,
+          "parent_token": "0x01000055",
+          "parent_name": "System.String",
+          "name": "Format",
+          "signature": {
+            "raw_length": 6,
+            "raw_sha256": "b9c5fffa6c0d9eb177de6cb5c6e7b5f0e1e20848f55c6fb4559afab9d42f3ef1",
+            "resolved_sha256": "b9c5fffa6c0d9eb177de6cb5c6e7b5f0e1e20848f55c6fb4559afab9d42f3ef1",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default",
+            "generic_parameter_count": null,
+            "parameter_count": 3,
+            "return_type": "string",
+            "parameter_types": [
+              "string",
+              "object",
+              "object"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000057",
+          "row_offset": 11258,
+          "parent_token": "0x0100002f",
+          "parent_name": "System.IO.StreamReader",
+          "name": "get_EndOfStream",
+          "signature": {
+            "raw_length": 3,
+            "raw_sha256": "59a9a8765c535212b9ad71c5c8e1e24ffadbd3331fd04b3bbe1b121ecf6004cc",
+            "resolved_sha256": "59a9a8765c535212b9ad71c5c8e1e24ffadbd3331fd04b3bbe1b121ecf6004cc",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 0,
+            "return_type": "bool",
+            "parameter_types": [],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000058",
+          "row_offset": 11264,
+          "parent_token": "0x0100002e",
+          "parent_name": "System.Diagnostics.Process",
+          "name": "WaitForExit",
+          "signature": {
+            "raw_length": 3,
+            "raw_sha256": "0c9373898d2dd1c85902837a9e979cb88484e2548a008ad2b2176cc7119d09df",
+            "resolved_sha256": "0c9373898d2dd1c85902837a9e979cb88484e2548a008ad2b2176cc7119d09df",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 0,
+            "return_type": "void",
+            "parameter_types": [],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000059",
+          "row_offset": 11270,
+          "parent_token": "0x0100002e",
+          "parent_name": "System.Diagnostics.Process",
+          "name": "Close",
+          "signature": {
+            "raw_length": 3,
+            "raw_sha256": "0c9373898d2dd1c85902837a9e979cb88484e2548a008ad2b2176cc7119d09df",
+            "resolved_sha256": "0c9373898d2dd1c85902837a9e979cb88484e2548a008ad2b2176cc7119d09df",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 0,
+            "return_type": "void",
+            "parameter_types": [],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a00005a",
+          "row_offset": 11276,
+          "parent_token": "0x01000031",
+          "parent_name": "System.IO.DriveInfo",
+          "name": "GetDrives",
+          "signature": {
+            "raw_length": 6,
+            "raw_sha256": "7fea1690360ade7c7d931a93dd848da3c1b7fd938847db9d9aff0698eb83d4e1",
+            "resolved_sha256": "12fe5b70e2167648bb4961bb7c96e2ddd692b4600d5f61c18b5e8bd21422e923",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default",
+            "generic_parameter_count": null,
+            "parameter_count": 0,
+            "return_type": "class:197[]",
+            "parameter_types": [],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a00005b",
+          "row_offset": 11282,
+          "parent_token": "0x01000031",
+          "parent_name": "System.IO.DriveInfo",
+          "name": "get_Name",
+          "signature": {
+            "raw_length": 3,
+            "raw_sha256": "df29f5ab2554df47369dafce3bc8630f16eabc3f72c21bbd24c5e73c286f650f",
+            "resolved_sha256": "df29f5ab2554df47369dafce3bc8630f16eabc3f72c21bbd24c5e73c286f650f",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 0,
+            "return_type": "string",
+            "parameter_types": [],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a00005c",
+          "row_offset": 11288,
+          "parent_token": "0x01000064",
+          "parent_name": "System.Console",
+          "name": "WriteLine",
+          "signature": {
+            "raw_length": 4,
+            "raw_sha256": "250d91037dcedea60ffbb7aec99c8f9d09cfc2b1928dc36a3deca0c261a8ac18",
+            "resolved_sha256": "250d91037dcedea60ffbb7aec99c8f9d09cfc2b1928dc36a3deca0c261a8ac18",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default",
+            "generic_parameter_count": null,
+            "parameter_count": 1,
+            "return_type": "void",
+            "parameter_types": [
+              "string"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a00005d",
+          "row_offset": 11294,
+          "parent_token": "0x01000055",
+          "parent_name": "System.String",
+          "name": "op_Equality",
+          "signature": {
+            "raw_length": 5,
+            "raw_sha256": "9506c899776ebdee1b3bf56b29306d76d73cc7e93ea1d0338b497f684f6eef38",
+            "resolved_sha256": "9506c899776ebdee1b3bf56b29306d76d73cc7e93ea1d0338b497f684f6eef38",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default",
+            "generic_parameter_count": null,
+            "parameter_count": 2,
+            "return_type": "bool",
+            "parameter_types": [
+              "string",
+              "string"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a00005e",
+          "row_offset": 11300,
+          "parent_token": "0x01000031",
+          "parent_name": "System.IO.DriveInfo",
+          "name": "get_TotalFreeSpace",
+          "signature": {
+            "raw_length": 3,
+            "raw_sha256": "478e6d37ac351c453a8f53223e1432619b3d2265fc053b59745b75f0bdfb4dc9",
+            "resolved_sha256": "478e6d37ac351c453a8f53223e1432619b3d2265fc053b59745b75f0bdfb4dc9",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 0,
+            "return_type": "i8",
+            "parameter_types": [],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a00005f",
+          "row_offset": 11306,
+          "parent_token": "0x01000055",
+          "parent_name": "System.String",
+          "name": "Format",
+          "signature": {
+            "raw_length": 7,
+            "raw_sha256": "f3d0307f87f03908ed46c917d074268f700b1ff81b75f6f93a78819887a53a8a",
+            "resolved_sha256": "f3d0307f87f03908ed46c917d074268f700b1ff81b75f6f93a78819887a53a8a",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default",
+            "generic_parameter_count": null,
+            "parameter_count": 4,
+            "return_type": "string",
+            "parameter_types": [
+              "string",
+              "object",
+              "object",
+              "object"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000060",
+          "row_offset": 11312,
+          "parent_token": "0x0100003f",
+          "parent_name": "AICommon.LogHelper",
+          "name": "Error",
+          "signature": {
+            "raw_length": 6,
+            "raw_sha256": "73c8618ec2f632b4aaaa5e0bfb256cec1020abbe63f0ecf2a16a0f9db774f8bc",
+            "resolved_sha256": "cce4c0cc3e03563240fac28668a89eea0d85e0fdd20651ad49dd5569387b441a",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default",
+            "generic_parameter_count": null,
+            "parameter_count": 1,
+            "return_type": "i4",
+            "parameter_types": [
+              "class:193"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000061",
+          "row_offset": 11318,
+          "parent_token": "0x01000050",
+          "parent_name": "System.IO.Path",
+          "name": "GetExtension",
+          "signature": {
+            "raw_length": 4,
+            "raw_sha256": "f4fc6e914c3f39dea20cedc5015dcee8a18aa00ee5a983e7ff0527dc64dc3028",
+            "resolved_sha256": "f4fc6e914c3f39dea20cedc5015dcee8a18aa00ee5a983e7ff0527dc64dc3028",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default",
+            "generic_parameter_count": null,
+            "parameter_count": 1,
+            "return_type": "string",
+            "parameter_types": [
+              "string"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000062",
+          "row_offset": 11324,
+          "parent_token": "0x01000032",
+          "parent_name": "System.Drawing.Image",
+          "name": "FromFile",
+          "signature": {
+            "raw_length": 6,
+            "raw_sha256": "61879e5c487450e1ffaeb13b48da0787c042f2ad294314bbb72cd61eaa6bd94a",
+            "resolved_sha256": "e8261ef12023ba914f92264390480468b4608bc95731ad1547813ab71757aed7",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default",
+            "generic_parameter_count": null,
+            "parameter_count": 1,
+            "return_type": "class:201",
+            "parameter_types": [
+              "string"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000063",
+          "row_offset": 11330,
+          "parent_token": "0x01000032",
+          "parent_name": "System.Drawing.Image",
+          "name": "get_Width",
+          "signature": {
+            "raw_length": 3,
+            "raw_sha256": "19e1bd1daf2ae492b895802f55c905ef2d25aea509c6010868e218adb408c010",
+            "resolved_sha256": "19e1bd1daf2ae492b895802f55c905ef2d25aea509c6010868e218adb408c010",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 0,
+            "return_type": "i4",
+            "parameter_types": [],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000064",
+          "row_offset": 11336,
+          "parent_token": "0x01000032",
+          "parent_name": "System.Drawing.Image",
+          "name": "get_Height",
+          "signature": {
+            "raw_length": 3,
+            "raw_sha256": "19e1bd1daf2ae492b895802f55c905ef2d25aea509c6010868e218adb408c010",
+            "resolved_sha256": "19e1bd1daf2ae492b895802f55c905ef2d25aea509c6010868e218adb408c010",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 0,
+            "return_type": "i4",
+            "parameter_types": [],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000065",
+          "row_offset": 11342,
+          "parent_token": "0x01000032",
+          "parent_name": "System.Drawing.Image",
+          "name": "Dispose",
+          "signature": {
+            "raw_length": 3,
+            "raw_sha256": "0c9373898d2dd1c85902837a9e979cb88484e2548a008ad2b2176cc7119d09df",
+            "resolved_sha256": "0c9373898d2dd1c85902837a9e979cb88484e2548a008ad2b2176cc7119d09df",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 0,
+            "return_type": "void",
+            "parameter_types": [],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000066",
+          "row_offset": 11348,
+          "parent_token": "0x01000050",
+          "parent_name": "System.IO.Path",
+          "name": "GetTempPath",
+          "signature": {
+            "raw_length": 3,
+            "raw_sha256": "7654e92fcd606089e218382991601eea77b70226c9ee308320f38cd03c6297eb",
+            "resolved_sha256": "7654e92fcd606089e218382991601eea77b70226c9ee308320f38cd03c6297eb",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default",
+            "generic_parameter_count": null,
+            "parameter_count": 0,
+            "return_type": "string",
+            "parameter_types": [],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000067",
+          "row_offset": 11354,
+          "parent_token": "0x01000067",
+          "parent_name": "System.IO.Directory",
+          "name": "Exists",
+          "signature": {
+            "raw_length": 4,
+            "raw_sha256": "c6804a6b6167553b78bfc424ea29f72681c1c3a2b46bb746dbb1bbe467c68bb5",
+            "resolved_sha256": "c6804a6b6167553b78bfc424ea29f72681c1c3a2b46bb746dbb1bbe467c68bb5",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default",
+            "generic_parameter_count": null,
+            "parameter_count": 1,
+            "return_type": "bool",
+            "parameter_types": [
+              "string"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000068",
+          "row_offset": 11360,
+          "parent_token": "0x01000067",
+          "parent_name": "System.IO.Directory",
+          "name": "GetFiles",
+          "signature": {
+            "raw_length": 5,
+            "raw_sha256": "81394fc6d4617220c4980cea7729d3d41c03e61569005da61c03107625bb2586",
+            "resolved_sha256": "81394fc6d4617220c4980cea7729d3d41c03e61569005da61c03107625bb2586",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default",
+            "generic_parameter_count": null,
+            "parameter_count": 1,
+            "return_type": "string[]",
+            "parameter_types": [
+              "string"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000069",
+          "row_offset": 11366,
+          "parent_token": "0x01000050",
+          "parent_name": "System.IO.Path",
+          "name": "GetFileName",
+          "signature": {
+            "raw_length": 4,
+            "raw_sha256": "f4fc6e914c3f39dea20cedc5015dcee8a18aa00ee5a983e7ff0527dc64dc3028",
+            "resolved_sha256": "f4fc6e914c3f39dea20cedc5015dcee8a18aa00ee5a983e7ff0527dc64dc3028",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default",
+            "generic_parameter_count": null,
+            "parameter_count": 1,
+            "return_type": "string",
+            "parameter_types": [
+              "string"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a00006a",
+          "row_offset": 11372,
+          "parent_token": "0x01000068",
+          "parent_name": "System.IO.File",
+          "name": "Copy",
+          "signature": {
+            "raw_length": 6,
+            "raw_sha256": "52f490f6d6b82c683ca9edac2acf0b0856fdbdb40d28cd3730f1d0758ec9439e",
+            "resolved_sha256": "52f490f6d6b82c683ca9edac2acf0b0856fdbdb40d28cd3730f1d0758ec9439e",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default",
+            "generic_parameter_count": null,
+            "parameter_count": 3,
+            "return_type": "void",
+            "parameter_types": [
+              "string",
+              "string",
+              "bool"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a00006b",
+          "row_offset": 11378,
+          "parent_token": "0x01000030",
+          "parent_name": "System.Exception",
+          "name": "get_Message",
+          "signature": {
+            "raw_length": 3,
+            "raw_sha256": "df29f5ab2554df47369dafce3bc8630f16eabc3f72c21bbd24c5e73c286f650f",
+            "resolved_sha256": "df29f5ab2554df47369dafce3bc8630f16eabc3f72c21bbd24c5e73c286f650f",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 0,
+            "return_type": "string",
+            "parameter_types": [],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a00006c",
+          "row_offset": 11384,
+          "parent_token": "0x01000069",
+          "parent_name": "System.Action",
+          "name": ".ctor",
+          "signature": {
+            "raw_length": 5,
+            "raw_sha256": "0052b6e077fac63010429b99bca5fb4e60662e7d1064b08ed76223ec591c095e",
+            "resolved_sha256": "0052b6e077fac63010429b99bca5fb4e60662e7d1064b08ed76223ec591c095e",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 2,
+            "return_type": "void",
+            "parameter_types": [
+              "object",
+              "native-int"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a00006d",
+          "row_offset": 11390,
+          "parent_token": "0x0100006a",
+          "parent_name": "AICommon.CommandBase",
+          "name": ".ctor",
+          "signature": {
+            "raw_length": 12,
+            "raw_sha256": "3f7bef950d802cecbb0e7792c9f64887ae788c87934e369ea133d33fcedd91ab",
+            "resolved_sha256": "aa9303e5879b8a905f3089420a9b4a52aec1354e20a0d3d86ba7191ac4b6d0a7",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 2,
+            "return_type": "void",
+            "parameter_types": [
+              "class:421",
+              "class:373<bool>"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a00006e",
+          "row_offset": 11396,
+          "parent_token": "0x01000055",
+          "parent_name": "System.String",
+          "name": "IsNullOrWhiteSpace",
+          "signature": {
+            "raw_length": 4,
+            "raw_sha256": "c6804a6b6167553b78bfc424ea29f72681c1c3a2b46bb746dbb1bbe467c68bb5",
+            "resolved_sha256": "c6804a6b6167553b78bfc424ea29f72681c1c3a2b46bb746dbb1bbe467c68bb5",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default",
+            "generic_parameter_count": null,
+            "parameter_count": 1,
+            "return_type": "bool",
+            "parameter_types": [
+              "string"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a00006f",
+          "row_offset": 11402,
+          "parent_token": "0x01000055",
+          "parent_name": "System.String",
+          "name": "op_Inequality",
+          "signature": {
+            "raw_length": 5,
+            "raw_sha256": "9506c899776ebdee1b3bf56b29306d76d73cc7e93ea1d0338b497f684f6eef38",
+            "resolved_sha256": "9506c899776ebdee1b3bf56b29306d76d73cc7e93ea1d0338b497f684f6eef38",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default",
+            "generic_parameter_count": null,
+            "parameter_count": 2,
+            "return_type": "bool",
+            "parameter_types": [
+              "string",
+              "string"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000070",
+          "row_offset": 11408,
+          "parent_token": "0x01000050",
+          "parent_name": "System.IO.Path",
+          "name": "Combine",
+          "signature": {
+            "raw_length": 6,
+            "raw_sha256": "26ebf730db2d380836060f258bb661f3208f63db16cc430cca3cc94e1c545b18",
+            "resolved_sha256": "26ebf730db2d380836060f258bb661f3208f63db16cc430cca3cc94e1c545b18",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default",
+            "generic_parameter_count": null,
+            "parameter_count": 3,
+            "return_type": "string",
+            "parameter_types": [
+              "string",
+              "string",
+              "string"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000071",
+          "row_offset": 11414,
+          "parent_token": "0x01000068",
+          "parent_name": "System.IO.File",
+          "name": "Copy",
+          "signature": {
+            "raw_length": 5,
+            "raw_sha256": "d0f85cf51390c1b98f7b07a0ac8796e89570b44c8358931620f4bed559ae8497",
+            "resolved_sha256": "d0f85cf51390c1b98f7b07a0ac8796e89570b44c8358931620f4bed559ae8497",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default",
+            "generic_parameter_count": null,
+            "parameter_count": 2,
+            "return_type": "void",
+            "parameter_types": [
+              "string",
+              "string"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000072",
+          "row_offset": 11420,
+          "parent_token": "0x01000067",
+          "parent_name": "System.IO.Directory",
+          "name": "Delete",
+          "signature": {
+            "raw_length": 5,
+            "raw_sha256": "03d79c84295f41cfb066106d0abdce290610824a7c01ba307d6b15b5a847e34d",
+            "resolved_sha256": "03d79c84295f41cfb066106d0abdce290610824a7c01ba307d6b15b5a847e34d",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default",
+            "generic_parameter_count": null,
+            "parameter_count": 2,
+            "return_type": "void",
+            "parameter_types": [
+              "string",
+              "bool"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000073",
+          "row_offset": 11426,
+          "parent_token": "0x01000050",
+          "parent_name": "System.IO.Path",
+          "name": "GetDirectoryName",
+          "signature": {
+            "raw_length": 4,
+            "raw_sha256": "f4fc6e914c3f39dea20cedc5015dcee8a18aa00ee5a983e7ff0527dc64dc3028",
+            "resolved_sha256": "f4fc6e914c3f39dea20cedc5015dcee8a18aa00ee5a983e7ff0527dc64dc3028",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default",
+            "generic_parameter_count": null,
+            "parameter_count": 1,
+            "return_type": "string",
+            "parameter_types": [
+              "string"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000074",
+          "row_offset": 11432,
+          "parent_token": "0x01000068",
+          "parent_name": "System.IO.File",
+          "name": "Delete",
+          "signature": {
+            "raw_length": 4,
+            "raw_sha256": "250d91037dcedea60ffbb7aec99c8f9d09cfc2b1928dc36a3deca0c261a8ac18",
+            "resolved_sha256": "250d91037dcedea60ffbb7aec99c8f9d09cfc2b1928dc36a3deca0c261a8ac18",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default",
+            "generic_parameter_count": null,
+            "parameter_count": 1,
+            "return_type": "void",
+            "parameter_types": [
+              "string"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000075",
+          "row_offset": 11438,
+          "parent_token": "0x01000067",
+          "parent_name": "System.IO.Directory",
+          "name": "CreateDirectory",
+          "signature": {
+            "raw_length": 6,
+            "raw_sha256": "5133afdaf9f417505916e249dd39eed30e9afac0599f74077321a5b03d3e62dc",
+            "resolved_sha256": "315546d50c94bc83d8e33d2cbc78896d161d6ebec0ddf740e240ee38741a5243",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default",
+            "generic_parameter_count": null,
+            "parameter_count": 1,
+            "return_type": "class:437",
+            "parameter_types": [
+              "string"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000076",
+          "row_offset": 11444,
+          "parent_token": "0x01000067",
+          "parent_name": "System.IO.Directory",
+          "name": "GetLogicalDrives",
+          "signature": {
+            "raw_length": 4,
+            "raw_sha256": "d8c0827d9d7aabd1025a04f879688f45990d68fd7fdcedd1ae15a3247e5eb11f",
+            "resolved_sha256": "d8c0827d9d7aabd1025a04f879688f45990d68fd7fdcedd1ae15a3247e5eb11f",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default",
+            "generic_parameter_count": null,
+            "parameter_count": 0,
+            "return_type": "string[]",
+            "parameter_types": [],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000077",
+          "row_offset": 11450,
+          "parent_token": "0x01000034",
+          "parent_name": "System.Text.ASCIIEncoding",
+          "name": ".ctor",
+          "signature": {
+            "raw_length": 3,
+            "raw_sha256": "0c9373898d2dd1c85902837a9e979cb88484e2548a008ad2b2176cc7119d09df",
+            "resolved_sha256": "0c9373898d2dd1c85902837a9e979cb88484e2548a008ad2b2176cc7119d09df",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 0,
+            "return_type": "void",
+            "parameter_types": [],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000078",
+          "row_offset": 11456,
+          "parent_token": "0x0100006e",
+          "parent_name": "System.Text.Encoding",
+          "name": "GetString",
+          "signature": {
+            "raw_length": 5,
+            "raw_sha256": "06106361fdc57dae0e9d51b837fac0c909b9da47311b021556f1cffc49c02243",
+            "resolved_sha256": "06106361fdc57dae0e9d51b837fac0c909b9da47311b021556f1cffc49c02243",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 1,
+            "return_type": "string",
+            "parameter_types": [
+              "u1[]"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000079",
+          "row_offset": 11462,
+          "parent_token": "0x0100003c",
+          "parent_name": "System.Linq.Enumerable",
+          "name": "Contains",
+          "signature": {
+            "raw_length": 13,
+            "raw_sha256": "12bdf70dea6ebefe36ceed53c78de75021af8a13a5187f5b8f65648158de0854",
+            "resolved_sha256": "1b11e5657290bb1ecbe2147c2b364ac1bf248a31692443a6cc75cda09555a104",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default generic",
+            "generic_parameter_count": 1,
+            "parameter_count": 2,
+            "return_type": "bool",
+            "parameter_types": [
+              "class:245<mvar:0>",
+              "mvar:0"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a00007a",
+          "row_offset": 11468,
+          "parent_token": "0x01000035",
+          "parent_name": "System.IO.FileStream",
+          "name": ".ctor",
+          "signature": {
+            "raw_length": 10,
+            "raw_sha256": "f3346e68b473adc03f8e66b655b325b0367c246dadc19666c39656c6e3da0a1a",
+            "resolved_sha256": "fa5bd5b684d82ab1cbfcf88b006e3bd5183d09be15a8f59e1a5e94177363cf8a",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 3,
+            "return_type": "void",
+            "parameter_types": [
+              "string",
+              "valuetype:445",
+              "valuetype:449"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a00007b",
+          "row_offset": 11474,
+          "parent_token": "0x01000036",
+          "parent_name": "System.IO.BinaryReader",
+          "name": ".ctor",
+          "signature": {
+            "raw_length": 6,
+            "raw_sha256": "c2641a52d5286fbb7a9697f9d6f831949f37835ff7f63979ff6e272454dbae7c",
+            "resolved_sha256": "c354538614b0b76a7dc3e91cf1d0fb6f789eb21d45a723c9e0bbd402a07bdca0",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 1,
+            "return_type": "void",
+            "parameter_types": [
+              "class:453"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a00007c",
+          "row_offset": 11480,
+          "parent_token": "0x01000055",
+          "parent_name": "System.String",
+          "name": "Empty",
+          "signature": {
+            "raw_length": 2,
+            "raw_sha256": "89c0c2d74467289c8bf954f4cde47f4f794bcf8e6ee65e19cd0b275e47aca3ec",
+            "resolved_sha256": "89c0c2d74467289c8bf954f4cde47f4f794bcf8e6ee65e19cd0b275e47aca3ec",
+            "kind": "field",
+            "parse_status": "decoded",
+            "calling_convention": "field",
+            "generic_parameter_count": null,
+            "parameter_count": null,
+            "return_type": null,
+            "parameter_types": [],
+            "field_type": "string",
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a00007d",
+          "row_offset": 11486,
+          "parent_token": "0x01000036",
+          "parent_name": "System.IO.BinaryReader",
+          "name": "ReadByte",
+          "signature": {
+            "raw_length": 3,
+            "raw_sha256": "d74b0f608c17d01a8b9e337f47e3f8d9540d6369ffe4a84b220a4a688034f5f2",
+            "resolved_sha256": "d74b0f608c17d01a8b9e337f47e3f8d9540d6369ffe4a84b220a4a688034f5f2",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 0,
+            "return_type": "u1",
+            "parameter_types": [],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a00007e",
+          "row_offset": 11492,
+          "parent_token": "0x0100006b",
+          "parent_name": "System.Byte",
+          "name": "ToString",
+          "signature": {
+            "raw_length": 3,
+            "raw_sha256": "df29f5ab2554df47369dafce3bc8630f16eabc3f72c21bbd24c5e73c286f650f",
+            "resolved_sha256": "df29f5ab2554df47369dafce3bc8630f16eabc3f72c21bbd24c5e73c286f650f",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 0,
+            "return_type": "string",
+            "parameter_types": [],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a00007f",
+          "row_offset": 11498,
+          "parent_token": "0x01000013",
+          "parent_name": "System.Enum",
+          "name": "Parse",
+          "signature": {
+            "raw_length": 7,
+            "raw_sha256": "cd30ba52438d4826e090342a975f75a03115ebbd71c03c087123d97f42ac7249",
+            "resolved_sha256": "6e2df6f47b44bcc15ddd1af3161c61ed2be319eb86aefe5293ef35e3b669661e",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default",
+            "generic_parameter_count": null,
+            "parameter_count": 2,
+            "return_type": "object",
+            "parameter_types": [
+              "class:161",
+              "string"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000080",
+          "row_offset": 11504,
+          "parent_token": "0x01000071",
+          "parent_name": "System.IO.Stream",
+          "name": "Close",
+          "signature": {
+            "raw_length": 3,
+            "raw_sha256": "0c9373898d2dd1c85902837a9e979cb88484e2548a008ad2b2176cc7119d09df",
+            "resolved_sha256": "0c9373898d2dd1c85902837a9e979cb88484e2548a008ad2b2176cc7119d09df",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 0,
+            "return_type": "void",
+            "parameter_types": [],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000081",
+          "row_offset": 11510,
+          "parent_token": "0x01000036",
+          "parent_name": "System.IO.BinaryReader",
+          "name": "Close",
+          "signature": {
+            "raw_length": 3,
+            "raw_sha256": "0c9373898d2dd1c85902837a9e979cb88484e2548a008ad2b2176cc7119d09df",
+            "resolved_sha256": "0c9373898d2dd1c85902837a9e979cb88484e2548a008ad2b2176cc7119d09df",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 0,
+            "return_type": "void",
+            "parameter_types": [],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000082",
+          "row_offset": 11516,
+          "parent_token": "0x01000055",
+          "parent_name": "System.String",
+          "name": "ToLower",
+          "signature": {
+            "raw_length": 3,
+            "raw_sha256": "df29f5ab2554df47369dafce3bc8630f16eabc3f72c21bbd24c5e73c286f650f",
+            "resolved_sha256": "df29f5ab2554df47369dafce3bc8630f16eabc3f72c21bbd24c5e73c286f650f",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 0,
+            "return_type": "string",
+            "parameter_types": [],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000083",
+          "row_offset": 11522,
+          "parent_token": "0x01000037",
+          "parent_name": "Microsoft.Win32.OpenFileDialog",
+          "name": ".ctor",
+          "signature": {
+            "raw_length": 3,
+            "raw_sha256": "0c9373898d2dd1c85902837a9e979cb88484e2548a008ad2b2176cc7119d09df",
+            "resolved_sha256": "0c9373898d2dd1c85902837a9e979cb88484e2548a008ad2b2176cc7119d09df",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 0,
+            "return_type": "void",
+            "parameter_types": [],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000084",
+          "row_offset": 11528,
+          "parent_token": "0x01000037",
+          "parent_name": "Microsoft.Win32.OpenFileDialog",
+          "name": "set_Multiselect",
+          "signature": {
+            "raw_length": 4,
+            "raw_sha256": "7366e2ddae008ee5e5ba63f1c2504e9a452ccd8cc0f40fdd3d8d03430bae9e33",
+            "resolved_sha256": "7366e2ddae008ee5e5ba63f1c2504e9a452ccd8cc0f40fdd3d8d03430bae9e33",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 1,
+            "return_type": "void",
+            "parameter_types": [
+              "bool"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000085",
+          "row_offset": 11534,
+          "parent_token": "0x01000072",
+          "parent_name": "Microsoft.Win32.FileDialog",
+          "name": "set_Title",
+          "signature": {
+            "raw_length": 4,
+            "raw_sha256": "c65dc7d303e94729245de0fa4db4b80ac687af6d0bb38c5c884bc9c11f01e005",
+            "resolved_sha256": "c65dc7d303e94729245de0fa4db4b80ac687af6d0bb38c5c884bc9c11f01e005",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 1,
+            "return_type": "void",
+            "parameter_types": [
+              "string"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000086",
+          "row_offset": 11540,
+          "parent_token": "0x01000072",
+          "parent_name": "Microsoft.Win32.FileDialog",
+          "name": "set_Filter",
+          "signature": {
+            "raw_length": 4,
+            "raw_sha256": "c65dc7d303e94729245de0fa4db4b80ac687af6d0bb38c5c884bc9c11f01e005",
+            "resolved_sha256": "c65dc7d303e94729245de0fa4db4b80ac687af6d0bb38c5c884bc9c11f01e005",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 1,
+            "return_type": "void",
+            "parameter_types": [
+              "string"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000087",
+          "row_offset": 11546,
+          "parent_token": "0x01000073",
+          "parent_name": "Microsoft.Win32.CommonDialog",
+          "name": "ShowDialog",
+          "signature": {
+            "raw_length": 8,
+            "raw_sha256": "b0b44829ddb7e92a41dd1a6f2f461cbf136ec37388ad2bc004f4ce027d137ff2",
+            "resolved_sha256": "82b46e3d1bc48809f7e4f8acd4a90946ca0df26240e5e98e46d84793ca8dd752",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 0,
+            "return_type": "valuetype:225<bool>",
+            "parameter_types": [],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000088",
+          "row_offset": 11552,
+          "parent_token": "0x1b000002",
+          "parent_name": "System.Nullable`1",
+          "name": "GetValueOrDefault",
+          "signature": {
+            "raw_length": 4,
+            "raw_sha256": "7f4eb5014e42b77f8925c61cbd4b06358fdb996690e6510e0287686700ab50f4",
+            "resolved_sha256": "7f4eb5014e42b77f8925c61cbd4b06358fdb996690e6510e0287686700ab50f4",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 0,
+            "return_type": "var:0",
+            "parameter_types": [],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000089",
+          "row_offset": 11558,
+          "parent_token": "0x1b000002",
+          "parent_name": "System.Nullable`1",
+          "name": "get_HasValue",
+          "signature": {
+            "raw_length": 3,
+            "raw_sha256": "59a9a8765c535212b9ad71c5c8e1e24ffadbd3331fd04b3bbe1b121ecf6004cc",
+            "resolved_sha256": "59a9a8765c535212b9ad71c5c8e1e24ffadbd3331fd04b3bbe1b121ecf6004cc",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 0,
+            "return_type": "bool",
+            "parameter_types": [],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a00008a",
+          "row_offset": 11564,
+          "parent_token": "0x01000072",
+          "parent_name": "Microsoft.Win32.FileDialog",
+          "name": "get_FileName",
+          "signature": {
+            "raw_length": 3,
+            "raw_sha256": "df29f5ab2554df47369dafce3bc8630f16eabc3f72c21bbd24c5e73c286f650f",
+            "resolved_sha256": "df29f5ab2554df47369dafce3bc8630f16eabc3f72c21bbd24c5e73c286f650f",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 0,
+            "return_type": "string",
+            "parameter_types": [],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a00008b",
+          "row_offset": 11570,
+          "parent_token": "0x01000039",
+          "parent_name": "System.IO.FileInfo",
+          "name": ".ctor",
+          "signature": {
+            "raw_length": 4,
+            "raw_sha256": "c65dc7d303e94729245de0fa4db4b80ac687af6d0bb38c5c884bc9c11f01e005",
+            "resolved_sha256": "c65dc7d303e94729245de0fa4db4b80ac687af6d0bb38c5c884bc9c11f01e005",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 1,
+            "return_type": "void",
+            "parameter_types": [
+              "string"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a00008c",
+          "row_offset": 11576,
+          "parent_token": "0x01000039",
+          "parent_name": "System.IO.FileInfo",
+          "name": "get_Length",
+          "signature": {
+            "raw_length": 3,
+            "raw_sha256": "478e6d37ac351c453a8f53223e1432619b3d2265fc053b59745b75f0bdfb4dc9",
+            "resolved_sha256": "478e6d37ac351c453a8f53223e1432619b3d2265fc053b59745b75f0bdfb4dc9",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 0,
+            "return_type": "i8",
+            "parameter_types": [],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a00008d",
+          "row_offset": 11582,
+          "parent_token": "0x0100002d",
+          "parent_name": "System.Windows.Media.Imaging.BitmapImage",
+          "name": ".ctor",
+          "signature": {
+            "raw_length": 3,
+            "raw_sha256": "0c9373898d2dd1c85902837a9e979cb88484e2548a008ad2b2176cc7119d09df",
+            "resolved_sha256": "0c9373898d2dd1c85902837a9e979cb88484e2548a008ad2b2176cc7119d09df",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 0,
+            "return_type": "void",
+            "parameter_types": [],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a00008e",
+          "row_offset": 11588,
+          "parent_token": "0x0100002d",
+          "parent_name": "System.Windows.Media.Imaging.BitmapImage",
+          "name": "BeginInit",
+          "signature": {
+            "raw_length": 3,
+            "raw_sha256": "0c9373898d2dd1c85902837a9e979cb88484e2548a008ad2b2176cc7119d09df",
+            "resolved_sha256": "0c9373898d2dd1c85902837a9e979cb88484e2548a008ad2b2176cc7119d09df",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 0,
+            "return_type": "void",
+            "parameter_types": [],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a00008f",
+          "row_offset": 11594,
+          "parent_token": "0x0100002d",
+          "parent_name": "System.Windows.Media.Imaging.BitmapImage",
+          "name": "set_CacheOption",
+          "signature": {
+            "raw_length": 6,
+            "raw_sha256": "c0b05ae51a3d08517725e596a28680b81298b2d2e9410dee8692a785b6611931",
+            "resolved_sha256": "a90eff88f511574ce2d28015564412f07f96572b7405d61a4bb9a0838f039f8f",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 1,
+            "return_type": "void",
+            "parameter_types": [
+              "valuetype:465"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000090",
+          "row_offset": 11600,
+          "parent_token": "0x01000024",
+          "parent_name": "System.Uri",
+          "name": ".ctor",
+          "signature": {
+            "raw_length": 4,
+            "raw_sha256": "c65dc7d303e94729245de0fa4db4b80ac687af6d0bb38c5c884bc9c11f01e005",
+            "resolved_sha256": "c65dc7d303e94729245de0fa4db4b80ac687af6d0bb38c5c884bc9c11f01e005",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 1,
+            "return_type": "void",
+            "parameter_types": [
+              "string"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000091",
+          "row_offset": 11606,
+          "parent_token": "0x0100002d",
+          "parent_name": "System.Windows.Media.Imaging.BitmapImage",
+          "name": "set_UriSource",
+          "signature": {
+            "raw_length": 6,
+            "raw_sha256": "e9218d2dc0708b0b01c07856c53f20372a4b07d88c9eca54bc13d49a350d8936",
+            "resolved_sha256": "77ef43e6777c9986a2b2036004cc32b921cb0070c3eb46ff05271a54dc5b2000",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 1,
+            "return_type": "void",
+            "parameter_types": [
+              "class:145"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000092",
+          "row_offset": 11612,
+          "parent_token": "0x0100002d",
+          "parent_name": "System.Windows.Media.Imaging.BitmapImage",
+          "name": "EndInit",
+          "signature": {
+            "raw_length": 3,
+            "raw_sha256": "0c9373898d2dd1c85902837a9e979cb88484e2548a008ad2b2176cc7119d09df",
+            "resolved_sha256": "0c9373898d2dd1c85902837a9e979cb88484e2548a008ad2b2176cc7119d09df",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 0,
+            "return_type": "void",
+            "parameter_types": [],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000093",
+          "row_offset": 11618,
+          "parent_token": "0x0100002d",
+          "parent_name": "System.Windows.Media.Imaging.BitmapImage",
+          "name": "Clone",
+          "signature": {
+            "raw_length": 5,
+            "raw_sha256": "977828c63c8ee13c42ea294b7bc84e4db654b36ef0614210f75aea8dd8950aa8",
+            "resolved_sha256": "3926d2362a747b0eff0f86b99d8ef967a03b456712b88b3e6370909783ab0e17",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 0,
+            "return_type": "class:181",
+            "parameter_types": [],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000094",
+          "row_offset": 11624,
+          "parent_token": "0x01000075",
+          "parent_name": "System.Windows.Freezable",
+          "name": "Freeze",
+          "signature": {
+            "raw_length": 3,
+            "raw_sha256": "0c9373898d2dd1c85902837a9e979cb88484e2548a008ad2b2176cc7119d09df",
+            "resolved_sha256": "0c9373898d2dd1c85902837a9e979cb88484e2548a008ad2b2176cc7119d09df",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 0,
+            "return_type": "void",
+            "parameter_types": [],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000095",
+          "row_offset": 11630,
+          "parent_token": "0x01000076",
+          "parent_name": "System.Convert",
+          "name": "ToString",
+          "signature": {
+            "raw_length": 5,
+            "raw_sha256": "fb703d4af36fe7839f2cce468e751935b72a98edfaecce3eec2fb30d805ca150",
+            "resolved_sha256": "fb703d4af36fe7839f2cce468e751935b72a98edfaecce3eec2fb30d805ca150",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default",
+            "generic_parameter_count": null,
+            "parameter_count": 2,
+            "return_type": "string",
+            "parameter_types": [
+              "i8",
+              "i4"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000096",
+          "row_offset": 11636,
+          "parent_token": "0x01000055",
+          "parent_name": "System.String",
+          "name": "get_Length",
+          "signature": {
+            "raw_length": 3,
+            "raw_sha256": "19e1bd1daf2ae492b895802f55c905ef2d25aea509c6010868e218adb408c010",
+            "resolved_sha256": "19e1bd1daf2ae492b895802f55c905ef2d25aea509c6010868e218adb408c010",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 0,
+            "return_type": "i4",
+            "parameter_types": [],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000097",
+          "row_offset": 11642,
+          "parent_token": "0x01000055",
+          "parent_name": "System.String",
+          "name": "Substring",
+          "signature": {
+            "raw_length": 5,
+            "raw_sha256": "e59d1dce0978165de9d8913b0ab50835d26ccb8fd394efda4a7ac4a277176dc0",
+            "resolved_sha256": "e59d1dce0978165de9d8913b0ab50835d26ccb8fd394efda4a7ac4a277176dc0",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 2,
+            "return_type": "string",
+            "parameter_types": [
+              "i4",
+              "i4"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        },
+        {
+          "token": "0x0a000098",
+          "row_offset": 11648,
+          "parent_token": "0x01000028",
+          "parent_name": "System.Type",
+          "name": "Equals",
+          "signature": {
+            "raw_length": 6,
+            "raw_sha256": "a692f2e1605b96c2ca6215eb957b5fa5f6942cbc9824ba1ca17fecf6f21498ad",
+            "resolved_sha256": "28252c059d84df50ee04cfffe785317485f00ef0658d97b293daede843a5393f",
+            "kind": "method",
+            "parse_status": "decoded",
+            "calling_convention": "default has-this",
+            "generic_parameter_count": null,
+            "parameter_count": 1,
+            "return_type": "bool",
+            "parameter_types": [
+              "class:161"
+            ],
+            "field_type": null,
+            "issue": null
+          }
+        }
+      ]
+    },
+    "parent_evidence_id": "ev_e2053eb3135c706b293eb734a414aff9008baabce1ad049bbe26a48633b2bc38",
+    "parent_operation": "inspect_managed_members",
+    "parent_digest": "e2053eb3135c706b293eb734a414aff9008baabce1ad049bbe26a48633b2bc38",
+    "view_digest": "81e6eb31e351cf763baa1ea2fa545002e910046cd5a1ca6fd411e9d58c4bdaaf",
+    "artifact": {
+      "path": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.210.10222\\Modules\\Setings\\yoga\\plugins\\LogoDiy.dll",
+      "sha256": "5f6efa18804da953408f98c6eda6058937a80537c17945e851434963eabc6e85"
+    },
+    "coverage": {
+      "status": "page",
+      "examined": 152,
+      "total": 152,
+      "next_offset": null,
+      "exhausted": true
+    },
+    "limitations": [
+      "CIL instruction anchors are decoded from file-backed method bodies only; no target assembly is loaded or executed.",
+      "Exported types are reported from ExportedType rows as declared; forwarded types are not resolved in their implementing assemblies.",
+      "Member signatures decode ECMA-335 primitive, class, valuetype, generic instantiation, generic variable, pointer, byref, single-dimension and general array, function pointer, custom modifier, and typed reference forms; class and valuetype operands keep their encoded TypeDefOrRefOrSpec values, and unsupported forms such as vararg sentinels retain raw signature hashes.",
+      "Metadata tokens are build-local coordinates and are only meaningful with the reported artifact SHA-256 and MVID.",
+      "User strings are the #US literals loaded by ldstr in the inspected method bodies, with their own coverage; instruction anchors and normalized CIL digests keep their build-local tokens."
+    ],
+    "unknowns": [
+      "Collection counts and pages cover producer-returned rows; member completeness remains the original coverage, not an absence claim about unreturned rows.",
+      "Metadata tokens are build-local coordinates bound to the recorded artifact SHA-256 and module MVID; this view does not load or execute the assembly."
+    ],
+    "signature_resolution": "type-names-v1",
+    "nesting_read": true,
+    "identity_scope": {
+      "token_identity": "build-local",
+      "requires_artifact_sha256": "5f6efa18804da953408f98c6eda6058937a80537c17945e851434963eabc6e85",
+      "requires_mvid": "1bd9e573-3291-43f2-85c7-bb672a811be6"
+    },
+    "selection": null,
+    "source_metadata_status": "complete",
+    "source_coverage": {
+      "state": "complete",
+      "issues": []
+    }
+  },
+  "confidence": "derived",
+  "authority": "shipped-artifact",
+  "environment": null,
+  "limitations": [
+    "CIL instruction anchors are decoded from file-backed method bodies only; no target assembly is loaded or executed.",
+    "Exported types are reported from ExportedType rows as declared; forwarded types are not resolved in their implementing assemblies.",
+    "Member signatures decode ECMA-335 primitive, class, valuetype, generic instantiation, generic variable, pointer, byref, single-dimension and general array, function pointer, custom modifier, and typed reference forms; class and valuetype operands keep their encoded TypeDefOrRefOrSpec values, and unsupported forms such as vararg sentinels retain raw signature hashes.",
+    "Metadata tokens are build-local coordinates and are only meaningful with the reported artifact SHA-256 and MVID.",
+    "User strings are the #US literals loaded by ldstr in the inspected method bodies, with their own coverage; instruction anchors and normalized CIL digests keep their build-local tokens."
+  ],
+  "relationship_coverage": null,
+  "locations": [
+    {
+      "kind": "artifact-path",
+      "path": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.210.10222\\Modules\\Setings\\yoga\\plugins\\LogoDiy.dll"
+    }
+  ],
+  "evidence_links": [
+    "ev_e2053eb3135c706b293eb734a414aff9008baabce1ad049bbe26a48633b2bc38"
+  ]
+}

@@ -1,0 +1,1704 @@
+
+RANGE 0x10001f30 0x10002030
+0x10001f30 mov dword ptr [esi], 0x100246a0 
+0x10001f36 mov dword ptr [esi + 0xc], 0x10024668 
+0x10001f3d mov dword ptr [esi + 0x10], 0xffffffff 
+0x10001f44 mov eax, dword ptr [esi] 
+0x10001f46 mov edi, 1 
+0x10001f4b mov byte ptr [ebp - 5], 0xff 
+0x10001f4f mov dword ptr [ebp - 0xc], 0 
+0x10001f56 push ebx 
+0x10001f57 mov eax, dword ptr [eax + 4] 
+0x10001f5a mov dword ptr [esi + eax], 0x1002469c 
+0x10001f61 mov eax, dword ptr [esi] 
+0x10001f63 mov ebx, dword ptr [eax + 4] 
+0x10001f66 mov eax, dword ptr [ebx + esi + 4] 
+0x10001f6a cmp eax, -1 
+0x10001f6d jne 0x10001f90 
+0x10001f6f push 0 
+0x10001f71 push 0x80 
+0x10001f76 push 3 
+0x10001f78 push 0 
+0x10001f7a push 3 
+0x10001f7c push 0xc0000000 
+0x10001f81 push 0x1002466c \\.\EnergyDrv
+0x10001f86 call dword ptr [0x100240d4] api-ms-win-core-file-l1-1-0.dll!CreateFileW
+0x10001f8c mov dword ptr [ebx + esi + 4], eax 
+0x10001f90 pop ebx 
+0x10001f91 cmp eax, -1 
+0x10001f94 je 0x10001fc8 
+0x10001f96 push 0 
+0x10001f98 lea ecx, [ebp - 0x10] 
+0x10001f9b push ecx 
+0x10001f9c push 4 
+0x10001f9e lea ecx, [ebp - 0xc] 
+0x10001fa1 push ecx 
+0x10001fa2 push 1 
+0x10001fa4 lea ecx, [ebp - 5] 
+0x10001fa7 push ecx 
+0x10001fa8 push 0x831020f8 
+0x10001fad push eax 
+0x10001fae call dword ptr [0x10024124] api-ms-win-core-io-l1-1-0.dll!DeviceIoControl
+0x10001fb4 cmp eax, 1 
+0x10001fb7 jne 0x10001fc8 
+0x10001fb9 test dword ptr [ebp - 0xc], 0x4000 
+0x10001fc0 mov eax, 2 
+0x10001fc5 cmovne edi, eax 
+0x10001fc8 mov ecx, dword ptr [ebp - 4] 
+0x10001fcb mov eax, esi 
+0x10001fcd mov dword ptr [esi + 8], edi 
+0x10001fd0 xor ecx, ebp 
+0x10001fd2 pop edi 
+0x10001fd3 pop esi 
+0x10001fd4 call 0x1000d7d1 
+0x10001fd9 mov esp, ebp 
+0x10001fdb pop ebp 
+0x10001fdc ret 4 
+0x10001fdf int3  
+0x10001fe0 push ebp 
+0x10001fe1 mov ebp, esp 
+0x10001fe3 push esi 
+0x10001fe4 mov esi, ecx 
+0x10001fe6 xorps xmm0, xmm0 
+0x10001fe9 lea eax, [esi + 4] 
+0x10001fec push eax 
+0x10001fed mov dword ptr [esi], 0x10024318 
+0x10001ff3 movq qword ptr [eax], xmm0 
+0x10001ff7 mov eax, dword ptr [ebp + 8] 
+0x10001ffa add eax, 4 
+0x10001ffd push eax 
+0x10001ffe call 0x1000e7d2 
+0x10002003 add esp, 8 
+0x10002006 mov dword ptr [esi], 0x10024338 
+0x1000200c mov eax, esi 
+0x1000200e pop esi 
+0x1000200f pop ebp 
+0x10002010 ret 4 
+0x10002013 int3  
+0x10002014 int3  
+0x10002015 int3  
+0x10002016 int3  
+0x10002017 int3  
+0x10002018 int3  
+0x10002019 int3  
+0x1000201a int3  
+0x1000201b int3  
+0x1000201c int3  
+0x1000201d int3  
+0x1000201e int3  
+0x1000201f int3  
+0x10002020 push ebp 
+0x10002021 mov ebp, esp 
+0x10002023 push esi 
+0x10002024 mov esi, ecx 
+0x10002026 xorps xmm0, xmm0 
+0x10002029 lea eax, [esi + 4] 
+0x1000202c push eax 
+
+RANGE 0x10002bb0 0x10002c90
+0x10002bb0 adc byte ptr [ebp + 0x57e80c4d], cl 
+0x10002bb6 cmp al, byte ptr [eax] 
+0x10002bb8 add byte ptr [ebx - 0x3c7403b3], cl 
+0x10002bbe pop esi 
+0x10002bbf xor ecx, ebp 
+0x10002bc1 pop ebx 
+0x10002bc2 call 0x1000d7d1 
+0x10002bc7 mov esp, ebp 
+0x10002bc9 pop ebp 
+0x10002bca ret  
+0x10002bcb int3  
+0x10002bcc int3  
+0x10002bcd int3  
+0x10002bce int3  
+0x10002bcf int3  
+0x10002bd0 push ebp 
+0x10002bd1 mov ebp, esp 
+0x10002bd3 sub esp, 8 
+0x10002bd6 mov eax, dword ptr [0x10031080] 
+0x10002bdb xor eax, ebp 
+0x10002bdd mov dword ptr [ebp - 4], eax 
+0x10002be0 push ebx 
+0x10002be1 mov ebx, dword ptr [ebp + 0x14] 
+0x10002be4 push esi 
+0x10002be5 mov esi, ecx 
+0x10002be7 push edi 
+0x10002be8 mov edi, dword ptr [ebp + 0xc] 
+0x10002beb mov eax, dword ptr [esi + 4] 
+0x10002bee cmp eax, -1 
+0x10002bf1 jne 0x10002c18 
+0x10002bf3 push 0 
+0x10002bf5 push 0x80 
+0x10002bfa push 3 
+0x10002bfc push 0 
+0x10002bfe push 3 
+0x10002c00 push 0xc0000000 
+0x10002c05 push 0x1002466c \\.\EnergyDrv
+0x10002c0a call dword ptr [0x100240d4] api-ms-win-core-file-l1-1-0.dll!CreateFileW
+0x10002c10 mov dword ptr [esi + 4], eax 
+0x10002c13 cmp eax, -1 
+0x10002c16 je 0x10002c43 
+0x10002c18 push 0 
+0x10002c1a lea ecx, [ebp - 8] 
+0x10002c1d push ecx 
+0x10002c1e push dword ptr [ebp + 0x18] 
+0x10002c21 push ebx 
+0x10002c22 push dword ptr [ebp + 0x10] 
+0x10002c25 push edi 
+0x10002c26 push dword ptr [ebp + 8] 
+0x10002c29 push eax 
+0x10002c2a call dword ptr [0x10024124] api-ms-win-core-io-l1-1-0.dll!DeviceIoControl
+0x10002c30 pop edi 
+0x10002c31 pop esi 
+0x10002c32 pop ebx 
+0x10002c33 mov ecx, dword ptr [ebp - 4] 
+0x10002c36 xor ecx, ebp 
+0x10002c38 call 0x1000d7d1 
+0x10002c3d mov esp, ebp 
+0x10002c3f pop ebp 
+0x10002c40 ret 0x14 
+0x10002c43 mov ecx, dword ptr [ebp - 4] 
+0x10002c46 xor eax, eax 
+0x10002c48 pop edi 
+0x10002c49 pop esi 
+0x10002c4a xor ecx, ebp 
+0x10002c4c pop ebx 
+0x10002c4d call 0x1000d7d1 
+0x10002c52 mov esp, ebp 
+0x10002c54 pop ebp 
+0x10002c55 ret 0x14 
+0x10002c58 int3  
+0x10002c59 int3  
+0x10002c5a int3  
+0x10002c5b int3  
+0x10002c5c int3  
+0x10002c5d int3  
+0x10002c5e int3  
+0x10002c5f int3  
+0x10002c60 push ebp 
+0x10002c61 mov ebp, esp 
+0x10002c63 push -1 
+0x10002c65 push 0x100222c0 
+0x10002c6a mov eax, dword ptr fs:[0] 
+0x10002c70 push eax 
+0x10002c71 push esi 
+0x10002c72 push edi 
+0x10002c73 mov eax, dword ptr [0x10031080] 
+0x10002c78 xor eax, ebp 
+0x10002c7a push eax 
+0x10002c7b lea eax, [ebp - 0xc] 
+0x10002c7e mov dword ptr fs:[0], eax 
+0x10002c84 mov esi, ecx 
+0x10002c86 mov eax, dword ptr [esi] 
+0x10002c88 cmp dword ptr [eax - 0xc], 0 
+0x10002c8c lea edx, [eax - 0x10] 
+
+RANGE 0x100036b0 0x10003790
+0x100036b0 lock inc dword ptr [ecx + 0x14] 
+0x100036b4 lea eax, [ecx + 8] 
+0x100036b7 ret  
+0x100036b8 int3  
+0x100036b9 int3  
+0x100036ba int3  
+0x100036bb int3  
+0x100036bc int3  
+0x100036bd int3  
+0x100036be int3  
+0x100036bf int3  
+0x100036c0 push ebp 
+0x100036c1 mov ebp, esp 
+0x100036c3 sub esp, 0x10 
+0x100036c6 mov eax, dword ptr [0x10031080] 
+0x100036cb xor eax, ebp 
+0x100036cd mov dword ptr [ebp - 4], eax 
+0x100036d0 mov eax, dword ptr [ecx] 
+0x100036d2 push esi 
+0x100036d3 mov byte ptr [ebp - 5], 0xff 
+0x100036d7 mov dword ptr [ebp - 0xc], 0 
+0x100036de mov esi, dword ptr [eax + 4] 
+0x100036e1 mov eax, dword ptr [esi + ecx + 4] 
+0x100036e5 add esi, ecx 
+0x100036e7 cmp eax, -1 
+0x100036ea jne 0x1000370c 
+0x100036ec push 0 
+0x100036ee push 0x80 
+0x100036f3 push 3 
+0x100036f5 push 0 
+0x100036f7 push 3 
+0x100036f9 push 0xc0000000 
+0x100036fe push 0x1002466c \\.\EnergyDrv
+0x10003703 call dword ptr [0x100240d4] api-ms-win-core-file-l1-1-0.dll!CreateFileW
+0x10003709 mov dword ptr [esi + 4], eax 
+0x1000370c pop esi 
+0x1000370d cmp eax, -1 
+0x10003710 je 0x10003752 
+0x10003712 push 0 
+0x10003714 lea ecx, [ebp - 0x10] 
+0x10003717 push ecx 
+0x10003718 push 4 
+0x1000371a lea ecx, [ebp - 0xc] 
+0x1000371d push ecx 
+0x1000371e push 1 
+0x10003720 lea ecx, [ebp - 5] 
+0x10003723 push ecx 
+0x10003724 push 0x831020f8 
+0x10003729 push eax 
+0x1000372a call dword ptr [0x10024124] api-ms-win-core-io-l1-1-0.dll!DeviceIoControl
+0x10003730 cmp eax, 1 
+0x10003733 jne 0x10003752 
+0x10003735 mov al, byte ptr [ebp - 0xc] 
+0x10003738 and al, 4 
+0x1000373a movzx eax, al 
+0x1000373d neg eax 
+0x1000373f sbb eax, eax 
+0x10003741 add eax, 2 
+0x10003744 mov ecx, dword ptr [ebp - 4] 
+0x10003747 xor ecx, ebp 
+0x10003749 call 0x1000d7d1 
+0x1000374e mov esp, ebp 
+0x10003750 pop ebp 
+0x10003751 ret  
+0x10003752 mov ecx, dword ptr [ebp - 4] 
+0x10003755 xor eax, eax 
+0x10003757 xor ecx, ebp 
+0x10003759 call 0x1000d7d1 
+0x1000375e mov esp, ebp 
+0x10003760 pop ebp 
+0x10003761 ret  
+0x10003762 int3  
+0x10003763 int3  
+0x10003764 int3  
+0x10003765 int3  
+0x10003766 int3  
+0x10003767 int3  
+0x10003768 int3  
+0x10003769 int3  
+0x1000376a int3  
+0x1000376b int3  
+0x1000376c int3  
+0x1000376d int3  
+0x1000376e int3  
+0x1000376f int3  
+0x10003770 push ebp 
+0x10003771 mov ebp, esp 
+0x10003773 push -1 
+0x10003775 push 0x1002240d 
+0x1000377a mov eax, dword ptr fs:[0] 
+0x10003780 push eax 
+0x10003781 sub esp, 0x10 
+0x10003784 mov eax, dword ptr [0x10031080] 
+0x10003789 xor eax, ebp 
+0x1000378b mov dword ptr [ebp - 0x10], eax 
+0x1000378e push esi 
+0x1000378f push edi 
+
+RANGE 0x100038c0 0x100039a0
+0x100038c0 adc byte ptr [ebp - 0x3e], bl 
+0x100038c3 add al, 0 
+0x100038c5 int3  
+0x100038c6 int3  
+0x100038c7 int3  
+0x100038c8 int3  
+0x100038c9 int3  
+0x100038ca int3  
+0x100038cb int3  
+0x100038cc int3  
+0x100038cd int3  
+0x100038ce int3  
+0x100038cf int3  
+0x100038d0 push ebp 
+0x100038d1 mov ebp, esp 
+0x100038d3 sub esp, 0x10 
+0x100038d6 mov eax, dword ptr [0x10031080] 
+0x100038db xor eax, ebp 
+0x100038dd mov dword ptr [ebp - 4], eax 
+0x100038e0 mov eax, dword ptr [ecx] 
+0x100038e2 push esi 
+0x100038e3 mov byte ptr [ebp - 5], 0xff 
+0x100038e7 mov dword ptr [ebp - 0xc], 0 
+0x100038ee mov esi, dword ptr [eax + 4] 
+0x100038f1 mov eax, dword ptr [esi + ecx + 4] 
+0x100038f5 add esi, ecx 
+0x100038f7 cmp eax, -1 
+0x100038fa jne 0x1000391c 
+0x100038fc push 0 
+0x100038fe push 0x80 
+0x10003903 push 3 
+0x10003905 push 0 
+0x10003907 push 3 
+0x10003909 push 0xc0000000 
+0x1000390e push 0x1002466c \\.\EnergyDrv
+0x10003913 call dword ptr [0x100240d4] api-ms-win-core-file-l1-1-0.dll!CreateFileW
+0x10003919 mov dword ptr [esi + 4], eax 
+0x1000391c pop esi 
+0x1000391d cmp eax, -1 
+0x10003920 je 0x10003962 
+0x10003922 push 0 
+0x10003924 lea ecx, [ebp - 0x10] 
+0x10003927 push ecx 
+0x10003928 push 4 
+0x1000392a lea ecx, [ebp - 0xc] 
+0x1000392d push ecx 
+0x1000392e push 1 
+0x10003930 lea ecx, [ebp - 5] 
+0x10003933 push ecx 
+0x10003934 push 0x831020f8 
+0x10003939 push eax 
+0x1000393a call dword ptr [0x10024124] api-ms-win-core-io-l1-1-0.dll!DeviceIoControl
+0x10003940 cmp eax, 1 
+0x10003943 jne 0x10003962 
+0x10003945 mov al, byte ptr [ebp - 0xc] 
+0x10003948 and al, 0x20 
+0x1000394a movzx eax, al 
+0x1000394d neg eax 
+0x1000394f sbb eax, eax 
+0x10003951 add eax, 2 
+0x10003954 mov ecx, dword ptr [ebp - 4] 
+0x10003957 xor ecx, ebp 
+0x10003959 call 0x1000d7d1 
+0x1000395e mov esp, ebp 
+0x10003960 pop ebp 
+0x10003961 ret  
+0x10003962 mov ecx, dword ptr [ebp - 4] 
+0x10003965 xor eax, eax 
+0x10003967 xor ecx, ebp 
+0x10003969 call 0x1000d7d1 
+0x1000396e mov esp, ebp 
+0x10003970 pop ebp 
+0x10003971 ret  
+0x10003972 int3  
+0x10003973 int3  
+0x10003974 int3  
+0x10003975 int3  
+0x10003976 int3  
+0x10003977 int3  
+0x10003978 int3  
+0x10003979 int3  
+0x1000397a int3  
+0x1000397b int3  
+0x1000397c int3  
+0x1000397d int3  
+0x1000397e int3  
+0x1000397f int3  
+0x10003980 push ebp 
+0x10003981 mov ebp, esp 
+0x10003983 push ecx 
+0x10003984 mov eax, dword ptr [ebp + 8] 
+0x10003987 push ebx 
+0x10003988 push edi 
+0x10003989 mov edi, ecx 
+0x1000398b test eax, eax 
+0x1000398d jne 0x10003999 
+0x1000398f mov dword ptr [edi], eax 
+0x10003991 pop edi 
+0x10003992 pop ebx 
+0x10003993 mov esp, ebp 
+0x10003995 pop ebp 
+0x10003996 ret 8 
+0x10003999 mov ecx, eax 
+0x1000399b lea edx, [ecx + 2] 
+0x1000399e nop  
+
+RANGE 0x10003b00 0x10003e10
+0x10003b00 push eax 
+0x10003b01 sub esp, 0x24 
+0x10003b04 mov eax, dword ptr [0x10031080] 
+0x10003b09 xor eax, ebp 
+0x10003b0b mov dword ptr [ebp - 0x10], eax 
+0x10003b0e push esi 
+0x10003b0f push edi 
+0x10003b10 push eax 
+0x10003b11 lea eax, [ebp - 0xc] 
+0x10003b14 mov dword ptr fs:[0], eax 
+0x10003b1a mov esi, ecx 
+0x10003b1c push 0xf003f 
+0x10003b21 sub esp, 0x18 
+0x10003b24 xorps xmm0, xmm0 
+0x10003b27 mov ecx, esp 
+0x10003b29 push 0x43 
+0x10003b2b movups xmmword ptr [ecx], xmm0 
+0x10003b2e push 0x10024780 SOFTWARE\Lenovo\iMController\Contracts\SystemManagement.BatteryMgmt
+0x10003b33 mov dword ptr [ecx + 0x10], 0 
+0x10003b3a mov dword ptr [ecx + 0x14], 0 
+0x10003b41 call 0x10001be0 
+0x10003b46 push 0x80000001 
+0x10003b4b call 0x10004600 
+0x10003b50 add esp, 0x20 
+0x10003b53 test eax, eax 
+0x10003b55 jne 0x10003b86 
+0x10003b57 push 0xf003f 
+0x10003b5c sub esp, 0x18 
+0x10003b5f xorps xmm0, xmm0 
+0x10003b62 mov ecx, esp 
+0x10003b64 push 0x43 
+0x10003b66 movups xmmword ptr [ecx], xmm0 
+0x10003b69 push 0x10024780 SOFTWARE\Lenovo\iMController\Contracts\SystemManagement.BatteryMgmt
+0x10003b6e mov dword ptr [ecx + 0x10], eax 
+0x10003b71 mov dword ptr [ecx + 0x14], eax 
+0x10003b74 call 0x10001be0 
+0x10003b79 push 0x80000001 
+0x10003b7e call 0x10002ae0 
+0x10003b83 add esp, 0x20 
+0x10003b86 push 0xf003f 
+0x10003b8b sub esp, 0x18 
+0x10003b8e xorps xmm0, xmm0 
+0x10003b91 mov ecx, esp 
+0x10003b93 push 0x3a 
+0x10003b95 movups xmmword ptr [ecx], xmm0 
+0x10003b98 push 0x10024808 
+0x10003b9d mov dword ptr [ecx + 0x10], 0 
+0x10003ba4 mov dword ptr [ecx + 0x14], 0 
+0x10003bab call 0x10001be0 
+0x10003bb0 push 0x80000001 
+0x10003bb5 call 0x10004600 
+0x10003bba add esp, 0x20 
+0x10003bbd test eax, eax 
+0x10003bbf jne 0x10003bf0 
+0x10003bc1 push 0xf003f 
+0x10003bc6 sub esp, 0x18 
+0x10003bc9 xorps xmm0, xmm0 
+0x10003bcc mov ecx, esp 
+0x10003bce push 0x3a 
+0x10003bd0 movups xmmword ptr [ecx], xmm0 
+0x10003bd3 push 0x10024808 
+0x10003bd8 mov dword ptr [ecx + 0x10], eax 
+0x10003bdb mov dword ptr [ecx + 0x14], eax 
+0x10003bde call 0x10001be0 
+0x10003be3 push 0x80000001 
+0x10003be8 call 0x10002ae0 
+0x10003bed add esp, 0x20 
+0x10003bf0 xorps xmm0, xmm0 
+0x10003bf3 mov dword ptr [ebp - 0x18], 0 
+0x10003bfa xor eax, eax 
+0x10003bfc mov dword ptr [ebp - 0x14], 7 
+0x10003c03 movups xmmword ptr [ebp - 0x28], xmm0 
+0x10003c07 mov word ptr [ebp - 0x28], ax 
+0x10003c0b lea ecx, [esi + 8] 
+0x10003c0e mov dword ptr [ebp - 4], eax 
+0x10003c11 call 0x100038d0 
+0x10003c16 cmp eax, 1 
+0x10003c19 jne 0x10003caf 
+0x10003c1f push 7 
+0x10003c21 push 0x10024880 
+0x10003c26 lea ecx, [ebp - 0x28] 
+0x10003c29 call 0x10006a40 
+0x10003c2e push 0xf003f 
+0x10003c33 lea eax, [ebp - 0x28] 
+0x10003c36 xorps xmm0, xmm0 
+0x10003c39 push eax 
+0x10003c3a sub esp, 0x18 
+0x10003c3d mov ecx, esp 
+0x10003c3f mov dword ptr [ebp - 0x2c], esp 
+0x10003c42 push 0x11 
+0x10003c44 movups xmmword ptr [ecx], xmm0 
+0x10003c47 push 0x10024890 BatteryChargeMode
+0x10003c4c mov dword ptr [ecx + 0x10], 0 
+0x10003c53 mov dword ptr [ecx + 0x14], 0 
+0x10003c5a call 0x10001be0 
+0x10003c5f sub esp, 0x18 
+0x10003c62 mov byte ptr [ebp - 4], 1 
+0x10003c66 mov ecx, esp 
+0x10003c68 xorps xmm0, xmm0 
+0x10003c6b push 0x43 
+0x10003c6d movups xmmword ptr [ecx], xmm0 
+0x10003c70 push 0x10024780 SOFTWARE\Lenovo\iMController\Contracts\SystemManagement.BatteryMgmt
+0x10003c75 mov dword ptr [ecx + 0x10], 0 
+0x10003c7c mov dword ptr [ecx + 0x14], 0 
+0x10003c83 call 0x10001be0 
+0x10003c88 push 0x80000001 
+0x10003c8d mov byte ptr [ebp - 4], 0 
+0x10003c91 call 0x10005510 
+0x10003c96 mov dword ptr [esi + 4], 1 
+0x10003c9d add esp, 0x3c 
+0x10003ca0 mov esi, 0x100248b4 
+0x10003ca5 mov edi, 0x1e0 
+0x10003caa jmp 0x10003d6a 
+0x10003caf lea ecx, [esi + 0x1c] 
+0x10003cb2 call 0x100036c0 
+0x10003cb7 lea ecx, [ebp - 0x28] 
+0x10003cba cmp eax, 1 
+0x10003cbd jne 0x10003d4d 
+0x10003cc3 push 5 
+0x10003cc5 push 0x100248d8 
+0x10003cca call 0x10006a40 
+0x10003ccf push 0xf003f 
+0x10003cd4 lea eax, [ebp - 0x28] 
+0x10003cd7 xorps xmm0, xmm0 
+0x10003cda push eax 
+0x10003cdb sub esp, 0x18 
+0x10003cde mov ecx, esp 
+0x10003ce0 mov dword ptr [ebp - 0x30], esp 
+0x10003ce3 push 0x11 
+0x10003ce5 movups xmmword ptr [ecx], xmm0 
+0x10003ce8 push 0x10024890 BatteryChargeMode
+0x10003ced mov dword ptr [ecx + 0x10], 0 
+0x10003cf4 mov dword ptr [ecx + 0x14], 0 
+0x10003cfb call 0x10001be0 
+0x10003d00 sub esp, 0x18 
+0x10003d03 mov byte ptr [ebp - 4], 2 
+0x10003d07 mov ecx, esp 
+0x10003d09 xorps xmm0, xmm0 
+0x10003d0c push 0x43 
+0x10003d0e movups xmmword ptr [ecx], xmm0 
+0x10003d11 push 0x10024780 SOFTWARE\Lenovo\iMController\Contracts\SystemManagement.BatteryMgmt
+0x10003d16 mov dword ptr [ecx + 0x10], 0 
+0x10003d1d mov dword ptr [ecx + 0x14], 0 
+0x10003d24 call 0x10001be0 
+0x10003d29 push 0x80000001 
+0x10003d2e mov byte ptr [ebp - 4], 0 
+0x10003d32 call 0x10005510 
+0x10003d37 mov dword ptr [esi + 4], 2 
+0x10003d3e add esp, 0x3c 
+0x10003d41 mov esi, 0x100248e4 
+0x10003d46 mov edi, 0x1e7 
+0x10003d4b jmp 0x10003d6a 
+0x10003d4d push 6 
+0x10003d4f push 0x10024904 
+0x10003d54 call 0x10006a40 
+0x10003d59 mov dword ptr [esi + 4], 0 
+0x10003d60 mov edi, 0x1f2 
+0x10003d65 mov esi, 0x10024914 
+0x10003d6a call 0x100034c0 
+0x10003d6f push edi 
+0x10003d70 push 0x100246a8 E:\Jenkins\jobs\pcmanager_build_OTA\workspace\libsrc\Commonnew\hardware\BatteryChargingModeHelper.hpp
+0x10003d75 push esi 
+0x10003d76 push 4 
+0x10003d78 push eax 
+0x10003d79 call 0x10005dd0 
+0x10003d7e add esp, 0x14 
+0x10003d81 lea ecx, [ebp - 0x28] 
+0x10003d84 call 0x10006610 
+0x10003d89 mov ecx, dword ptr [ebp - 0xc] 
+0x10003d8c mov dword ptr fs:[0], ecx 
+0x10003d93 pop ecx 
+0x10003d94 pop edi 
+0x10003d95 pop esi 
+0x10003d96 mov ecx, dword ptr [ebp - 0x10] 
+0x10003d99 xor ecx, ebp 
+0x10003d9b call 0x1000d7d1 
+0x10003da0 mov esp, ebp 
+0x10003da2 pop ebp 
+0x10003da3 ret  
+0x10003da4 int3  
+0x10003da5 int3  
+0x10003da6 int3  
+0x10003da7 int3  
+0x10003da8 int3  
+0x10003da9 int3  
+0x10003daa int3  
+0x10003dab int3  
+0x10003dac int3  
+0x10003dad int3  
+0x10003dae int3  
+0x10003daf int3  
+0x10003db0 int3  
+0x10003db1 int3  
+0x10003db2 int3  
+0x10003db3 int3  
+0x10003db4 int3  
+0x10003db5 int3  
+0x10003db6 int3  
+0x10003db7 int3  
+0x10003db8 int3  
+0x10003db9 int3  
+0x10003dba int3  
+0x10003dbb int3  
+0x10003dbc int3  
+0x10003dbd int3  
+0x10003dbe int3  
+0x10003dbf int3  
+0x10003dc0 push ebp 
+0x10003dc1 mov ebp, esp 
+0x10003dc3 push -1 
+0x10003dc5 push 0x100224f1 
+0x10003dca mov eax, dword ptr fs:[0] 
+0x10003dd0 push eax 
+0x10003dd1 sub esp, 0x90 
+0x10003dd7 push ebx 
+0x10003dd8 push esi 
+0x10003dd9 push edi 
+0x10003dda mov eax, dword ptr [0x10031080] 
+0x10003ddf xor eax, ebp 
+0x10003de1 push eax 
+0x10003de2 lea eax, [ebp - 0xc] 
+0x10003de5 mov dword ptr fs:[0], eax 
+0x10003deb mov dword ptr [ebp - 0x10], ecx 
+0x10003dee mov dword ptr [ebp - 0x18], 0 
+0x10003df5 or edi, 0xffffffff 
+0x10003df8 mov esi, dword ptr [ebp + 0xc] 
+0x10003dfb test esi, esi 
+0x10003dfd je 0x10003e36 
+0x10003dff push 0x104 
+0x10003e04 push esi 
+0x10003e05 call 0x10011080 
+0x10003e0a add esp, 8 
+0x10003e0d test eax, eax 
+
+RANGE 0x100046d0 0x100047b0
+0x100046d0 call 0x10006610 
+0x100046d5 mov ecx, dword ptr [ebp - 4] 
+0x100046d8 mov eax, ebx 
+0x100046da pop esi 
+0x100046db xor ecx, ebp 
+0x100046dd pop ebx 
+0x100046de call 0x1000d7d1 
+0x100046e3 mov esp, ebp 
+0x100046e5 pop ebp 
+0x100046e6 ret  
+0x100046e7 int3  
+0x100046e8 int3  
+0x100046e9 int3  
+0x100046ea int3  
+0x100046eb int3  
+0x100046ec int3  
+0x100046ed int3  
+0x100046ee int3  
+0x100046ef int3  
+0x100046f0 push ebp 
+0x100046f1 mov ebp, esp 
+0x100046f3 sub esp, 0x10 
+0x100046f6 mov eax, dword ptr [0x10031080] 
+0x100046fb xor eax, ebp 
+0x100046fd mov dword ptr [ebp - 4], eax 
+0x10004700 mov eax, dword ptr [ecx] 
+0x10004702 push esi 
+0x10004703 mov byte ptr [ebp - 5], 0xff 
+0x10004707 mov dword ptr [ebp - 0xc], 0 
+0x1000470e mov esi, dword ptr [eax + 4] 
+0x10004711 mov eax, dword ptr [esi + ecx + 4] 
+0x10004715 add esi, ecx 
+0x10004717 cmp eax, -1 
+0x1000471a jne 0x1000473c 
+0x1000471c push 0 
+0x1000471e push 0x80 
+0x10004723 push 3 
+0x10004725 push 0 
+0x10004727 push 3 
+0x10004729 push 0xc0000000 
+0x1000472e push 0x1002466c \\.\EnergyDrv
+0x10004733 call dword ptr [0x100240d4] api-ms-win-core-file-l1-1-0.dll!CreateFileW
+0x10004739 mov dword ptr [esi + 4], eax 
+0x1000473c pop esi 
+0x1000473d cmp eax, -1 
+0x10004740 je 0x1000477c 
+0x10004742 push 0 
+0x10004744 lea ecx, [ebp - 0x10] 
+0x10004747 push ecx 
+0x10004748 push 4 
+0x1000474a lea ecx, [ebp - 0xc] 
+0x1000474d push ecx 
+0x1000474e push 1 
+0x10004750 lea ecx, [ebp - 5] 
+0x10004753 push ecx 
+0x10004754 push 0x831020f8 
+0x10004759 push eax 
+0x1000475a call dword ptr [0x10024124] api-ms-win-core-io-l1-1-0.dll!DeviceIoControl
+0x10004760 cmp eax, 1 
+0x10004763 jne 0x1000477e 
+0x10004765 mov eax, dword ptr [ebp - 0xc] 
+0x10004768 shr eax, 0x11 
+0x1000476b and eax, 1 
+0x1000476e mov ecx, dword ptr [ebp - 4] 
+0x10004771 xor ecx, ebp 
+0x10004773 call 0x1000d7d1 
+0x10004778 mov esp, ebp 
+0x1000477a pop ebp 
+0x1000477b ret  
+0x1000477c xor eax, eax 
+0x1000477e mov ecx, dword ptr [ebp - 4] 
+0x10004781 xor ecx, ebp 
+0x10004783 call 0x1000d7d1 
+0x10004788 mov esp, ebp 
+0x1000478a pop ebp 
+0x1000478b ret  
+0x1000478c int3  
+0x1000478d int3  
+0x1000478e int3  
+0x1000478f int3  
+0x10004790 push ebp 
+0x10004791 mov ebp, esp 
+0x10004793 push ecx 
+0x10004794 mov eax, dword ptr [ebp + 0xc] 
+0x10004797 push esi 
+0x10004798 xor esi, esi 
+0x1000479a test eax, eax 
+0x1000479c push edi 
+0x1000479d mov edi, ecx 
+0x1000479f cmovns esi, eax 
+0x100047a2 mov eax, dword ptr [edi] 
+0x100047a4 lea ecx, [eax - 0x10] 
+0x100047a7 cmp esi, dword ptr [eax - 0xc] 
+0x100047aa jl 0x100047c5 
+0x100047ac push ecx 
+
+RANGE 0x10004c90 0x10004f10
+0x10004c90 inc ebp 
+0x10004c91 in al, dx 
+0x10004c92 add byte ptr [eax], al 
+0x10004c94 add byte ptr [eax], al 
+0x10004c96 movups xmmword ptr [ebp - 0x28], xmm0 
+0x10004c9a call 0x10001be0 
+0x10004c9f mov eax, dword ptr [esi + 4] 
+0x10004ca2 mov dword ptr [ebp - 4], 0 
+0x10004ca9 cmp eax, 1 
+0x10004cac jne 0x10004d23 
+0x10004cae lea ecx, [esi + 8] 
+0x10004cb1 push 2 
+0x10004cb3 call 0x10005640 
+0x10004cb8 test eax, eax 
+0x10004cba je 0x10004d7b 
+0x10004cc0 push 0xf003f 
+0x10004cc5 lea eax, [ebp - 0x28] 
+0x10004cc8 mov dword ptr [esi + 4], 0 
+0x10004ccf push eax 
+0x10004cd0 sub esp, 0x18 
+0x10004cd3 xorps xmm0, xmm0 
+0x10004cd6 mov ecx, esp 
+0x10004cd8 mov dword ptr [ebp - 0x2c], esp 
+0x10004cdb push 0x11 
+0x10004cdd movups xmmword ptr [ecx], xmm0 
+0x10004ce0 push 0x10024890 BatteryChargeMode
+0x10004ce5 mov dword ptr [ecx + 0x10], 0 
+0x10004cec mov dword ptr [ecx + 0x14], 0 
+0x10004cf3 call 0x10001be0 
+0x10004cf8 sub esp, 0x18 
+0x10004cfb mov byte ptr [ebp - 4], 1 
+0x10004cff mov ecx, esp 
+0x10004d01 xorps xmm0, xmm0 
+0x10004d04 push 0x43 
+0x10004d06 movups xmmword ptr [ecx], xmm0 
+0x10004d09 push 0x10024780 SOFTWARE\Lenovo\iMController\Contracts\SystemManagement.BatteryMgmt
+0x10004d0e mov dword ptr [ecx + 0x10], 0 
+0x10004d15 mov dword ptr [ecx + 0x14], 0 
+0x10004d1c call 0x10001be0 
+0x10004d21 jmp 0x10004d6a 
+0x10004d23 cmp eax, 2 
+0x10004d26 jne 0x10004d7b 
+0x10004d28 lea ecx, [esi + 0x1c] 
+0x10004d2b push eax 
+0x10004d2c call 0x10005470 
+0x10004d31 test eax, eax 
+0x10004d33 je 0x10004d7b 
+0x10004d35 push 0xf003f 
+0x10004d3a lea eax, [ebp - 0x28] 
+0x10004d3d mov dword ptr [esi + 4], 0 
+0x10004d44 push eax 
+0x10004d45 sub esp, 0x18 
+0x10004d48 mov ecx, esp 
+0x10004d4a mov dword ptr [ebp - 0x30], esp 
+0x10004d4d push 0x10024890 BatteryChargeMode
+0x10004d52 call 0x10001e20 
+0x10004d57 sub esp, 0x18 
+0x10004d5a mov byte ptr [ebp - 4], 2 
+0x10004d5e mov ecx, esp 
+0x10004d60 push 0x10024780 SOFTWARE\Lenovo\iMController\Contracts\SystemManagement.BatteryMgmt
+0x10004d65 call 0x10001e20 
+0x10004d6a push 0x80000001 
+0x10004d6f mov byte ptr [ebp - 4], 0 
+0x10004d73 call 0x10005510 
+0x10004d78 add esp, 0x3c 
+0x10004d7b lea eax, [ebp - 0x28] 
+0x10004d7e mov ecx, esi 
+0x10004d80 push eax 
+0x10004d81 call 0x10005830 
+0x10004d86 lea ecx, [ebp - 0x28] 
+0x10004d89 call 0x10006610 
+0x10004d8e mov eax, 1 
+0x10004d93 mov ecx, dword ptr [ebp - 0xc] 
+0x10004d96 mov dword ptr fs:[0], ecx 
+0x10004d9d pop ecx 
+0x10004d9e pop esi 
+0x10004d9f mov ecx, dword ptr [ebp - 0x10] 
+0x10004da2 xor ecx, ebp 
+0x10004da4 call 0x1000d7d1 
+0x10004da9 mov esp, ebp 
+0x10004dab pop ebp 
+0x10004dac ret  
+0x10004dad int3  
+0x10004dae int3  
+0x10004daf int3  
+0x10004db0 push ebp 
+0x10004db1 mov ebp, esp 
+0x10004db3 push -1 
+0x10004db5 push 0x10022615 
+0x10004dba mov eax, dword ptr fs:[0] 
+0x10004dc0 push eax 
+0x10004dc1 sub esp, 0x28 
+0x10004dc4 mov eax, dword ptr [0x10031080] 
+0x10004dc9 xor eax, ebp 
+0x10004dcb mov dword ptr [ebp - 0x10], eax 
+0x10004dce push esi 
+0x10004dcf push edi 
+0x10004dd0 push eax 
+0x10004dd1 lea eax, [ebp - 0xc] 
+0x10004dd4 mov dword ptr fs:[0], eax 
+0x10004dda mov edi, ecx 
+0x10004ddc mov eax, dword ptr [edi + 0x1c] 
+0x10004ddf lea ecx, [edi + 0x1c] 
+0x10004de2 mov byte ptr [ebp - 0x11], 7 
+0x10004de6 mov dword ptr [ebp - 0x18], 0 
+0x10004ded mov esi, dword ptr [eax + 4] 
+0x10004df0 mov eax, dword ptr [esi + ecx + 4] 
+0x10004df4 add esi, ecx 
+0x10004df6 cmp eax, -1 
+0x10004df9 jne 0x10004e20 
+0x10004dfb push 0 
+0x10004dfd push 0x80 
+0x10004e02 push 3 
+0x10004e04 push 0 
+0x10004e06 push 3 
+0x10004e08 push 0xc0000000 
+0x10004e0d push 0x1002466c \\.\EnergyDrv
+0x10004e12 call dword ptr [0x100240d4] api-ms-win-core-file-l1-1-0.dll!CreateFileW
+0x10004e18 mov dword ptr [esi + 4], eax 
+0x10004e1b cmp eax, -1 
+0x10004e1e je 0x10004e42 
+0x10004e20 push 0 
+0x10004e22 lea ecx, [ebp - 0x1c] 
+0x10004e25 push ecx 
+0x10004e26 push 4 
+0x10004e28 lea ecx, [ebp - 0x18] 
+0x10004e2b push ecx 
+0x10004e2c push 1 
+0x10004e2e lea ecx, [ebp - 0x11] 
+0x10004e31 push ecx 
+0x10004e32 push 0x831020f8 
+0x10004e37 push eax 
+0x10004e38 call dword ptr [0x10024124] api-ms-win-core-io-l1-1-0.dll!DeviceIoControl
+0x10004e3e mov esi, eax 
+0x10004e40 jmp 0x10004e44 
+0x10004e42 xor esi, esi 
+0x10004e44 test esi, esi 
+0x10004e46 je 0x10004f14 
+0x10004e4c cmp dword ptr [edi + 4], 1 
+0x10004e50 jne 0x10004e64 
+0x10004e52 push 0x50 
+0x10004e54 call dword ptr [0x10024254] api-ms-win-core-synch-l1-2-0.dll!Sleep
+0x10004e5a lea ecx, [edi + 8] 
+0x10004e5d push 2 
+0x10004e5f call 0x10005640 
+0x10004e64 push 5 
+0x10004e66 xorps xmm0, xmm0 
+0x10004e69 mov dword ptr [edi + 4], 2 
+0x10004e70 push 0x100248d8 
+0x10004e75 lea ecx, [ebp - 0x34] 
+0x10004e78 mov dword ptr [ebp - 0x24], 0 
+0x10004e7f movups xmmword ptr [ebp - 0x34], xmm0 
+0x10004e83 mov dword ptr [ebp - 0x20], 0 
+0x10004e8a call 0x10001be0 
+0x10004e8f push 0xf003f 
+0x10004e94 lea eax, [ebp - 0x34] 
+0x10004e97 mov dword ptr [ebp - 4], 0 
+0x10004e9e push eax 
+0x10004e9f sub esp, 0x18 
+0x10004ea2 xorps xmm0, xmm0 
+0x10004ea5 mov ecx, esp 
+0x10004ea7 mov dword ptr [ebp - 0x1c], esp 
+0x10004eaa push 0x11 
+0x10004eac movups xmmword ptr [ecx], xmm0 
+0x10004eaf push 0x10024890 BatteryChargeMode
+0x10004eb4 mov dword ptr [ecx + 0x10], 0 
+0x10004ebb mov dword ptr [ecx + 0x14], 0 
+0x10004ec2 call 0x10001be0 
+0x10004ec7 sub esp, 0x18 
+0x10004eca mov byte ptr [ebp - 4], 1 
+0x10004ece mov ecx, esp 
+0x10004ed0 xorps xmm0, xmm0 
+0x10004ed3 push 0x43 
+0x10004ed5 movups xmmword ptr [ecx], xmm0 
+0x10004ed8 push 0x10024780 SOFTWARE\Lenovo\iMController\Contracts\SystemManagement.BatteryMgmt
+0x10004edd mov dword ptr [ecx + 0x10], 0 
+0x10004ee4 mov dword ptr [ecx + 0x14], 0 
+0x10004eeb call 0x10001be0 
+0x10004ef0 push 0x80000001 
+0x10004ef5 mov byte ptr [ebp - 4], 0 
+0x10004ef9 call 0x10005510 
+0x10004efe add esp, 0x3c 
+0x10004f01 lea eax, [ebp - 0x34] 
+0x10004f04 mov ecx, edi 
+0x10004f06 push eax 
+0x10004f07 call 0x10005830 
+0x10004f0c lea ecx, [ebp - 0x34] 
+
+RANGE 0x100050b0 0x10005960
+0x100050b0 pop ebx 
+0x100050b1 mov dword ptr [eax], ecx 
+0x100050b3 mov esp, ebp 
+0x100050b5 pop ebp 
+0x100050b6 ret 8 
+0x100050b9 mov ecx, dword ptr [ecx] 
+0x100050bb test ecx, ecx 
+0x100050bd je 0x100050ee 
+0x100050bf mov eax, dword ptr [ecx] 
+0x100050c1 call dword ptr [eax + 0x10] 
+0x100050c4 mov ecx, eax 
+0x100050c6 test ecx, ecx 
+0x100050c8 je 0x100050ee 
+0x100050ca mov eax, dword ptr [ebx] 
+0x100050cc sub edi, esi 
+0x100050ce lea edi, [eax + edi*2] 
+0x100050d1 test edi, edi 
+0x100050d3 jne 0x100050dd 
+0x100050d5 test esi, esi 
+0x100050d7 jne 0x1000516d 
+0x100050dd mov eax, dword ptr [ecx] 
+0x100050df push 2 
+0x100050e1 push esi 
+0x100050e2 call dword ptr [eax] 
+0x100050e4 test eax, eax 
+0x100050e6 je 0x10005177 
+0x100050ec jmp 0x10005109 
+0x100050ee call 0x100033b0 
+0x100050f3 mov ecx, eax 
+0x100050f5 mov edx, dword ptr [eax] 
+0x100050f7 call dword ptr [edx + 0x10] 
+0x100050fa mov ecx, eax 
+0x100050fc sub edi, esi 
+0x100050fe mov eax, dword ptr [ebx] 
+0x10005100 lea edi, [eax + edi*2] 
+0x10005103 test ecx, ecx 
+0x10005105 je 0x1000517c 
+0x10005107 jmp 0x100050d1 
+0x10005109 mov ebx, dword ptr [ebp + 8] 
+0x1000510c add eax, 0x10 
+0x1000510f mov dword ptr [ebx], eax 
+0x10005111 test esi, esi 
+0x10005113 js 0x1000516d 
+0x10005115 cmp esi, dword ptr [eax - 8] 
+0x10005118 jg 0x1000516d 
+0x1000511a mov dword ptr [eax - 0xc], esi 
+0x1000511d xor ecx, ecx 
+0x1000511f add esi, esi 
+0x10005121 mov word ptr [esi + eax], cx 
+0x10005125 test esi, esi 
+0x10005127 je 0x10005162 
+0x10005129 test eax, eax 
+0x1000512b je 0x10005152 
+0x1000512d push esi 
+0x1000512e test edi, edi 
+0x10005130 je 0x10005147 
+0x10005132 push edi 
+0x10005133 push eax 
+0x10005134 call 0x1000ec90 
+0x10005139 add esp, 0xc 
+0x1000513c mov eax, ebx 
+0x1000513e pop edi 
+0x1000513f pop esi 
+0x10005140 pop ebx 
+0x10005141 mov esp, ebp 
+0x10005143 pop ebp 
+0x10005144 ret 8 
+0x10005147 push 0 
+0x10005149 push eax 
+0x1000514a call 0x1000f210 
+0x1000514f add esp, 0xc 
+0x10005152 call 0x1001105d 
+0x10005157 mov dword ptr [eax], 0x16 
+0x1000515d call 0x10010edf 
+0x10005162 pop edi 
+0x10005163 pop esi 
+0x10005164 mov eax, ebx 
+0x10005166 pop ebx 
+0x10005167 mov esp, ebp 
+0x10005169 pop ebp 
+0x1000516a ret 8 
+0x1000516d push 0x80070057 
+0x10005172 call 0x10002720 
+0x10005177 call 0x10005970 
+0x1000517c push 0x80004005 
+0x10005181 call 0x10002720 
+0x10005186 int3  
+0x10005187 int3  
+0x10005188 int3  
+0x10005189 int3  
+0x1000518a int3  
+0x1000518b int3  
+0x1000518c int3  
+0x1000518d int3  
+0x1000518e int3  
+0x1000518f int3  
+0x10005190 push ebp 
+0x10005191 mov ebp, esp 
+0x10005193 push -1 
+0x10005195 push 0x1002264d 
+0x1000519a mov eax, dword ptr fs:[0] 
+0x100051a0 push eax 
+0x100051a1 sub esp, 0x24 
+0x100051a4 mov eax, dword ptr [0x10031080] 
+0x100051a9 xor eax, ebp 
+0x100051ab mov dword ptr [ebp - 0x10], eax 
+0x100051ae push ebx 
+0x100051af push esi 
+0x100051b0 push edi 
+0x100051b1 push eax 
+0x100051b2 lea eax, [ebp - 0xc] 
+0x100051b5 mov dword ptr fs:[0], eax 
+0x100051bb mov edi, dword ptr [ebp + 8] 
+0x100051be cmp dword ptr [edi + 0x10], 0 
+0x100051c2 jne 0x100051ce 
+0x100051c4 mov eax, 1 
+0x100051c9 jmp 0x100052c4 
+0x100051ce push edi 
+0x100051cf lea ecx, [ebp - 0x28] 
+0x100051d2 call 0x10001d70 
+0x100051d7 mov dword ptr [ebp - 4], 0 
+0x100051de call 0x1001105d 
+0x100051e3 cmp dword ptr [ebp - 0x14], 0xf 
+0x100051e7 lea esi, [ebp - 0x28] 
+0x100051ea mov dword ptr [ebp - 0x30], eax 
+0x100051ed cmova esi, dword ptr [ebp - 0x28] 
+0x100051f1 mov dword ptr [eax], 0 
+0x100051f7 lea eax, [ebp - 0x2c] 
+0x100051fa push 0xa 
+0x100051fc push eax 
+0x100051fd push esi 
+0x100051fe call 0x100116ef 
+0x10005203 add esp, 0xc 
+0x10005206 mov ebx, eax 
+0x10005208 cmp esi, dword ptr [ebp - 0x2c] 
+0x1000520b je 0x100052e2 
+0x10005211 mov eax, dword ptr [ebp - 0x30] 
+0x10005214 cmp dword ptr [eax], 0x22 
+0x10005217 je 0x100052ec 
+0x1000521d mov eax, dword ptr [ebp + 0xc] 
+0x10005220 cmp dword ptr [eax], 1 
+0x10005223 jne 0x10005242 
+0x10005225 test ebx, ebx 
+0x10005227 je 0x10005247 
+0x10005229 cmp ebx, 2 
+0x1000522c je 0x10005247 
+0x1000522e call 0x100034c0 
+0x10005233 cmp dword ptr [edi + 0x14], 0xf 
+0x10005237 jbe 0x1000523b 
+0x10005239 mov edi, dword ptr [edi] 
+0x1000523b mov ecx, 0x49 
+0x10005240 jmp 0x10005273 
+0x10005242 cmp ebx, 2 
+0x10005245 ja 0x10005261 
+0x10005247 push ebx 
+0x10005248 call 0x10005310 
+0x1000524d add esp, 4 
+0x10005250 xor esi, esi 
+0x10005252 call 0x100034c0 
+0x10005257 mov edx, 0x10024b48 SetBatteryChargingMode mode = %d
+0x1000525c lea ecx, [esi + 0x56] 
+0x1000525f jmp 0x1000527f 
+0x10005261 call 0x100034c0 
+0x10005266 cmp dword ptr [edi + 0x14], 0xf 
+0x1000526a jbe 0x1000526e 
+0x1000526c mov edi, dword ptr [edi] 
+0x1000526e mov ecx, 0x51 
+0x10005273 mov esi, 1 
+0x10005278 mov edx, 0x10024b1c 
+0x1000527d mov ebx, edi 
+0x1000527f push ebx 
+0x10005280 push ecx 
+0x10005281 push 0x100249b0 E:\Jenkins\jobs\pcmanager_build_OTA\workspace\V3\Plugins\PCMBatterySettingsPlugin\BatteryChargingMode.cpp
+0x10005286 push edx 
+0x10005287 push 3 
+0x10005289 push eax 
+0x1000528a call 0x10005dd0 
+0x1000528f mov ecx, dword ptr [ebp - 0x14] 
+0x10005292 add esp, 0x18 
+0x10005295 cmp ecx, 0xf 
+0x10005298 jbe 0x100052c2 
+0x1000529a mov edx, dword ptr [ebp - 0x28] 
+0x1000529d inc ecx 
+0x1000529e mov eax, edx 
+0x100052a0 cmp ecx, 0x1000 
+0x100052a6 jb 0x100052b8 
+0x100052a8 mov edx, dword ptr [eax - 4] 
+0x100052ab add ecx, 0x23 
+0x100052ae sub eax, edx 
+0x100052b0 add eax, -4 
+0x100052b3 cmp eax, 0x1f 
+0x100052b6 ja 0x100052f6 
+0x100052b8 push ecx 
+0x100052b9 push edx 
+0x100052ba call 0x1000d3c1 
+0x100052bf add esp, 8 
+0x100052c2 mov eax, esi 
+0x100052c4 mov ecx, dword ptr [ebp - 0xc] 
+0x100052c7 mov dword ptr fs:[0], ecx 
+0x100052ce pop ecx 
+0x100052cf pop edi 
+0x100052d0 pop esi 
+0x100052d1 pop ebx 
+0x100052d2 mov ecx, dword ptr [ebp - 0x10] 
+0x100052d5 xor ecx, ebp 
+0x100052d7 call 0x1000d7d1 
+0x100052dc mov esp, ebp 
+0x100052de pop ebp 
+0x100052df ret 8 
+0x100052e2 push 0x10024374 
+0x100052e7 call 0x1000cbbd 
+0x100052ec push 0x1002438c 
+0x100052f1 call 0x1000cbfd 
+0x100052f6 push 0 
+0x100052f8 push 0 
+0x100052fa push 0 
+0x100052fc push 0 
+0x100052fe push 0 
+0x10005300 call 0x10010eef 
+0x10005305 int3  
+0x10005306 int3  
+0x10005307 int3  
+0x10005308 int3  
+0x10005309 int3  
+0x1000530a int3  
+0x1000530b int3  
+0x1000530c int3  
+0x1000530d int3  
+0x1000530e int3  
+0x1000530f int3  
+0x10005310 push ebp 
+0x10005311 mov ebp, esp 
+0x10005313 push -1 
+0x10005315 push 0x10022695 
+0x1000531a mov eax, dword ptr fs:[0] 
+0x10005320 push eax 
+0x10005321 sub esp, 0x24 
+0x10005324 mov eax, dword ptr [0x10031080] 
+0x10005329 xor eax, ebp 
+0x1000532b mov dword ptr [ebp - 0x10], eax 
+0x1000532e push esi 
+0x1000532f push edi 
+0x10005330 push eax 
+0x10005331 lea eax, [ebp - 0xc] 
+0x10005334 mov dword ptr fs:[0], eax 
+0x1000533a call 0x10003210 
+0x1000533f mov esi, eax 
+0x10005341 mov eax, dword ptr [ebp + 8] 
+0x10005344 cmp eax, dword ptr [esi + 4] 
+0x10005347 jne 0x10005353 
+0x10005349 mov eax, 1 
+0x1000534e jmp 0x1000544e 
+0x10005353 cmp eax, 1 
+0x10005356 jne 0x1000543b 
+0x1000535c lea ecx, [esi + 8] 
+0x1000535f push eax 
+0x10005360 call 0x10005640 
+0x10005365 mov edi, eax 
+0x10005367 test edi, edi 
+0x10005369 je 0x10005437 
+0x1000536f cmp dword ptr [esi + 4], 2 
+0x10005373 jne 0x10005387 
+0x10005375 push 0x50 
+0x10005377 call dword ptr [0x10024254] api-ms-win-core-synch-l1-2-0.dll!Sleep
+0x1000537d lea ecx, [esi + 0x1c] 
+0x10005380 push 2 
+0x10005382 call 0x10005470 
+0x10005387 push 7 
+0x10005389 xorps xmm0, xmm0 
+0x1000538c mov dword ptr [esi + 4], 1 
+0x10005393 push 0x10024880 
+0x10005398 lea ecx, [ebp - 0x28] 
+0x1000539b mov dword ptr [ebp - 0x18], 0 
+0x100053a2 movups xmmword ptr [ebp - 0x28], xmm0 
+0x100053a6 mov dword ptr [ebp - 0x14], 0 
+0x100053ad call 0x10001be0 
+0x100053b2 push 0xf003f 
+0x100053b7 lea eax, [ebp - 0x28] 
+0x100053ba mov dword ptr [ebp - 4], 0 
+0x100053c1 push eax 
+0x100053c2 sub esp, 0x18 
+0x100053c5 xorps xmm0, xmm0 
+0x100053c8 mov ecx, esp 
+0x100053ca mov dword ptr [ebp - 0x2c], esp 
+0x100053cd push 0x11 
+0x100053cf movups xmmword ptr [ecx], xmm0 
+0x100053d2 push 0x10024890 BatteryChargeMode
+0x100053d7 mov dword ptr [ecx + 0x10], 0 
+0x100053de mov dword ptr [ecx + 0x14], 0 
+0x100053e5 call 0x10001be0 
+0x100053ea sub esp, 0x18 
+0x100053ed mov byte ptr [ebp - 4], 1 
+0x100053f1 mov ecx, esp 
+0x100053f3 xorps xmm0, xmm0 
+0x100053f6 push 0x43 
+0x100053f8 movups xmmword ptr [ecx], xmm0 
+0x100053fb push 0x10024780 SOFTWARE\Lenovo\iMController\Contracts\SystemManagement.BatteryMgmt
+0x10005400 mov dword ptr [ecx + 0x10], 0 
+0x10005407 mov dword ptr [ecx + 0x14], 0 
+0x1000540e call 0x10001be0 
+0x10005413 push 0x80000001 
+0x10005418 mov byte ptr [ebp - 4], 0 
+0x1000541c call 0x10005510 
+0x10005421 add esp, 0x3c 
+0x10005424 lea eax, [ebp - 0x28] 
+0x10005427 mov ecx, esi 
+0x10005429 push eax 
+0x1000542a call 0x10005830 
+0x1000542f lea ecx, [ebp - 0x28] 
+0x10005432 call 0x10006610 
+0x10005437 mov eax, edi 
+0x10005439 jmp 0x1000544e 
+0x1000543b mov ecx, esi 
+0x1000543d cmp eax, 2 
+0x10005440 jne 0x10005449 
+0x10005442 call 0x10004db0 
+0x10005447 jmp 0x1000544e 
+0x10005449 call 0x10004c50 
+0x1000544e mov ecx, dword ptr [ebp - 0xc] 
+0x10005451 mov dword ptr fs:[0], ecx 
+0x10005458 pop ecx 
+0x10005459 pop edi 
+0x1000545a pop esi 
+0x1000545b mov ecx, dword ptr [ebp - 0x10] 
+0x1000545e xor ecx, ebp 
+0x10005460 call 0x1000d7d1 
+0x10005465 mov esp, ebp 
+0x10005467 pop ebp 
+0x10005468 ret  
+0x10005469 int3  
+0x1000546a int3  
+0x1000546b int3  
+0x1000546c int3  
+0x1000546d int3  
+0x1000546e int3  
+0x1000546f int3  
+0x10005470 push ebp 
+0x10005471 mov ebp, esp 
+0x10005473 sub esp, 0x10 
+0x10005476 mov eax, dword ptr [0x10031080] 
+0x1000547b xor eax, ebp 
+0x1000547d mov dword ptr [ebp - 4], eax 
+0x10005480 cmp dword ptr [ebp + 8], 2 
+0x10005484 mov byte ptr [ebp - 5], 7 
+0x10005488 jne 0x1000548e 
+0x1000548a mov byte ptr [ebp - 5], 8 
+0x1000548e mov eax, dword ptr [ecx] 
+0x10005490 push esi 
+0x10005491 mov dword ptr [ebp - 0xc], 0 
+0x10005498 mov esi, dword ptr [eax + 4] 
+0x1000549b mov eax, dword ptr [esi + ecx + 4] 
+0x1000549f add esi, ecx 
+0x100054a1 cmp eax, -1 
+0x100054a4 jne 0x100054c6 
+0x100054a6 push 0 
+0x100054a8 push 0x80 
+0x100054ad push 3 
+0x100054af push 0 
+0x100054b1 push 3 
+0x100054b3 push 0xc0000000 
+0x100054b8 push 0x1002466c \\.\EnergyDrv
+0x100054bd call dword ptr [0x100240d4] api-ms-win-core-file-l1-1-0.dll!CreateFileW
+0x100054c3 mov dword ptr [esi + 4], eax 
+0x100054c6 pop esi 
+0x100054c7 cmp eax, -1 
+0x100054ca je 0x100054fa 
+0x100054cc push 0 
+0x100054ce lea ecx, [ebp - 0x10] 
+0x100054d1 push ecx 
+0x100054d2 push 4 
+0x100054d4 lea ecx, [ebp - 0xc] 
+0x100054d7 push ecx 
+0x100054d8 push 1 
+0x100054da lea ecx, [ebp - 5] 
+0x100054dd push ecx 
+0x100054de push 0x831020f8 
+0x100054e3 push eax 
+0x100054e4 call dword ptr [0x10024124] api-ms-win-core-io-l1-1-0.dll!DeviceIoControl
+0x100054ea mov ecx, dword ptr [ebp - 4] 
+0x100054ed xor ecx, ebp 
+0x100054ef call 0x1000d7d1 
+0x100054f4 mov esp, ebp 
+0x100054f6 pop ebp 
+0x100054f7 ret 4 
+0x100054fa mov ecx, dword ptr [ebp - 4] 
+0x100054fd xor eax, eax 
+0x100054ff xor ecx, ebp 
+0x10005501 call 0x1000d7d1 
+0x10005506 mov esp, ebp 
+0x10005508 pop ebp 
+0x10005509 ret 4 
+0x1000550c int3  
+0x1000550d int3  
+0x1000550e int3  
+0x1000550f int3  
+0x10005510 push ebp 
+0x10005511 mov ebp, esp 
+0x10005513 sub esp, 0xc 
+0x10005516 mov eax, dword ptr [0x10031080] 
+0x1000551b xor eax, ebp 
+0x1000551d mov dword ptr [ebp - 4], eax 
+0x10005520 mov eax, dword ptr [ebp + 8] 
+0x10005523 mov dword ptr [ebp - 0xc], eax 
+0x10005526 push esi 
+0x10005527 push edi 
+0x10005528 mov edi, dword ptr [ebp + 0x3c] 
+0x1000552b cmp eax, 0x80000001 
+0x10005530 jne 0x1000555e 
+0x10005532 call 0x10004590 
+0x10005537 test eax, eax 
+0x10005539 je 0x1000555e 
+0x1000553b lea ecx, [ebp - 8] 
+0x1000553e call 0x10001e90 
+0x10005543 lea eax, [ebp - 0xc] 
+0x10005546 push eax 
+0x10005547 push 0x20019 
+0x1000554c call dword ptr [0x100241e8] api-ms-win-core-registry-l1-1-0.dll!RegOpenCurrentUser
+0x10005552 cmp dword ptr [ebp - 8], 0 
+0x10005556 je 0x1000555e 
+0x10005558 call dword ptr [0x10024284] api-ms-win-security-base-l1-1-0.dll!RevertToSelf
+0x1000555e xor esi, esi 
+0x10005560 lea ecx, [ebp - 8] 
+0x10005563 cmp dword ptr [ebp + 0x20], 7 
+0x10005567 lea eax, [ebp + 0xc] 
+0x1000556a push esi 
+0x1000556b cmova eax, dword ptr [ebp + 0xc] 
+0x1000556f push ecx 
+0x10005570 push esi 
+0x10005571 push dword ptr [ebp + 0x40] 
+0x10005574 mov dword ptr [ebp - 8], esi 
+0x10005577 push esi 
+0x10005578 push esi 
+0x10005579 push esi 
+0x1000557a push eax 
+0x1000557b push dword ptr [ebp - 0xc] 
+0x1000557e call dword ptr [0x100241f0] api-ms-win-core-registry-l1-1-0.dll!RegCreateKeyExW
+0x10005584 test eax, eax 
+0x10005586 jne 0x100055bf 
+0x10005588 cmp dword ptr [edi + 0x14], 7 
+0x1000558c mov eax, dword ptr [edi + 0x10] 
+0x1000558f mov esi, dword ptr [ebp - 8] 
+0x10005592 lea ecx, [eax*2 + 2] 
+0x10005599 jbe 0x1000559d 
+0x1000559b mov edi, dword ptr [edi] 
+0x1000559d cmp dword ptr [ebp + 0x38], 7 
+0x100055a1 lea eax, [ebp + 0x24] 
+0x100055a4 push ecx 
+0x100055a5 cmova eax, dword ptr [ebp + 0x24] 
+0x100055a9 push edi 
+0x100055aa push 1 
+0x100055ac push 0 
+0x100055ae push eax 
+0x100055af push esi 
+0x100055b0 call dword ptr [0x100241ec] api-ms-win-core-registry-l1-1-0.dll!RegSetValueExW
+0x100055b6 test eax, eax 
+0x100055b8 jne 0x100055bf 
+0x100055ba lea edi, [eax + 1] 
+0x100055bd jmp 0x100055c1 
+0x100055bf xor edi, edi 
+0x100055c1 test esi, esi 
+0x100055c3 je 0x10005614 
+0x100055c5 cmp esi, 0x80000001 
+0x100055cb je 0x10005614 
+0x100055cd cmp esi, 0x80000002 
+0x100055d3 je 0x10005614 
+0x100055d5 cmp esi, 0x80000000 
+0x100055db je 0x10005614 
+0x100055dd cmp esi, 0x80000005 
+0x100055e3 je 0x10005614 
+0x100055e5 cmp esi, 0x80000007 
+0x100055eb je 0x10005614 
+0x100055ed cmp esi, 0x80000004 
+0x100055f3 je 0x10005614 
+0x100055f5 cmp esi, 0x80000060 
+0x100055fb je 0x10005614 
+0x100055fd cmp esi, 0x80000050 
+0x10005603 je 0x10005614 
+0x10005605 cmp esi, 0x80000003 
+0x1000560b je 0x10005614 
+0x1000560d push esi 
+0x1000560e call dword ptr [0x100241f8] api-ms-win-core-registry-l1-1-0.dll!RegCloseKey
+0x10005614 lea ecx, [ebp + 0xc] 
+0x10005617 call 0x10006610 
+0x1000561c lea ecx, [ebp + 0x24] 
+0x1000561f call 0x10006610 
+0x10005624 mov ecx, dword ptr [ebp - 4] 
+0x10005627 mov eax, edi 
+0x10005629 pop edi 
+0x1000562a xor ecx, ebp 
+0x1000562c pop esi 
+0x1000562d call 0x1000d7d1 
+0x10005632 mov esp, ebp 
+0x10005634 pop ebp 
+0x10005635 ret  
+0x10005636 int3  
+0x10005637 int3  
+0x10005638 int3  
+0x10005639 int3  
+0x1000563a int3  
+0x1000563b int3  
+0x1000563c int3  
+0x1000563d int3  
+0x1000563e int3  
+0x1000563f int3  
+0x10005640 push ebp 
+0x10005641 mov ebp, esp 
+0x10005643 sub esp, 0x10 
+0x10005646 mov eax, dword ptr [0x10031080] 
+0x1000564b xor eax, ebp 
+0x1000564d mov dword ptr [ebp - 4], eax 
+0x10005650 cmp dword ptr [ebp + 8], 2 
+0x10005654 push esi 
+0x10005655 mov esi, ecx 
+0x10005657 mov byte ptr [ebp - 5], 3 
+0x1000565b mov dword ptr [ebp - 0xc], 0 
+0x10005662 jne 0x10005668 
+0x10005664 mov byte ptr [ebp - 5], 5 
+0x10005668 mov eax, dword ptr [esi] 
+0x1000566a push edi 
+0x1000566b mov edi, dword ptr [eax + 4] 
+0x1000566e mov eax, dword ptr [edi + esi + 4] 
+0x10005672 cmp eax, -1 
+0x10005675 jne 0x10005698 
+0x10005677 push 0 
+0x10005679 push 0x80 
+0x1000567e push 3 
+0x10005680 push 0 
+0x10005682 push 3 
+0x10005684 push 0xc0000000 
+0x10005689 push 0x1002466c \\.\EnergyDrv
+0x1000568e call dword ptr [0x100240d4] api-ms-win-core-file-l1-1-0.dll!CreateFileW
+0x10005694 mov dword ptr [edi + esi + 4], eax 
+0x10005698 pop edi 
+0x10005699 cmp eax, -1 
+0x1000569c je 0x100056f5 
+0x1000569e push 0 
+0x100056a0 lea ecx, [ebp - 0x10] 
+0x100056a3 push ecx 
+0x100056a4 push 4 
+0x100056a6 lea ecx, [ebp - 0xc] 
+0x100056a9 push ecx 
+0x100056aa push 1 
+0x100056ac lea ecx, [ebp - 5] 
+0x100056af push ecx 
+0x100056b0 push 0x831020f8 
+0x100056b5 push eax 
+0x100056b6 call dword ptr [0x10024124] api-ms-win-core-io-l1-1-0.dll!DeviceIoControl
+0x100056bc test eax, eax 
+0x100056be je 0x100056f5 
+0x100056c0 cmp dword ptr [esi + 8], 2 
+0x100056c4 jne 0x100056f7 
+0x100056c6 cmp dword ptr [ebp + 8], 2 
+0x100056ca mov byte ptr [ebp - 5], 0xd 
+0x100056ce jne 0x100056d4 
+0x100056d0 mov byte ptr [ebp - 5], 0xf 
+0x100056d4 mov eax, dword ptr [esi] 
+0x100056d6 push 4 
+0x100056d8 mov ecx, dword ptr [eax + 4] 
+0x100056db lea eax, [ebp - 0xc] 
+0x100056de push eax 
+0x100056df push 1 
+0x100056e1 lea eax, [ebp - 5] 
+0x100056e4 add ecx, esi 
+0x100056e6 push eax 
+0x100056e7 push 0x831020f8 
+0x100056ec call 0x10002bd0 
+0x100056f1 test eax, eax 
+0x100056f3 jne 0x100056f7 
+0x100056f5 xor eax, eax 
+0x100056f7 mov ecx, dword ptr [ebp - 4] 
+0x100056fa xor ecx, ebp 
+0x100056fc pop esi 
+0x100056fd call 0x1000d7d1 
+0x10005702 mov esp, ebp 
+0x10005704 pop ebp 
+0x10005705 ret 4 
+0x10005708 int3  
+0x10005709 int3  
+0x1000570a int3  
+0x1000570b int3  
+0x1000570c int3  
+0x1000570d int3  
+0x1000570e int3  
+0x1000570f int3  
+0x10005710 push ebp 
+0x10005711 mov ebp, esp 
+0x10005713 push ecx 
+0x10005714 push esi 
+0x10005715 mov esi, dword ptr [ebp + 0xc] 
+0x10005718 push edi 
+0x10005719 mov edi, ecx 
+0x1000571b test esi, esi 
+0x1000571d jne 0x1000572c 
+0x1000571f call 0x10002c60 
+0x10005724 pop edi 
+0x10005725 pop esi 
+0x10005726 mov esp, ebp 
+0x10005728 pop ebp 
+0x10005729 ret 8 
+0x1000572c mov ecx, dword ptr [ebp + 8] 
+0x1000572f test ecx, ecx 
+0x10005731 je 0x10005817 
+0x10005737 mov eax, dword ptr [edi] 
+0x10005739 mov edx, dword ptr [eax - 0xc] 
+0x1000573c mov dword ptr [ebp - 4], edx 
+0x1000573f mov edx, ecx 
+0x10005741 sub edx, eax 
+0x10005743 sar edx, 1 
+0x10005745 mov dword ptr [ebp + 0xc], edx 
+0x10005748 test esi, esi 
+0x1000574a js 0x10005817 
+0x10005750 mov ecx, 1 
+0x10005755 sub ecx, dword ptr [eax - 4] 
+0x10005758 mov eax, dword ptr [eax - 8] 
+0x1000575b sub eax, esi 
+0x1000575d or ecx, eax 
+0x1000575f jge 0x1000576c 
+0x10005761 push esi 
+0x10005762 mov ecx, edi 
+0x10005764 call 0x10004f40 
+0x10005769 mov edx, dword ptr [ebp + 0xc] 
+0x1000576c mov ecx, dword ptr [edi] 
+0x1000576e push ebx 
+0x1000576f lea ebx, [esi + esi] 
+0x10005772 mov eax, dword ptr [ecx - 8] 
+0x10005775 cmp edx, dword ptr [ebp - 4] 
+0x10005778 ja 0x100057b6 
+0x1000577a lea edx, [ecx + edx*2] 
+0x1000577d test ebx, ebx 
+0x1000577f je 0x100057fc 
+0x10005781 test ecx, ecx 
+0x10005783 jne 0x10005792 
+0x10005785 call 0x1001105d 
+0x1000578a mov dword ptr [eax], 0x16 
+0x10005790 jmp 0x100057f7 
+0x10005792 test edx, edx 
+0x10005794 jne 0x100057a3 
+0x10005796 call 0x1001105d 
+0x1000579b mov dword ptr [eax], 0x16 
+0x100057a1 jmp 0x100057f7 
+0x100057a3 add eax, eax 
+0x100057a5 cmp eax, ebx 
+0x100057a7 jb 0x100057ec 
+0x100057a9 push ebx 
+0x100057aa push edx 
+0x100057ab push ecx 
+0x100057ac call 0x1000ec90 
+0x100057b1 add esp, 0xc 
+0x100057b4 jmp 0x100057fc 
+0x100057b6 add eax, eax 
+0x100057b8 test ebx, ebx 
+0x100057ba je 0x100057fc 
+0x100057bc test ecx, ecx 
+0x100057be jne 0x100057cd 
+0x100057c0 call 0x1001105d 
+0x100057c5 mov dword ptr [eax], 0x16 
+0x100057cb jmp 0x100057f7 
+0x100057cd cmp eax, ebx 
+0x100057cf jb 0x100057e0 
+0x100057d1 push ebx 
+0x100057d2 push dword ptr [ebp + 8] 
+0x100057d5 push ecx 
+0x100057d6 call 0x1000ec90 
+0x100057db add esp, 0xc 
+0x100057de jmp 0x100057fc 
+0x100057e0 push eax 
+0x100057e1 push 0 
+0x100057e3 push ecx 
+0x100057e4 call 0x1000f210 
+0x100057e9 add esp, 0xc 
+0x100057ec call 0x1001105d 
+0x100057f1 mov dword ptr [eax], 0x22 
+0x100057f7 call 0x10010edf 
+0x100057fc mov eax, dword ptr [edi] 
+0x100057fe cmp esi, dword ptr [eax - 8] 
+0x10005801 jg 0x10005817 
+0x10005803 mov dword ptr [eax - 0xc], esi 
+0x10005806 xor ecx, ecx 
+0x10005808 mov eax, dword ptr [edi] 
+0x1000580a mov word ptr [ebx + eax], cx 
+0x1000580e pop ebx 
+0x1000580f pop edi 
+0x10005810 pop esi 
+0x10005811 mov esp, ebp 
+0x10005813 pop ebp 
+0x10005814 ret 8 
+0x10005817 push 0x80070057 
+0x1000581c call 0x10002720 
+0x10005821 int3  
+0x10005822 int3  
+0x10005823 int3  
+0x10005824 int3  
+0x10005825 int3  
+0x10005826 int3  
+0x10005827 int3  
+0x10005828 int3  
+0x10005829 int3  
+0x1000582a int3  
+0x1000582b int3  
+0x1000582c int3  
+0x1000582d int3  
+0x1000582e int3  
+0x1000582f int3  
+0x10005830 push ebp 
+0x10005831 mov ebp, esp 
+0x10005833 push -1 
+0x10005835 push 0x100226dd 
+0x1000583a mov eax, dword ptr fs:[0] 
+0x10005840 push eax 
+0x10005841 sub esp, 0x24 
+0x10005844 mov eax, dword ptr [0x10031080] 
+0x10005849 xor eax, ebp 
+0x1000584b mov dword ptr [ebp - 0x10], eax 
+0x1000584e push eax 
+0x1000584f lea eax, [ebp - 0xc] 
+0x10005852 mov dword ptr fs:[0], eax 
+0x10005858 xorps xmm0, xmm0 
+0x1000585b mov dword ptr [ebp - 0x18], 0 
+0x10005862 xor eax, eax 
+0x10005864 mov dword ptr [ebp - 0x14], 7 
+0x1000586b movups xmmword ptr [ebp - 0x28], xmm0 
+0x1000586f mov word ptr [ebp - 0x28], ax 
+0x10005873 push 0xf013f 
+0x10005878 mov dword ptr [ebp - 4], eax 
+0x1000587b lea eax, [ebp - 0x28] 
+0x1000587e push eax 
+0x1000587f sub esp, 0x18 
+0x10005882 mov ecx, esp 
+0x10005884 mov dword ptr [ebp - 0x2c], esp 
+0x10005887 push 0x11 
+0x10005889 movups xmmword ptr [ecx], xmm0 
+0x1000588c push 0x10024890 BatteryChargeMode
+0x10005891 mov dword ptr [ecx + 0x10], 0 
+0x10005898 mov dword ptr [ecx + 0x14], 0 
+0x1000589f call 0x10001be0 
+0x100058a4 sub esp, 0x18 
+0x100058a7 mov byte ptr [ebp - 4], 1 
+0x100058ab mov ecx, esp 
+0x100058ad xorps xmm0, xmm0 
+0x100058b0 push 0x3a 
+0x100058b2 movups xmmword ptr [ecx], xmm0 
+0x100058b5 push 0x10024938 
+0x100058ba mov dword ptr [ecx + 0x10], 0 
+0x100058c1 mov dword ptr [ecx + 0x14], 0 
+0x100058c8 call 0x10001be0 
+0x100058cd push 0x80000001 
+0x100058d2 mov byte ptr [ebp - 4], 0 
+0x100058d6 call 0x10003770 
+0x100058db add esp, 0x3c 
+0x100058de test eax, eax 
+0x100058e0 je 0x1000594c 
+0x100058e2 push 0xf013f 
+0x100058e7 push dword ptr [ebp + 8] 
+0x100058ea xorps xmm0, xmm0 
+0x100058ed sub esp, 0x18 
+0x100058f0 mov ecx, esp 
+0x100058f2 mov dword ptr [ebp - 0x30], esp 
+0x100058f5 push 0x11 
+0x100058f7 movups xmmword ptr [ecx], xmm0 
+0x100058fa push 0x10024890 BatteryChargeMode
+0x100058ff mov dword ptr [ecx + 0x10], 0 
+0x10005906 mov dword ptr [ecx + 0x14], 0 
+0x1000590d call 0x10001be0 
+0x10005912 sub esp, 0x18 
+0x10005915 mov byte ptr [ebp - 4], 2 
+0x10005919 mov ecx, esp 
+0x1000591b xorps xmm0, xmm0 
+0x1000591e push 0x3a 
+0x10005920 movups xmmword ptr [ecx], xmm0 
+0x10005923 push 0x10024938 
+0x10005928 mov dword ptr [ecx + 0x10], 0 
+0x1000592f mov dword ptr [ecx + 0x14], 0 
+0x10005936 call 0x10001be0 
+0x1000593b push 0x80000001 
+0x10005940 mov byte ptr [ebp - 4], 0 
+0x10005944 call 0x10005510 
+0x10005949 add esp, 0x3c 
+0x1000594c lea ecx, [ebp - 0x28] 
+0x1000594f call 0x10006610 
+0x10005954 mov ecx, dword ptr [ebp - 0xc] 
+0x10005957 mov dword ptr fs:[0], ecx 
+0x1000595e pop ecx 

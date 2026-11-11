@@ -1,0 +1,1100 @@
+[
+  {
+    "offset": "0x188104",
+    "va": "0x589704",
+    "value": "pcm_plugin_ininitialize",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x18811c",
+    "va": "0x58971c",
+    "value": "pcm_plugin_action",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x188130",
+    "va": "0x589730",
+    "value": "pcm_plugin_buffer_allocate",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x18814c",
+    "va": "0x58974c",
+    "value": "pcm_plugin_buffer_free",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x188164",
+    "va": "0x589764",
+    "value": "pcm_plugin_deininitialize",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x188180",
+    "va": "0x589780",
+    "value": "pcm_plugin_ininitialize_ex",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x18819c",
+    "va": "0x58979c",
+    "value": "pcm_plugin_action_ex",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1881b4",
+    "va": "0x5897b4",
+    "value": "pcm_plugin_deininitialize_ex",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x18a908",
+    "va": "0x58bf08",
+    "value": "BatterySetting",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x18f244",
+    "va": "0x590844",
+    "value": "CreateTextServices",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x19d758",
+    "va": "0x59ed58",
+    "value": "initialize",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x19d764",
+    "va": "0x59ed64",
+    "value": "initialize2",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1a1d04",
+    "va": "0x5a3304",
+    "value": "Lenovo\\devicecenter\\Update_Tmp\\PCManager\\Lenovo_PCManager.log",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1a1d44",
+    "va": "0x5a3344",
+    "value": "Lenovo\\devicecenter\\Update_Tmp\\PCManager\\Lenovo_Appupdate.log",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1a27c4",
+    "va": "0x5a3dc4",
+    "value": "isPCManager",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1a2c58",
+    "va": "0x5a4258",
+    "value": "safe_service",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1a7d78",
+    "va": "0x5a9378",
+    "value": "already connected",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1a7de8",
+    "va": "0x5a93e8",
+    "value": "broken pipe",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1a7e08",
+    "va": "0x5a9408",
+    "value": "connection already in progress",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1a86f0",
+    "va": "0x5a9cf0",
+    "value": "VERSION.dll",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1ae4e4",
+    "va": "0x5afae4",
+    "value": "`dynamic initializer for '",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1ae76c",
+    "va": "0x5afd6c",
+    "value": "InitializeCriticalSectionEx",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1b11bc",
+    "va": "0x5b27bc",
+    "value": "RoInitialize",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1b11d0",
+    "va": "0x5b27d0",
+    "value": "RoUninitialize",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1bccd8",
+    "va": "0x5be2d8",
+    "value": "in Json::Value::duplicateStringValue(): Failed to allocate string value buffer",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1bcd28",
+    "va": "0x5be328",
+    "value": "in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1bcd78",
+    "va": "0x5be378",
+    "value": "in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1bcdd0",
+    "va": "0x5be3d0",
+    "value": "assert json failed",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1bcde4",
+    "va": "0x5be3e4",
+    "value": "in Json::Value::setComment(): Comments must start with /",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1bce20",
+    "va": "0x5be420",
+    "value": "in Json::Value::asCString(): requires stringValue",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1bcff8",
+    "va": "0x5be5f8",
+    "value": "in Json::Value::operator[](ArrayIndex): requires arrayValue",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1bd038",
+    "va": "0x5be638",
+    "value": "in Json::Value::operator[](int index): index cannot be negative",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1bd078",
+    "va": "0x5be678",
+    "value": "in Json::Value::operator[](ArrayIndex)const: requires arrayValue",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1bd0c0",
+    "va": "0x5be6c0",
+    "value": "in Json::Value::operator[](int index) const: index cannot be negative",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1bd108",
+    "va": "0x5be708",
+    "value": "in Json::Value::resolveReference(key, end): requires objectValue",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1bd150",
+    "va": "0x5be750",
+    "value": "in Json::Value::find(key, end, found): requires objectValue or nullValue",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1bd19c",
+    "va": "0x5be79c",
+    "value": "in Json::Value::getMemberNames(), value must be objectValue",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1bd220",
+    "va": "0x5be820",
+    "value": "A valid JSON document must be either an array or an object value.",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1c738c",
+    "va": "0x5c898c",
+    "value": "E:\\Jenkins\\jobs\\pcmanager_build_OTA\\workspace\\bin\\x86\\Release\\BatterySetting.pdb",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1e199a",
+    "va": "0x5e2f9a",
+    "value": "BatterySetting.exe",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1e2d90",
+    "va": "0x5e4390",
+    "value": "InitializeCriticalSection",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1e2ddc",
+    "va": "0x5e43dc",
+    "value": "InitializeCriticalSectionEx",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1e2e12",
+    "va": "0x5e4412",
+    "value": "ReleaseMutex",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1e2e22",
+    "va": "0x5e4422",
+    "value": "WaitForSingleObject",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1e2e38",
+    "va": "0x5e4438",
+    "value": "CreateMutexW",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1e2f6a",
+    "va": "0x5e456a",
+    "value": "InitializeSecurityDescriptor",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1e3096",
+    "va": "0x5e4696",
+    "value": "CreateEventW",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1e3286",
+    "va": "0x5e4886",
+    "value": "CoUninitialize",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1e32d0",
+    "va": "0x5e48d0",
+    "value": "CreateMutexA",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1e32e0",
+    "va": "0x5e48e0",
+    "value": "OpenMutexA",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1e3628",
+    "va": "0x5e4c28",
+    "value": "OLEAUT32.dll",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1e36a0",
+    "va": "0x5e4ca0",
+    "value": "CRYPT32.dll",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1e36f6",
+    "va": "0x5e4cf6",
+    "value": "WINTRUST.dll",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1e378a",
+    "va": "0x5e4d8a",
+    "value": "KERNEL32.dll",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1e38fc",
+    "va": "0x5e4efc",
+    "value": "USER32.dll",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1e392e",
+    "va": "0x5e4f2e",
+    "value": "GDI32.dll",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1e393a",
+    "va": "0x5e4f3a",
+    "value": "CloseServiceHandle",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1e3950",
+    "va": "0x5e4f50",
+    "value": "ControlService",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1e3962",
+    "va": "0x5e4f62",
+    "value": "OpenServiceW",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1e3970",
+    "va": "0x5e4f70",
+    "value": "ADVAPI32.dll",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1e39e4",
+    "va": "0x5e4fe4",
+    "value": "SHELL32.dll",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1e39f2",
+    "va": "0x5e4ff2",
+    "value": "CoInitialize",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1e3a00",
+    "va": "0x5e5000",
+    "value": "ole32.dll",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1e3a0a",
+    "va": "0x5e500a",
+    "value": "WS2_32.dll",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1e3a16",
+    "va": "0x5e5016",
+    "value": "RPCRT4.dll",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1e3afa",
+    "va": "0x5e50fa",
+    "value": "Initialize",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1e3b06",
+    "va": "0x5e5106",
+    "value": "WrapPlugin.dll",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1e3b42",
+    "va": "0x5e5142",
+    "value": "COMCTL32.dll",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1e4182",
+    "va": "0x5e5782",
+    "value": "gdiplus.dll",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1e41cc",
+    "va": "0x5e57cc",
+    "value": "IMM32.dll",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1e425e",
+    "va": "0x5e585e",
+    "value": "SHLWAPI.dll",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1e42a6",
+    "va": "0x5e58a6",
+    "value": "WTSAPI32.dll",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1e444a",
+    "va": "0x5e5a4a",
+    "value": "POWRPROF.dll",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1e45bc",
+    "va": "0x5e5bbc",
+    "value": "WININET.dll",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1e4654",
+    "va": "0x5e5c54",
+    "value": "bcrypt.dll",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1e468a",
+    "va": "0x5e5c8a",
+    "value": "NETAPI32.dll",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1e46c2",
+    "va": "0x5e5cc2",
+    "value": "IPHLPAPI.DLL",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1e474a",
+    "va": "0x5e5d4a",
+    "value": "SETUPAPI.dll",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1e4a22",
+    "va": "0x5e6022",
+    "value": "AllocateAndInitializeSid",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1e4a7a",
+    "va": "0x5e607a",
+    "value": "CoInitializeSecurity",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1e4adc",
+    "va": "0x5e60dc",
+    "value": "CreateProcessW",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1e4d7a",
+    "va": "0x5e637a",
+    "value": "InitializeSListHead",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1e4d9c",
+    "va": "0x5e639c",
+    "value": "InitializeCriticalSectionAndSpinCount",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1e4fc4",
+    "va": "0x5e65c4",
+    "value": "GetCommandLineA",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1e4fd6",
+    "va": "0x5e65d6",
+    "value": "GetCommandLineW",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1e5b14",
+    "va": "0x5e7114",
+    "value": "QueryServiceStatus",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1e5b2a",
+    "va": "0x5e712a",
+    "value": "StartServiceW",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1e9478",
+    "va": "0x5eb878",
+    "value": ".?AVLogicError@Json@@",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1e9498",
+    "va": "0x5eb898",
+    "value": ".?AVRuntimeError@Json@@",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1e94b8",
+    "va": "0x5eb8b8",
+    "value": ".?AVException@Json@@",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1e972c",
+    "va": "0x5ebb2c",
+    "value": ".?AV?$CSingleBase@VCPCMHelper@PCMUtils@@@CommonDef@@",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1e9b50",
+    "va": "0x5ebf50",
+    "value": ".?AV?$CSingleBase@VCBatteryChargingHelper@BatteryChargingModeHelper@@@CommonDef@@",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1e9cd8",
+    "va": "0x5ec0d8",
+    "value": ".?AVCBatterySetting@@",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1e9cf8",
+    "va": "0x5ec0f8",
+    "value": ".?AV?$CAsyncMemFun0@PAVCBatterySetting@@P81@AEXXZ@pcutil@@",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1e9d40",
+    "va": "0x5ec140",
+    "value": ".?AV?$CAsyncMemFun2@PAVCBatterySetting@@P81@AE_NAAV?$CStringT@_WV?$StrTraitATL@_WV?$ChTraitsCRT@_W@ATL@@@ATL@@@ATL@@H@ZV23@H@pcutil@@",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1eacb8",
+    "va": "0x5ed0b8",
+    "value": ".?AUIServiceProvider@@",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1ecff0",
+    "va": "0x5ef3f0",
+    "value": ".?AUInitializeInteger@CryptoPP@@",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1ed480",
+    "va": "0x5ef880",
+    "value": ".?AVWriter@Json@@",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1ed5a4",
+    "va": "0x5ef9a4",
+    "value": ".?AVFastWriter@Json@@",
+    "encoding": "ascii"
+  },
+  {
+    "offset": "0x1873ae",
+    "va": "0x5889ae",
+    "value": "BLenovoPcManager.exe",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x187564",
+    "va": "0x588b64",
+    "value": "batterysetting",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x18763c",
+    "va": "0x588c3c",
+    "value": "Modules\\ShowDeskBand_x64.exe",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x187678",
+    "va": "0x588c78",
+    "value": "Modules\\ShowDeskBand.exe",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x1876c0",
+    "va": "0x588cc0",
+    "value": "E:\\Jenkins\\jobs\\pcmanager_build_OTA\\workspace\\Modules\\BatterySetting\\BatteryMenu.cpp",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x1877bc",
+    "va": "0x588dbc",
+    "value": "\\BatterySetting.exe",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x1877e4",
+    "va": "0x588de4",
+    "value": "BatterySetting not exist",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x187818",
+    "va": "0x588e18",
+    "value": "BatterySetting sig error",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x187926",
+    "va": "0x588f26",
+    "value": "B\\\\.\\EnergyDrv",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x187968",
+    "va": "0x588f68",
+    "value": "E:\\Jenkins\\jobs\\pcmanager_build_OTA\\workspace\\libsrc\\Commonnew\\hardware\\BatteryChargingModeHelper.hpp",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x188028",
+    "va": "0x589628",
+    "value": "E:\\Jenkins\\jobs\\pcmanager_build_OTA\\workspace\\libsrc\\Commonnew\\SignUtils.hpp",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x1881d4",
+    "va": "0x5897d4",
+    "value": "WrapPlugin.dll",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x188450",
+    "va": "0x589a50",
+    "value": "BatterySettingWnd",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x188474",
+    "va": "0x589a74",
+    "value": "BatterySetting",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x188498",
+    "va": "0x589a98",
+    "value": "E:\\Jenkins\\jobs\\pcmanager_build_OTA\\workspace\\Modules\\BatterySetting\\BatterySetting.cpp",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x1885ec",
+    "va": "0x589bec",
+    "value": "ExControl.exe",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x188760",
+    "va": "0x589d60",
+    "value": "\\control.exe",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x188bc8",
+    "va": "0x58a1c8",
+    "value": "SOFTWARE\\Lenovo\\PcManager",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x189890",
+    "va": "0x58ae90",
+    "value": "[ThinkPad]---ERROR_ALREADY_EXISTS,dwError=%d",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x1898f0",
+    "va": "0x58aef0",
+    "value": "SYSTEM\\CurrentControlSet\\Services\\LITSSVC",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x189bd0",
+    "va": "0x58b1d0",
+    "value": "SOFTWARE\\Lenovo\\pcmanager\\BatteryCache",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x189c34",
+    "va": "0x58b234",
+    "value": "AppView\\HardwareView.dll",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x189e98",
+    "va": "0x58b498",
+    "value": "SYSTEM\\CurrentControlSet\\Services\\LITSSVC\\LNBITS\\IC",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x189f10",
+    "va": "0x58b510",
+    "value": "SYSTEM\\CurrentControlSet\\Services\\LITSSVC\\LNBITS\\IC\\AUTODETECT\\",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x189fe4",
+    "va": "0x58b5e4",
+    "value": "LNBITSSvc.exe",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x18a0b0",
+    "va": "0x58b6b0",
+    "value": "E:\\Jenkins\\jobs\\pcmanager_build_OTA\\workspace\\Modules\\BatterySetting\\CameraControl.cpp",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x18a442",
+    "va": "0x58ba42",
+    "value": "C\\Plugins\\IdeaFanPlugin.dll",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x18a4c8",
+    "va": "0x58bac8",
+    "value": "E:\\Jenkins\\jobs\\pcmanager_build_OTA\\workspace\\Modules\\BatterySetting\\FunControl.cpp",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x18a690",
+    "va": "0x58bc90",
+    "value": "E:\\Jenkins\\jobs\\pcmanager_build_OTA\\workspace\\Modules\\BatterySetting\\main.cpp",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x18a768",
+    "va": "0x58bd68",
+    "value": "LenovoPcManagerService",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x18a798",
+    "va": "0x58bd98",
+    "value": "OpenService failed with error %u",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x18a7e0",
+    "va": "0x58bde0",
+    "value": "ControlService result:%d error %u",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x18a824",
+    "va": "0x58be24",
+    "value": "CBatterySetting",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x18a8a4",
+    "va": "0x58bea4",
+    "value": "Software\\Lenovo\\PcManager",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x18a928",
+    "va": "0x58bf28",
+    "value": "E:\\Jenkins\\jobs\\pcmanager_build_OTA\\workspace\\Modules\\BatterySetting\\RestoreHelper.cpp",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x18ab50",
+    "va": "0x58c150",
+    "value": "Shcore.dll",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x18aec0",
+    "va": "0x58c4c0",
+    "value": "msimg32.dll",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x18aeec",
+    "va": "0x58c4ec",
+    "value": "User32.dll",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x18bcf0",
+    "va": "0x58d2f0",
+    "value": "csingle",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x18f226",
+    "va": "0x590826",
+    "value": "EMsftedit.dll",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x19c75c",
+    "va": "0x59dd5c",
+    "value": "kernel32.dll",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x19c908",
+    "va": "0x59df08",
+    "value": "SOFTWARE\\Lenovo\\PCManager\\Configs",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x19ce68",
+    "va": "0x59e468",
+    "value": "SOFTWARE\\Lenovo\\pcmanager\\Warranty",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x19cf08",
+    "va": "0x59e508",
+    "value": "SOFTWARE\\Lenovo\\pcmanager",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x19d036",
+    "va": "0x59e636",
+    "value": "capplication/json",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x19d438",
+    "va": "0x59ea38",
+    "value": "ludp.dll",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x19d460",
+    "va": "0x59ea60",
+    "value": "application/json; charset=utf-8",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x19d5b0",
+    "va": "0x59ebb0",
+    "value": "E:\\Jenkins\\jobs\\pcmanager_build_OTA\\workspace\\Libsrc\\libcommon\\LanguageHelper.cpp",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x19d7b8",
+    "va": "0x59edb8",
+    "value": "SOFTWARE\\Lenovo\\PcManager\\Configs",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x19d8c4",
+    "va": "0x59eec4",
+    "value": "DataPlugin.dll",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x19db48",
+    "va": "0x59f148",
+    "value": "E:\\Jenkins\\jobs\\pcmanager_build_OTA\\workspace\\Libsrc\\libcommon\\impl\\CommonHelper.cpp",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x19dc3c",
+    "va": "0x59f23c",
+    "value": "7zwrap.exe",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x19dd48",
+    "va": "0x59f348",
+    "value": "E:\\Jenkins\\jobs\\pcmanager_build_OTA\\workspace\\Libsrc\\libcommon\\LibBiz.cpp",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x19ddfe",
+    "va": "0x59f3fe",
+    "value": "LE:\\Jenkins\\jobs\\pcmanager_build_OTA\\workspace\\Libsrc\\libcommon\\ProcessUtil.cpp",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x19e050",
+    "va": "0x59f650",
+    "value": "E:\\Jenkins\\jobs\\pcmanager_build_OTA\\workspace\\Libsrc\\libcommon\\biz\\SetingsConfig.cpp",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x19e450",
+    "va": "0x59fa50",
+    "value": "dbghelp.dll",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x19e468",
+    "va": "0x59fa68",
+    "value": "Kernel32.dll",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x19e4e0",
+    "va": "0x59fae0",
+    "value": "E:\\Jenkins\\jobs\\pcmanager_build_OTA\\workspace\\Libsrc\\libcommon\\exception\\ExceptionReport.cpp",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x19e5bc",
+    "va": "0x59fbbc",
+    "value": "LenovoCrashRpt.exe",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x19f878",
+    "va": "0x5a0e78",
+    "value": "E:\\Jenkins\\jobs\\pcmanager_build_OTA\\workspace\\Libsrc\\libcommon\\DigitalCertify.cpp",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x19ff90",
+    "va": "0x5a1590",
+    "value": "E:\\Jenkins\\jobs\\pcmanager_build_OTA\\workspace\\Libsrc\\libcommon\\MsgHandlerWnd.cpp",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x1a0408",
+    "va": "0x5a1a08",
+    "value": "SOFTWARE\\Lenovo\\PCManager\\AccountInfo\\",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x1a0458",
+    "va": "0x5a1a58",
+    "value": "E:\\Jenkins\\jobs\\pcmanager_build_OTA\\workspace\\Libsrc\\libcommon\\biz\\DriverManager.cpp",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x1a08b0",
+    "va": "0x5a1eb0",
+    "value": "SOFTWARE\\Lenovo\\PCManager\\AccountInfo",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x1a0d70",
+    "va": "0x5a2370",
+    "value": "showinfo.json",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x1a0e70",
+    "va": "0x5a2470",
+    "value": "SOFTWARE\\Lenovo\\PCManager\\PrivilegeInfo\\",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x1a0f94",
+    "va": "0x5a2594",
+    "value": "SOFTWARE\\Lenovo\\PCManager\\AD\\",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x1a1060",
+    "va": "0x5a2660",
+    "value": "Software\\Lenovo\\PcManager\\lidhardware",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x1a1344",
+    "va": "0x5a2944",
+    "value": "Plugins\\HardwarePlugin.dll",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x1a1758",
+    "va": "0x5a2d58",
+    "value": ":service",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x1a1b68",
+    "va": "0x5a3168",
+    "value": "Software\\Lenovo\\PcManager\\WelcomePage",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x1a1be0",
+    "va": "0x5a31e0",
+    "value": "Software\\Lenovo\\PcManager\\logfeedbackcode",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x1a2bb8",
+    "va": "0x5a41b8",
+    "value": "SOFTWARE\\Lenovo\\PCManager\\QuickAccInfo\\",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x1a2da0",
+    "va": "0x5a43a0",
+    "value": "aesad.json",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x1a2f04",
+    "va": "0x5a4504",
+    "value": "%s_%s.json",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x1a3ad8",
+    "va": "0x5a50d8",
+    "value": "E:\\Jenkins\\jobs\\pcmanager_build_OTA\\workspace\\Libsrc\\libcommon\\HttpWebRequest.cpp",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x1a3d9e",
+    "va": "0x5a539e",
+    "value": "PE:\\Jenkins\\jobs\\pcmanager_build_OTA\\workspace\\Libsrc\\libcommon\\LogUpload.cpp",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x1a4294",
+    "va": "0x5a5894",
+    "value": "Advapi32.dll",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x1a42ce",
+    "va": "0x5a58ce",
+    "value": "QPowrProf.dll",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x1a8660",
+    "va": "0x5a9c60",
+    "value": "ERROR : Unable to initialize critical section in CAtlBaseModule",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x1b014c",
+    "va": "0x5b174c",
+    "value": "mscoree.dll",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x1bb2c0",
+    "va": "0x5bc8c0",
+    "value": "KERNEL32.DLL",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x1edee0",
+    "va": "0x5f74e0",
+    "value": "Lenovo BatterySetting",
+    "encoding": "utf-16le"
+  },
+  {
+    "offset": "0x1edf90",
+    "va": "0x5f7590",
+    "value": "BatterySetting",
+    "encoding": "utf-16le"
+  }
+]

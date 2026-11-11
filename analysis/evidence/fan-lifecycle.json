@@ -1,0 +1,13 @@
+{
+  "animation": "coolcleanstart.svga",
+  "MovieEntity.params": {
+    "1": 200.0,
+    "2": 200.0,
+    "3": 30,
+    "4": 540
+  },
+  "fps": 30,
+  "frames": 540,
+  "seconds": 18.0,
+  "lifecycle_observation": "main.js starts once, loops=1, onFinished calls finish(false) then DoFanStop; back calls finish(); pcmClosedNotify calls DoFanStop while UI isRunning"
+}

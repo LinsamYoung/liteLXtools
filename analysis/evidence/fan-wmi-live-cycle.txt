@@ -1,0 +1,7 @@
+2026-11-10T19:05:09.8353944+08:00 准备查询并执行除尘周期。
+2026-11-10T19:05:09.8474777+08:00 Fan_Get_FullSpeed Status=False
+2026-11-10T19:05:09.8474777+08:00 Fan_Set_FullSpeed Status=True
+2026-11-10T19:05:09.8724255+08:00 Fan_Get_FullSpeed Status=True
+2026-11-10T19:05:14.8768936+08:00 Fan_Set_FullSpeed Status=False
+2026-11-10T19:05:14.9014587+08:00 Fan_Get_FullSpeed Status=False
+2026-11-10T19:05:14.9014587+08:00 已发送停止并确认状态为关闭。

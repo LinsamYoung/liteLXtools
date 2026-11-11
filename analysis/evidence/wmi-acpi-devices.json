@@ -1,0 +1,62 @@
+[
+  {
+    "Name": "Microsoft Windows Management Interface for ACPI",
+    "PNPDeviceID": "ACPI\\PNP0C14\\DSARDEV",
+    "Service": "WmiAcpi",
+    "Status": "OK"
+  },
+  {
+    "Name": "Microsoft Windows Management Interface for ACPI",
+    "PNPDeviceID": "ACPI\\PNP0C14\\1",
+    "Service": "WmiAcpi",
+    "Status": "OK"
+  },
+  {
+    "Name": "Microsoft Windows Management Interface for ACPI",
+    "PNPDeviceID": "ACPI\\PNP0C14\\LSK20",
+    "Service": "WmiAcpi",
+    "Status": "OK"
+  },
+  {
+    "Name": "Microsoft Windows Management Interface for ACPI",
+    "PNPDeviceID": "ACPI\\PNP0C14\\0X00",
+    "Service": "WmiAcpi",
+    "Status": "OK"
+  },
+  {
+    "Name": "Microsoft Windows Management Interface for ACPI",
+    "PNPDeviceID": "ACPI\\PNP0C14\\WM00",
+    "Service": "WmiAcpi",
+    "Status": "OK"
+  },
+  {
+    "Name": "Microsoft Windows Management Interface for ACPI",
+    "PNPDeviceID": "ACPI\\PNP0C14\\TESTDEV",
+    "Service": "WmiAcpi",
+    "Status": "OK"
+  },
+  {
+    "Name": "Microsoft Windows Management Interface for ACPI",
+    "PNPDeviceID": "ACPI\\PNP0C14\\LSK",
+    "Service": "WmiAcpi",
+    "Status": "OK"
+  },
+  {
+    "Name": "Microsoft Windows Management Interface for ACPI",
+    "PNPDeviceID": "ACPI\\PNP0C14\\LSR",
+    "Service": "WmiAcpi",
+    "Status": "OK"
+  },
+  {
+    "Name": "Microsoft Windows Management Interface for ACPI",
+    "PNPDeviceID": "ACPI\\PNP0C14\\GMZN",
+    "Service": "WmiAcpi",
+    "Status": "OK"
+  },
+  {
+    "Name": "Microsoft Windows Management Interface for ACPI",
+    "PNPDeviceID": "ACPI\\PNP0C14\\SM00",
+    "Service": "WmiAcpi",
+    "Status": "OK"
+  }
+]

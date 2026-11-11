@@ -1,0 +1,61 @@
+{
+  "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\acpivpc.inf_amd64_07db38bc9e02b27d\\AcpiVpc.sys",
+  "sha256": "c02b879e601c1689425bdd71ec6fc2ccf66d75436e973ab4f209d45473e58c95",
+  "strings": [
+    {
+      "offset": "0x187a",
+      "encoding": "ascii",
+      "value": "GBMDH"
+    },
+    {
+      "offset": "0x2e18",
+      "encoding": "ascii",
+      "value": "C:\\home\\jenkins\\agent\\workspace\\GAMING_Driver-EM_release-jenkins\\build\\x64\\Release\\AcpiVpc.pdb"
+    },
+    {
+      "offset": "0x4b37",
+      "encoding": "ascii",
+      "value": "E;SBMCH"
+    },
+    {
+      "offset": "0x6a10",
+      "encoding": "utf-16le",
+      "value": "\\Device\\EnergyDrv"
+    },
+    {
+      "offset": "0x6a40",
+      "encoding": "utf-16le",
+      "value": "\\DosDevices\\EnergyDrv"
+    },
+    {
+      "offset": "0x6a80",
+      "encoding": "utf-16le",
+      "value": "\\BaseNamedObjects\\EnergyDrvEvent1"
+    },
+    {
+      "offset": "0x6ad0",
+      "encoding": "utf-16le",
+      "value": "\\BaseNamedObjects\\EnergyDrvEvent2"
+    },
+    {
+      "offset": "0x6b20",
+      "encoding": "utf-16le",
+      "value": "\\BaseNamedObjects\\EnergyDrvEvent3"
+    },
+    {
+      "offset": "0x7550",
+      "encoding": "utf-16le",
+      "value": "ACPI Virtual Power Controller Driver"
+    },
+    {
+      "offset": "0x75f4",
+      "encoding": "utf-16le",
+      "value": "EnergyVpc.sys"
+    },
+    {
+      "offset": "0x7638",
+      "encoding": "utf-16le",
+      "value": "EnergyVpc.sys"
+    }
+  ]
+}

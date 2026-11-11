@@ -1,0 +1,756 @@
+{
+  "path": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.210.10222\\Modules\\Setings\\yoga\\AIToolAPI.dll",
+  "sha256": "dbfdfd8d28e2580d8defdeee710f9bf5a251c3d2ef5ddc323aeeeb5198ebb5fc",
+  "machine": "0x14c",
+  "image_base": "0x10000000",
+  "exports": [
+    {
+      "name": "GetLogoDIYInfo",
+      "rva": "0x4870",
+      "forwarder": "None"
+    },
+    {
+      "name": "GetSuperRStatusCUISDK",
+      "rva": "0x4400",
+      "forwarder": "None"
+    },
+    {
+      "name": "IsEditionCircle",
+      "rva": "0x4f00",
+      "forwarder": "None"
+    },
+    {
+      "name": "MatchWinClassName",
+      "rva": "0x44a0",
+      "forwarder": "None"
+    },
+    {
+      "name": "MatchWinText",
+      "rva": "0x45a0",
+      "forwarder": "None"
+    },
+    {
+      "name": "SetLogDIYCheck",
+      "rva": "0x4c30",
+      "forwarder": "None"
+    },
+    {
+      "name": "SetLogoDIYInfo",
+      "rva": "0x48b0",
+      "forwarder": "None"
+    },
+    {
+      "name": "SetSuperRStatusCUISDK",
+      "rva": "0x4420",
+      "forwarder": "None"
+    }
+  ],
+  "imports": [
+    {
+      "dll": "KERNEL32.dll",
+      "symbols": [
+        {
+          "name": "LoadResource",
+          "iat": "0x1002a01c"
+        },
+        {
+          "name": "LockResource",
+          "iat": "0x1002a020"
+        },
+        {
+          "name": "SizeofResource",
+          "iat": "0x1002a024"
+        },
+        {
+          "name": "FindResourceW",
+          "iat": "0x1002a028"
+        },
+        {
+          "name": "FindResourceExW",
+          "iat": "0x1002a02c"
+        },
+        {
+          "name": "GetProcAddress",
+          "iat": "0x1002a030"
+        },
+        {
+          "name": "DecodePointer",
+          "iat": "0x1002a034"
+        },
+        {
+          "name": "CloseHandle",
+          "iat": "0x1002a038"
+        },
+        {
+          "name": "CreateFileW",
+          "iat": "0x1002a03c"
+        },
+        {
+          "name": "DeleteFileW",
+          "iat": "0x1002a040"
+        },
+        {
+          "name": "WaitForSingleObject",
+          "iat": "0x1002a044"
+        },
+        {
+          "name": "GetModuleFileNameW",
+          "iat": "0x1002a048"
+        },
+        {
+          "name": "GetCurrentThreadId",
+          "iat": "0x1002a04c"
+        },
+        {
+          "name": "HeapDestroy",
+          "iat": "0x1002a050"
+        },
+        {
+          "name": "HeapAlloc",
+          "iat": "0x1002a054"
+        },
+        {
+          "name": "HeapFree",
+          "iat": "0x1002a058"
+        },
+        {
+          "name": "HeapReAlloc",
+          "iat": "0x1002a05c"
+        },
+        {
+          "name": "HeapSize",
+          "iat": "0x1002a060"
+        },
+        {
+          "name": "GetProcessHeap",
+          "iat": "0x1002a064"
+        },
+        {
+          "name": "GetFileAttributesW",
+          "iat": "0x1002a068"
+        },
+        {
+          "name": "DeleteCriticalSection",
+          "iat": "0x1002a06c"
+        },
+        {
+          "name": "WriteFile",
+          "iat": "0x1002a070"
+        },
+        {
+          "name": "GetTempPathW",
+          "iat": "0x1002a074"
+        },
+        {
+          "name": "GetFileSizeEx",
+          "iat": "0x1002a078"
+        },
+        {
+          "name": "GetLocalTime",
+          "iat": "0x1002a07c"
+        },
+        {
+          "name": "VirtualQuery",
+          "iat": "0x1002a080"
+        },
+        {
+          "name": "GetCurrentProcess",
+          "iat": "0x1002a084"
+        },
+        {
+          "name": "InitializeCriticalSection",
+          "iat": "0x1002a088"
+        },
+        {
+          "name": "CreateMutexW",
+          "iat": "0x1002a08c"
+        },
+        {
+          "name": "ReleaseMutex",
+          "iat": "0x1002a090"
+        },
+        {
+          "name": "GetPrivateProfileIntW",
+          "iat": "0x1002a094"
+        },
+        {
+          "name": "GetCurrentProcessId",
+          "iat": "0x1002a098"
+        },
+        {
+          "name": "OutputDebugStringW",
+          "iat": "0x1002a09c"
+        },
+        {
+          "name": "SetConsoleTextAttribute",
+          "iat": "0x1002a0a0"
+        },
+        {
+          "name": "GetStdHandle",
+          "iat": "0x1002a0a4"
+        },
+        {
+          "name": "WriteConsoleW",
+          "iat": "0x1002a0a8"
+        },
+        {
+          "name": "GetModuleHandleA",
+          "iat": "0x1002a0ac"
+        },
+        {
+          "name": "SetEndOfFile",
+          "iat": "0x1002a0b0"
+        },
+        {
+          "name": "SetStdHandle",
+          "iat": "0x1002a0b4"
+        },
+        {
+          "name": "LeaveCriticalSection",
+          "iat": "0x1002a0b8"
+        },
+        {
+          "name": "EnterCriticalSection",
+          "iat": "0x1002a0bc"
+        },
+        {
+          "name": "InitializeCriticalSectionEx",
+          "iat": "0x1002a0c0"
+        },
+        {
+          "name": "GetLastError",
+          "iat": "0x1002a0c4"
+        },
+        {
+          "name": "RaiseException",
+          "iat": "0x1002a0c8"
+        },
+        {
+          "name": "SetFilePointer",
+          "iat": "0x1002a0cc"
+        },
+        {
+          "name": "WideCharToMultiByte",
+          "iat": "0x1002a0d0"
+        },
+        {
+          "name": "FreeEnvironmentStringsW",
+          "iat": "0x1002a0d4"
+        },
+        {
+          "name": "GetEnvironmentStringsW",
+          "iat": "0x1002a0d8"
+        },
+        {
+          "name": "GetCommandLineW",
+          "iat": "0x1002a0dc"
+        },
+        {
+          "name": "GetCommandLineA",
+          "iat": "0x1002a0e0"
+        },
+        {
+          "name": "GetOEMCP",
+          "iat": "0x1002a0e4"
+        },
+        {
+          "name": "IsValidCodePage",
+          "iat": "0x1002a0e8"
+        },
+        {
+          "name": "FindNextFileA",
+          "iat": "0x1002a0ec"
+        },
+        {
+          "name": "FindFirstFileExA",
+          "iat": "0x1002a0f0"
+        },
+        {
+          "name": "FindClose",
+          "iat": "0x1002a0f4"
+        },
+        {
+          "name": "GetConsoleCP",
+          "iat": "0x1002a0f8"
+        },
+        {
+          "name": "FlushFileBuffers",
+          "iat": "0x1002a0fc"
+        },
+        {
+          "name": "EnumSystemLocalesW",
+          "iat": "0x1002a100"
+        },
+        {
+          "name": "GetUserDefaultLCID",
+          "iat": "0x1002a104"
+        },
+        {
+          "name": "IsValidLocale",
+          "iat": "0x1002a108"
+        },
+        {
+          "name": "ReadConsoleW",
+          "iat": "0x1002a10c"
+        },
+        {
+          "name": "GetConsoleMode",
+          "iat": "0x1002a110"
+        },
+        {
+          "name": "IsDebuggerPresent",
+          "iat": "0x1002a114"
+        },
+        {
+          "name": "EncodePointer",
+          "iat": "0x1002a118"
+        },
+        {
+          "name": "MultiByteToWideChar",
+          "iat": "0x1002a11c"
+        },
+        {
+          "name": "SetLastError",
+          "iat": "0x1002a120"
+        },
+        {
+          "name": "InitializeCriticalSectionAndSpinCount",
+          "iat": "0x1002a124"
+        },
+        {
+          "name": "CreateEventW",
+          "iat": "0x1002a128"
+        },
+        {
+          "name": "TlsAlloc",
+          "iat": "0x1002a12c"
+        },
+        {
+          "name": "TlsGetValue",
+          "iat": "0x1002a130"
+        },
+        {
+          "name": "TlsSetValue",
+          "iat": "0x1002a134"
+        },
+        {
+          "name": "TlsFree",
+          "iat": "0x1002a138"
+        },
+        {
+          "name": "GetSystemTimeAsFileTime",
+          "iat": "0x1002a13c"
+        },
+        {
+          "name": "GetModuleHandleW",
+          "iat": "0x1002a140"
+        },
+        {
+          "name": "LCMapStringW",
+          "iat": "0x1002a144"
+        },
+        {
+          "name": "GetLocaleInfoW",
+          "iat": "0x1002a148"
+        },
+        {
+          "name": "GetStringTypeW",
+          "iat": "0x1002a14c"
+        },
+        {
+          "name": "GetCPInfo",
+          "iat": "0x1002a150"
+        },
+        {
+          "name": "SetEvent",
+          "iat": "0x1002a154"
+        },
+        {
+          "name": "ResetEvent",
+          "iat": "0x1002a158"
+        },
+        {
+          "name": "WaitForSingleObjectEx",
+          "iat": "0x1002a15c"
+        },
+        {
+          "name": "UnhandledExceptionFilter",
+          "iat": "0x1002a160"
+        },
+        {
+          "name": "SetUnhandledExceptionFilter",
+          "iat": "0x1002a164"
+        },
+        {
+          "name": "TerminateProcess",
+          "iat": "0x1002a168"
+        },
+        {
+          "name": "IsProcessorFeaturePresent",
+          "iat": "0x1002a16c"
+        },
+        {
+          "name": "GetStartupInfoW",
+          "iat": "0x1002a170"
+        },
+        {
+          "name": "QueryPerformanceCounter",
+          "iat": "0x1002a174"
+        },
+        {
+          "name": "InitializeSListHead",
+          "iat": "0x1002a178"
+        },
+        {
+          "name": "RtlUnwind",
+          "iat": "0x1002a17c"
+        },
+        {
+          "name": "FreeLibrary",
+          "iat": "0x1002a180"
+        },
+        {
+          "name": "LoadLibraryExW",
+          "iat": "0x1002a184"
+        },
+        {
+          "name": "InterlockedFlushSList",
+          "iat": "0x1002a188"
+        },
+        {
+          "name": "ReadFile",
+          "iat": "0x1002a18c"
+        },
+        {
+          "name": "ExitProcess",
+          "iat": "0x1002a190"
+        },
+        {
+          "name": "GetModuleHandleExW",
+          "iat": "0x1002a194"
+        },
+        {
+          "name": "GetModuleFileNameA",
+          "iat": "0x1002a198"
+        },
+        {
+          "name": "GetACP",
+          "iat": "0x1002a19c"
+        },
+        {
+          "name": "GetFileType",
+          "iat": "0x1002a1a0"
+        },
+        {
+          "name": "SetFilePointerEx",
+          "iat": "0x1002a1a4"
+        }
+      ]
+    },
+    {
+      "dll": "USER32.dll",
+      "symbols": [
+        {
+          "name": "GetWindowTextW",
+          "iat": "0x1002a1d8"
+        },
+        {
+          "name": "GetClassNameW",
+          "iat": "0x1002a1dc"
+        }
+      ]
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "symbols": [
+        {
+          "name": "AdjustTokenPrivileges",
+          "iat": "0x1002a000"
+        },
+        {
+          "name": "LookupPrivilegeValueW",
+          "iat": "0x1002a004"
+        },
+        {
+          "name": "SetFileSecurityW",
+          "iat": "0x1002a008"
+        },
+        {
+          "name": "SetSecurityDescriptorDacl",
+          "iat": "0x1002a00c"
+        },
+        {
+          "name": "InitializeSecurityDescriptor",
+          "iat": "0x1002a010"
+        },
+        {
+          "name": "OpenProcessToken",
+          "iat": "0x1002a014"
+        }
+      ]
+    },
+    {
+      "dll": "SHELL32.dll",
+      "symbols": [
+        {
+          "name": "SHCreateDirectoryExW",
+          "iat": "0x1002a1bc"
+        },
+        {
+          "name": "SHGetSpecialFolderPathW",
+          "iat": "0x1002a1c0"
+        }
+      ]
+    },
+    {
+      "dll": "ole32.dll",
+      "symbols": [
+        {
+          "name": "CoInitialize",
+          "iat": "0x1002a200"
+        },
+        {
+          "name": "CLSIDFromProgID",
+          "iat": "0x1002a204"
+        },
+        {
+          "name": "CoInitializeSecurity",
+          "iat": "0x1002a208"
+        },
+        {
+          "name": "CoSetProxyBlanket",
+          "iat": "0x1002a20c"
+        },
+        {
+          "name": "CoCreateInstance",
+          "iat": "0x1002a210"
+        }
+      ]
+    },
+    {
+      "dll": "OLEAUT32.dll",
+      "symbols": [
+        {
+          "name": "VariantInit",
+          "iat": "0x1002a1ac"
+        },
+        {
+          "name": "SysAllocString",
+          "iat": "0x1002a1b0"
+        },
+        {
+          "name": "VariantClear",
+          "iat": "0x1002a1b4"
+        }
+      ]
+    },
+    {
+      "dll": "SHLWAPI.dll",
+      "symbols": [
+        {
+          "name": "PathFileExistsW",
+          "iat": "0x1002a1c8"
+        },
+        {
+          "name": "PathIsDirectoryW",
+          "iat": "0x1002a1cc"
+        },
+        {
+          "name": "PathFindFileNameW",
+          "iat": "0x1002a1d0"
+        }
+      ]
+    },
+    {
+      "dll": "bcrypt.dll",
+      "symbols": [
+        {
+          "name": "BCryptGetProperty",
+          "iat": "0x1002a1e4"
+        },
+        {
+          "name": "BCryptOpenAlgorithmProvider",
+          "iat": "0x1002a1e8"
+        },
+        {
+          "name": "BCryptFinishHash",
+          "iat": "0x1002a1ec"
+        },
+        {
+          "name": "BCryptCreateHash",
+          "iat": "0x1002a1f0"
+        },
+        {
+          "name": "BCryptCloseAlgorithmProvider",
+          "iat": "0x1002a1f4"
+        },
+        {
+          "name": "BCryptHashData",
+          "iat": "0x1002a1f8"
+        }
+      ]
+    }
+  ],
+  "strings": [
+    {
+      "offset": "0x2eac4",
+      "value": "AreFileApisANSI",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x34f6c",
+      "value": "kernel32.dll",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x35170",
+      "value": "RwBiosVar_ReadLogoInfo",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x35188",
+      "value": "input LOGO_INFO == null",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x35200",
+      "value": "; sizeof(LogoInfo) = ",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x35220",
+      "value": "nRetSize != sizeof(LogoInfo)",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x35240",
+      "value": "RwBiosVar_WriteLogoInfo",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x35268",
+      "value": "SetLogoDIYInfo start enable = ",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x35288",
+      "value": "SetLogoDIYInfo end ret = ",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x3550c",
+      "value": "RwBiosVar_ReadLogoVCM",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x35524",
+      "value": "input LOGO_VCM == null",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x355a0",
+      "value": "; sizeof(LogoVCM) = ",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x355b8",
+      "value": "nRetSize != sizeof(LogoVCM)",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x355d4",
+      "value": "RwBiosVar_WriteLogoVCM",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x384c8",
+      "value": "AIToolAPI.dll",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x384d6",
+      "value": "GetLogoDIYInfo",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x38539",
+      "value": "SetLogoDIYInfo",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x38950",
+      "value": "CreateFileW",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x3895e",
+      "value": "DeleteFileW",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x38982",
+      "value": "GetModuleFileNameW",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x38a28",
+      "value": "WriteFile",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x38b54",
+      "value": "KERNEL32.dll",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x38b84",
+      "value": "USER32.dll",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x38c24",
+      "value": "ADVAPI32.dll",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x38c64",
+      "value": "SHELL32.dll",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x38cd2",
+      "value": "ole32.dll",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x38cdc",
+      "value": "OLEAUT32.dll",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x38d24",
+      "value": "SHLWAPI.dll",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x38dbc",
+      "value": "bcrypt.dll",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x3903e",
+      "value": "GetModuleFileNameA",
+      "encoding": "ascii"
+    },
+    {
+      "offset": "0x29a80",
+      "value": "kernel32.dll",
+      "encoding": "utf-16le"
+    },
+    {
+      "offset": "0x2dd0c",
+      "value": "mscoree.dll",
+      "encoding": "utf-16le"
+    }
+  ]
+}

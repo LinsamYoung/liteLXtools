@@ -1,0 +1,7 @@
+System.Management.ManagementException: 鎵句笉鍒?
+   鍦?System.Management.ManagementException.ThrowWithExtendedInfo(ManagementStatus errorCode)
+   鍦?System.Management.PropertyDataCollection.get_Item(String propertyName)
+   鍦?LiteLX.WmiFanDevice.VerifyReturn(ManagementBaseObject result)
+   鍦?LiteLX.WmiFanDevice.FanStatus()
+   鍦?LiteLX.Program.Fan(String[] args)
+   鍦?LiteLX.Program.Main(String[] args)
