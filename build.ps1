@@ -1,4 +1,4 @@
-﻿param([switch]$Test)
+﻿param([switch]$Test, [switch]$Cli)
 $ErrorActionPreference = 'Stop'
 $taskRoot = $PSScriptRoot
 $compiler = Join-Path $env:WINDIR 'Microsoft.NET\Framework64\v4.0.30319\csc.exe'
@@ -15,21 +15,34 @@ $options += @(
     ('/r:' + (Join-Path $desktopWpf 'WindowsBase.dll')),
     '/r:System.Xaml.dll',
     ('/resource:' + (Join-Path $taskRoot 'src\LiteLX\ModernWindow.xaml') + ',LiteLX.ModernWindow.xaml'))
-$guiOptions = @($options | Where-Object { -not $_.StartsWith('/win32manifest:') })
-$guiOptions += '/win32manifest:' + (Join-Path $taskRoot 'src\LiteLX\gui.manifest')
-& $compiler @guiOptions '/target:winexe' ('/out:' + (Join-Path $output 'LiteLX.exe')) @sourceFiles
-if ($LASTEXITCODE -ne 0) { throw 'GUI 编译失败。' }
-& $compiler @options '/target:exe' ('/out:' + (Join-Path $output 'LiteLX.Cli.exe')) @sourceFiles
-if ($LASTEXITCODE -ne 0) { throw 'CLI 编译失败。' }
-Copy-Item -LiteralPath (Join-Path $taskRoot 'src\LiteLX\app.config') -Destination (Join-Path $output 'LiteLX.exe.config') -Force
-Copy-Item -LiteralPath (Join-Path $taskRoot 'src\LiteLX\app.config') -Destination (Join-Path $output 'LiteLX.Cli.exe.config') -Force
 $logoRoot = Join-Path $taskRoot 'modules\LenovoLogo'
-if (Test-Path -LiteralPath (Join-Path $logoRoot 'AIToolAPI.dll')) {
+if (-not (Test-Path -LiteralPath (Join-Path $logoRoot 'AIToolAPI.dll'))) { throw '缺少原厂开机画面 DLL，请先提取模块。' }
+& {
     $operationOptions = $options | Where-Object { $_ -ne '/platform:x64' }
     & $compiler @operationOptions '/platform:x86' '/target:winexe' '/main:LogoOperationHost' ('/out:' + (Join-Path $logoRoot 'LogoOperationHost.exe')) @sourceFiles (Join-Path $taskRoot 'src\LogoOperationHost.cs')
     if ($LASTEXITCODE -ne 0) { throw '开机画面后台执行器编译失败。' }
 }
+
+$options += @(
+    ('/resource:' + (Join-Path $logoRoot 'LogoOperationHost.exe') + ',LiteLX.Logo.LogoOperationHost.exe'),
+    ('/resource:' + (Join-Path $logoRoot 'AIToolAPI.dll') + ',LiteLX.Logo.AIToolAPI.dll'),
+    ('/resource:' + (Join-Path $logoRoot 'manifest.json') + ',LiteLX.Logo.manifest.json'))
+$guiOptions = @($options | Where-Object { -not $_.StartsWith('/win32manifest:') })
+$guiOptions += '/win32manifest:' + (Join-Path $taskRoot 'src\LiteLX\gui.manifest')
+& $compiler @guiOptions '/target:winexe' ('/out:' + (Join-Path $output 'LiteLX.exe')) @sourceFiles
+if ($LASTEXITCODE -ne 0) { throw 'GUI 编译失败。' }
+if ($Cli) {
+    & $compiler @options '/target:exe' ('/out:' + (Join-Path $output 'LiteLX.Cli.exe')) @sourceFiles
+    if ($LASTEXITCODE -ne 0) { throw 'CLI 编译失败。' }
+    Copy-Item -LiteralPath (Join-Path $taskRoot 'src\LiteLX\app.config') -Destination (Join-Path $output 'LiteLX.Cli.exe.config') -Force
+}
+# 清除旧版本生成的 GUI 配置，分发时仅需 LiteLX.exe。
+Remove-Item -LiteralPath (Join-Path $output 'LiteLX.exe.config') -Force -ErrorAction SilentlyContinue
 if ($Test) {
+    & $compiler @options '/target:exe' '/main:EmbeddedLogoSelfTest' ('/out:' + (Join-Path $output 'EmbeddedLogoSelfTest.exe')) @sourceFiles (Join-Path $taskRoot 'tools\EmbeddedLogoSelfTest.cs')
+    if ($LASTEXITCODE -ne 0) { throw '内嵌模块测试编译失败。' }
+    & (Join-Path $output 'EmbeddedLogoSelfTest.exe')
+    if ($LASTEXITCODE -ne 0) { throw '内嵌模块测试失败。' }
     & $compiler @options '/target:exe' '/main:HardwareSelfTest' ('/out:' + (Join-Path $output 'HardwareSelfTest.exe')) @sourceFiles (Join-Path $taskRoot 'tools\HardwareSelfTest.cs')
     if ($LASTEXITCODE -ne 0) { throw '模拟测试编译失败。' }
     & (Join-Path $output 'HardwareSelfTest.exe')

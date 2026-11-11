@@ -40,9 +40,10 @@
 
 - Windows x64，已安装 .NET Framework 4.x 及 WPF 组件。
 - GUI 启动时请求管理员权限，固件操作和本机风扇 WMI 接口需要该权限。
-- 开机画面依赖 `modules/LenovoLogo/AIToolAPI.dll` 及构建生成的 x86 后台执行器。
+- 发布的 `LiteLX.exe` 已内嵌原厂开机画面 DLL 和 x86 后台执行器，保存或恢复时自动释放到本次操作的独立临时目录。
 - 风扇功能依赖兼容的联想驱动和 WMI 提供程序，当前硬件适配限定 Lenovo 82TF 与已核实的驱动哈希。
-- 移动程序时保留项目根目录下 `build` 与 `modules` 的相邻布局。
+- 图形界面单文件分发时只需复制 `build/LiteLX.exe`，可放在任意目录。运行时仍需系统提供 .NET Framework 与兼容的联想驱动。
+- 开机画面操作等待后台执行完成后读取 `result.json`，检查退出码与执行结果，随后清理释放的依赖、请求、结果和本次输入图片。清理失败会报告目录路径。
 
 | 功能 | 当前验证状态 |
 | --- | --- |
@@ -64,13 +65,13 @@ cd liteLXtools
 .\build\LiteLX.exe
 ```
 
-构建后也可以双击 `build\LiteLX.exe` 启动图形界面。
+构建后也可以双击 `build\LiteLX.exe` 启动图形界面。默认构建仅在 `build` 中生成 `LiteLX.exe`。需要命令行工具时执行 `.\build.ps1 -Cli`。
 
 | 构建产物 | 用途 |
 | --- | --- |
-| `build/LiteLX.exe` | x64 图形界面 |
-| `build/LiteLX.Cli.exe` | x64 命令行工具 |
-| `modules/LenovoLogo/LogoOperationHost.exe` | x86 开机画面后台执行器，匹配原厂 DLL |
+| `build/LiteLX.exe` | x64 单文件图形界面，分发时只需此文件 |
+| `build/LiteLX.Cli.exe` | 可选 x64 命令行工具，保留现有终端和脚本入口 |
+| `modules/LenovoLogo/LogoOperationHost.exe` | 构建中间产物，嵌入主程序的 x86 后台执行器 |
 
 执行已有回归测试时使用下列命令。测试覆盖模拟硬件控制、开机画面文件处理及独立临时 HKCU 菜单条目的切换。
 
@@ -80,7 +81,7 @@ cd liteLXtools
 
 ## 原厂模块提取
 
-仓库中的 `modules/LenovoLogo` 包含已提取的 `AIToolAPI.dll` 和校验清单。脚本可从本机联想电脑管家安装目录重新提取该接口文件，按只读方式访问原安装目录，并核对 SHA-256。目标存在不同文件时会停止。
+构建时使用的 `modules/LenovoLogo` 包含已提取的 `AIToolAPI.dll` 和校验清单。脚本可从本机联想电脑管家安装目录重新提取该接口文件，按只读方式访问原安装目录，并核对 SHA-256。目标存在不同文件时会停止。
 
 ```powershell
 .\tools\extract-logo.ps1

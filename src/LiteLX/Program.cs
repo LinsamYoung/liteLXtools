@@ -28,7 +28,7 @@ namespace LiteLX
             }
             try
             {
-                Console.OutputEncoding = new UTF8Encoding(false);
+                if (args[0] != "--preview") Console.OutputEncoding = new UTF8Encoding(false);
                 if (args[0] == "status") Console.WriteLine(Json(Inspection.Capture()));
                 else if (args[0] == "menu") Menu(args);
                 else if (args[0] == "logo") Logo(args);
